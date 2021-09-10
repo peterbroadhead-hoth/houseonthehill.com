@@ -76,22 +76,22 @@
     <p>Helping you to process cases with ease.</p>
     <ul class="solutions">
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2020/12/deadline-alerts.png"></div>
+        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/12/deadline-alerts.png"></div>
         <h3>Automatic <br>Deadline Alerts</h3>
         <p>Deadline dates and Warning dates are automatically calculated based on deadline selections. House-on-the-Hill Case can issue alerts if the request goes beyond this warning date.</p>
       </li>
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2021/02/hightend-communication.png"></div>
+        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2021/02/hightend-communication.png"></div>
         <h3>Heighten <br>Communication</h3>
         <p>Once the end user has submitted their request the system can email an automatic reply to them, or it can be initiated manually once the request is being processed.</p>
       </li>
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2020/12/website-link.png"></div>
+        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/12/website-link.png"></div>
         <h3>Link From <br>Your Website</h3>
         <p>House-on-the-Hill Case Management allows you to add a link your website that will capture requests by the public.</p>
       </li>
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2020/07/cafm-reports.png"></div>
+        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/07/cafm-reports.png"></div>
         <h3>Heighten <br>Visualisation</h3>
         <p>Within House-on-the-Hill Case, logged requests show up on the dashboard indicators of request handlers.</p>
       </li>
@@ -106,9 +106,23 @@
       <img class="alignnone wp-image-9961 size-medium" src="/wp-content/uploads/2018/10/ca.png" height="50"/>
     </a>
     <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software"  target="_blank">
-      <img class="alignnone wp-image-9961 size-medium" src="/wp-content/uploads/2020/06/ccs-200.png" height="50"/>
+      <img class="alignnone wp-image-9961 size-medium" src="https://houseonthehill.com/wp-content/uploads/2020/06/ccs-200.png" height="50"/>
     </a> 
   </div>
+</div>
+
+<div class="solution-key-feature-container">
+  <div class="break"><img src="https://houseonthehill.com/wp-content/uploads/2021/04/stroke-coral.png"></div>
+    <div class="solution-key-feature">
+      <div class="img">
+      </div>
+      <div class="text">
+        <h2>Run Case Reports</h2>
+        <p>Report on outcomes, exemptions and other key performance indicators at the touch of a button, and customise and schedule Case reports using House-on-the-Hill’s QuickReport Designer.</p>
+        <p><strong>If you would like an FOI tour 🙂 Drop us an email at <br><a href="/demo">demo@houseonthehill.com</a></strong></p>
+      </div>
+    </div>
+  <div class="break"><img src="https://houseonthehill.com/wp-content/uploads/2021/04/stroke-coral.png"></div>
 </div>
 
 <div class="solution-features">
@@ -136,11 +150,11 @@
         <h3>Completed Requests</h3>
         <p>Requests can be added easily to the Disclosure Log by ticking the “Add to Disclosure Log” tick option at the bottom of the request screen. On pressing OK the DC Log entry is shown and can be edited to remove personal information and validated.</p>
       </li>
-      <li>
+      <!--<li>
       <div class="icon"><i class="far fa-info"></i></div>       
         <h3>Run Case Reports</h3>
         <p>Report on outcomes, exemptions and other key performance indicators at the touch of a button, and customise and schedule Case reports using House-on-the-Hill’s QuickReport Designer.</p>
-      </li>
+      </li>-->
       <li>
       <div class="icon"><i class="far fa-info"></i></div> 
         <h3>Delegation of Requests</h3>

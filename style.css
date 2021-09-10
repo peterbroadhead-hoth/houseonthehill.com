@@ -101,7 +101,7 @@ ul{
 }
 
 a.compare-all-solutions-btn{
-  background-image: url(/wp-content/uploads/2020/10/Homepage-resize300px.gif);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2020/10/Homepage-resize300px.gif);
   padding: 10px;
   background-size: 60%;
   background-position: bottom left;
@@ -669,7 +669,7 @@ margin: unset;
 /* footer */
 
 .hoth-footer{
-  background-image: url(/wp-content/uploads/2021/03/1B6797B3-D5EE-4C57-AE62-E6A40D95C77F.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/03/1B6797B3-D5EE-4C57-AE62-E6A40D95C77F.png);
   background-position-y: -20px;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1038,7 +1038,7 @@ margin: unset;
 
 /* solutions */
 .solution-header.itsm{
-  background-image: url(/wp-content/uploads/2021/04/itsm-paint.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/04/itsm-paint.png);
   background-size: clamp(0px, 100%, 400px) auto;
   background-position-y: bottom;
   background-position-x: 100%;
@@ -1054,7 +1054,7 @@ margin: unset;
 }
 
 .solution-header.cafm{
-  background-image: url(/wp-content/uploads/2021/05/cafm-paint.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/05/cafm-paint.png);
   background-size: clamp(0px, 100%, 700px) auto;
   background-position-y: bottom;
   background-position-x: 100%;
@@ -1062,7 +1062,7 @@ margin: unset;
 }
 
 .solution-header.foi{
-  background-image: url(/wp-content/uploads/2021/05/foi_paint.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/05/foi_paint.png);
   background-size: clamp(0px, 100%, 400px) auto;
   background-position-y: bottom;
   background-position-x: 100%;
@@ -1092,7 +1092,7 @@ margin: unset;
 }
 
 .solution-testimonial{
-  height: 900px;
+  max-height: 900px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1100,14 +1100,16 @@ margin: unset;
 }
 
 .solution-testimonial img{
-  max-width: 80%;
+  max-width: 70%;
   padding: 10px;
+  margin: auto;
+  margin-top: 0;
 }
 
 .solution-testimonial-container{
   text-align: center;
   width: 50%;
-  margin: auto;
+  margin: 0 auto;
   padding: 50px 0;
 }
 
@@ -1276,6 +1278,42 @@ margin: unset;
   min-height: 50px;
 }
 
+.solution-key-feature-container{
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.solution-key-feature{
+  width: 60%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 4px;
+  background: /*#EEEEEE*/ #F6FBF5;
+  text-align: center;
+}
+
+.solution-key-feature .img{
+  width: 100%;
+  height: 400px;
+  background: url("http://houseonthehill.com/wp-content/themes/houseonthehill.com/video/foireport.gif") repeat center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*.solution-key-feature .img img{
+  width: auto;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+}*/
+
+.solution-key-feature .text{
+  width: 80%;
+  margin: 25px auto;
+}
 /* single page testimonial */
 
 .hoth-single-testimonial{
@@ -1299,7 +1337,7 @@ margin: unset;
 .features .header{
   display: flex;
   background-color: #d9f7ff;
-  background-image: url(/wp-content/uploads/2021/06/77B7E0D4-B46C-4179-B76E-6D01728E229F.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/06/77B7E0D4-B46C-4179-B76E-6D01728E229F.png);
   min-height: 800px;
   background-repeat: no-repeat;
   background-position-x: 90%;
@@ -1636,7 +1674,7 @@ ul.key-features{
 }
 
 .pricing ul.solutions li.itsm .intro{
-  background-image: url(/wp-content/uploads/2021/08/pricingitsm.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/08/pricingitsm.png);
   background-size: 125px;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1647,7 +1685,7 @@ ul.key-features{
 }
 
 .pricing ul.solutions li.csm .intro{
-  background-image: url(/wp-content/uploads/2021/08/pricingcsm.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/08/pricingcsm.png);
   background-size: 150px;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1658,7 +1696,7 @@ ul.key-features{
 }
 
 .pricing ul.solutions li.cafm .intro{
-  background-image: url(/wp-content/uploads/2021/08/pricingcafm.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/08/pricingcafm.png);
   background-size: 150px;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1669,7 +1707,7 @@ ul.key-features{
 }
 
 .pricing ul.solutions li.foi .intro{
-  background-image: url(/wp-content/uploads/2021/08/pricingfoi.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/08/pricingfoi.png);
   background-size: 125px;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -2050,7 +2088,7 @@ table.solution-table-price td:hover .description{
 }
  
 .demo-container .header .img{
-  background-image: url(/wp-content/uploads/2021/05/orange-splat-350px.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/05/orange-splat-350px.png);
   background-repeat: no-repeat;
   background-size: 350px;
   width: 350px;
@@ -2124,7 +2162,7 @@ table.solution-table-price td:hover .description{
 .testimonials-header-container{
 	width: 100%;
 	padding: 100px 0;
-	background-image: url(/wp-content/uploads/2021/05/F380845C-FFF9-42AB-9C9A-5BE87D6196D9.png);
+	background-image: url(https://houseonthehill.com/wp-content/uploads/2021/05/F380845C-FFF9-42AB-9C9A-5BE87D6196D9.png);
 	background-size: 765px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2234,7 +2272,7 @@ ul.whats-new li .whats-new-img img{
 .about-us-container .intro{
   display: flex;
   flex-wrap: wrap;
-  background-image: url(/wp-content/uploads/2021/08/questionmark.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/08/questionmark.png);
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: center left;
@@ -2626,6 +2664,9 @@ ul.whats-new li .whats-new-img img{
   .solution-header{
     background-image: unset!important;
   }
+  .solution-key-feature{
+    width: 80%;
+  }
 }
 
 @media (max-width: 800px){
@@ -2650,6 +2691,9 @@ ul.whats-new li .whats-new-img img{
     height: 150px;
   }
   .solution-header-container .text{
+    width: 100%;
+  }
+  .solution-key-feature .text{
     width: 100%;
   }
 }
@@ -2874,6 +2918,12 @@ ul.whats-new li .whats-new-img img{
   .solution-features-container .features li{
     padding: 10px;
     width: 100%;
+  }
+  .solution-key-feature{
+    padding: 25px;
+  }
+  .solution-key-feature .img{
+    height: 200px;
   }
 
   /* Features mobile */
