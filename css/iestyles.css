@@ -1,0 +1,14 @@
+/* IE 9 and lower Stylesheet */
+
+.hidden-ie9{
+	display: none !important;
+}
+
+.show-ie9{
+	display: block !important;
+}
+
+.jumbotron h1{
+	font-size: 25px !important;
+	font-weight: bold;
+}
