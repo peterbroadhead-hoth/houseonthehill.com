@@ -117,7 +117,7 @@
       <div class="img">
       </div>
       <div class="text">
-        <h2>Run Case Report</h2>
+        <h2>Run Case Reports</h2>
         <p>Report on outcomes, exemptions and other key performance indicators at the touch of a button, and customise and schedule Case reports using House-on-the-Hill’s QuickReport Designer.</p>
         <p><strong>If you would like an FOI tour 🙂 Drop us an email at <br><a href="/demo">demo@houseonthehill.com</a></strong></p>
       </div>
