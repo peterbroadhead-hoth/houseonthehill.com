@@ -1150,8 +1150,7 @@ margin: unset;
 .solution-key-features-container .solutions li{
   list-style: none;
   width: 35%;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  margin: 50px auto;
   min-height: 350px;
 }
 
@@ -1296,7 +1295,7 @@ margin: unset;
 .solution-key-feature .img{
   width: 100%;
   height: 400px;
-  background: url("http://houseonthehill.com/wp-content/themes/houseonthehill.com/video/foireport.gif") repeat center;
+  background: url("https://houseonthehill.com/wp-content/uploads/2021/09/foireport.gif") repeat center;
   background-repeat: no-repeat;
   background-size: contain;
 }
