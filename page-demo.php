@@ -12,7 +12,7 @@
       <h1>See House-on-the-Hill in action!</h1>
       <p>Let Pete (below) or one of our team show you around your own personalised trial which you get to take away! This is a great way for us to learn about you and show you on the fly how HotH can help your organisation. No matter the size. </p>
       <p style="margin-top: 10px;">Just fill out this form or email <b>demo@houseonthehill.com</b> and we can arrange a Microsoft Teams meeting for when's best for you.</p>
-      <div class="img"><img src=/wp-content/themes/houseonthehill.com/images/pete-headshot.jpg></div>
+      <div class="img"><img src="/wp-content/themes/houseonthehill.com/images/pete-headshot.jpg" height="200"></div>
     </div>
     <div class="form">
       <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
