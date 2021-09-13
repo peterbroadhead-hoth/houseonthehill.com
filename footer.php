@@ -48,8 +48,11 @@
   </div>
 </div>
 
-<script>
+<script src='https://support.houseonthehill.com/suppdeskchat/scripts/HothChatWidget.js'></script>
+<script>HothChatWidget.config('https://support.houseonthehill.com/suppdeskchat');</script>
+<style> #hoth-chat-button{ z-index:10 } </style>
 
+<script>
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-5009086-1']);
   _gaq.push(['_trackPageview']);
@@ -60,12 +63,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-
-
-<!--
-<script src='https://support.houseonthehill.com/suppdeskchat/scripts/HothChatWidget.js'></script> <script>HothChatWidget.config(' https://support.houseonthehill.com/suppdeskchat');</script> <style> #hoth-chat-button{ z-index:10 } </style>
--->
-
 
 <!-- Google Code for Calls from website Conversion Page --> 
 <script type="text/javascript">
