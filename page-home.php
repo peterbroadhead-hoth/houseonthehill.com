@@ -6,66 +6,47 @@
       <p>House-on-the-Hill provide you with a Branded Cloud Service Desk & Portal which is spot on for IT Departments, Facilities Management, Freedom of Information Requests and Customer Service.</p>
       <div class="signup-buttons">
         <!--<form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
-          <input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
-          <input type="HIDDEN" id="selchange" name="selchange" value="">
-          <input type="HIDDEN" id="selparam1" name="selparam1" value="">
-          <input type="HIDDEN" id="AjaxUpdate" name="AjaxUpdate" value="">
           <input type="HIDDEN" id="A" name="A" value="AnonCall">
-          <input type="HIDDEN" id="F1" name="F1" value="">
           <input type="HIDDEN" id="F2158" name="F2158" value="0">
-          <input type="HIDDEN" id="NextStep" name="NextStep" value="">
           <input type="HIDDEN" id="F2126" name="F2126" value="341">
-          <input type="HIDDEN" id="F2127_ctrl" name="F2127_ctrl" value="">
-          <input type="HIDDEN" id="F2128_ctrl" name="F2128_ctrl" value="">
-          <input type="HIDDEN" id="F2150_ctrl" name="F2150_ctrl" value="">
-          <input type="HIDDEN" id="F2129_ctrl" name="F2129_ctrl" value="">
-          <input type="HIDDEN" id="F2130_ctrl" name="F2130_ctrl" value="">
-          <input type="HIDDEN" id="F2148_ctrl" name="F2148_ctrl" value="">
-          <input type="HIDDEN" id="F2149_ctrl" name="F2149_ctrl" value="">
-          <input type="HIDDEN" id="ActResolved_ctrl" name="ActResolved_ctrl" value="">
-          <input type="HIDDEN" id="ActRespondedTo_ctrl" name="ActRespondedTo_ctrl" value="">
-          <input type="HIDDEN" id="F5006_ctrl" name="F5006_ctrl" value="">
           <input type="HIDDEN" id="F" name="F" value="0">
           <input type="HIDDEN" id="CCSM" name="CCSM" value="0">
           <input type="HIDDEN" id="InitMedium" name="InitMedium" value="8192">
           <input type="HIDDEN" id="SummViewFold" name="SummViewFold" value="0">
           <input type="HIDDEN" id="F3" name="F3" value="25">
           <input type="HIDDEN" id="F2156" name="F3" value="48">
-          <input type="HIDDEN" id="savebtn" name="savebtn" value="">
-          <input type="HIDDEN" id="savebtn1" name="savebtn1" value="">
-          <input type="HIDDEN" name="F2178" id="F2178" size="1" value="">
           <input required="" type="TEXT" name="F2177" id="F2177" class="company-name" maxlength="25" value="" placeholder="Company Name">
           <input required="" type="TEXT" name="F38" id="F38" class="email-address" size="0035" maxlength="10000" placeholder="Email Address">
           <select class="suptabde" name="F2178" id="F2178" size="1">
-            <option value="IT%20Service%20Management" selected="">ITSM</option>
-            <option value="CAFM">CAFM</option>
-            <option value="Customer%20Service%20Management">CSM</option>
-            <option value="FOI%20and%20Case%20Management">FOI</option>
+            <option value="IT%20Service%20Management" selected="">ITSM - IT Service Management</option>
+            <option value="CAFM">CAFM - Facilities Management</option>
+            <option value="Customer%20Service%20Management">Customer Service & Support</option>
+            <option value="FOI%20and%20Case%20Management">Freedom of Information & Case Management</option>
           </select>
           <div id="captcha_result"></div>
           <input onclick="GetCustomEvent()" class="Button" id="reg_submit" type="Submit" value="Start trial">
         </form>-->
-        <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">START FOR FREE</a> 
+        <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">START YOUR FREE TRIAL</a>
       </div>
       <p><strong>1000's of organisations have benefited from House-on-the-Hill's 30 years experience in providing top service desk solutions.</strong></p>
-      <a href="/demo">Request a Demo</a> | <a target="_blank" class="g-cloud" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software" rel="noopener">UK Based? get started through the G-Cloud</a>
       <div class="customers">
-            <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
-              <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
-            </a>  
-            <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
-              <img height="25" width="147" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bm-25.png" alt="Broadway Malyan Logo">
-            </a>  
-            <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
-              <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bbraun-25.png" alt="BBraun Medicine Logo">
-            </a>  
-            <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
-              <img height="25" width="134" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/hb-25.png" alt="Holland & Barrett Logo">
-            </a>  
-            <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-              <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
-            </a>  
+        <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
+          <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
+        </a>  
+        <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
+          <img height="25" width="147" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bm-25.png" alt="Broadway Malyan Logo">
+        </a>  
+        <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
+          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bbraun-25.png" alt="BBraun Medicine Logo">
+        </a>  
+        <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
+          <img height="25" width="134" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/hb-25.png" alt="Holland & Barrett Logo">
+        </a>  
+        <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
+          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
+        </a>  
       </div>
+      <a href="/demo">Request a Demo</a> | <a target="_blank" class="g-cloud" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software" rel="noopener">UK Based? get started through the G-Cloud</a>
     </div>
   </div>
 </div>
@@ -133,13 +114,13 @@
       <li>
         <div class="icon"></div>
         <h3>Branded <br>Self-Service</h3>
-        <p>Enhance the User Experience by creating unique Customer Self-Service Portal. Display the company branding of each Customer that you support, using House-on-the-Hil’s Customer Portal Branding function.</p>
+        <p>And End User experience they will love. Empower your users with their own self-service portal where they can manage their tickets, access knowledge and access common requests.</p>
         <a class="more-info" href="/features/customer-portal-branding/">Find out more</a>
       </li>
       <li>
         <div class="icon"></div>
         <h3>Automation <br>& Workflow</h3>
-        <p>Proactively monitor your Service Level Agreements (SLAs) with Workflow Engine. Warn your agents and stake-holders of approaching SLA failures and automatically escalate calls through stages your workflow.</p>
+        <p>Proactively monitor your Service Level Agreements (SLAs) with Workflow Engine. Warn your agents and stake-holders of approaching SLA failures and automatically escalate tickets through stages of your workflow.</p>
         <a class="more-info" href="/features/workflow-engine/">Find out more</a>
       </li>
       <li>
