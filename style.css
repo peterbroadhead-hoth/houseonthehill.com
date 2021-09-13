@@ -1150,8 +1150,7 @@ margin: unset;
 .solution-key-features-container .solutions li{
   list-style: none;
   width: 35%;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  margin: 50px auto;
   min-height: 350px;
 }
 
