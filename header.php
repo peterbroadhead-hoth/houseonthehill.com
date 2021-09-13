@@ -269,7 +269,7 @@
     
     <ul class="sales">
     	<li><a href="/docs"><i class="fal fa-book"></i><span>Product Documentation</span></a></li>
-    	<li><a href="/company/contact-us/"><i class="fal fa-id-card"></i><span>Contact Sales</span></a></li>
+    	<li><a href="/demo"><i class="fal fa-id-card"></i><span>Request a Demo</span></a></li>
     	<li><a href="https://support.houseonthehill.com/" rel="noopener"><i class="far fa-sign-in-alt"></i><span>Log In</span></a></li>
     	<li class="sign-up"><a href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank" class="sign-up-toggle">Free Trial</a></li>
     </ul>
