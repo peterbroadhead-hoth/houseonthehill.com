@@ -56,7 +56,7 @@
     <h2>" Buy it, it is the best ITSM toolkit I have ever worked with, including ServiceNow. "</h2>
     <p>Michael Bebbington, Service Delivery Manager, <span>UK Plumbing Supplies</span></p>
   </div> 
-  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png" alt="House-on-the-Hill Agent Dashboard" height="524" width="999">
+  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.webp" alt="House-on-the-Hill Agent Dashboard" height="524" width="999">
 </div>
 
 <div class="hothhome-solutions">
