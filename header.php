@@ -265,9 +265,9 @@
     </ul>
     
     <ul class="sales">
-    	<li><a href="/docs"><i class="fal fa-book"></i><span>Product Documentation</span></a></li>
-    	<li><a href="/demo"><i class="fal fa-id-card"></i><span>Request a Demo</span></a></li>
-    	<li><a href="https://support.houseonthehill.com/" rel="noopener"><i class="far fa-sign-in-alt"></i><span>Log In</span></a></li>
+    	<li><a href="/docs"><i class="fal fa-book"></i><span>Product Documentation</span></a><p class="doc header-hover">Product Documentation</p></li>
+    	<li><a href="/demo"><i class="fal fa-id-card"></i><span>Request a Demo</span></a><p class="demo header-hover">Request a Demo</p></li>
+    	<li><a href="https://support.houseonthehill.com/" rel="noopener"><i class="far fa-sign-in-alt"></i><span>Log In</span></a><p class="login header-hover">Log In</p></li>
     	<li class="sign-up"><a href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank" class="sign-up-toggle">START YOUR FREE TRIAL</a></li>
     </ul>
   </div>

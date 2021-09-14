@@ -569,6 +569,14 @@ margin: unset;
   align-items: center;
 }
 
+.header-hover{
+  display: none;
+}
+.demo.header-hover{
+  background-color: unset;
+  padding: unset;
+}
+
 /* Header latest feature */
 .sub-menu .latest-feature{
   padding: 20px 0;
@@ -2428,6 +2436,17 @@ ul.whats-new li .whats-new-img img{
 	.hoth-header ul li i{
 		display: initial;
 	}
+  .hoth-header ul li:hover .header-hover{
+    display: initial;
+    position: absolute;
+    font-size: 10px;
+    margin: 0;
+    padding: 5px;
+    background: rgba(235, 235, 235, 0.63);
+    border-radius: 4px;
+    top: 50px;
+    white-space: nowrap;
+  }
   .hoth-header-container .hoth-header .hoth-home img{
     margin: 0;
   }
