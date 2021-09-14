@@ -22,17 +22,16 @@
           <p><a rel="noopener" href="/docs/">Product Documentation</a></p>
         </div>
         
-      <a href="https://cvs.babcert.com/babcert.asp?c=234054&v=wgb5351g6c"  target="_blank" rel="noopener">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/iso-2021.png" height="50"/>
-      </a>
-      
-      <a href="<?php echo site_url();?>/wp-content/uploads/2020/04/Essentials-20-21.pdf"  target="_blank">
-        <img class="alignnone wp-image-9961 size-medium" src="/wp-content/uploads/2018/10/ca.png" height="50"/>
-      </a>
-
-      <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=supportdesk&lot=cloud-software" rel="noreferrer" target="_blank">
-        <img class="alignnone wp-image-9961 size-medium" src="/wp-content/uploads/2020/06/ccs-200.png" height="50"/>
-      </a>
+        <a href="https://cvs.babcert.com/babcert.asp?c=234054&v=wgb5351g6c"  target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/iso-2021.png" height="75" width="75" alt="ISO Certificate"/>
+        </a>
+        <a href="<?php echo site_url();?>/wp-content/uploads/2020/04/Essentials-20-21.pdf"  target="_blank">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/ca-75.png" height="75" width="89" alt="Cyber Essentials Certificate"/>
+        </a>
+        <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software"  target="_blank">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/ccs-75.png" height="75" width="100" alt="Crown Commercial Supplier Logo"/>
+        </a> 
+        
       </div>
       <div class="site-links">
         <h2><a href="/price-plans">Solutions</a></h2>
