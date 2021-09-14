@@ -1339,12 +1339,12 @@ margin: unset;
 .features .header{
   display: flex;
   background-color: #d9f7ff;
-  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/06/77B7E0D4-B46C-4179-B76E-6D01728E229F.png);
-  min-height: 800px;
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/09/featuresimg.png);
   background-repeat: no-repeat;
-  background-position-x: 90%;
-  background-position-y: 90%;
-  background-size: 80%;
+  background-position: bottom;
+  background-size: 700px;
+  padding: 100px;
+  padding-bottom: 250px;
 }
 
 .features .header .title{
