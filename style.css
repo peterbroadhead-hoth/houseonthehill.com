@@ -263,9 +263,9 @@ a.more-info:hover{
 	position: fixed;
 	top: 0;
 	z-index: 9999;
-	-webkit-box-shadow: 0px 2px 23px -16px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 2px 23px -16px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 23px -16px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 2px 23px -16px rgb(0 0 0 / 30%);
+	-moz-box-shadow: 0px 2px 23px -16px rgb(0 0 0 / 30%);
+	box-shadow: 0px 2px 23px -16px rgb(0 0 0 / 30%);
 }
 
 .hoth-header-container .hoth-header{
