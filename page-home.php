@@ -27,6 +27,7 @@
           <input onclick="GetCustomEvent()" class="Button" id="reg_submit" type="Submit" value="Start trial">
         </form>-->
         <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">START YOUR FREE TRIAL</a>
+        <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;">No Credit Card Required </p>
       </div>
       <p><strong>1000's of organisations benefit by using House-on-the-Hill</strong></p>
       <div class="customers">

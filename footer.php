@@ -3,7 +3,7 @@
     <div class="trial">
       <h2>Start your free trial today</h2>
       <div class="signup-buttons">
-        <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Start a free trial</a> 
+        <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">START YOUR FREE TRIAL</a> 
         <a class="demo" href="/demo">Request a demo</a> 
         <a target="_blank" class="g-cloud" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software" rel="noopener">
           <svg aria-hidden="true" focusable="false" class="govuk-header__logotype-crown" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 97" height="20" width="36">
