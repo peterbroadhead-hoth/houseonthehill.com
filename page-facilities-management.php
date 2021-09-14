@@ -6,33 +6,15 @@
       <p>Software to help keep your properties well maintained and safe.</p>
       <div class="signup-buttons">
         <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
-          <input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
-          <input type="HIDDEN" id="selchange" name="selchange" value="">
-          <input type="HIDDEN" id="selparam1" name="selparam1" value="">
-          <input type="HIDDEN" id="AjaxUpdate" name="AjaxUpdate" value="">
           <input type="HIDDEN" id="A" name="A" value="AnonCall">
-          <input type="HIDDEN" id="F1" name="F1" value="">
           <input type="HIDDEN" id="F2158" name="F2158" value="0">
-          <input type="HIDDEN" id="NextStep" name="NextStep" value="">
           <input type="HIDDEN" id="F2126" name="F2126" value="341">
-          <input type="HIDDEN" id="F2127_ctrl" name="F2127_ctrl" value="">
-          <input type="HIDDEN" id="F2128_ctrl" name="F2128_ctrl" value="">
-          <input type="HIDDEN" id="F2150_ctrl" name="F2150_ctrl" value="">
-          <input type="HIDDEN" id="F2129_ctrl" name="F2129_ctrl" value="">
-          <input type="HIDDEN" id="F2130_ctrl" name="F2130_ctrl" value="">
-          <input type="HIDDEN" id="F2148_ctrl" name="F2148_ctrl" value="">
-          <input type="HIDDEN" id="F2149_ctrl" name="F2149_ctrl" value="">
-          <input type="HIDDEN" id="ActResolved_ctrl" name="ActResolved_ctrl" value="">
-          <input type="HIDDEN" id="ActRespondedTo_ctrl" name="ActRespondedTo_ctrl" value="">
-          <input type="HIDDEN" id="F5006_ctrl" name="F5006_ctrl" value="">
           <input type="HIDDEN" id="F" name="F" value="0">
           <input type="HIDDEN" id="CCSM" name="CCSM" value="0">
           <input type="HIDDEN" id="InitMedium" name="InitMedium" value="8192">
           <input type="HIDDEN" id="SummViewFold" name="SummViewFold" value="0">
           <input type="HIDDEN" id="F3" name="F3" value="25">
           <input type="HIDDEN" id="F2156" name="F3" value="48">
-          <input type="HIDDEN" id="savebtn" name="savebtn" value="">
-          <input type="HIDDEN" id="savebtn1" name="savebtn1" value="">
           <input type="HIDDEN" name="F2178" id="F2178" size="1" value="CAFM">
           <input required="" type="TEXT" name="F2177" id="F2177" class="company-name" maxlength="25" value="" placeholder="Company Name">
           <input required="" type="TEXT" name="F38" id="F38" class="email-address" size="0035" maxlength="10000" placeholder="Email Address">
@@ -76,25 +58,25 @@
     <p>All your facilities management needs under one roof.</p>
     <ul class="solutions">
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2021/02/calandar.png"></div>
+        <div class="icon"><img src="/wp-content/uploads/2021/02/calandar.png" alt="Calendar Icon"></div>
         <h3>Bookings</h3>
         <p>With House-on-the-Hill Facilities Management Software, you can plan for any circumstance that may affect your business’s infrastructure using Planned Preventative Maintenance, with drill-down calendars showing engineers an overview of upcoming and future jobs.</p>
         <a href="/features/resource-booking-software/" class="more-info">Find out more</a>
       </li>
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2020/09/facilities-management.png"></div>
+        <div class="icon"><img src="/wp-content/uploads/2020/09/facilities-management.png" alt="CAFM Icon"></div>
         <h3>Property & Asset <br>Management</h3>
         <p>Record all your properties and their associated assets ready to log jobs against them. Report when Assets are due for renewal, upgrade and testing.</p>
         <a href="/features/asset-and-software-licence-management/" class="more-info">Find out more</a>
       </li>
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2021/02/create-unique-forms.png"></div>
+        <div class="icon"><img src="/wp-content/uploads/2021/02/create-unique-forms.png" alt="Form Icon"></div>
         <h3>Compliance <br>Management</h3>
         <p>Manage safety and risk assessments associated with work requests and other jobs using custom built forms.</p>
         <a href="/features/drag-and-drop-dashboard-builder/" class="more-info">Find out more</a>
       </li>
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2020/07/cafm-reports-2048x1280.png"></div>
+        <div class="icon"><img src="/wp-content/uploads/2020/07/cafm-reports-2048x1280.png" alt="Report Icon"></div>
         <h3>Real-time <br>Reporting</h3>
         <p>Instantly view in real-time the jobs that are still open, and which Engineer they are assigned to with KPI Monitoring real-time dashboard.</p>
         <a href="/features/kpi-monitor/" class="more-info">Find out more</a>
@@ -104,13 +86,13 @@
   <div class="iso-btns">
     <h3>ISO certified, we take your data very seriously.</h3>
     <a href="https://cvs.babcert.com/babcert.asp?c=234054&v=wgb5351g6c"  target="_blank" rel="noopener">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/iso-2021.png" height="50"/>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/iso-2021.png" height="75" width="75" alt="ISO Certificate"/>
     </a>
-    <a href="<?php echo site_url();?>/wp-content/uploads/2020/04/Essentials-20-21.pdf"  target="_blank">
-      <img class="alignnone wp-image-9961 size-medium" src="/wp-content/uploads/2018/10/ca.png" height="50"/>
+    <a href="<?php echo site_url();?>/wp-content/uploads/2020/04/Essentials-20-21.pdf"  target="_blank" rel="noreferrer">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/ca-75.png" height="75" width="89" alt="Cyber Essentials Certificate"/>
     </a>
-    <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software"  target="_blank">
-      <img class="alignnone wp-image-9961 size-medium" src="/wp-content/uploads/2020/06/ccs-200.png" height="50"/>
+    <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software"  target="_blank" rel="noreferrer">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/ccs-75.png" height="75" width="100" alt="Crown Commercial Supplier Logo"/>
     </a> 
   </div>
 </div>

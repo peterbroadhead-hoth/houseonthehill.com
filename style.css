@@ -681,7 +681,7 @@ margin: unset;
 /* footer */
 
 .hoth-footer{
-  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/03/1B6797B3-D5EE-4C57-AE62-E6A40D95C77F.png);
+  background-image:url(images/wave-footer.webp);
   background-position-y: -20px;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -825,7 +825,7 @@ margin: unset;
 /* Home Page */
 
 .hothhome-header{
-  background-image: url('images/hothhome.png');
+  background-image: url('images/hothhome.webp');
   background-color: #d9f7ff;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -942,19 +942,19 @@ margin: unset;
 }
 
 .hothhome-solutions-container .solutions li.itsm .icon{
-  background-image: url('images/coral-paint-150px.png');
+  background-image: url('images/coral-paint-150px.webp');
 }
 
 .hothhome-solutions-container .solutions li.csm .icon{
-  background-image: url('images/cream-paint-150px.png');
+  background-image: url('images/cream-paint-150px.webp');
 }
 
 .hothhome-solutions-container .solutions li.cafm .icon{
-  background-image: url('images/lightblue-paint-150px.png');
+  background-image: url('images/lightblue-paint-150px.webp');
 }
 
 .hothhome-solutions-container .solutions li.foi .icon{
-  background-image: url('images/orange-paint-150px.png');
+  background-image: url('images/orange-paint-150px.webp');
 }
 
 .hothhome-solutions-container .solutions li .icon img{
@@ -1022,19 +1022,19 @@ margin: unset;
 }
 
 .hothhome-features-container .features li:first-child .icon{
-  background-image: url('images/brandedssp.png');
+  background-image: url('images/brandedssp.webp');
 }
 
 .hothhome-features-container .features li:nth-child(2) .icon{
-  background-image: url('images/automation-workflow.png');
+  background-image: url('images/automation-workflow.webp');
 }
 
 .hothhome-features-container .features li:nth-child(3) .icon{
-  background-image: url('images/email-ticketing.png');
+  background-image: url('images/email-ticketing.webp');
 }
 
 .hothhome-features-container .features li:nth-child(4) .icon{
-  background-image: url('images/custom-dash-reports1.png');
+  background-image: url('images/custom-dash-reports1.webp');
 }
 
 .hothhome-features-container .features li .icon i{
