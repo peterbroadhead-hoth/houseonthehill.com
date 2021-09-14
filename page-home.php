@@ -64,29 +64,29 @@
     <h2>The perfect fit for your organisation</h2>
     <p>Wether you support customers, staff or the public, each comes fully branded & preloaded with all the modern service essentials.</p>
     <ul class="solutions">
+      <li class="foi">
+        <div class="icon"><img src="/wp-content/uploads/2021/04/foi-icon.png" alt="Freedom of Information & Case Management Icon"></div>
+        <h3>FOI, Case & <br>Complaints Management</h3>
+        <p>Who knew you could manage the full FOI, DPA, SAR, ROPA & the IG lifecycle paperlessly within one solution. Well you can see why many UK councils, public bodies and organisations chose HotH.</p>
+        <a class="more-info" href="/foi-request-management/">Learn about how HotH process Cases</a>
+      </li>
       <li class="itsm">
-        <div class="icon"><img src="/wp-content/uploads/2021/04/itsm-icon.png"></div>
+        <div class="icon"><img src="/wp-content/uploads/2021/04/itsm-icon.png" alt="IT Service Management Icon"></div>
         <h3>IT Service <br>Management</h3>
         <p>Our flagship. A versatile ITIL ready service desk solution, pre-loaded with all the tools you need deliver great IT support at a snip.</p>
         <a class="more-info" href="/it-service-management-software/">More HotH ITSM </a>
       </li>
       <li class="csm">
-        <div class="icon"><img src="/wp-content/uploads/2021/04/csmicon.png"></div>
+        <div class="icon"><img src="/wp-content/uploads/2021/04/csmicon.png" alt="Customer Service Management Icon"></div>
         <h3>Customer Service <br>Management</h3>
         <p>Harness the power of self-service & full email integration. Your customers will revel in your super support!</p>
         <a class="more-info" href="/customer-service-and-support/">Learn more about HotH CSM</a>
       </li>
       <li class="cafm">
-        <div class="icon"><img src="/wp-content/uploads/2021/04/cafmicon.png"></div>
+        <div class="icon"><img src="/wp-content/uploads/2021/04/cafmicon.png" alt="Computer Aided Facilities Management Icon"></div>
         <h3>Computer Aided Facilities <br>Management</h3>
         <p>The new digital era of managing your infrastructure portfolio. Reactive & scheduled jobs, engineer calendars & a mobile app all under one roof.</p>
         <a class="more-info" href="/facilities-management/">Facilities management with HotH</a>
-      </li>
-      <li class="foi">
-        <div class="icon"><img src="/wp-content/uploads/2021/04/foi-icon.png"></div>
-        <h3>FOI, Case & <br>Complaints Management</h3>
-        <p>Who knew you could manage the full FOI, DPA, SAR, ROPA & the IG lifecycle paperlessly within one solution. Well you can see why many UK councils, public bodies and organisations chose HotH.</p>
-        <a class="more-info" href="/foi-request-management/">Learn about how HotH process Cases</a>
       </li>
     </ul>
   </div>
@@ -104,7 +104,7 @@
   </div>
 </div>
 
-<div class="break"><img src="/wp-content/uploads/2021/04/stroke-coral.png"></div>
+<div class="break"><img src="/wp-content/uploads/2021/04/stroke-coral.png" alt="Brush Stroke Page Divider"></div>
 
 <div class="hothhome-features">
   <div class="hothhome-features-container">
