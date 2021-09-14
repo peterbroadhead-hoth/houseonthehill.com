@@ -1364,13 +1364,13 @@ margin: unset;
 .features .feature-list-container .feature-list{
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
 .feature-list .single-feature{
-  width: 29%;
-  margin: 2%;
+  width: 22%;
+  margin: 1%;
   border-radius: 4px;
   padding: 10px 20px;
   border: 1px solid #e0e0e0;
@@ -1384,12 +1384,13 @@ box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
 }
 
 .feature-list .single-feature a .description h3{
-  /*min-height: 55px;*/
+  margin: 10px 0;
+  font-size: 18px;
 }
 
 .feature-list .single-feature a .description .img{
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   display: flex;
 }
 
@@ -1406,15 +1407,16 @@ box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
 
 .feature-list .single-feature a .description ul li{
   list-style: none;
-  margin-right: 7px;
+  margin-right: 5px;
 }
 
 .feature-list .single-feature a .description ul li p{
   margin: 0;
+  font-size: 14px;
 } 
 
 .feature-list .single-feature a .description ul li p span{
-  padding: 2px 6px;
+  padding: 2px 4px;
 }
 
 .feature-list .single-feature a .description ul li p.it-service-management span{
