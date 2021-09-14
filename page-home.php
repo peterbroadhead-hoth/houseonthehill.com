@@ -2,8 +2,8 @@
 <div class="hothhome-header">
   <div class="hothhome-header-container">
     <div class="text">
-      <h1>The Perfect Service Desk Software to Modernise your Organisation</h1> 
-      <p>House-on-the-Hill provide you with a Branded Cloud Service Desk & Portal which is spot on for IT Departments, Facilities Management, Freedom of Information Requests and Customer Service.</p>
+      <h1>30 years experience in providing top service desk solutions.</h1> 
+      <p>Get a trusted Cloud Service Desk & Portal which you can use for for Freedom of Information Requests, IT Support, Facilities Management or Customer Service.</p>
       <div class="signup-buttons">
         <!--<form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
           <input type="HIDDEN" id="A" name="A" value="AnonCall">
@@ -28,7 +28,7 @@
         </form>-->
         <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">START YOUR FREE TRIAL</a>
       </div>
-      <p><strong>1000's of organisations have benefited from House-on-the-Hill's 30 years experience in providing top service desk solutions.</strong></p>
+      <p><strong>1000's of organisations benefit by using House-on-the-Hill</strong></p>
       <div class="customers">
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
           <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">

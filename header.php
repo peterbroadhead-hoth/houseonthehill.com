@@ -34,10 +34,10 @@
 		<li class="dropdown">
 			<button onclick="myFunction()" class="dropbtn">Solutions</button>
 			<div id="myDropdown" class="dropdown-content">
+				<a href="/foi-request-management/">FOI, Case & Complaints Management</a>
 				<a href="/it-service-management-software">IT Service Management</a>
 				<a href="/customer-service-and-support/">Customer Service Management</a>
 				<a href="/facilities-management/">Computer Aided Facilities Management</a>
-				<a href="/foi-request-management/">FOI, Case & Complaints Management</a>
 			</div>
 		</li>
 		<li class="solutions"><a href="/price-plans">Solutions</a>
@@ -46,32 +46,29 @@
 					<div class="main-menu solutions">
 						<h2 class="title">Solutions</h2>
 							<div class="main-menu-container">
-								<a href="/it-service-management-software/">
-								<li class="itsm">
-									<h2>IT Service Management</h2>
-									<p>A versatile service desk solution to help you deliver great IT support</p>
-								</li>
-								</a>
-
-								<a href="/customer-service-and-support/">
-								<li class="csm">
-									<h2>Customer Service Management</h2>
-									<p>Support your Customers with House-on-the-Hill CSM service desk solution</p>
-								</li>
-								</a>
-
-								<a href="/facilities-management/">
-								<li class="cafm">
-									<h2>Computer Aided Facilities Management</h2>
-									<p>Software to help keep your properties well maintained and safe</p>
-								</li>
-								</a>
-
 								<a href="/foi-request-management/">
-								<li class="foi">
-									<h2>FOI, Case & Complaints Management</h2>
-									<p>Automate the processing of FOI, DPA, EIR, SAR, Information Governance & Complaints</p>
-								</li>
+									<li class="foi">
+										<h2>Freedom of Information & Case Management</h2>
+										<p>Automate the processing of FOI, DPA, ROPA, EIR, SAR, Information Governance & Complaints</p>
+									</li>
+								</a>
+								<a href="/it-service-management-software/">
+									<li class="itsm">
+										<h2>IT Service Management</h2>
+										<p>A versatile service desk solution that delivers great IT support</p>
+									</li>
+								</a>
+								<a href="/customer-service-and-support/">
+									<li class="csm">
+										<h2>Customer Service Management</h2>
+										<p>Support your Customers with House-on-the-Hill CSM service desk solution</p>
+									</li>
+								</a>
+								<a href="/facilities-management/">
+									<li class="cafm">
+										<h2>Computer Aided Facilities Management</h2>
+										<p>Software to help keep your properties well maintained and safe</p>
+									</li>
 								</a>
 							</div>
 					</div>
@@ -87,7 +84,7 @@
 						<a href="/price-plans/">
 							<li>
 								<h2>On-Site</h2>
-								<p>Your house your rules. Run your service on your own internal server.</p>
+								<p>Your house your rules. Run House-on-the-Hill on-site.</p>
 							</li>
 						</a>
 					</div>
