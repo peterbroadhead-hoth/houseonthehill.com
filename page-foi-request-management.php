@@ -94,7 +94,7 @@
 </div>
 
 <div class="solution-key-feature-container">
-  <div class="break"><img src="https://houseonthehill.com/wp-content/uploads/2021/04/stroke-coral.png"></div>
+  <div class="break"><img src="https://houseonthehill.com/wp-content/uploads/2021/04/stroke-coral.png" alt="Brush Stroke"></div>
     <div class="solution-key-feature">
       <div class="img">
       </div>
@@ -104,7 +104,7 @@
         <p><strong>If you would like an FOI tour 🙂 Drop us an email at <br><a href="/demo">demo@houseonthehill.com</a></strong></p>
       </div>
     </div>
-  <div class="break"><img src="https://houseonthehill.com/wp-content/uploads/2021/04/stroke-coral.png"></div>
+  <div class="break"><img src="https://houseonthehill.com/wp-content/uploads/2021/04/stroke-coral.png" alt="Brush Stroke"></div>
 </div>
 
 <div class="solution-features">
