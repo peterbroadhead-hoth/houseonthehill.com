@@ -188,13 +188,13 @@ a.sign-up:hover{
 }
 
 a.sign-up{
-  background: #ff7d79;
+  background: #1e3550;
   color: #ffffff;
   margin-left: 0;
   border-radius: 4px;
   padding: 10px 25px;
   font-weight: bold;
-  box-shadow: 0 0 20px #0000003b;
+  box-shadow: 0 0 20px #ffffff38;
 }
 
 a.demo{
@@ -299,15 +299,17 @@ a.more-info:hover{
 
 
 .hoth-header a.sign-up-toggle{
-  padding: 6px 20px;
+  padding: 10px 30px;
   border-radius: 4px;
   display: inline-block;
   background: #1e3550;
+  margin-left: 20px;
   color: white;
   white-space: nowrap;
   height: unset;
-  margin-left: 5px;
+  margin-left: 20px;
   box-shadow: 0 0 20px #00000024;
+  font-weight: bold;
 }
 
 .hoth-header  .sign-up.mobile-only{
