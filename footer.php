@@ -25,10 +25,10 @@
         <a href="https://cvs.babcert.com/babcert.asp?c=234054&v=wgb5351g6c"  target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/iso-2021.png" height="75" width="75" alt="ISO Certificate"/>
         </a>
-        <a href="<?php echo site_url();?>/wp-content/uploads/2020/04/Essentials-20-21.pdf"  target="_blank">
+        <a href="<?php echo site_url();?>/wp-content/uploads/2020/04/Essentials-20-21.pdf"  target="_blank" rel="noreferrer">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/ca-75.png" height="75" width="89" alt="Cyber Essentials Certificate"/>
         </a>
-        <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software"  target="_blank">
+        <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software"  target="_blank" rel="noreferrer">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/ccs-75.png" height="75" width="100" alt="Crown Commercial Supplier Logo"/>
         </a> 
         
