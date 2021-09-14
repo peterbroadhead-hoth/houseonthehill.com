@@ -2,7 +2,7 @@
 <div class="hothhome-header">
   <div class="hothhome-header-container">
     <div class="text">
-      <h1>30 Years Experience in providing Top Help Desk Software</h1> 
+      <h1>Thirty Years Experience in providing Top Help Desk Software</h1> 
       <p>Get a trusted Cloud Service Desk & Portal which you can use for for Freedom of Information Requests, IT Support, Facilities Management or Customer Service.</p>
       <div class="signup-buttons">
         <!--<form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
@@ -46,7 +46,7 @@
           <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
         </a>  
       </div>
-      <a href="/demo">Request a Demo</a> | <a target="_blank" class="g-cloud" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software" rel="noopener">UK Based? get started through the G-Cloud</a>
+      <a href="/demo">Request a Demo</a> <!-- | <a target="_blank" class="g-cloud" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software" rel="noopener">UK Based? get started through the G-Cloud</a>-->
     </div>
   </div>
 </div>
