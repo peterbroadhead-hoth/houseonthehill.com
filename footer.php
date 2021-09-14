@@ -41,8 +41,8 @@
         <h2><a href="mailto:hello@houseonthehill.com">hello@houseonthehill.com</a></h2>
       </div>
       <div class="socials">
-        <a target="_blank" href="https://twitter.com/HotHSoftware" rel="noreferrer"><i class="fab fa-twitter"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/company/house-on-the-hill-software-ltd./mycompany/" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></div>
+        <a target="_blank" href="https://twitter.com/HotHSoftware" rel="noreferrer"><i class="fab fa-twitter" title="Twitter Logo"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/company/house-on-the-hill-software-ltd./mycompany/" rel="noreferrer"><i class="fab fa-linkedin-in" title="LinkedIn Logo"></i></a></div>
     </div>
   </div>
 </div>
