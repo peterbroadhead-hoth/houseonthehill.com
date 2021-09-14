@@ -103,7 +103,7 @@
 					<div class="main-menu">
 						<h2 class="title">Power up your service</h2>
 						<div class="main-menu-container">
-							<a href="/reports-2/">
+							<a href="/features/report-designer/">
 								<li class="">
 									<h2>Reports Designer</h2>
 									<p>Build and extract real-time reports to provide critical information to your team</p>
