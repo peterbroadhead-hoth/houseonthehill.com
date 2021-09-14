@@ -6,33 +6,15 @@
       <p>Automate the processing of FOI, DPA, EIR, SAR, Information Governance & Complaints.</p>
       <div class="signup-buttons">
         <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
-          <input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
-          <input type="HIDDEN" id="selchange" name="selchange" value="">
-          <input type="HIDDEN" id="selparam1" name="selparam1" value="">
-          <input type="HIDDEN" id="AjaxUpdate" name="AjaxUpdate" value="">
           <input type="HIDDEN" id="A" name="A" value="AnonCall">
-          <input type="HIDDEN" id="F1" name="F1" value="">
           <input type="HIDDEN" id="F2158" name="F2158" value="0">
-          <input type="HIDDEN" id="NextStep" name="NextStep" value="">
           <input type="HIDDEN" id="F2126" name="F2126" value="341">
-          <input type="HIDDEN" id="F2127_ctrl" name="F2127_ctrl" value="">
-          <input type="HIDDEN" id="F2128_ctrl" name="F2128_ctrl" value="">
-          <input type="HIDDEN" id="F2150_ctrl" name="F2150_ctrl" value="">
-          <input type="HIDDEN" id="F2129_ctrl" name="F2129_ctrl" value="">
-          <input type="HIDDEN" id="F2130_ctrl" name="F2130_ctrl" value="">
-          <input type="HIDDEN" id="F2148_ctrl" name="F2148_ctrl" value="">
-          <input type="HIDDEN" id="F2149_ctrl" name="F2149_ctrl" value="">
-          <input type="HIDDEN" id="ActResolved_ctrl" name="ActResolved_ctrl" value="">
-          <input type="HIDDEN" id="ActRespondedTo_ctrl" name="ActRespondedTo_ctrl" value="">
-          <input type="HIDDEN" id="F5006_ctrl" name="F5006_ctrl" value="">
           <input type="HIDDEN" id="F" name="F" value="0">
           <input type="HIDDEN" id="CCSM" name="CCSM" value="0">
           <input type="HIDDEN" id="InitMedium" name="InitMedium" value="8192">
           <input type="HIDDEN" id="SummViewFold" name="SummViewFold" value="0">
           <input type="HIDDEN" id="F3" name="F3" value="25">
           <input type="HIDDEN" id="F2156" name="F3" value="48">
-          <input type="HIDDEN" id="savebtn" name="savebtn" value="">
-          <input type="HIDDEN" id="savebtn1" name="savebtn1" value="">
           <input type="HIDDEN" name="F2178" id="F2178" size="1" value="FOI">
           <input required="" type="TEXT" name="F2177" id="F2177" class="company-name" maxlength="25" value="" placeholder="Company Name">
           <input required="" type="TEXT" name="F38" id="F38" class="email-address" size="0035" maxlength="10000" placeholder="Email Address">
@@ -76,22 +58,22 @@
     <p>Helping you to process cases with ease.</p>
     <ul class="solutions">
       <li>
-        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/12/deadline-alerts.png"></div>
+        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/12/deadline-alerts.png" alt="Alerts Icon"></div>
         <h3>Automatic <br>Deadline Alerts</h3>
         <p>Deadline dates and Warning dates are automatically calculated based on deadline selections. House-on-the-Hill Case can issue alerts if the request goes beyond this warning date.</p>
       </li>
       <li>
-        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2021/02/hightend-communication.png"></div>
+        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2021/02/hightend-communication.png" alt="Communication Icon"></div>
         <h3>Heighten <br>Communication</h3>
         <p>Once the end user has submitted their request the system can email an automatic reply to them, or it can be initiated manually once the request is being processed.</p>
       </li>
       <li>
-        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/12/website-link.png"></div>
+        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/12/website-link.png" alt="Website Link Icon"></div>
         <h3>Link From <br>Your Website</h3>
         <p>House-on-the-Hill Case Management allows you to add a link your website that will capture requests by the public.</p>
       </li>
       <li>
-        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/07/cafm-reports.png"></div>
+        <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/07/cafm-reports.png" alt="Report Icon"></div>
         <h3>Heighten <br>Visualisation</h3>
         <p>Within House-on-the-Hill Case, logged requests show up on the dashboard indicators of request handlers.</p>
       </li>
@@ -100,13 +82,13 @@
   <div class="iso-btns">
     <h3>ISO certified, we take your data very seriously.</h3>
     <a href="https://cvs.babcert.com/babcert.asp?c=234054&v=wgb5351g6c"  target="_blank" rel="noopener">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/iso-2021.png" height="50"/>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/iso-2021.png" height="75" width="75" alt="ISO Certificate"/>
     </a>
-    <a href="<?php echo site_url();?>/wp-content/uploads/2020/04/Essentials-20-21.pdf"  target="_blank">
-      <img class="alignnone wp-image-9961 size-medium" src="/wp-content/uploads/2018/10/ca.png" height="50"/>
+    <a href="<?php echo site_url();?>/wp-content/uploads/2020/04/Essentials-20-21.pdf"  target="_blank" rel="noreferrer">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/ca-75.png" height="75" width="89" alt="Cyber Essentials Certificate"/>
     </a>
-    <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software"  target="_blank">
-      <img class="alignnone wp-image-9961 size-medium" src="https://houseonthehill.com/wp-content/uploads/2020/06/ccs-200.png" height="50"/>
+    <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&lot=cloud-software"  target="_blank" rel="noreferrer">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/ccs-75.png" height="75" width="100" alt="Crown Commercial Supplier Logo"/>
     </a> 
   </div>
 </div>
@@ -150,11 +132,6 @@
         <h3>Completed Requests</h3>
         <p>Requests can be added easily to the Disclosure Log by ticking the “Add to Disclosure Log” tick option at the bottom of the request screen. On pressing OK the DC Log entry is shown and can be edited to remove personal information and validated.</p>
       </li>
-      <!--<li>
-      <div class="icon"><i class="far fa-info"></i></div>       
-        <h3>Run Case Reports</h3>
-        <p>Report on outcomes, exemptions and other key performance indicators at the touch of a button, and customise and schedule Case reports using House-on-the-Hill’s QuickReport Designer.</p>
-      </li>-->
       <li>
       <div class="icon"><i class="far fa-info"></i></div> 
         <h3>Delegation of Requests</h3>
