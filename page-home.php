@@ -2,7 +2,7 @@
 <div class="hothhome-header">
   <div class="hothhome-header-container">
     <div class="text">
-      <h1>Thirty Years Experience in providing Top Help Desk Software</h1> 
+      <h1>Thirty Years Experience in providing top Help Desk Software</h1> 
       <p>Get a trusted Cloud Service Desk & Portal which you can use for for Freedom of Information Requests, IT Support, Customer Service or Facilities Management.</p>
       <div class="signup-buttons">
         <!--<form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
