@@ -31,6 +31,7 @@
             </div>
             <h1><?php the_title(); ?></h1>
             <hr>
+            <h2><?php the_field('feature_tagline'); ?></h2>
         </div>  
     </div>
   
