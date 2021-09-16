@@ -43,7 +43,8 @@
           <input type="HIDDEN" name="F2178" id="F2178" size="1" value="CSM">
           <input class="Button" id="reg_submit" type="Submit" value="START FREE TRIAL">
         </form>
-      </div>      <p><strong>1000's of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
+      </div>
+      <p><strong>1000's of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
       <div class="customers">
             <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
               <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">

@@ -42,7 +42,6 @@
           <input type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Organisation Name">
           <input type="TEXT" name="F38" id="reg_email" size="0035" maxlength="50" value="" placeholder="Work Email">
           <input type="HIDDEN" name="F2178" id="F2178" size="1" value="ITSM">          
-          <div id="captcha_result"></div>
           <input class="Button" id="reg_submit" type="Submit" value="START FREE TRIAL">
         </form>
       </div>      
