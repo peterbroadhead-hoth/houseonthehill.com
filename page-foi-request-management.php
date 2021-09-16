@@ -6,15 +6,32 @@
       <p>Automate the processing of FOI, DPA, EIR, SAR, Information Governance & Complaints.</p>
       <div class="signup-buttons">
         <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
-          <input type="HIDDEN" id="A" name="A" value="AnonCall">
-          <input type="HIDDEN" id="F2158" name="F2158" value="0">
-          <input type="HIDDEN" id="F2126" name="F2126" value="341">
-          <input type="HIDDEN" id="F" name="F" value="0">
-          <input type="HIDDEN" id="CCSM" name="CCSM" value="0">
-          <input type="HIDDEN" id="InitMedium" name="InitMedium" value="8192">
-          <input type="HIDDEN" id="SummViewFold" name="SummViewFold" value="0">
-          <input type="HIDDEN" id="F3" name="F3" value="25">
-          <input type="HIDDEN" id="F2156" name="F3" value="48">
+          <INPUT TYPE=HIDDEN ID="entrytoggle" NAME="entrytoggle" VALUE="">
+          <INPUT TYPE=HIDDEN ID="selchange" NAME="selchange" VALUE="">
+          <INPUT TYPE=HIDDEN ID="selparam1" NAME="selparam1" VALUE="">
+          <INPUT TYPE=HIDDEN ID="AjaxUpdate" NAME="AjaxUpdate" VALUE="">
+          <INPUT TYPE=HIDDEN ID="A" NAME="A" VALUE="AnonCall">
+          <INPUT TYPE=HIDDEN ID="F1" NAME="F1" VALUE="">
+          <INPUT TYPE=HIDDEN ID="F2158" NAME="F2158" VALUE="0">
+          <INPUT TYPE=HIDDEN ID="NextStep" NAME="NextStep" VALUE="">
+          <INPUT TYPE=HIDDEN ID="F2126" NAME="F2126" VALUE="0">
+          <INPUT TYPE=HIDDEN ID="F2127_ctrl" NAME="F2127_ctrl" VALUE="">
+          <INPUT TYPE=HIDDEN ID="F2128_ctrl" NAME="F2128_ctrl" VALUE="">
+          <INPUT TYPE=HIDDEN ID="F2150_ctrl" NAME="F2150_ctrl" VALUE="">
+          <INPUT TYPE=HIDDEN ID="F2129_ctrl" NAME="F2129_ctrl" VALUE="">
+          <INPUT TYPE=HIDDEN ID="F2130_ctrl" NAME="F2130_ctrl" VALUE="">
+          <INPUT TYPE=HIDDEN ID="F2148_ctrl" NAME="F2148_ctrl" VALUE="">
+          <INPUT TYPE=HIDDEN ID="F2149_ctrl" NAME="F2149_ctrl" VALUE="">
+          <INPUT TYPE=HIDDEN ID="ActResolved_ctrl" NAME="ActResolved_ctrl" VALUE="">
+          <INPUT TYPE=HIDDEN ID="ActRespondedTo_ctrl" NAME="ActRespondedTo_ctrl" VALUE="">
+          <INPUT TYPE=HIDDEN ID="F5006_ctrl" NAME="F5006_ctrl" VALUE="">
+          <INPUT TYPE=HIDDEN ID="ContactId" NAME="ContactId" VALUE="0">
+          <INPUT TYPE=HIDDEN ID="F" NAME="F" VALUE="0">
+          <INPUT TYPE=HIDDEN ID="iViewHistory" NAME="iViewHistory" VALUE="0">
+          <INPUT TYPE=HIDDEN ID="CCSM" NAME="CCSM" VALUE="0">
+          <INPUT TYPE=HIDDEN ID="InitMedium" NAME="InitMedium" VALUE="0">
+          <INPUT TYPE=HIDDEN ID="SummViewFold" NAME="SummViewFold" VALUE="0">
+          <INPUT TYPE=HIDDEN ID="CUOCHF" NAME="CUOCHF" VALUE="1">
           <input type="HIDDEN" name="F2178" id="F2178" size="1" value="FOI">
           <input required="" type="TEXT" name="F2177" id="F2177" class="company-name" maxlength="25" value="" placeholder="Company Name">
           <input required="" type="TEXT" name="F38" id="F38" class="email-address" size="0035" maxlength="10000" placeholder="Email Address">
