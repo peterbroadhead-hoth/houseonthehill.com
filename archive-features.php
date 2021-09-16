@@ -31,6 +31,7 @@
                 <?php the_post_thumbnail() ?>
               </div>
               <h3><?php the_title();?></h3>
+              <p><?php the_field('feature_tagline'); ?></p>
               <ul class="feature-categories single">
                 <?php
                 $terms = get_the_terms( $post->ID, 'solution' );
