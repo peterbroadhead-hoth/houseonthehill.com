@@ -170,10 +170,15 @@ a.sign-up:hover{
   outline: unset;
 }
 
-.signup-buttons form input.company-name, .signup-buttons form input.email-address{ 
-  min-width: 35%;
+.signup-buttons form input{ 
+  width: 160px;
   border-right: 1px solid #c2c2c2;
 }
+
+.signup-buttons form input.Button[type="submit"]{
+  width: 200px;
+} 
+
 
 .signup-buttons form input.company-name{
   border-radius: 4px 0 0 4px;
@@ -185,6 +190,7 @@ a.sign-up:hover{
   border-radius: 0px 4px 4px 0;
   width: auto;
   padding: 10px 20px;
+  font-weight: bold;
 }
 
 a.sign-up{
