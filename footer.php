@@ -47,8 +47,8 @@
   </div>
 </div>
 
-<!--<script src='https://support.houseonthehill.com/suppdeskchat/scripts/HothChatWidget.js'></script>
-<script>HothChatWidget.config('https://support.houseonthehill.com/suppdeskchat');</script>-->
+<script src='https://support.houseonthehill.com/suppdeskchat/scripts/HothChatWidget.js'></script>
+<script>HothChatWidget.config('https://support.houseonthehill.com/suppdeskchat');</script>
 
 <style> 
     #hoth-chat-button{ z-index:10 } 
