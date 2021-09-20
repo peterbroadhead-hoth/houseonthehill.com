@@ -2231,7 +2231,261 @@ table.solution-table-price td:hover .description{
 	margin-left:10px;
 }
 
-/* whats new */
+/* Whats new 2020 */
+
+.whats-new-banner{
+  background: #FFB49B;
+  background-image: url("https://houseonthehill.com/wp-content/uploads/2020/03/arches.png");
+}
+
+.whats-new-banner .header h1{
+  color: #bb512e;
+}
+
+.whats-new-banner .header p{
+  color: #ffdcd1;
+}
+
+.whats-new-banner{
+  padding: 30px 10px;
+}
+
+.whats-new-banner .header-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+  max-width: 1000px;
+  padding: 10px;
+}
+
+.whats-new-banner .header{
+  text-align: left;
+  width: 55%;
+  margin: auto;
+  margin-left: 0;
+}
+
+.whats-new-banner .sub{
+  width: 40%;
+  display: block;
+  margin: auto;
+  margin-right: 0;
+}
+
+.whats-new-banner .sub-container{
+  background: white;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  width: auto;    
+  margin: auto;
+  margin-right: 0;
+}
+
+.whats-new-banner .header i{
+  font-size: 40px;
+}
+.whats-new-banner .header h1{
+  font-size: 50px;
+}
+
+.whats-new-banner .header p{
+  font-size: 18px;
+}
+
+
+.home-feature{
+  text-align: center;
+  color: black;
+  margin: auto;
+  width: 60%;
+  max-width: 1000px;
+  background: none;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.home-feature h2{
+  font-weight: bold;
+  width: 100%;
+  color: #1d557d;
+}
+
+.home-feature p{
+  font-size: 18px;
+  color: black;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.home-feature a{
+  font-size: 16px;
+  color: white;
+  background: #FFB49B;
+  border-radius: 4px;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+
+.home-feature a:hover{
+  opacity: 0.9;
+}
+
+.whats-new-features{
+  background: #ffdcd1;
+  padding: 50px 10px;
+}
+
+.whats-new-features h2{
+  color: #bb512e;
+}
+
+.whats-new-features .img-container{
+  margin: auto;
+  width: 60%;
+  max-width: 1000px;
+  padding: 10px;
+}
+
+
+.whats-new-features .home-feature.btn{
+  padding-bottom: 20px;
+}
+
+.whats-new-features .home-feature a{
+  background: #237e5f;
+}
+
+.whats-new-features .img-container img{
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #FFB49B;
+}
+
+.whats-new-features ul.features{  
+  margin: auto;
+  width: 60%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.whats-new-features ul.features li{
+  background: white;
+  list-style: none;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #FFB49B;
+  padding: 20px;
+  text-align: center;
+  width: 48%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.whats-new-features ul.features li p{
+  color: black;
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+.whats-new-features ul.features li h2{
+  color: black;
+  font-size: 22px;
+}
+
+.whats-new-features ul.features li .img{
+  width: 100%;
+  overflow: hidden;
+}
+
+.whats-new-features ul.features li .img img{
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.solution-features .header i{
+  font-size: 50px;
+  color: #f09e1f;
+}
+
+.solution-features.pt2{
+  padding-top: 0;
+}
+
+.solution-features.pt2 .header{
+  margin-bottom: 120px;
+}
+
+.whats-new-banner .form{
+  width: 40%;
+  display: block;
+  margin: auto 0;
+}
+
+.whats-new-banner .form-container{
+  background: white;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  width: auto;    
+  margin: auto;
+  margin-right: 0;
+}
+
+.whats-new-banner .form .hoth_signup p{
+  font-size: 12px;
+  color: #9a9a9a;
+}
+
+.whats-new-banner .form input {
+  width: 100%;
+  float: unset;
+  border-radius: 4px;
+  font-size: 15px;
+  border: 1px solid #ccc !important;
+  padding: 10px;
+  margin: 5px;
+}
+
+.whats-new-banner .form select{
+  width: 100%;
+  float: unset;
+  border-radius: 4px;
+  font-size: 15px;
+  border: 1px solid #ccc !important;
+  padding: 10px;
+  margin: 5px;
+  background: white;
+}
+
+.whats-new-banner .hoth_signup {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 20px;
+}
+
+.solution-features ul.list .img-container{
+  width: 90%;
+  margin-left: 10%;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #adadad;
+}
+
+.solution-features ul.list .img-container img{
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* whats new 2021 */
 .whats-new-container{
   padding-bottom: 300px;
 }
