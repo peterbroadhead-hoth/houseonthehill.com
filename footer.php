@@ -50,10 +50,6 @@
 <script src='https://support.houseonthehill.com/suppdeskchat/scripts/HothChatWidget.js'></script>
 <script>HothChatWidget.config('https://support.houseonthehill.com/suppdeskchat');</script>
 
-<style> 
-    #hoth-chat-button{ z-index:10 } 
-    body #hoth-chat { display: inherit; }
-</style>
 <script>
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-5009086-1']);
