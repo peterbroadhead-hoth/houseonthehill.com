@@ -1307,7 +1307,7 @@ margin: unset;
   margin: auto;
   padding: 50px;
   border-radius: 4px;
-  background: /*#EEEEEE*/ #F6FBF5;
+  background: /*#EEEEEE*/ #F5F7F7;
   text-align: center;
 }
 
@@ -1552,14 +1552,14 @@ transform: translate3d(0, -100%, 0);
 .scroll-up:not(.menu-open) .trigger-menu-wrapper {
 background: var(--lightpurple);
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
-background: #FFECC3;
+background: #f6f6f6;
 }
 
 .features.single .header{
 	background-image: unset;
 	height: auto;
 	min-height: unset;
-	background-color: #FFECC3;
+	background-color: #f6f6f6;
 	padding: 0;
 	padding-top: 80px;
 }

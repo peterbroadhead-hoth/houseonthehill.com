@@ -41,8 +41,8 @@
           <input type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Organisation Name">
           <input type="TEXT" name="F38" id="reg_email" size="0035" maxlength="50" value="" placeholder="Work Email">
           <select class="suptabde" name="F2178" id="F2178" size="1" onchange="selChg(2178);">
-            <option value="FOI%20and%20Case%20Management" selected>Freedom of Information Management</option>
-            <option value="IT%20Service%20Management">IT Service Management</option>
+            <option value="FOI%20and%20Case%20Management">Freedom of Information Management</option>
+            <option value="IT%20Service%20Management" selected>IT Service Management</option>
             <option value="Customer%20Service%20Management">Customer Service & Support</option>
             <option value="CAFM">Computer Aided Facilities Management</option>                            
           </select>
