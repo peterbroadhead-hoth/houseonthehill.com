@@ -21,9 +21,9 @@
 			<a href="<?php the_permalink(); ?>">
 				<div class="thumbnail feat-thumbnail">
 					<div class="caption">
-						<div class="img">
+						<!--<div class="img">
 							<?php echo get_the_post_thumbnail( $post_id, $size, $attr ); ?>
-						</div>
+						</div>-->
 						<h3><?php the_title();?></h3>
 						<p>
 							<?php
@@ -95,12 +95,12 @@
 }
 
 .case-study .col-md-12 .col-md-3{
-	width: 30%;
+	width: 45%;
 	margin: 0 auto;
 	margin-bottom: 50px;
 	background: white;
 	border-radius: 4px;
-	padding: 20px;
+	padding: 10px;
 	-webkit-box-shadow: 0px 0px 5px 3px rgba(250,227,200,1);
 -moz-box-shadow: 0px 0px 5px 3px rgba(250,227,200,1);
 box-shadow: 0px 0px 5px 3px rgba(250,227,200,1);
@@ -118,6 +118,7 @@ box-shadow: 0px 0px 5px 3px rgba(250,227,200,1);
 
 .case-study .col-md-12 .thumbnail .caption h3{
 	margin-top: 5px;
+	font-size: 18px;
 }
 
 .case-study .col-md-12 .thumbnail .caption a{
@@ -129,6 +130,7 @@ box-shadow: 0px 0px 5px 3px rgba(250,227,200,1);
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+	font-size: 14px;
 }
 
 .case-study .col-md-12 .col-md-3 .img{
