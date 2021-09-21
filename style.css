@@ -2734,6 +2734,12 @@ ul.whats-new li .whats-new-img img{
   display: block;
 }
 
+/* case study */
+
+.single-case-study{
+
+}
+
 /* reponsive Screen Size Styles */
 @media (max-width: 1500px){
   .hoth-header ul li span, .mini_contact{
