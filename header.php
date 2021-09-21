@@ -201,7 +201,7 @@
         <ul>
         	<div class="container">
         		<div class="main-menu">
-        			<h2 class="title">All about us</h2>
+        			<h2 class="title">All about House-on-the-Hill Software</h2>
 							<div class="main-menu-container">
 								<a href="/about-house-on-the-hill-software">
 									<li class="">
