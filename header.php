@@ -103,28 +103,28 @@
 					<div class="main-menu">
 						<h2 class="title">Power up your service</h2>
 						<div class="main-menu-container">
-							<a href="/features/report-designer/">
-								<li class="">
-									<h2>Reports Designer</h2>
-									<p>Build and extract real-time reports to provide critical information to your team</p>
-								</li>
-							</a>
 							<a href="/self-service/">
 								<li class="">
 									<h2>Self-Service Portal</h2>
 									<p>Allow your End-User's to log their own tickets</p>
 								</li>
 							</a>
+							<a href="/workflow-engine/">
+								<li class="">
+									<h2>Workflow & Automation Engine</h2>
+									<p>Automatically notify assignees of impending SLA breaches</p>
+								</li>
+							</a>
+							<a href="/features/report-designer/">
+								<li class="">
+									<h2>Reports Designer</h2>
+									<p>Build and extract real-time reports to provide critical information to your team on any data!</p>
+								</li>
+							</a>
 							<a href="/service-request-buttons/">
 								<li class="">
 									<h2>Service Request Buttons</h2>
 									<p>Make the Service Request process quick, easy and clear</p>
-								</li>
-							</a>
-							<a href="/workflow-engine/">
-								<li class="">
-									<h2>Workflow Engine</h2>
-									<p>Automatically notify assignees of impending SLA breaches</p>
 								</li>
 							</a>
 							<a href="/drag-and-drop-dashboard-builder/">
@@ -197,11 +197,11 @@
 		</li>
 
       <li><a href="/price-plans">Pricing</a></li>
-      <li><a href="/about-house-on-the-hill-software">About</a>
+      <li><a href="/contact-us">Contact</a>
         <ul>
         	<div class="container">
         		<div class="main-menu">
-        			<h2 class="title">All about us</h2>
+        			<h2 class="title">All about House-on-the-Hill Software</h2>
 							<div class="main-menu-container">
 								<a href="/about-house-on-the-hill-software">
 									<li class="">
@@ -265,12 +265,20 @@
     </ul>
     
     <ul class="sales">
-    	<li><a href="/docs"><i class="fal fa-book"></i><span>Product Documentation</span></a><p class="doc header-hover">Product Documentation</p></li>
+    	<li><a href="mailto:hello@houseonthehill.com"><i class="fal fa-envelope"></i><span style="color: #006b8e;font-size: 17px;">hello@houseonthehill.com</span></a><p class="doc header-hover">hello@houseonthehill.com</p></li>		
+    	<!--<li><a href="/docs"><i class="fal fa-book"></i><span>Product Documentation</span></a><p class="doc header-hover">Product Documentation</p></li>
     	<li><a href="/demo"><i class="fal fa-id-card"></i><span>Request a Demo</span></a><p class="demo header-hover">Request a Demo</p></li>
-    	<li><a href="https://support.houseonthehill.com/" rel="noopener"><i class="far fa-sign-in-alt"></i><span>Log In</span></a><p class="login header-hover">Log In</p></li>
+    	<li><a href="https://support.houseonthehill.com/" rel="noopener"><i class="far fa-sign-in-alt"></i><span>Log In</span></a><p class="login header-hover">Log In</p></li>-->
     	<li class="sign-up"><a href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank" class="sign-up-toggle">START YOUR FREE TRIAL</a></li>
     </ul>
   </div>
+</div>
+
+
+<div class="mini_contact">	
+	<h3><div class="img"><img src="/wp-content/themes/houseonthehill.com/images/pete-headshot.jpg" height="30" width="30" alt="Pete Headshot"></div>Schedule a Demo</h3>
+	<a href="mailto:demo@houseonthehill.com">demo@houseonthehill.com</a> 
+	<a href="tel:+44 (0) 161 449 7057">+44 (0) 161 449 7057</a>
 </div>
 
 <script>
