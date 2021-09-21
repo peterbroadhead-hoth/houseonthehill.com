@@ -28,25 +28,66 @@
 
 		
 <div class="hoth-header-container">
-  <div class="hoth-header">
-  	<a class="hoth-home" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/HotH-logo-square-50.png" alt="House-on-the-Hill Logo"> <span style="margin-left:10px;">House-on-the-Hill</span></a>
-    <ul>
-		<li class="dropdown">
-			<button onclick="myFunction()" class="dropbtn">Solutions</button>
-			<div id="myDropdown" class="dropdown-content">
-				<a href="/foi-request-management/">FOI, Case & Complaints Management</a>
-				<a href="/it-service-management-software">IT Service Management</a>
-				<a href="/customer-service-and-support/">Customer Service Management</a>
-				<a href="/facilities-management/">Computer Aided Facilities Management</a>
-			</div>
-		</li>
-		<li class="solutions"><a href="/price-plans">Solutions</a>
+	<div class="hoth-header">
+		<a class="hoth-home" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/HotH-logo-square-50.png" alt="House-on-the-Hill Logo"> <span style="margin-left:10px;">House-on-the-Hill</span></a>
+		<ul>
+			<li class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Solutions</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="/foi-request-management/">FOI, Case & Complaints Management</a>
+					<a href="/it-service-management-software">IT Service Management</a>
+					<a href="/customer-service-and-support/">Customer Service Management</a>
+					<a href="/facilities-management/">Computer Aided Facilities Management</a>
+				</div>
+			</li>
+			<li class="solutions"><a href="/price-plans">Solutions</a>
 			<ul>
 				<div class="container">
-					<div class="main-menu solutions">
-						<h2 class="title">Solutions</h2>
+					<div class="main-menu" style="width:35%">
+						<h2 class="title">By Sector</h2>
 							<div class="main-menu-container">
-								<a href="/foi-request-management/">
+								<a href="">
+									<li class="foi">
+										<h2>Public Sector</h2>
+										<p>Deliver intuitive processes for the whole organisation with HotH</p>
+									</li>
+								</a>
+								<a href="">
+									<li class="foi">
+										<h2>Local Government</h2>
+										<p>Many departments reach for HotH as an enterprise tool to deliver FOI Case Management & ITSM</p>
+									</li>
+								</a>
+								<a href="">
+									<li class="itsm">
+										<h2>Education</h2>
+										<p>Create rich self-service portals for Students or Staff to request services, create tickets and log facilities issues</p>
+									</li>
+								</a>
+								<a href="">
+									<li class="csm">
+										<h2>Retail Service</h2>
+										<p>Fully branded helpdesk, portal, complete email integration and Knowledge articles make House-on-the-Hill a great fit for providing a great service for your customers </p>
+									</li>
+								</a>
+								<a href="">
+									<li class="itsm">
+										<h2>Healthcare</h2>
+										<p>Hospitals rely on House-on-the-Hill's proven ITSM & Facilites packages to deliver modern ITIL workflows</p>
+									</li>
+								</a>
+								<a href="">
+									<li class="cafm">
+										<h2>Property Management</h2>
+										<p>Reactive and planned jobs are managed from within HotH across your whole property portfolio. Assign to engineers, invoice clients and manage contracts</p>
+									</li>
+								</a>
+							</div>
+					</div>
+					<div class="sub-menu solutions">
+						<h2 class="title">By Use</h2>
+						<div class="main-menu-container">
+							<a href="/foi-request-management/">
 									<li class="foi">
 										<h2>Freedom of Information & Case Management</h2>
 										<p>Automate the processing of FOI, DPA, ROPA, EIR, SAR, Information Governance & Complaints</p>
@@ -72,6 +113,7 @@
 								</a>
 							</div>
 					</div>
+
 
 					<div class="sub-menu">
 						<h2 class="title">Plans</h2>
