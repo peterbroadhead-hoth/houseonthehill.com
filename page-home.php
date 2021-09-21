@@ -77,12 +77,20 @@
   <div class="hothhome-testimonial-container">
     <h2>" Buy it, it is the best ITSM toolkit I have ever worked with, including ServiceNow. "</h2>
     <p>Michael Bebbington, Service Delivery Manager, <span>UK Plumbing Supplies</span></p>
+
   </div> 
   <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.webp" alt="House-on-the-Hill Agent Dashboard" height="524" width="999">
 </div>
 
+<!--<div class="hothhome-why">
+  <div>
+    <h2>Quick wins when choosing House-on-the-Hill</h2>
+    <?php the_content() ?>
+  </div> 
+</div>-->
+
 <div class="hothhome-solutions">
-  <div class="hothhome-solutions-container">
+  <div class="hothhome-solutions-container">    
     <h2>The perfect fit for your organisation</h2>
     <p>Wether you support customers, staff or the public, each comes fully branded & preloaded with all the modern service essentials.</p>
     <ul class="solutions">

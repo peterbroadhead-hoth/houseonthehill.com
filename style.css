@@ -327,6 +327,42 @@ a.more-info:hover{
 	opacity: 0.9;
 }
 
+.mini_contact{
+	background: white;
+    position: fixed;
+    padding: 10px;
+    border-radius: 4px;
+    right: 20px;
+    z-index: 9999;
+    box-shadow: 0 0 20px #70707033;
+    font-size: 12px;
+    top: 90px;
+  	display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.mini_contact h3{
+	margin:0;	
+    display: flex;
+    align-items: center;	
+    font-size: 15px;
+	flex:100%;
+}
+
+.mini_contact .img{
+	border-radius: 100px;
+    overflow: hidden;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.mini_contact a{
+	flex:100%;
+	font-size:15px;
+}
+
 .hoth-header ul {
   font-size: 0;
   list-style-type: none;
@@ -892,6 +928,7 @@ margin: unset;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .hothhome-testimonial-container{
@@ -908,6 +945,15 @@ margin: unset;
 
 .hothhome-testimonial img{
   max-width: 80%;
+}
+
+.hothhome-why{  
+  display: flex;
+  justify-content: center;
+}
+
+.hothhome-why div{
+    
 }
 
 .hothhome-solutions{
