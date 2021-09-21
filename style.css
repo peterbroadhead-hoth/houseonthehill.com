@@ -2736,8 +2736,14 @@ ul.whats-new li .whats-new-img img{
 
 /* case study */
 
-.single-case-study{
+.single-case-study, .single-case-study-content, .stay-updated-container, .case-study-btn{
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
 
+.case-study-btn{
+  padding-bottom: 200px;
 }
 
 /* reponsive Screen Size Styles */
