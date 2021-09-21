@@ -2742,7 +2742,7 @@ ul.whats-new li .whats-new-img img{
 
 /* reponsive Screen Size Styles */
 @media (max-width: 1500px){
-  .hoth-header ul li span{
+  .hoth-header ul li span, .mini_contact{
     display: none;
   }
 	.hoth-header ul li i{
