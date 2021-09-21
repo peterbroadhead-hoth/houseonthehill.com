@@ -290,6 +290,7 @@ a.more-info:hover{
 	text-decoration: none;
 	color: #3a3a3a;
 	padding: 10px;
+  font-weight: bold;
 }
 
 .hoth-header-container .hoth-header .hoth-home:hover{
@@ -378,14 +379,15 @@ a.more-info:hover{
 }
 
 .hoth-header ul a{
-	font-size: 14px;
+  font-size: 15px;
   display: flex;
   position: relative;
   align-items: center;
-	padding: 10px;
-	color: #3a3a3a;
-	padding: 10px;
-	height: 100%;
+  padding: 10px;
+  color: #3a3a3a;
+  padding: 10px;
+  height: 100%;
+  letter-spacing: 0.5px;
 }
 
 .hoth-header ul li{
