@@ -197,7 +197,7 @@
 		</li>
 
       <li><a href="/price-plans">Pricing</a></li>
-      <li><a href="/about-house-on-the-hill-software">About</a>
+      <li><a href="/contact-us">Contact</a>
         <ul>
         	<div class="container">
         		<div class="main-menu">
