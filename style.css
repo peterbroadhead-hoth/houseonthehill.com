@@ -425,16 +425,8 @@ a.more-info:hover{
 	left: 0;
 	position: fixed;
 	padding-bottom: 50px;
-	background: #f8f8f8;
-	background: rgba(248,248,248,1);
-background: -moz-linear-gradient(left, rgba(248,248,248,1) 0%, rgba(248,248,248,1) 50%, rgba(242,241,240,1) 50%, rgba(242,241,240,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,248,248,1)), color-stop(50%, rgba(248,248,248,1)), color-stop(50%, rgba(242,241,240,1)), color-stop(100%, rgba(242,241,240,1)));
-background: -webkit-linear-gradient(left, rgba(248,248,248,1) 0%, rgba(248,248,248,1) 50%, rgba(242,241,240,1) 50%, rgba(242,241,240,1) 100%);
-background: -o-linear-gradient(left, rgba(248,248,248,1) 0%, rgba(248,248,248,1) 50%, rgba(242,241,240,1) 50%, rgba(242,241,240,1) 100%);
-background: -ms-linear-gradient(left, rgba(248,248,248,1) 0%, rgba(248,248,248,1) 50%, rgba(242,241,240,1) 50%, rgba(242,241,240,1) 100%);
-background: linear-gradient(to right, rgba(248,248,248,1) 0%, rgba(248,248,248,1) 50%, rgba(242,241,240,1) 50%, rgba(242,241,240,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f2f1f0', GradientType=1 );
-margin: unset;
+	background:white;
+  margin: unset;
 }
 
 .hoth-header ul li:hover ul .container{
@@ -458,7 +450,7 @@ margin: unset;
 .hoth-header ul li:hover ul .container .main-menu{
 	padding: 0px;
 	width: 60%;
-	background: #f8f8f8;
+	background: white;
 	padding-bottom: 20px;
 }
 
@@ -481,7 +473,7 @@ margin: unset;
 
 .hoth-header ul li:hover ul .container .main-menu a{
   display: block;
-  width: 45%;
+  width: 90%;
   margin-left: 0;
   margin-right: 5%;
 	position: relative;
@@ -530,7 +522,7 @@ margin: unset;
 }
 
 .hoth-header ul li:hover ul .container .sub-menu{
-	background: #F2F1F0;
+	background: white;
 	padding-left: 20px;
 	padding-right: 0px;
 	width: 30%;

@@ -103,28 +103,28 @@
 					<div class="main-menu">
 						<h2 class="title">Power up your service</h2>
 						<div class="main-menu-container">
-							<a href="/features/report-designer/">
-								<li class="">
-									<h2>Reports Designer</h2>
-									<p>Build and extract real-time reports to provide critical information to your team</p>
-								</li>
-							</a>
 							<a href="/self-service/">
 								<li class="">
 									<h2>Self-Service Portal</h2>
 									<p>Allow your End-User's to log their own tickets</p>
 								</li>
 							</a>
+							<a href="/workflow-engine/">
+								<li class="">
+									<h2>Workflow & Automation Engine</h2>
+									<p>Automatically notify assignees of impending SLA breaches</p>
+								</li>
+							</a>
+							<a href="/features/report-designer/">
+								<li class="">
+									<h2>Reports Designer</h2>
+									<p>Build and extract real-time reports to provide critical information to your team on any data!</p>
+								</li>
+							</a>
 							<a href="/service-request-buttons/">
 								<li class="">
 									<h2>Service Request Buttons</h2>
 									<p>Make the Service Request process quick, easy and clear</p>
-								</li>
-							</a>
-							<a href="/workflow-engine/">
-								<li class="">
-									<h2>Workflow Engine</h2>
-									<p>Automatically notify assignees of impending SLA breaches</p>
 								</li>
 							</a>
 							<a href="/drag-and-drop-dashboard-builder/">
