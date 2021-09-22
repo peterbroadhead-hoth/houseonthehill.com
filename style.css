@@ -371,11 +371,12 @@ a.more-info:hover{
   display: flex;
   width: auto;
   margin: 0 auto;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .hoth-header ul.sales{
 	margin-right: 0;
+  margin-left: 5px;
 }
 
 .hoth-header ul a{
@@ -3123,6 +3124,12 @@ ul.whats-new li .whats-new-img img{
   }
   .social-values-content ul li{
     width: 100%;
+  }
+  .hoth-header ul{
+    margin-left: 0px;
+  }
+  .hoth-header ul.sales{
+    margin-left: 0;
   }
 }
 

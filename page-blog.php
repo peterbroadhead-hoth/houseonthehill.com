@@ -21,7 +21,7 @@
 		<div class="blog-post">
 			<a href="<?php the_permalink(); ?>">
 				<div class="blog-post-contents">
-					<div class="img"><?php echo get_the_post_thumbnail( $post_id, $size, $attr ); ?>
+					<div style="display:none;" class="img"><?php echo get_the_post_thumbnail( $post_id, $size, $attr ); ?>
 					</div>
 					<div class="caption">
 						<h3><?php the_title();?></h3>
