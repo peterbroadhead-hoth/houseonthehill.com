@@ -54,7 +54,7 @@
 .sector_main section:last-child{
     padding-bottom:200px;
 }
-  .sector_main section:nth-child(odd){
+  .sector_main section:nth-child(even){
       background:white;
   }
 
