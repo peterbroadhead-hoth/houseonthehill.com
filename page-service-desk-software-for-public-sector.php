@@ -27,11 +27,14 @@
       flex:1;
   }
 
-  .sector_main section img{
-      max-width:100%;
-      box-shadow: 0 0 20px #1e355033;
-      border-radius:4px;
+  h1{
+    font-size:50px
   }
+
+  .sector_main section img{
+      max-width:100%;      
+  }
+
   .sector_banner article a{
     font-size: 15px;
     color: white;
@@ -39,8 +42,7 @@
     font-weight: bold;
     padding: 10px 20px;
     display: flex;
-    width: fit-content;
-    border-radius: 4px;
+    width: fit-content;    
 }     
 
 .sector_main section{
@@ -60,6 +62,7 @@
       flex:100%;
       border-left: 5px solid #fee119;
       padding-left: 10px;
+      font-size:40px
   }
 
   .sector_main h3{
@@ -69,7 +72,7 @@
 
   .sector_main h4{
     text-align: left;
-    font-size: 20px;
+    font-size: 40px;
   }
 
   .case_studies{      
@@ -78,9 +81,11 @@
   }
 
   blockquote{
+    font-size: 35px;
     font-style: italic;
     border: 0;
     padding: 10px 0;
+    color: #1e3550;
   }
 
   .contact span{
@@ -91,9 +96,7 @@
     display: block;
     width: 45%;
     overflow: hidden;
-    background: white;
-    border-radius: 4px;
-    box-shadow: 0 0 20px #1e355033;
+    background: white;    
     margin-right: 5%;
     height:300px;
     position: relative;
@@ -153,8 +156,7 @@
 <main class="sector_main">
     <section>
         <h2>Built of Sturdy Stuff</h2>
-        <p>House-on-the-Hill's deep foundations in Service Desk Management has been proven time and time again as a standout solution for the Public Sector.<p>
-        <p>Departments reach to House-on-the-Hill for IT Service Management (ITSM), Facilities Management (CAFM), Freedom of Information or they take control of all these areas with Enterprise Service Management</p>
+        <p>House-on-the-Hill's deep foundations in Service Desk Management has been proven time and time again as a standout solution for the Public Sector. Departments reach to House-on-the-Hill for IT Service Management (ITSM), Facilities Management (CAFM), Freedom of Information or they take control of all these areas with Enterprise Service Management</p>
     </section>
     <section>
         <h2>Become Part of the Family</h2>
@@ -172,13 +174,12 @@
             <a href="/casestudy/epping-forest-district-council/" class="sector_case">
                 <div style="background-image:url(/wp-content/uploads/2021/09/epping.jpg)"></div>
                 <h3>Epping Forest see the wood for the trees with HotH</h3>
-                <p>the support that I received to deliver this project was second to none, nothing was too much trouble and CAB has become one of my favourite items in HotH</p>
+                <p>The support that I received to deliver this project was second to none, nothing was too much trouble and CAB has become one of my favourite items in HotH</p>
                 <span>Read Case Study</span>
             </a>
         </article>
     </section>
-    <section>
-        <h2 style="margin-bottom:50px">Essential Tools for the Public Sector</h2>
+    <section>        
         <article>
             <h3>Self Service</p>
             <h4>Designed Self-Service Portals your Users will love</h4>
@@ -193,8 +194,8 @@
           <img src="/wp-content/themes/houseonthehill.com/images\screenshots\hoth-features.webp" alt="Full Feature List">
         </article>
         <article>
-            <h3>Feature Rich</p>
-            <h4>Packed to Rafters in Features</h4>
+            <h3>Essential Tools for the Public Sector</p>
+            <h4>Packed to the Rafters in Features</h4>
             <p>Tap into a rich ecosystem of service desk features, 3rd party integrations and open APIs. Lets make our House your Home.<p>
         </article>
     </section>

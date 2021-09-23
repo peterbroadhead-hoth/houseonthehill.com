@@ -46,7 +46,7 @@
 					<div class="main-menu" style="width:35%">
 						<h2 class="title">By Sector</h2>
 							<div class="main-menu-container">
-								<a href="/it-service-management-software">
+								<a href="/service-desk-software-for-public-sector/">
 									<li class="foi">
 										<h2>Public Sector</h2>
 										<p>Deliver intuitive processes for the whole organisation with HotH</p>
