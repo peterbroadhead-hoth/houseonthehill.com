@@ -1643,7 +1643,9 @@ margin: auto;
 .features.single .content img{
   margin-top: 20px;
   border-radius: 4px;
+  max-width: 100%;
 }
+
 
 .features.single .content .text .break img{
   position: unset;
