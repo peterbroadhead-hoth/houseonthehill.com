@@ -3,7 +3,7 @@
   <div class="solution-header-container">
     <div class="text">
       <h1>FOI, Case & Complaints Management Software</h1> 
-      <p>Automate the processing of FOI, DPA, EIR, SAR, Information Governance & Complaints.</p>
+      <p>Make the best of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaints with House-on-the-Hill Case Management.</p>
       <div class="signup-buttons">
       <form action="https://house-on-the-hill.com/mothership/supisacs.dll" method="POST" id="theForm" name="theForm"
           onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
@@ -44,7 +44,7 @@
           <input class="Button" id="reg_submit" type="Submit" value="START FREE TRIAL">
         </form>
       </div>      
-      <p><strong>1000's of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
+      <p><strong>Many UK Public and Private Organisations make Case Management look like a breeze with House-on-the-Hill. Stem the tide of Requests to spend more time on what matters</strong></p>
       <div class="customers">
             <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
               <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
@@ -76,28 +76,28 @@
 
 <div class="solution-key-features">
   <div class="solution-key-features-container">
-    <h2>Get on the case</h2>
-    <p>Helping you to process cases with ease.</p>
+    <h2>Get on the Case</h2>
+    <p>Capture any type of Requests with Ease</p>
     <ul class="solutions">
       <li>
         <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/12/deadline-alerts.png" alt="Alerts Icon"></div>
-        <h3>Automatic <br>Deadline Alerts</h3>
-        <p>Deadline dates and Warning dates are automatically calculated based on deadline selections. House-on-the-Hill Case can issue alerts if the request goes beyond this warning date.</p>
+        <h3>Adhere to<br>Deadlines</h3>
+        <p>Deadline dates and Warning dates are automatically calculated and House-on-the-Hill Case Management can issue alerts if the request goes beyond this warning date.</p>
       </li>
       <li>
         <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2021/02/hightend-communication.png" alt="Communication Icon"></div>
-        <h3>Heighten <br>Communication</h3>
-        <p>Once the end user has submitted their request the system can email an automatic reply to them, or it can be initiated manually once the request is being processed.</p>
+        <h3>Automatic <br>Email Replies</h3>
+        <p>Once the public has submitted their request the system can email an automatic reply to them.</p>
       </li>
       <li>
         <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/12/website-link.png" alt="Website Link Icon"></div>
-        <h3>Link From <br>Your Website</h3>
+        <h3>Seamless Link From <br>Your Website</h3>
         <p>House-on-the-Hill Case Management allows you to add a link your website that will capture requests by the public.</p>
       </li>
       <li>
         <div class="icon"><img src="https://houseonthehill.com/wp-content/uploads/2020/07/cafm-reports.png" alt="Report Icon"></div>
         <h3>Heighten <br>Visualisation</h3>
-        <p>Within House-on-the-Hill Case, logged requests show up on the dashboard indicators of request handlers.</p>
+        <p>Comes with reports ready and can be added to your dashboards. Never miss a beat.</p>
       </li>
     </ul>
   </div>
@@ -131,22 +131,22 @@
 
 <div class="solution-features">
   <div class="solution-features-container">
-    <h2>Helping you to help your customers</h2>
-    <p>All the tools needed for a quality customer support service.</p>
+    <h2>Helping you to help the people that matter</h2>
+    <p>All the tools at hand to liberate service!</p>
     <ul class="features foi">
       <li>
       <div class="icon"><i class="far fa-info"></i></div>      
-        <h3>Customise Case Forms</h3>
-        <p>The form that displays when the link is clicked can be customised by you to include the required fields and styling. Forms can be customised using House-on-the-Hill’s Drag and Drop Forms Designer.</p>
+        <h3>Public Portal Submissions</h3>
+        <p>Leverage the portal to save you time and money! Capture the exact information you need from the requestor.</p>
       </li>
       <li>
       <div class="icon"><i class="far fa-info"></i></div>       
         <h3>Paperless Progression of Case Requests</h3>
-        <p>Case request handlers user can drill-down from the dashboard to new requests and start the handling process of Assigning the request, and progressing the status of the request.</p>
+        <p>No need to pick up your pen or deliver a letter. Manage the whole digital case life-cycle from right within the House-on-the-Hill.</p>
       </li>
       <li>
       <div class="icon"><i class="far fa-info"></i></div>       
-        <h3>Fully searchable Disclosure Log</h3>
+        <h3>Save your breath with a fully searchable Disclosure Log</h3>
         <p>Quickly search responses to previous Freedom of Information requests handled under the Freedom of Information Act.</p>
       </li>
       <li>
