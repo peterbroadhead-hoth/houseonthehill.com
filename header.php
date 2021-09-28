@@ -43,7 +43,7 @@
 			<li class="solutions"><a href="/price-plans">Solutions</a>
 			<ul>
 				<div class="container">
-					<div class="main-menu" style="width:35%">
+					<div class="main-menu sector">
 						<h2 class="title">By Sector</h2>
 							<div class="main-menu-container">
 								<a href="/service-desk-software-for-public-sector/">

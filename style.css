@@ -461,7 +461,14 @@ a.more-info:hover{
 
 .hoth-header ul li:hover ul .container .main-menu{
 	padding: 0px;
-	width: 60%;
+	width: 40%;
+	background: white;
+	padding-bottom: 20px;
+}
+
+.hoth-header ul li:hover ul .container .main-menu{
+	padding: 0px;
+	width: 40%;
 	background: white;
 	padding-bottom: 20px;
 }
@@ -533,11 +540,15 @@ a.more-info:hover{
 	color: #E48E28;
 }
 
+.hoth-header ul li:hover ul .container .sub-menu.solutions{
+  width: 35%;
+}
+
 .hoth-header ul li:hover ul .container .sub-menu{
 	background: white;
 	padding-left: 20px;
 	padding-right: 0px;
-	width: 30%;
+	width: 25%;
   border-left: 1px solid #E0E0E0;
 }
 
@@ -2839,9 +2850,6 @@ ul.whats-new li .whats-new-img img{
   .hoth-footer-container .btns:before{
     display: none;
   }
-  .hoth-header ul li:hover ul .container .main-menu{
-    width: 70%;
-  }
   .pricing ul.solutions li {
     width: 40%;
     margin: 0 auto;
@@ -2991,6 +2999,19 @@ ul.whats-new li .whats-new-img img{
   }
 }
 
+@media (max-width: 1000px){
+  .hoth-header ul li:hover ul .container .main-menu{
+    width: 50%;
+  }
+  .hoth-header ul li:hover ul .container .sub-menu.solutions{
+    width: 50%;
+    display: initial;
+  }
+  .hoth-header ul li:hover ul .container .sub-menu{
+    display: none;
+  }
+}
+
 @media (max-width: 920px){
 	.hoth-header-container .hoth-header .hoth-home span{
 		font-size: 20px;
@@ -3063,14 +3084,13 @@ ul.whats-new li .whats-new-img img{
 }
 
 @media (max-width: 750px){
-  .hoth-header ul li:hover ul{
-    background: #f8f8f8;
-  }
-  .hoth-header ul li:hover ul .container .sub-menu{
+  .hoth-header ul li:hover ul .container .sub-menu, .hoth-header ul li:hover ul .container .main-menu{
     display: none;
   }
-  .hoth-header ul li:hover ul .container .main-menu{
+  .hoth-header ul li:hover ul .container .sub-menu.solutions{
     width: 100%;
+    padding-left: 0;
+    border-left: unset;
   }
   .pricing ul.solutions li{
     width: 100%;
