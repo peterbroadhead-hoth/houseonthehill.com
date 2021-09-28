@@ -475,7 +475,7 @@ a.more-info:hover{
 .hoth-header ul li:hover ul li {
 	display: block;
 	width: 100%;
-  padding: 20px;
+  padding: 15px;
   padding-left: 0;
 }
 

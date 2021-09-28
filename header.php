@@ -132,7 +132,7 @@
 					</div>
 					<div class="foot-menu">
 						<div class="contact">
-							<a href="/demo/">Request a Demo</a><div class="vl"></div><a href="/company/contact-us/">Contact Sales</a>
+							<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Login</a>
 						</div>
 					</div>
 			</div>
@@ -160,7 +160,7 @@
 							<a href="/features/report-designer/">
 								<li class="">
 									<h2>Reports Designer</h2>
-									<p>Build and extract real-time reports to provide critical information to your team on any data!</p>
+									<p>Build and extract real-time reports to provide critical information to your team on any data</p>
 								</li>
 							</a>
 							<a href="/service-request-buttons/">
@@ -238,7 +238,7 @@
 					</div>
 					<div class="foot-menu">
 						<div class="contact">
-							<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a>
+							<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Login</a>
 						</div>
 					</div>
 			</div>
@@ -246,7 +246,7 @@
 		</li>
 
       <li><a href="/price-plans">Pricing</a></li>
-      <li><a href="/contact-us">Contact</a>
+      <li><a href="/contact-us">About</a>
         <ul>
         	<div class="container">
         		<div class="main-menu">
@@ -255,36 +255,43 @@
 								<a href="/about-house-on-the-hill-software">
 									<li class="">
 										<h2>About House-on-the-Hill</h2>
+										<p>What is House-on-the-Hill?</p>
 									</li>
 								</a>
 								<a href="/testimonials">
 									<li class="">
 										<h2>Customer Testimonials</h2>
-									</li>
-								</a>
-								<a href="/contact-us">
-									<li class="">
-										<h2>Contact House-on-the-Hill</h2>
-									</li>
-								</a>
-								<a href="/casestudy">
-									<li class="">
-										<h2>Customer Case Studies</h2>
+										<p>Dont just take our word for it, see what our customers say</p>
 									</li>
 								</a>
 								<a href="/blog">
 									<li class="">
 										<h2>Blog</h2>
+										<p>Keep up to date with all that we do at HotH</p>
+									</li>
+								</a>
+								<a href="/casestudy">
+									<li class="">
+										<h2>Customer Case Studies</h2>
+										<p>Read how we helped businesses make our House, their Home</p>
+									</li>
+								</a>
+								<a href="/contact-us">
+									<li class="">
+										<h2>Contact House-on-the-Hill</h2>
+										<p>Need help? Want a demo? Questions on our pricing? Get in touch, were ready to help</p>
 									</li>
 								</a>
 								<a href="/careers">
 									<li class="">
 										<h2>Careers</h2>
+										<p>Interested in joining the HotH team?</p>
 									</li>
 								</a>
 								<a href="/social-values-statement/">
 									<li class="">
 										<h2>Social Values</h2>
+										<p>We are proud to support charities, fund-raising events and work experience programs</p>
 									</li>
 								</a>
 							</div>
@@ -300,11 +307,11 @@
 		          	<p>Don’t fret, contact support below and we can help.<br><a href="mailto:support@houseonthehill.com">support@houseonthehill.com</a></p>
 		          </li>
 		        </div>
-		        <div class="foot-menu">
-		        	<div class="contact">
-			        	<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><
-			        </div>
-		        </div>
+						<div class="foot-menu">
+							<div class="contact">
+								<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Login</a>
+							</div>
+						</div>
           </div>
         </ul>
       </li>
