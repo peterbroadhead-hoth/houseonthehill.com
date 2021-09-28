@@ -228,6 +228,13 @@
 								<p>Add another facet to your customer service and provide support with immediate engagement.</p>
 							</li>
 						</a>
+						<a class="whats-new" href="/whats-new/">
+							<li>
+								<img width="50" style="margin-bottom: 5px;" src="/wp-content/uploads/2021/08/lightbulb.png">
+								<h2>Whats New</h2>
+								<p>See what developments and features our HotH team have been working on to help improve your services this year.</p>
+							</li>
+						</a>
 					</div>
 					<div class="foot-menu">
 						<div class="contact">

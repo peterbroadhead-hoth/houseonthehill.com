@@ -391,6 +391,16 @@ a.more-info:hover{
   letter-spacing: 0.5px;
 }
 
+.hoth-header ul a.whats-new{
+  background: #F4DDC7;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.hoth-header ul a.whats-new li{
+  padding: 10px !important;
+}
+
 .hoth-header ul li{
   font-size: 14px;
   display: flex;
