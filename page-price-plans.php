@@ -85,6 +85,7 @@
           <p>Included:</p>
           <p><span>FOI, EIR, DPA Management</span></p>
           <p><span>Information Governance</span></p>
+          <p><span>Record of Processing Activities (RoPA)</span></p>
           <p><span>Contact Database</span></p>
           <p><span>Letter Generation</span></p>
           <p><span>Disclosure Log</span></p>
