@@ -831,6 +831,14 @@
         <td>Add-On</td>
       </tr>
       <tr class="collapsible case" style="">
+        <td>Record of Processing Activities (RoPA)</td>
+        <td class="price">£500 py</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+      </tr>
+      <tr class="collapsible case" style="">
         <td>Unlimited Departmental Data Requesters</td>
         <td class="price">£750 py</td>
         <td>Add-On</td>
