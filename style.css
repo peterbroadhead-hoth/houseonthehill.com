@@ -394,7 +394,8 @@ a.more-info:hover{
 .hoth-header ul a.whats-new{
   background: #F4DDC7;
   border-radius: 4px;
-  margin: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .hoth-header ul a.whats-new li{
