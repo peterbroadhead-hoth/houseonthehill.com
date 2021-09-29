@@ -606,7 +606,7 @@ a.more-info:hover{
 }
 
 .hoth-header ul li:hover ul .container .foot-menu .contact{
-	padding: 15px 0;
+	padding: 15px 10px;
 	width: 80%;
 	margin: auto;
 	display: flex;
