@@ -3053,6 +3053,9 @@ ul.whats-new li .whats-new-img img{
   .solution-key-feature{
     width: 80%;
   }
+  .hoth-header ul li:hover ul .container, .hoth-header ul li:hover ul .container .foot-menu .contact{
+    width: 100%;
+  }
 }
 
 @media (max-width: 800px){
@@ -3085,7 +3088,7 @@ ul.whats-new li .whats-new-img img{
 }
 
 @media (max-width: 750px){
-  .hoth-header ul li:hover ul .container .sub-menu, .hoth-header ul li:hover ul .container .main-menu{
+  .hoth-header ul li:hover ul .container .sub-menu, .hoth-header ul li:hover ul .container .main-menu.sector{
     display: none;
   }
   .hoth-header ul li:hover ul .container .sub-menu.solutions{
