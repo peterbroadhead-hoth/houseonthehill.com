@@ -255,7 +255,7 @@
 								<a href="/about-house-on-the-hill-software">
 									<li class="">
 										<h2>About House-on-the-Hill</h2>
-										<p>A small buiness running powerful service desk solutions</p>
+										<p>A small business running powerful service desk solutions</p>
 									</li>
 								</a>
 								<a href="/testimonials">
