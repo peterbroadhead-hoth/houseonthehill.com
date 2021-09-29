@@ -854,7 +854,7 @@
         <th class="category"></th>
       </tr>
       <tr class="collapsible api" style="">
-        <td>SCCM, Certero, Snow, Altiris Connectors</td>
+        <td>SCCM, Lansweeper, Certero, Snow, Altiris Connectors</td>
         <td class="price">£500 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
