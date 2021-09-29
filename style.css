@@ -459,16 +459,13 @@ a.more-info:hover{
   margin-bottom: 0;;
 }
 
-.hoth-header ul li:hover ul .container .main-menu{
-	padding: 0px;
-	width: 40%;
-	background: white;
-	padding-bottom: 20px;
+.hoth-header ul li.solutions:hover ul .container .main-menu{
+  width: 40%;
 }
 
 .hoth-header ul li:hover ul .container .main-menu{
 	padding: 0px;
-	width: 40%;
+	width: 60%;
 	background: white;
 	padding-bottom: 20px;
 }
@@ -544,11 +541,15 @@ a.more-info:hover{
   width: 35%;
 }
 
+.hoth-header ul li:hover ul .container .sub-menu.plans{
+	width: 25%;
+}
+
 .hoth-header ul li:hover ul .container .sub-menu{
 	background: white;
 	padding-left: 20px;
 	padding-right: 0px;
-	width: 25%;
+	width: 40%;
   border-left: 1px solid #E0E0E0;
 }
 
@@ -613,7 +614,7 @@ a.more-info:hover{
 
 .hoth-header ul li:hover ul .container .foot-menu .contact a{
 	font-size: 14px;
-	color: #868686;
+	color: #FF8780;
 }
 
 .hoth-header ul li:hover ul .container .foot-menu .contact a:hover{

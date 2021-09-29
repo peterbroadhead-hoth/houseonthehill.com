@@ -115,7 +115,7 @@
 					</div>
 
 
-					<div class="sub-menu">
+					<div class="sub-menu plans">
 						<h2 class="title">Plans</h2>
 						<a href="/price-plans/">
 							<li>
@@ -255,7 +255,7 @@
 								<a href="/about-house-on-the-hill-software">
 									<li class="">
 										<h2>About House-on-the-Hill</h2>
-										<p>What is House-on-the-Hill?</p>
+										<p>A small buiness running powerful service desk solutions</p>
 									</li>
 								</a>
 								<a href="/testimonials">
