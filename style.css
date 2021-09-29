@@ -2998,6 +2998,15 @@ ul.whats-new li .whats-new-img img{
   .charity tr td{
     padding: 10px;
   }
+  .hoth-header ul li.solutions:hover ul .container .main-menu{
+    width: 55%;
+  }
+  .hoth-header ul li:hover ul .container .sub-menu.solutions{
+    width: 45%;
+  }
+  .hoth-header ul li:hover ul .container .sub-menu.plans{
+    display: none;
+  }
 }
 
 @media (max-width: 1000px){
@@ -3010,6 +3019,15 @@ ul.whats-new li .whats-new-img img{
   }
   .hoth-header ul li:hover ul .container .sub-menu{
     display: none;
+  }
+  .hoth-header ul li:hover ul .container .main-menu{
+    width: 100%;
+  }
+  .hoth-header ul li:hover ul .container .main-menu.sector{
+    width: 55%;
+  }
+  .hoth-header ul li:hover ul .container .sub-menu.solutions{
+    width: 45%;
   }
 }
 
