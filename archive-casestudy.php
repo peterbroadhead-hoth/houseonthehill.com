@@ -3,6 +3,7 @@
 	<div class="case-study-header">
 		<div class="header-container">
 			<div class="header">
+				<img src="/wp-content/themes/houseonthehill.com/images/case-study.png">
 				<h1>House-on-the-Hill Case Studies</h1>
 				<p>How customers made our House their Home</p>
 			</div>
@@ -66,8 +67,13 @@
   background-size: 600px;
   background-position-y: -50px;
   background-position-x: 105%;
-  height: 300px;
+  height: auto;
 	width: 100%;
+}
+
+.case-study-header img{
+	height: 250px;
+	margin-bottom: 50px;
 }
 
 .header-container{
