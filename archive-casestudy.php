@@ -21,9 +21,9 @@
 			<a href="<?php the_permalink(); ?>">
 				<div class="thumbnail feat-thumbnail">
 					<div class="caption">
-						<!--<div class="img">
+						<div class="img">
 							<?php echo get_the_post_thumbnail( $post_id, $size, $attr ); ?>
-						</div>-->
+						</div>
 						<h3><?php the_title();?></h3>
 						<p>
 							<?php
