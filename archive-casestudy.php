@@ -145,14 +145,13 @@ box-shadow: 0px 0px 7px 5px rgba(250, 207, 169, 1);
 }
 
 .case-study .col-md-12 .col-md-3 .img{
-	width: 100px;
-	height: auto;
+	height: 80px;
 	margin-bottom: 20px;
 }
 
 .case-study .col-md-12 .col-md-3 .img img{
-	max-width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
 }
 
 .case-study .col-md-12 .col-md-3 .feature-categories{
