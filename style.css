@@ -2761,11 +2761,14 @@ ul.whats-new li .whats-new-img img{
 }
 
 /* case study */
-
 .single-case-study, .single-case-study-content, .stay-updated-container, .case-study-btn{
   width: 80%;
   margin: auto;
   padding: 10px;
+}
+
+.single-case-study{
+  padding-top: 50px;
 }
 
 .case-study-btn{
