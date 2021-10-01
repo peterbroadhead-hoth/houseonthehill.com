@@ -145,7 +145,7 @@ box-shadow: 0px 0px 7px 5px rgba(250, 207, 169, 1);
 }
 
 .case-study .col-md-12 .col-md-3 .img{
-	height: 80px;
+	height: 50px;
 	margin-bottom: 20px;
 }
 
