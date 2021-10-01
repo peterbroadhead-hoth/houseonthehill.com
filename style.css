@@ -3010,6 +3010,9 @@ ul.whats-new li .whats-new-img img{
   .hoth-header ul li:hover ul .container .sub-menu.plans{
     display: none;
   }
+  .hoth-header ul{
+    margin-left: 0;;
+  }
 }
 
 @media (max-width: 1000px){
