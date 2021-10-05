@@ -12,24 +12,6 @@
 
 <div class="single-case-study-content">
 	<?php the_content(); ?>
-	<div class="img">
-		<div class="col-md-8 text-center">
-		<?php 
-		$images = get_field('gallery');       
-		if( $images ): ?>
-				<div id="slider" class="flexslider feat-slider">
-					<ul class="slides">
-					<?php foreach( $images as $image ): ?>
-					<li class="text-center">
-					<p><?php echo $image['caption']; ?></p>
-					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />                           
-					</li>
-					<?php endforeach; ?>
-					</ul>
-				</div>
-			<?php endif; ?>             
-		</div>
-  </div>
 </div>
 
 <div class="stay-updated-container">
@@ -43,6 +25,10 @@
 </div>
 
 <style>
+.single-case-study-content h4{
+	text-align:left;
+}
+
 .blog-content img{
 	float: left;
 	margin:10px;
@@ -54,13 +40,4 @@
 <?php endif; ?>	
 
 
-<script src="<?php echo site_url(); ?>/wp-content/themes/hoth/js/jquery.flexslider.js"></script>
-<script type="text/javascript">
-$(window).load(function() {
-$('.flexslider').flexslider({
-      animation: "slide",
-      slideshowSpeed: 10000,     
-    });
-});
-</script>
 <?php get_footer(); ?>
