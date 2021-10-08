@@ -1,4 +1,11 @@
 <?php get_header();?>
+<script type="text/javascript">
+  var onloadCallback = function() {
+    grecaptcha.render('captcha_result', {
+      'sitekey' : '6LeB7xgTAAAAAED-unfhzx3ZTuvE2dG-2gKmhdV6'
+    });
+  };
+</script>
 <div class="hothhome-header">
   <div class="hothhome-header-container">
     <div class="text">
@@ -48,6 +55,8 @@
           </select>
           <input class="Button" id="reg_submit" type="submit" value="START FREE TRIAL">
       </form>
+
+      <div style="margin-top: 5px;" id="captcha_result"></div>
         <!--<a class="sign-up" href="https://house-on-the-hill.com/mothership/register">START YOUR FREE TRIAL</a>-->
         <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
       </div>
@@ -169,4 +178,17 @@
   </div>
 </div>
 
+<script src=https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit
+    async defer>
+</script>
+<script>
+var form = document.getElementById('theForm');
+form.addEventListener("submit", function(event){
+    if (grecaptcha.getResponse() === '') {                            
+      event.preventDefault();
+      alert('Please check the recaptcha');
+    }
+  }
+, false);
+</script>
 <?php get_footer();?>
