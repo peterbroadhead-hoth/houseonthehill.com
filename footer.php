@@ -18,7 +18,7 @@
         © House-on-the-Hill Software Ltd <?php echo date('Y'); ?><br><a href="/privacy-policy">Privacy Policy</a>
         <br>
         <a href="mailto:support@houseonthehill.com?subject=The Information Security Policy is available on request - Please send me a copy">Information Security Policy</a>
-        <p>Support: +44 (0) 161 449 7057</p>
+        <p>Support: +44 (0) 161 528 1259</p>
         <div class="btns">
           <p><a rel="noopener" target="_blank" href="https://support.houseonthehill.com/" rel="noreferrer">Customer Self-Service</a></p>
           <p><a rel="noopener" href="/docs/">Product Documentation</a></p>
