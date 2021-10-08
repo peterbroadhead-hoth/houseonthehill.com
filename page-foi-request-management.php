@@ -1,4 +1,11 @@
 <?php get_header();?>
+<script type="text/javascript">
+  var onloadCallback = function() {
+    grecaptcha.render('captcha_result', {
+      'sitekey' : '6LeB7xgTAAAAAED-unfhzx3ZTuvE2dG-2gKmhdV6'
+    });
+  };
+</script>
 <div class="solution-header foi">
   <div class="solution-header-container">
     <div class="text">
@@ -43,6 +50,7 @@
           <input type="HIDDEN" name="F2178" id="F2178" size="1" value="FOI">          
           <input class="Button" id="reg_submit" type="Submit" value="START FREE TRIAL">
         </form>
+        <div style="margin-top: 5px;" id="captcha_result"></div>
       </div>      
       <p><strong>Many UK Public and Private Organisations make Case Management look like a breeze with House-on-the-Hill. Stem the tide of Requests to spend more time on what matters</strong></p>
       <div class="customers">
@@ -202,4 +210,17 @@
     </ul>
   </div>
 </div>
+<script src=https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit
+    async defer>
+</script>
+<script>
+var form = document.getElementById('theForm');
+form.addEventListener("submit", function(event){
+    if (grecaptcha.getResponse() === '') {                            
+      event.preventDefault();
+      alert('Please check the recaptcha');
+    }
+  }
+, false);
+</script>
 <?php get_footer();?>
