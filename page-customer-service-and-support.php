@@ -1,4 +1,11 @@
 <?php get_header();?>
+<script type="text/javascript">
+  var onloadCallback = function() {
+    grecaptcha.render('captcha_result', {
+      'sitekey' : '6LeB7xgTAAAAAED-unfhzx3ZTuvE2dG-2gKmhdV6'
+    });
+  };
+</script>
 <div class="solution-header csm">
   <div class="solution-header-container">
     <div class="text">
@@ -43,6 +50,7 @@
           <input type="HIDDEN" name="F2178" id="F2178" size="1" value="CSM">
           <input class="Button" id="reg_submit" type="Submit" value="START FREE TRIAL">
         </form>
+        <div style="margin-top: 5px;" id="captcha_result"></div>
       </div>
       <p><strong>1000's of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
       <div class="customers">
@@ -159,4 +167,17 @@
     </ul>
   </div>
 </div>
+<script src=https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit
+    async defer>
+</script>
+<script>
+var form = document.getElementById('theForm');
+form.addEventListener("submit", function(event){
+    if (grecaptcha.getResponse() === '') {                            
+      event.preventDefault();
+      alert('Please check the recaptcha');
+    }
+  }
+, false);
+</script>
 <?php get_footer();?>
