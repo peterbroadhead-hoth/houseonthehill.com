@@ -71,7 +71,7 @@
     <h2>" HotH’s knowledge is excellent and their ability to find solutions to even the most complicated requirements is second to none. I would recommend their services to anyone looking for a bespoke, fully functional and user-friendly service management software provider. "</h2>
     <p>Andrea Ashurst <span>Ascot Services</span></p>
   </div> 
-  <img src="/wp-content/themes/houseonthehill.com/images/screenshots/foidashboard.png" alt="House-on-the-Hill Agent Dashboard">
+  <img src="/wp-content/uploads/2021/09/CAFM-screenshot-2021.png" alt="House-on-the-Hill Agent Dashboard">
 </div>
 
 <div class="solution-key-features">
