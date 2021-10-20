@@ -1,5 +1,4 @@
 <?php get_header();?>
-
 <div class="solution-header itsm">
   <div class="solution-header-container">
     <div class="text">

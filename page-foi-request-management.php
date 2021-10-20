@@ -71,7 +71,7 @@
     <h2>" Timely, flexible, informed and effective response received. Thanking you kindly. "</h2>
     <p>James Smuts <span>Parliamentary and Health Service Ombudsman</span></p>
   </div> 
-  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/foi-dash-3.png" alt="House-on-the-Hill Agent Dashboard">
+  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/foidashboard.png" alt="House-on-the-Hill Agent Dashboard">
 </div>
 
 <div class="solution-key-features">

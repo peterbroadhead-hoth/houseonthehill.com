@@ -334,7 +334,7 @@
 <div class="mini_contact">	
 	<h3><div class="img"><img src="/wp-content/themes/houseonthehill.com/images/pete-headshot.jpg" height="30" width="30" alt="Pete Headshot"></div>Schedule a Demo</h3>
 	<a href="mailto:demo@houseonthehill.com">demo@houseonthehill.com</a> 
-	<a href="tel:+44 (0) 161 449 7057">+44 (0) 161 449 7057</a>
+	<a href="tel:+44 (0) 161 449 7057">+44 (0) 161 528 1259</a>
 </div>
 
 <script>
