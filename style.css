@@ -1772,6 +1772,8 @@ ul.key-features{
   flex-wrap: wrap;
 }
 
+.pricing ul.solutions li .intro h3 a{color: #3a3a3a;}
+
 .pricing ul.solutions li.itsm .intro{
   background-image: url(https://houseonthehill.com/wp-content/uploads/2021/08/pricingitsm.png);
   background-size: 125px;
