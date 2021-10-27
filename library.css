@@ -272,7 +272,7 @@ a.footer-trial{
 }
 
 .library-container .container.pad-top-bottom img{
-  width: auto;
+  /* width: auto; */
   max-width: 100%;
   height: auto;
   max-height: 100%;

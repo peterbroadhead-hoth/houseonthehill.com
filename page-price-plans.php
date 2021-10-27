@@ -12,12 +12,7 @@
     <ul class="solutions">
       <li class="itsm">
         <div class="intro">
-<<<<<<< HEAD
-          <h3 class="header">IT Service <br>Management</h3>
-          <div class="btn-cnt"><a class="more-info" href="/it-service-management/">Find out more</a></div>
-=======
           <h3 class="header"><a href="/it-service-management/">IT Service <br>Management</a></h3>
->>>>>>> 5468ba44d75850f735d3d4c958322a2abc9f6b9d
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">Start your free trial</a></div>
           <div class="price"><h3>£30</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
         </div>
@@ -38,12 +33,7 @@
       </li>
       <li class="csm">
         <div class="intro">
-<<<<<<< HEAD
-          <h3 class="header">Customer Service Management</h3>
-          <div class="btn-cnt"><a class="more-info" href="/customer-service-and-support/">Find out more</a></div>
-=======
           <h3 class="header"><a href="/customer-service-and-support/">Customer Service Management</a></h3>
->>>>>>> 5468ba44d75850f735d3d4c958322a2abc9f6b9d
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">Start your free trial</a> </div>
           <div class="price"><h3>£30</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
         </div>
@@ -63,12 +53,7 @@
       </li>
       <li class="cafm">
         <div class="intro">
-<<<<<<< HEAD
-          <h3 class="header">Computer Aided Facilities Management</h3>
-          <div class="btn-cnt"><a class="more-info" href="/facilities-management/">Find out more</a></div>
-=======
           <h3 class="header"><a href="/facilities-management/">Computer Aided Facilities Management</a></h3>
->>>>>>> 5468ba44d75850f735d3d4c958322a2abc9f6b9d
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Start your free trial</a></div>
           <div class="price"><h3>£30</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
         </div>
@@ -89,12 +74,7 @@
       </li>
       <li class="foi">
         <div class="intro">
-<<<<<<< HEAD
-          <h3 class="header">FOI, Case & Complaints Management</h3>
-          <div class="btn-cnt"><a class="more-info" href="/foi-request-management/">Find out more</a></div>
-=======
           <h3 class="header"><a href="/foi-request-management/">FOI, Case & Complaints Management</a></h3>
->>>>>>> 5468ba44d75850f735d3d4c958322a2abc9f6b9d
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Start your free trial</a></div>
           <div class="price"><h3>£30</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
         </div>
