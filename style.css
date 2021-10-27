@@ -201,6 +201,7 @@ a.sign-up{
   padding: 10px 25px;
   font-weight: bold;
   box-shadow: 0 0 20px #ffffff38;
+  font-size: 16px;
 }
 
 a.demo{
@@ -1396,6 +1397,13 @@ a.more-info:hover{
   width: 80%;
   margin: 25px auto;
 }
+
+
+/* Foi Only Solution */
+.solution-header-container .text{}
+
+
+
 /* single page testimonial */
 
 .hoth-single-testimonial{
@@ -1839,6 +1847,10 @@ ul.key-features{
 
 .pricing ul li .btn-cnt{
   width: 100%;
+}
+
+.pricing ul li .btn-cnt .more-info{
+  margin-bottom: 10px;
 }
 
 .pricing ul li .price{
