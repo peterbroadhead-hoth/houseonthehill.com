@@ -75,9 +75,10 @@
 
 <div class="hothhome-testimonial">
   <div class="hothhome-testimonial-container">
-    <h2>" Buy it, it is the best ITSM toolkit I have ever worked with, including ServiceNow. "</h2>
-    <p>Michael Bebbington, Service Delivery Manager, <span>UK Plumbing Supplies</span></p>
-
+    <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
+      <h2>" Buy it, it is the best ITSM toolkit I have ever worked with, including ServiceNow. "</h2>
+      <p>Michael Bebbington, Service Delivery Manager, <span>UK Plumbing Supplies</span></p>
+    </a>
   </div> 
   <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.webp" alt="House-on-the-Hill Agent Dashboard" height="524" width="999">
 </div>
