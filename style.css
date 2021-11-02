@@ -198,7 +198,7 @@ a.sign-up{
   color: #ffffff;
   margin-left: 0;
   border-radius: 4px;
-  padding: 10px 25px;
+  padding: 10px 20px;
   font-weight: bold;
   box-shadow: 0 0 20px #ffffff38;
   font-size: 16px;
@@ -222,7 +222,7 @@ a.more-info{
   border: 3px solid #1E3550;
   color: #1E3550;
   background-color: transparent;
-  padding: 7px 27px;
+  padding: 7px 22px;
   font-size: 16px;
   border-radius: 4px;
   margin-left: 0;
@@ -259,6 +259,14 @@ a.more-info:hover{
 
 .row{
   margin: 0;
+}
+
+.demo-btn{
+}
+
+.demo-btn img{
+  border-radius: 100%;
+  height: 30px;
 }
 
 /* Header */
@@ -307,7 +315,7 @@ a.more-info:hover{
 
 
 .hoth-header a.sign-up-toggle{
-  padding: 10px 30px;
+  padding: 10px 20px;
   border-radius: 4px;
   display: inline-block;
   background: #1e3550;
@@ -1400,9 +1408,175 @@ a.more-info:hover{
 
 
 /* Foi Only Solution */
-.solution-header-container .text{}
+.foi.header{
+  padding: 50px 10px;
+  background: white;
+  position: relative;
+  min-height: 400px;
+}
 
+.foi.header .img{
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+}
 
+.foi.header .container{
+  padding: 0;
+}
+
+.foi.header .text{
+  width: 700px;
+  z-index: 9;
+}
+
+.foi.header .text h1{
+  font-size: 5rem;
+}
+
+.foi .testimonials{
+  background: white;
+  padding: 50px;
+}
+
+.foi .testimonials .customers{
+  justify-content: center;
+  height: 70px;
+}
+
+.foi .testimonials .customers a{
+  margin: auto;
+  display: flex;
+  padding: 5px;
+}
+
+.foi .testimonials .customers img{
+  margin: auto;
+}
+
+.foi .testimonials .container{
+  text-align: center;
+  display: unset;
+  flex-wrap: unset;
+  width: 60%;
+  padding: 0;
+}
+
+.foi .testimonials .container p{
+  font-size: 2.6rem;
+  padding: 50px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.foi .testimonials .container .quote{
+  padding-top: 50px;
+}
+
+.foi .testimonials .container .quote img{
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.foi .testimonials .container .quote .text{
+  margin: auto;
+  padding: 50px;
+  width: 80%;
+}
+
+.foi .testimonials .container .quote .text p{
+  font-size: 1.8rem;
+}
+
+.foi .testimonials .container .quote .text p span{
+  font-weight: bold;
+  color: #1D3550;
+}
+
+.foi .solution-features{
+  display: flex;
+  background: white;
+  padding: 0;
+}
+
+.foi .solution-features .text{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.foi .solution-features .text h2{
+  font-size: 25px;
+}
+
+.foi .solution-features ul{
+  width: 80%;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  border-top: 2px solid #1D3550;
+}
+
+.foi .solution-features ul li{
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  width: 33.3%;
+  margin: 0 auto;
+}
+
+.foi .solution-features ul li h3{
+  font-size: 20px;
+}
+
+.foi .solution-features ul li img{
+  width: 150px;
+  height: auto;
+}
+
+.foi .large-solution-features{
+  display: flex;
+  background: white;
+  padding: 0;
+}
+
+.foi .large-solution-features .text{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.foi .large-solution-features ul{
+  width: 80%;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.foi .large-solution-features ul li{
+  list-style: none;
+  padding: 10px;
+  padding-bottom: 50px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.foi .large-solution-features ul li .text{
+  width: 45%;
+  margin: auto 5%;
+  text-align: left;
+}
+
+.foi .large-solution-features ul li img{
+  width: 45%;
+  height: auto;
+  margin: auto 5%;
+  border-radius: 4px;
+}
 
 /* single page testimonial */
 
@@ -3000,6 +3174,30 @@ ul.whats-new li .whats-new-img img{
   .about-us-container .intro{
     background-image: unset;
   }
+  .foi.header .text{
+    width: 50%;
+  }
+  .foi .testimonials .container{
+    width: 80%;
+  }
+  .foi .solution-features ul li{
+    width: 50%;
+  }
+  .foi .large-solution-features ul li{
+    flex-wrap: wrap;
+  }
+  .foi .large-solution-features ul li:nth-child(3){
+    flex-wrap: wrap-reverse;
+  }
+  .foi .large-solution-features ul li .text{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .foi .large-solution-features ul li img{
+    width: 80%;
+    margin: auto;
+  }
   .about-us-container .intro h1{
     width: 100%;
   }
@@ -3092,6 +3290,27 @@ ul.whats-new li .whats-new-img img{
     width: 80%;
   }
   .hoth-header ul li:hover ul .container, .hoth-header ul li:hover ul .container .foot-menu .contact{
+    width: 100%;
+  }
+  .foi.header .container, .foi .testimonials .container .quote .text{
+    width: 100%;
+  }
+  .foi .testimonials .container p{
+    padding: 50px 10px;
+  }
+  .foi.header .img{
+    right: 0;
+  }
+  .foi.header .img img{
+    width: 300px;
+  }
+  .foi .solution-features{
+    padding: 10px;
+  }
+  .foi .solution-features ul{
+    width: 100%;
+  }
+  .foi .large-solution-features ul{
     width: 100%;
   }
 }
@@ -3206,6 +3425,18 @@ ul.whats-new li .whats-new-img img{
   .hoth-header ul.sales{
     margin-left: 0;
   }
+  .foi .solution-features ul li{
+    width: 80%;
+  }
+  .foi .testimonials{
+    padding: 10px;
+  }
+  .foi .testimonials .container .quote .text{
+    padding: 25px;
+  }
+  .foi .solution-features ul li{
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px){
@@ -3226,7 +3457,7 @@ ul.whats-new li .whats-new-img img{
   /* header mobile */
   
   .hoth-header-container .hoth-header{
-    width: 80%;
+    width: 100%;
     padding-right: 0;
   }
 
@@ -3362,6 +3593,15 @@ ul.whats-new li .whats-new-img img{
   }
   .solution-key-feature .img{
     height: 200px;
+  }
+  .foi.header .text{
+    width: 100%;
+  }
+  .foi.header .img{
+    display: none;
+  }
+  .foi .testimonials .container p, .foi .large-solution-features ul{
+    padding: 10px;
   }
 
   /* Features mobile */

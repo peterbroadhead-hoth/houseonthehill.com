@@ -132,7 +132,7 @@
 					</div>
 					<div class="foot-menu">
 						<div class="contact">
-							<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Login</a>
+							<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Log In</a>
 						</div>
 					</div>
 			</div>
@@ -238,7 +238,7 @@
 					</div>
 					<div class="foot-menu">
 						<div class="contact">
-							<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Login</a>
+							<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Log In</a>
 						</div>
 					</div>
 			</div>
@@ -309,7 +309,7 @@
 		        </div>
 						<div class="foot-menu">
 							<div class="contact">
-								<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Login</a>
+								<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Log In</a>
 							</div>
 						</div>
           </div>
@@ -321,11 +321,12 @@
     </ul>
     
     <ul class="sales">
-    	<li><a href="mailto:hello@houseonthehill.com"><i class="fal fa-envelope"></i><span style="color: #006b8e;font-size: 17px;">hello@houseonthehill.com</span></a><p class="doc header-hover">hello@houseonthehill.com</p></li>		
-    	<!--<li><a href="/docs"><i class="fal fa-book"></i><span>Product Documentation</span></a><p class="doc header-hover">Product Documentation</p></li>
+    	<!--<li><a href="mailto:hello@houseonthehill.com"><i class="fal fa-envelope"></i><span style="color: #006b8e;font-size: 17px;">hello@houseonthehill.com</span></a><p class="doc header-hover">hello@houseonthehill.com</p></li>		
+    	<li><a href="/docs"><i class="fal fa-book"></i><span>Product Documentation</span></a><p class="doc header-hover">Product Documentation</p></li>
     	<li><a href="/demo"><i class="fal fa-id-card"></i><span>Request a Demo</span></a><p class="demo header-hover">Request a Demo</p></li>-->
     	<li><a href="https://support.houseonthehill.com/" rel="noopener"><i class="far fa-sign-in-alt"></i><span>Log In</span></a><p class="login header-hover">Log In</p></li>
-    	<li class="sign-up"><a href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank" class="sign-up-toggle">START YOUR FREE TRIAL</a></li>
+    	<li class="demo-btn"><a href="/demo"><i class="fal fa-id-card"></i><span>Book a Demo</span></a><p class="demo header-hover">Book a Demo</p></li>
+    	<li class="sign-up"><a href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank" class="sign-up-toggle">Free Trial</a></li>
     </ul>
   </div>
 </div>
