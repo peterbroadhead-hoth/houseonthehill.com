@@ -58,7 +58,7 @@
         </p>
       </li>
       <li>
-        <img src="wp-content/uploads/2021/11/mail.png">
+        <img src="/wp-content/uploads/2021/11/mail.png">
         <h3>Configurable Email replies</h3>
         <p>Decide if you want to pick and choose when and which email is sent or if you want preselected emails to be triggered automatically on stages of the case management</p>
       </li>
@@ -82,7 +82,7 @@
             Out of the box Case Management Forms that are amendable. Easily edit our Case Form Templates or start from scratch and create your own custom field and forms suited for your Case Management. <br><br>Each Case Form can be customised with House-on-the-Hills <a href="/drag-and-drop-form-builder/">Drag and Drop form builder</a> to allow collection of the required data and information for that Case.
           </p>
         </div>
-        <img src="wp-content/uploads/2021/11/FOICaseScreen.webp">
+        <img src="/wp-content/uploads/2021/11/FOICaseScreen.webp">
       </li>
       <li>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/createquickreport.webp">
