@@ -73,7 +73,7 @@
   <div class="large-solution-features">
     <ul>
       <div class="text">
-        <h2>Powerful out of the box features to power your Case Management</h2>
+        <h2>Powerfuls out of the box features to power your Case Management</h2>
       </div>
       <li>
         <div class="text">
