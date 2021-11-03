@@ -349,10 +349,10 @@
       <tr>
         <td><a href="/features/microsoft-teams-integration/">Microsoft Teams Integration</a></td>
         <td class="price">£500 py</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
       </tr>
       <tr>
         <td>Visitor Management </td>        
