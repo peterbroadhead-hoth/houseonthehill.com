@@ -5,8 +5,8 @@
 			<h1>Keep up to date with all things HotH</h1>
 			<div class="subscribe background">
 				<div class="blog-subscribe">
-					<p>Subscribe to our mailist</p>
-					<a class="sign-up">Subscribe</a>
+					<p>Subscribe to our mail list</p>
+					<a href="https://houseonthehill.us7.list-manage.com/subscribe/post?u=5d1860cf63b176a1bc1f90e4e&id=45e9270529" target="_blank" class="sign-up">Subscribe</a>
 				</div>
 			</div>
 		</div>
