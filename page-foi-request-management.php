@@ -7,9 +7,9 @@
         <p>Make the best of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaints with House-on-the-Hill Case Management.</p>
         <a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener" target="_blank" class="sign-up-toggle">START YOUR FREE TRIAL</a>
       </div>
-    </div>
-    <div class="img">
-      <img src="https://houseonthehill.com/wp-content/uploads/2021/05/foi_paint.png">
+      <div class="img">
+        <img src="https://houseonthehill.com/wp-content/uploads/2021/05/foi_paint.png">
+      </div>
     </div>
   </div>
 
