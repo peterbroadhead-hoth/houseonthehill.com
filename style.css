@@ -339,33 +339,33 @@ a.more-info:hover{
 
 .mini_contact{
 	background: white;
-    position: fixed;
-    padding: 10px;
-    border-radius: 4px;
-    right: 20px;
-    z-index: 9999;
-    box-shadow: 0 0 20px #70707033;
-    font-size: 12px;
-    top: 90px;
-  	display: flex;
-    flex-wrap: wrap;
-    width: 200px;
+  position: fixed;
+  padding: 10px;
+  border-radius: 4px;
+  right: 20px;
+  z-index: 9999;
+  box-shadow: 0 0 20px #70707033;
+  font-size: 12px;
+  top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
 }
 
 .mini_contact h3{
 	margin:0;	
-    display: flex;
-    align-items: center;	
-    font-size: 15px;
+  display: flex;
+  align-items: center;	
+  font-size: 15px;
 	flex:100%;
 }
 
 .mini_contact .img{
 	border-radius: 100px;
-    overflow: hidden;
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
+  overflow: hidden;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
 }
 
 .mini_contact a{
@@ -1475,7 +1475,6 @@ a.more-info:hover{
 
 .foi .testimonials .container .quote img{
   max-width: 100%;
-  border-radius: 4px;
 }
 
 .foi .testimonials .container .quote .text{
@@ -1559,25 +1558,45 @@ a.more-info:hover{
 .foi .large-solution-features ul li{
   list-style: none;
   padding: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   width: 100%;
   margin: auto;
   display: flex;
 }
 
 .foi .large-solution-features ul li .text{
-  width: 45%;
-  margin: auto 5%;
+  width: 40%;
+  margin: 0 5%;
+  text-align: left;
+}
+
+.foi .large-solution-features ul li .text h4{
   text-align: left;
 }
 
 .foi .large-solution-features ul li img{
-  width: 45%;
+  width: 60%;
   height: auto;
-  margin: auto 5%;
+  margin: auto;
+}
+
+.foi .solution-features.list .text h2{
+  text-align: left;
+  padding: 10px;
+}
+
+.foi .solution-features.list ul li{
+  text-align: left;
+  margin: unset;
+  width: 32%;
+  margin-right: 1%;
+  background-color: #FAFAFA;
   border-radius: 4px;
 }
 
+.foi .solution-features.list ul{
+  border-top: 2px solid rgba(29, 53, 80, 0.15)
+}
 /* single page testimonial */
 
 .hoth-single-testimonial{

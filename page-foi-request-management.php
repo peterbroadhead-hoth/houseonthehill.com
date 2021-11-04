@@ -3,7 +3,7 @@
   <div class="foi header">
     <div class="container">  
       <div class="text">  
-        <h1>FOI, <br>Case & Complaints <br>Management Software</h1> 
+        <h1>FOI, Case & Complaints <br>Management Software</h1> 
         <p>Make the best of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaints with House-on-the-Hill Case Management.</p>
         <a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener" target="_blank" class="sign-up-toggle">START YOUR FREE TRIAL</a>
       </div>
@@ -77,7 +77,7 @@
       </div>
       <li>
         <div class="text">
-          <h3>Customiseable Forms</h3>
+          <h4>Customiseable Forms</h4>
           <p>
             Out of the box Case Management Forms that are amendable. Easily edit our Case Form Templates or start from scratch and create your own custom field and forms suited for your Case Management. <br><br>Each Case Form can be customised with House-on-the-Hills <a href="/drag-and-drop-form-builder/">Drag and Drop form builder</a> to allow collection of the required data and information for that Case.
           </p>
@@ -87,7 +87,7 @@
       <li>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/createquickreport.webp">
         <div class="text">
-          <h3>Run Case Reports</h3>
+          <h4>Run Case Reports</h4>
           <p>
           Report on outcomes, exemptions and other key performance indicators at the touch of a button, and customise and schedule Case reports using House-on-the-Hill’s <a href="/report-designer/">QuickReport Designer.</a>
           <br><br>Use our default templates as a guide or build your own from scratch. The choice is yours.
@@ -97,7 +97,7 @@
     </ul>
   </div>
 
-  <div class="solution-features">
+  <div class="solution-features list">
     <ul>
       <div class="text">
         <h2>Public Facing Internal Forms plus email integration​</h2>
@@ -117,7 +117,7 @@
     </ul>
   </div>
 
-  <div class="solution-features">
+  <div class="solution-features list">
     <ul>
       <div class="text">
         <h2>Compliance and Consistency</h2>
@@ -149,7 +149,7 @@
     </ul>
   </div>
 
-  <div class="solution-features">
+  <div class="solution-features list">
     <ul>
       <div class="text">
         <h2>Easier Case Management</h2>
@@ -177,7 +177,7 @@
     </ul>
   </div>
 
-  <div class="solution-features">
+  <div class="solution-features list">
     <ul>
       <div class="text">
         <h2>Extensive Reporting and Integration</h2>
@@ -197,7 +197,7 @@
     </ul>
   </div>
 
-  <div class="solution-features">
+  <div class="solution-features list">
     <ul>
       <div class="text">
         <h2>Disclosure Log</h2>
@@ -213,7 +213,7 @@
     </ul>
   </div>
 
-  <div class="solution-features">
+  <div class="solution-features list">
     <ul>
       <div class="text">
         <h2>Integration and training</h2>
