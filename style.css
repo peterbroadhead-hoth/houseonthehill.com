@@ -1588,9 +1588,11 @@ a.more-info:hover{
 .foi .solution-features.list ul li{
   text-align: left;
   margin: unset;
-  width: 32%;
-  margin-right: 1%;
-  background-color: #FAFAFA;
+  width: 31%;
+  margin: 2%;
+  margin-left: 0;
+  margin-top: 0;
+  background-color: #f7fcff;
   border-radius: 4px;
 }
 
