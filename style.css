@@ -3213,6 +3213,10 @@ ul.whats-new li .whats-new-img img{
   .foi .large-solution-features ul li .text{
     width: 80%;
     margin: auto;
+    text-align: center;
+  }
+  .foi .large-solution-features ul li .text h4{
+    text-align: center;
   }
   .foi .large-solution-features ul li img{
     width: 80%;
@@ -3266,6 +3270,9 @@ ul.whats-new li .whats-new-img img{
   }
   .hoth-header ul li:hover ul .container .sub-menu.solutions{
     width: 45%;
+  }
+  .foi .solution-features.list ul li{
+    width: 48%;
   }
 }
 
@@ -3457,7 +3464,9 @@ ul.whats-new li .whats-new-img img{
   .foi .solution-features ul li{
     width: 100%;
   }
-}
+  .foi .solution-features.list ul li{
+    width: 100%;
+  }
 
 @media (max-width: 600px){
   body{margin-top: 90px;}
