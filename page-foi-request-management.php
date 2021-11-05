@@ -4,11 +4,11 @@
     <div class="container">  
       <div class="text">  
         <h1>FOI, Case & Complaints <br>Management Software</h1> 
-        <p>Make the best of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaints with House-on-the-Hill Case Management.</p>
+        <p>Make the best use of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaints with House-on-the-Hill Case Management.</p>
         <a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener" target="_blank" class="sign-up-toggle">START YOUR FREE TRIAL</a>
       </div>
       <div class="img">
-        <img src="https://houseonthehill.com/wp-content/uploads/2021/05/foi_paint.png">
+        <img src="https://houseonthehill.com/wp-content/uploads/2021/05/foi_paint.png" alt="freedom of information software painted graphic">
       </div>
     </div>
   </div>
@@ -79,7 +79,7 @@
         <div class="text">
           <h4>Customiseable Forms</h4>
           <p>
-            Out of the box Case Management Forms that are amendable. Easily edit our Case Form Templates or start from scratch and create your own custom field and forms suited for your Case Management. <br><br>Each Case Form can be customised with House-on-the-Hills <a href="/drag-and-drop-form-builder/">Drag and Drop form builder</a> to allow collection of the required data and information for that Case.
+            Out of the box Case Management Forms that are amendable. Easily edit our Case Form Templates or start from scratch and create your own custom fields and forms suited for your Case Management. <br><br>Each Case Form can be customised with House-on-the-Hills <a href="/drag-and-drop-form-builder/">Drag and Drop form builder</a> to allow collection of the required data and information for that Case.
           </p>
         </div>
         <img src="https://houseonthehill.com/wp-content/uploads/2021/11/FOICaseScreen-1.webp" alt="Case Management Software Dashboard">
@@ -124,7 +124,7 @@
       </div>
       <li>
         <h3>Automatic Date Calculations</h3>
-        <p>Ensure compliance with government legislation and include Date recalculation after Clarification requests or waits for fees.​</p>
+        <p>Ensure compliance with government legislation and include automatic Date recalculation after Clarification of requests or after waiting for fees.​​</p>
       </li>
       <li>
         <h3>Customisable Workflow</h3>
@@ -192,7 +192,7 @@
       </li>
       <li>
         <h3>Schedule reports</h3>
-        <p>​Set key reports sent automatically when and to whom you decide.</p>
+        <p>​Set key reports to be sent automatically when and to whom you decide.</p>
       </li>
     </ul>
   </div>
