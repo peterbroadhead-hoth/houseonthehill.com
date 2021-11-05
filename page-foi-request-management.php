@@ -82,10 +82,10 @@
             Out of the box Case Management Forms that are amendable. Easily edit our Case Form Templates or start from scratch and create your own custom field and forms suited for your Case Management. <br><br>Each Case Form can be customised with House-on-the-Hills <a href="/drag-and-drop-form-builder/">Drag and Drop form builder</a> to allow collection of the required data and information for that Case.
           </p>
         </div>
-        <img src="/wp-content/uploads/2021/11/FOICaseScreen.webp">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/foicasescreen.webp" alt="Case Management Software Dashboard">
       </li>
       <li>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/createquickreport.webp">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/createquickreport.webp" alt="FOI software quick report">
         <div class="text">
           <h4>Run Case Reports</h4>
           <p>
