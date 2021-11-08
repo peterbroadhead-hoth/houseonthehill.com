@@ -3,12 +3,12 @@
   <div class="foi header">
     <div class="container">  
       <div class="text">  
-        <h1>FOI, Case & Complaints <br>Management Software</h1> 
-        <p>Make the best use of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaints with House-on-the-Hill Case Management.</p>
+        <h1 alt="Complaint Management Software Case Management Software FOI software Freedom of Information software">FOI, Case & Complaints <br>Management Software</h1> 
+        <p>Make the best useof your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaint Management Software  with House-on-the-Hill Case Management.</p>
         <a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener" target="_blank" class="sign-up-toggle">START YOUR FREE TRIAL</a>
       </div>
       <div class="img">
-        <img src="https://houseonthehill.com/wp-content/uploads/2021/05/foi_paint.png" alt="freedom of information software painted graphic">
+        <img src="https://houseonthehill.com/wp-content/uploads/2021/05/foi_paint.png" alt="FOI software painted graphic">
       </div>
     </div>
   </div>
@@ -37,7 +37,7 @@
       <div class="quote">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/foi-dashboard-2021.webp">
         <div class="text">
-          <h2>" Timely, flexible, informed and effective response received. Thanking you kindly. "</h2>
+          <h2 alt="Complaint Management Software Case Management Software FOI software Freedom of Information software">" Timely, flexible, informed and effective response received. Thanking you kindly. "</h2>
           <p>James Smuts <span>Parliamentary and Health Service Ombudsman</span></p>
         </div>
       </div>
@@ -48,12 +48,12 @@
     <ul>
       <div style="margin-bottom: 50px;" class="text">
         <h2>Get on the Case</h2>
-        <p>Capture any type of Requests with Ease with <br><strong>House-on-the-hill's FOI, Case & Complaints Management Software</strong></p>
+        <p alt="Complaint Management Software Case Management Software FOI software Freedom of Information software">Capture any type of Requests with Ease with <br><strong>House-on-the-hill's FOI, Case & Complaints Management Software</strong></p>
       </div>
       <li>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/multiplecasetypes.webp">
-        <h3>Multiple Case Types</h3>
-        <p>
+        <h3 alt="Complaint Management Software Case Management Software FOI software Freedom of Information software">Multiple Case Types</h3>
+        <p alt="Complaint Management Software Case Management Software FOI software Freedom of Information software">
           FOI, EIR, DSAR, Complaints, Compliments, Ombudsman, Councillor and MP Enquiries, Information Governance, RoPA and more. 
         </p>
       </li>
@@ -73,13 +73,13 @@
   <div class="large-solution-features">
     <ul>
       <div class="text">
-        <h2>Powerful out of the box features to power your Case Management</h2>
+        <h2 alt="Complaint Management Software Case Management Software FOI software Freedom of Information software">Powerful out of the box features to power your Case Management Software</h2>
       </div>
       <li>
         <div class="text">
-          <h4>Customiseable Forms</h4>
-          <p>
-            Out of the box Case Management Forms that are amendable. Easily edit our Case Form Templates or start from scratch and create your own custom fields and forms suited for your Case Management. <br><br>Each Case Form can be customised with House-on-the-Hills <a href="/drag-and-drop-form-builder/">Drag and Drop form builder</a> to allow collection of the required data and information for that Case.
+          <h4>Customisable Forms</h4>
+          <p alt="Complaint Management Software Case Management Software FOI software Freedom of Information software">
+            Out of the box Case Management Forms that are amendable. Easily edit our Case Form Templates or start from scratch and create your own custom field and forms suited for your Case Management. <br><br>Each Case Form can be customised with House-on-the-Hills <a href="/drag-and-drop-form-builder/">Drag and Drop form builder</a> to allow collection of the required data and information for that Case.
           </p>
         </div>
         <img src="https://houseonthehill.com/wp-content/uploads/2021/11/FOICaseScreen-1.webp" alt="Case Management Software Dashboard">
@@ -124,7 +124,7 @@
       </div>
       <li>
         <h3>Automatic Date Calculations</h3>
-        <p>Ensure compliance with government legislation and include automatic Date recalculation after Clarification of requests or after waiting for fees.​​</p>
+        <p>Ensure compliance with government legislation and include Date recalculation after Clarification requests or waits for fees.​</p>
       </li>
       <li>
         <h3>Customisable Workflow</h3>
@@ -192,7 +192,7 @@
       </li>
       <li>
         <h3>Schedule reports</h3>
-        <p>​Set key reports to be sent automatically when and to whom you decide.</p>
+        <p>​Set key reports sent automatically when and to whom you decide.</p>
       </li>
     </ul>
   </div>
