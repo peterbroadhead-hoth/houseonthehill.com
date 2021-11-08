@@ -18,19 +18,19 @@
       <p><strong>Many UK Public and Private Organisations are making easy work of Case Management with intuitive workflow, reusable e-mail templates and automatic notification of approaching breaches.</strong></p>
       <div class="customers">
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
-          <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/ombudsman.webp" alt="Ombudsman Logo">
         </a>  
         <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
-          <img height="25" width="147" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bm-25.png" alt="Broadway Malyan Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/bucksnewuni.jpg" alt="bucks new uni Logo">
         </a>  
         <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
-          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bbraun-25.png" alt="BBraun Medicine Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Carlisle-city-council.jpg" alt="carlisle city council Logo">
         </a>  
         <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
-          <img height="25" width="134" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/hb-25.png" alt="Holland & Barrett Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/cardiffcc.png" alt="cardiff cc logo">
         </a>  
         <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
         </a>  
       </div>
 
