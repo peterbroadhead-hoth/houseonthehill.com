@@ -17,19 +17,19 @@
     <div class="container">
       <p><strong>Many UK Public and Private Organisations are making easy work of Case Management with intuitive workflow, reusable e-mail templates and automatic notification of approaching breaches.</strong></p>
       <div class="customers">
-        <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/ombudsman.webp" alt="Ombudsman Logo">
+        <a href="https://www.ombudsman-services.org" target="_blank" rel="noopener">
+          <img height="30px" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/ombudsman.webp" alt="Ombudsman Logo">
         </a>  
-        <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
+        <a href="https://www.bucks.ac.uk" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/bucksnewuni.jpg" alt="bucks new uni Logo">
         </a>  
-        <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
+        <a href="https://www.carlisle.gov.uk" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Carlisle-city-council.jpg" alt="carlisle city council Logo">
         </a>  
-        <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
+        <a href="https://www.cardiff.gov.uk/" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/cardiffcc.png" alt="cardiff cc logo">
         </a>  
-        <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
+        <a href="https://www.nhs.uk" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
         </a>  
       </div>
