@@ -1455,6 +1455,7 @@ a.more-info:hover{
 .foi .testimonials .customers img{
   margin: auto;
   max-height: 100%;
+  max-width: 100%;
 }
 
 .foi .testimonials .container{
