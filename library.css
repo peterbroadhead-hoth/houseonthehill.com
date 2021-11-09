@@ -290,7 +290,7 @@ a.footer-trial{
 }
 
 .library-container .col-md-12.pad-bottom p span{
-  margin-right: 20px;
+  /* Causes issue with content on page - margin-right: 20px; */
 }
 
 .library-menu-container .navbar-form{
