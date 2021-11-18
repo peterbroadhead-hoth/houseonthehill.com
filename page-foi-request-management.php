@@ -5,7 +5,8 @@
       <div class="text">  
         <h1>FOI, Case & Complaints <br>Management Software</h1> 
         <p>Make the best use of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaint Management Software  with House-on-the-Hill Case Management Software.</p>
-        <a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener" target="_blank" class="sign-up-toggle">START YOUR FREE TRIAL</a>
+        <a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener" target="_blank" class="sign-up-toggle">START FREE TRIAL</a>
+        <a class="more-info" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/services/731642675619090" rel="noopener" target="_blank" class="sign-up-toggle">G-Cloud Supplier</a>
       </div>
       <div class="img">
         <img src="https://houseonthehill.com/wp-content/uploads/2021/05/foi_paint.png" alt="FOI software painted graphic">
