@@ -222,7 +222,7 @@ a.more-info{
   border: 3px solid #1E3550;
   color: #1E3550;
   background-color: transparent;
-  padding: 7px 22px;
+  padding: 5px 22px;
   font-size: 16px;
   border-radius: 4px;
   margin-left: 0;
@@ -1561,7 +1561,7 @@ a.more-info:hover{
 .foi .large-solution-features ul li{
   list-style: none;
   padding: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   width: 100%;
   margin: auto;
   display: flex;
