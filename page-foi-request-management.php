@@ -5,8 +5,47 @@
       <div class="text">  
         <h1>FOI, Case & Complaints <br>Management Software</h1> 
         <p>Make the best use of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaint Management Software  with House-on-the-Hill Case Management Software.</p>
-        <a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener" target="_blank" class="sign-up-toggle">START FREE TRIAL</a>
-        <a class="more-info" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/services/731642675619090" rel="noopener" target="_blank" class="sign-up-toggle">G-Cloud Supplier</a>
+        <div class="signup-buttons">
+          <form action="https://house-on-the-hill.com/mothership/supisacs.dll" method="POST" id="theForm" name="theForm"
+          onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
+            <input type="HIDDEN" id="ID" name="ID" value="52d8bfffda342ee">
+            <input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
+            <input type="HIDDEN" id="selchange" name="selchange" value="">
+            <input type="HIDDEN" id="selparam1" name="selparam1" value="">
+            <input type="HIDDEN" id="AjaxUpdate" name="AjaxUpdate" value="">
+            <input type="HIDDEN" id="A" name="A" value="AnonCall">
+            <input type="HIDDEN" id="F1" name="F1" value="">
+            <input type="HIDDEN" id="F2158" name="F2158" value="0">
+            <input type="HIDDEN" id="NextStep" name="NextStep" value="">
+            <input type="HIDDEN" id="F2126" name="F2126" value="341">
+            <input type="HIDDEN" id="F2127_ctrl" name="F2127_ctrl" value="">
+            <input type="HIDDEN" id="F2128_ctrl" name="F2128_ctrl" value="">
+            <input type="HIDDEN" id="F2150_ctrl" name="F2150_ctrl" value="">
+            <input type="HIDDEN" id="F2129_ctrl" name="F2129_ctrl" value="">
+            <input type="HIDDEN" id="F2130_ctrl" name="F2130_ctrl" value="">
+            <input type="HIDDEN" id="F2148_ctrl" name="F2148_ctrl" value="">
+            <input type="HIDDEN" id="F2149_ctrl" name="F2149_ctrl" value="">
+            <input type="HIDDEN" id="ActResolved_ctrl" name="ActResolved_ctrl" value="">
+            <input type="HIDDEN" id="ActRespondedTo_ctrl" name="ActRespondedTo_ctrl" value="">
+            <input type="HIDDEN" id="F5006_ctrl" name="F5006_ctrl" value="">
+            <input type="HIDDEN" id="ContactId" name="ContactId" value="0">
+            <input type="HIDDEN" id="F" name="F" value="0">
+            <input type="HIDDEN" id="iViewHistory" name="iViewHistory" value="0">
+            <input type="HIDDEN" id="CCSM" name="CCSM" value="0">
+            <input type="HIDDEN" id="InitMedium" name="InitMedium" value="8192">
+            <input type="HIDDEN" id="SummViewFold" name="SummViewFold" value="0">
+            <input type="HIDDEN" id="CUOCHF" name="CUOCHF" value="1">
+            <input type="HIDDEN" id="savebtn" name="savebtn" value="">
+            <input type="HIDDEN" id="savebtn1" name="savebtn1" value="">
+            <input type="HIDDEN" id="CFID" name="CFID"
+                value="eJxTclXSUUJD4YmZJZl56cpGpnAhx7z8PCBlaKZvYKlvZGBkCOKYWhkYo2mFqgMiC0NLI0yjIQhojKEBujEGegYGQMoEJGSIRR4ZGaBht8yi4hIFn8y8VLgSI0MCToUgXUNMMZipRCKow7G7TNcSCBDmoRtrgM4CB4EFgm9sAnWgZ4hCcGpRWWZyqoJvYl5iempual4JuQ7HsBaEGACQ+Fww">
+            <input type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Organisation Name">
+            <input type="TEXT" name="F38" id="reg_email" size="0035" maxlength="50" value="" placeholder="Work Email">
+            <input type="HIDDEN" name="F2178" id="F2178" size="1" value="FOI%20and%20Case%20Management">          
+            <input class="Button" id="reg_submit" type="Submit" value="START FREE TRIAL">
+          </form>
+          <a class="more-info" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/services/731642675619090" rel="noopener" target="_blank" class="sign-up-toggle">G-Cloud Supplier</a>
+        </div>   
       </div>
       <div class="img">
         <img src="https://houseonthehill.com/wp-content/uploads/2021/05/foi_paint.png" alt="FOI software painted graphic">
@@ -247,5 +286,16 @@
 <?php get_footer();?>
 
 <style>
+.signup-buttons form input#F2177{
+  border-radius: 4px 0 0 4px;
+}
 
+.signup-buttons form input{
+  border: 1px solid #c2c2c2;
+  border-right: unset;
+}
+
+.signup-buttons form{
+  margin-bottom: 20px;
+}
 </style>
