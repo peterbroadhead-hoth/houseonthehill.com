@@ -87,7 +87,7 @@
 								<a href="/it-service-management-software">
 									<li class="itsm">
 										<h2>Healthcare</h2>
-										<p>Hospitals rely on House-on-the-Hill's proven ITSM & Facilites packages to deliver modern ITIL workflows</p>
+										<p>Hospitals rely on House-on-the-Hill's proven ITSM & Facilities packages to deliver purpose built workflows</p>
 									</li>
 								</a>
 								<a href="/facilities-management">
