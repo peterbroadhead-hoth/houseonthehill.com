@@ -77,7 +77,7 @@
 <div class="solution-key-features">
   <div class="solution-key-features-container">
     <h2>IT Service Management made simple</h2>
-    <p>Use these fetures to ease your workload.</p>
+    <p>Use these features to ease your workload.</p>
     <ul class="solutions">
       <li>
         <div class="icon"><img src="/wp-content/uploads/2020/08/self-service-portal.png" alt="Portal Icon"></div>

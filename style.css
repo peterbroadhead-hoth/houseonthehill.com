@@ -891,6 +891,468 @@ a.more-info:hover{
   background: #1E3550;
 }
 
+/* new home page */
+
+.home .header{
+  padding: 10px;
+  height: 500px;
+  background: white;
+  position: relative;
+  background-image:url(<?php echo get_stylesheet_directory_uri(); ?>/images/hothhome.webp);
+  background-position: right;
+  background-position-x: 90%;
+  background-size: 550px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.home .header .container{
+  padding: 50px 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.home .header .container .text{
+  width: 800px;
+  margin: auto 0;
+}
+
+.home .header .container .img{
+  position: absolute;
+  right: 10%;
+  top: 0;
+  bottom: 0;
+}
+
+.home .header .container .img img{
+  width: 400px;
+}
+
+.home .signup-buttons form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.home .signup-buttons form input {
+  width: 290px;
+  margin: auto;
+  margin-left: 0;
+  border-radius: 4px;
+  border: 1px solid #c2c2c2;
+  margin-bottom: 5px;
+}
+
+.home .signup-buttons form input.Button[type="submit"]{
+  width: 290px;
+  border: unset;
+}
+
+.home .signup-buttons form select{
+  width: 290px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  margin-left: 0;
+  padding: 10px;
+  border: 1px solid #c2c2c2;
+  border-radius: 4px;
+}
+
+.home .testimonials{
+  background: white;
+  padding: 50px;
+  position: relative;
+}
+
+.home .testimonials .square{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #1D3550;
+  height: 480px;
+  z-index: 0;
+}
+
+.home .testimonials .customers{
+  justify-content: center;
+  height: 70px;
+}
+
+.home .testimonials .customers a{
+  margin: auto;
+  display: flex;
+  padding: 5px;
+}
+
+.home .testimonials .customers img{
+  margin: auto;
+}
+
+.home .testimonials .container{
+  text-align: center;
+  display: unset;
+  flex-wrap: unset;
+  width: 60%;
+  padding: 0;
+  z-index: 1;
+}
+
+.home .testimonials .container p{
+  font-size: 2.6rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.home .testimonials .container .quote{
+  padding-top: 50px;
+}
+
+.home .testimonials .container .quote img{
+  max-width: 100%;
+}
+
+.home .testimonials .container .quote .text{
+  margin: auto;
+  padding: 50px;
+  width: 80%;
+}
+
+.home .testimonials .container .quote .text h2, .home .testimonials .container .quote .text p, .home .testimonials .container .quote .text p span{
+  color: white;
+}
+
+.home .testimonials .container .quote .text p{
+  font-size: 1.8rem;
+}
+
+.home .testimonials .container .quote .text p span{
+  font-weight: bold;
+}
+
+.home .solutions{
+  background: #1D3550;
+  padding: 100px 10px;
+  padding-top: 50px;
+}
+
+.home .solutions ul .text{
+  width: 100%;
+  padding: 100px;
+  text-align: center;
+  border-top: 2px solid white;
+}
+
+.home .solutions ul{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.home .solutions ul li{
+  list-style: none;
+  background-color: white;
+  width: 23%;
+  margin: 0 auto;
+  padding: 20px 50px;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  padding-bottom: 120px;
+}
+
+
+.home .solutions ul li .btn{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+
+.home .solutions ul li img{
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.home .solutions ul li h3{
+  height: 85px;
+}
+
+.home .solutions ul li a.sign-up{
+  margin: auto;
+}
+
+.home .solutions ul li a.more-info{
+  border: unset;
+  margin: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.home .solutions ul li a.more-info:hover{
+  opacity: .9;
+  background: unset;
+}
+
+.home .solutions ul li.foi h3{
+  color: #E48E28;
+}
+
+.home .solutions ul li.foi img{
+  border: 5px solid #E48E28;
+}
+
+.home .solutions ul li.foi a.sign-up{
+  background: #E48E28;
+}
+
+.home .solutions ul li.foi a.more-info{
+  color: #E48E28;
+}
+
+.home .solutions ul li.itsm h3{
+  color: #FA8781;
+}
+
+.home .solutions ul li.itsm img{
+  border: 5px solid #FA8781;
+}
+
+.home .solutions ul li.itsm a.sign-up{
+  background: #FA8781;
+}
+
+.home .solutions ul li.itsm a.more-info{
+  color: #FA8781;
+}
+
+.home .solutions ul li.csm h3{
+  color: #EFB293;
+}
+
+.home .solutions ul li.csm img{
+  border: 5px solid #EFB293;
+}
+
+.home .solutions ul li.csm a.sign-up{
+  background: #EFB293;
+}
+
+.home .solutions ul li.csm a.more-info{
+  color: #EFB293;
+}
+
+.home .solutions ul li.cafm h3{
+  color: #9DCCD1;
+}
+
+.home .solutions ul li.cafm img{
+  border: 5px solid #9DCCD1;
+}
+
+.home .solutions ul li.cafm a.sign-up{
+  background: #9DCCD1;
+}
+
+.home .solutions ul li.cafm a.more-info{
+  color: #9DCCD1;
+}
+
+.home .iso-btns{
+  margin-bottom: 100px;
+}
+
+.home .large-features{
+  background: #1D3550;
+  padding: 100px 10px;
+}
+
+.home .large-features .text{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.home .large-features ul{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .large-features ul li{
+  list-style: none;
+  background-color: #3b5067;
+  width: 30%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.home .large-features ul li .img{
+  width: 100%;
+  background-color: #3b5067;
+  border-radius: 4px 4px 0 0;
+  min-height: 325px;
+}
+
+
+.home .large-features ul li img{
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+}
+
+.home .large-features ul li .text{
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.home .large-features ul li h4{
+  color: #9DCCD1;
+  text-align: left;
+}
+
+.home .large-features ul li p{
+  color: white;
+}
+
+.home .large-features ul li a.more-info{
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  border-color: white;
+}
+
+.home .small-features{
+  background: #1D3550;
+  padding: 100px 10px;
+}
+
+.home .small-features ul{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .small-features ul li{
+  list-style: none;
+  width: 22%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .small-features ul li img{
+  width: 75px;  
+  margin-left: 0;
+}
+
+.home .small-features ul li h4, .home .small-features ul li p{
+  color: white;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.home .demo{
+  background: white;
+  padding: 100px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .demo .container{
+  width: 700px;
+  background: white;
+  border-radius: 4px;
+  border: 2px solid #f1f1f1;
+  padding: 0;
+}
+
+.home .demo .container .text{
+  width: 415px;
+  padding: 20px;
+  margin: auto;
+}
+
+.home .demo .img{
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/05/orange-splat-350px.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  width: 280px;
+  display: flex;
+  background-position: top;
+
+}
+
+.home .demo .img img{
+  width: 150px;
+  height: auto;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.help{
+  background: white;
+}
+
+.help .container{
+  display: block;
+  width: 80%;
+}
+
+.help ul{ 
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.help ul li{
+  list-style: none;
+  width: 45%;
+  padding: 20px;
+  padding-right: 30px;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+}
+
+.help ul li .btns{
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+}
+
+.help ul li .btns a{
+  margin-right: 5px;
+}
+
+.help ul li img{
+  height: 50px;
+  position: absolute;
+  left: -35px;
+  top: 30px;
+}
+
 /* Home Page */
 
 .hothhome-header{
