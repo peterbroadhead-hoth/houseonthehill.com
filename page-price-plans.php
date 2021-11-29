@@ -894,16 +894,8 @@
         <td><i class="fal fa-check-circle"></i></td>
       </tr> 
       <tr class="collapsible api" style="">
-        <td>Transfer of Legacy Data using CSV</td>
-        <td class="price">-</td>
-        <td>Add-On</td>
-        <td>Add-On</td>
-        <td>Add-On</td>
-        <td>Add-On</td>
-      </tr>
-      <tr class="collapsible api" style="">
         <td>Slack Ticket Creation</td>
-        <td class="price">-</td>
+        <td class="price">£250 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
