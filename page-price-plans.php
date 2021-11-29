@@ -863,27 +863,27 @@
       </tr>
       <tr class="collapsible api" style="">
         <td><a href="/features/microsoft-teams/">Microsoft Teams Ticket Creation</a></td>
-        <td class="price">-</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
+        <td class="price">£500 py</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
       </tr>
       <tr class="collapsible api" style="">
         <td><a href="supportdesk/features/help-desk-twitter-integration/">Twitter</a></td>
-        <td class="price">-</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
+        <td class="price">£250 py</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
       </tr> 
       <tr class="collapsible api" style="">
         <td><a href="/features/jira-integration/">Jira</a></td>
-        <td class="price">-</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
+        <td class="price">£250 py</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
       </tr>
       <tr class="collapsible api" style="">
         <td>CSV Import / Export</td>
@@ -896,50 +896,50 @@
       <tr class="collapsible api" style="">
         <td>Transfer of Legacy Data using CSV</td>
         <td class="price">-</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
       </tr>
       <tr class="collapsible api" style="">
         <td>Slack Ticket Creation</td>
         <td class="price">-</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
       </tr>
       <tr class="collapsible api" style="">
         <td>Xero Integration</td>
-        <td class="price">-</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
+        <td class="price">£250 py</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
       </tr>
       <tr class="collapsible api" style="">
         <td>Report JSON Api</td>
-        <td class="price">-</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
+        <td class="price">£250 py</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
       </tr>
       <tr class="collapsible api" style="">
         <td><a href="/features/remote-session-request-button/">Bomgar Remote Session Launch Button</a></td>
-        <td class="price">-</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
+        <td class="price">£250 py</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
       </tr>
       <tr class="collapsible api" style="">
         <td><a href="/features/skype-for-business-integration/">Skype for Business</a></td>
-        <td class="price">-</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
+        <td class="price">£250 py</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
+        <td>Add-On</td>
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('advancedfeatures')">
         <th class="category">Advanced Features <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></th>
