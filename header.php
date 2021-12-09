@@ -236,7 +236,7 @@
 								<p>Maximize how you work in Teams with House-on-the-Hill's Teams integration</p>
 							</li>
 						</a>
-						<a href="/supportdesk-chat-2/">
+						<a href="/features/house-chat/">
 							<li>
 								<h2>House Chat</h2>
 								<p>Add another facet to your customer service and provide support with immediate engagement.</p>
