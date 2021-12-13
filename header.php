@@ -23,6 +23,7 @@
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 		gtag('config', 'AW-1071861445');
+		gtag('config', 'UA-5009086-1');
 	</script>
 
 	<!-- trackers -->
