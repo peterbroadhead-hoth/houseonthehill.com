@@ -19,11 +19,18 @@
 	<?php wp_head(); ?>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1071861445"></script>
 	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'AW-1071861445');
-	</script>
+
+window.dataLayer = window.dataLayer || [];
+
+function gtag(){dataLayer.push(arguments);}
+
+gtag('js', new Date());
+
+gtag('config', 'AW-1071861445');
+
+gtag('config', 'UA-5009086-1');
+
+</script>
 
 	<!-- trackers -->
 
