@@ -93,7 +93,7 @@
 <div class="hothhome-solutions">
   <div class="hothhome-solutions-container">    
     <h2>The perfect fit for your organisation</h2>
-    <p>Wether you support customers, staff or the public, each comes fully branded & preloaded with all the modern service essentials.</p>
+    <p>Whether you support customers, staff or the public, each comes fully branded & preloaded with all the modern service essentials.</p>
     <ul class="solutions">
       <li class="foi">
         <div class="icon"><img src="/wp-content/uploads/2021/04/foi-icon.png" alt="Freedom of Information & Case Management Icon"></div>

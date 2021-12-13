@@ -891,14 +891,14 @@ a.more-info:hover{
   background: #1E3550;
 }
 
-/* new home page */
+/* 2021 home page */
 
 .home .header{
   padding: 10px;
   height: 500px;
   background: white;
   position: relative;
-  background-image:url(<?php echo get_stylesheet_directory_uri(); ?>/images/hothhome.webp);
+  background-image:url(<?php echo get_stylesheet_directory_uri(); ?>/images/foi-home-solution.webp);
   background-position: right;
   background-position-x: 90%;
   background-size: 550px;
@@ -913,7 +913,7 @@ a.more-info:hover{
 }
 
 .home .header .container .text{
-  width: 800px;
+  width: 700px;
   margin: auto 0;
 }
 
@@ -922,10 +922,12 @@ a.more-info:hover{
   right: 10%;
   top: 0;
   bottom: 0;
+  display: flex;
 }
 
 .home .header .container .img img{
-  width: 400px;
+  width: 700px;
+  margin: auto;
 }
 
 .home .signup-buttons form{
@@ -1073,10 +1075,27 @@ a.more-info:hover{
   right: 0;
 }
 
-.home .solutions ul li img{
+.home .solutions ul li .img{
   border-radius: 100%;
   width: 150px;
   height: 150px;
+  border: 5px solid #1e3550;
+  overflow: hidden;
+  display: flex;
+  margin: auto;
+  position: relative;
+}
+
+.home .solutions ul li .img img{
+  width: 100%;
+  margin: auto;
+}
+
+.home .solutions ul li.cafm .img img{
+  width: auto;
+  height: 100%;
+  position: absolute;
+  left: -40px;
 }
 
 .home .solutions ul li h3{
@@ -1099,72 +1118,9 @@ a.more-info:hover{
   background: unset;
 }
 
-.home .solutions ul li.foi h3{
-  color: #E48E28;
-}
-
-.home .solutions ul li.foi img{
-  border: 5px solid #E48E28;
-}
-
-.home .solutions ul li.foi a.sign-up{
-  background: #E48E28;
-}
-
-.home .solutions ul li.foi a.more-info{
-  color: #E48E28;
-}
-
-.home .solutions ul li.itsm h3{
-  color: #FA8781;
-}
-
-.home .solutions ul li.itsm img{
-  border: 5px solid #FA8781;
-}
-
-.home .solutions ul li.itsm a.sign-up{
-  background: #FA8781;
-}
-
-.home .solutions ul li.itsm a.more-info{
-  color: #FA8781;
-}
-
-.home .solutions ul li.csm h3{
-  color: #EFB293;
-}
-
-.home .solutions ul li.csm img{
-  border: 5px solid #EFB293;
-}
-
-.home .solutions ul li.csm a.sign-up{
-  background: #EFB293;
-}
-
-.home .solutions ul li.csm a.more-info{
-  color: #EFB293;
-}
-
-.home .solutions ul li.cafm h3{
-  color: #9DCCD1;
-}
-
-.home .solutions ul li.cafm img{
-  border: 5px solid #9DCCD1;
-}
-
-.home .solutions ul li.cafm a.sign-up{
-  background: #9DCCD1;
-}
-
-.home .solutions ul li.cafm a.more-info{
-  color: #9DCCD1;
-}
-
 .home .iso-btns{
   margin-bottom: 100px;
+  padding: 10px;
 }
 
 .home .large-features{
@@ -1234,7 +1190,7 @@ a.more-info:hover{
 }
 
 .home .small-features{
-  background: #1D3550;
+  background: white;
   padding: 100px 10px;
 }
 
@@ -1247,24 +1203,26 @@ a.more-info:hover{
 
 .home .small-features ul li{
   list-style: none;
-  width: 22%;
+  width: 30%;
   margin: 0 auto;
   padding: 0;
   border-radius: 4px;
   text-align: center;
   position: relative;
   padding-bottom: 50px;
+}
+
+.home .small-features ul li .img{
   display: flex;
   flex-wrap: wrap;
 }
 
-.home .small-features ul li img{
-  width: 75px;  
-  margin-left: 0;
+.home .small-features ul li .img img{
+  width: 75px; 
+  height: 75px; 
 }
 
 .home .small-features ul li h4, .home .small-features ul li p{
-  color: white;
   text-align: left;
   width: 100%;
   margin-bottom: 0;
@@ -1292,9 +1250,6 @@ a.more-info:hover{
 }
 
 .home .demo .img{
-  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/05/orange-splat-350px.png);
-  background-repeat: no-repeat;
-  background-size: 250px;
   width: 280px;
   display: flex;
   background-position: top;
@@ -1302,10 +1257,10 @@ a.more-info:hover{
 }
 
 .home .demo .img img{
-  width: 150px;
+  width: 200px;
   height: auto;
-  border-radius: 100%;
   margin: auto;
+  margin-bottom: 0;
 }
 
 .help{
@@ -1351,6 +1306,212 @@ a.more-info:hover{
   position: absolute;
   left: -35px;
   top: 30px;
+}
+
+@media (max-width: 1700px){
+  .home .header .container .text, .home .header .container .img img{
+    width: 600px;
+  }
+}
+
+@media (max-width: 1500px){
+  .home .header .container .text{
+    width: 550px;
+  } 
+  .home .header .container .img img{
+    width: 550px;
+  }
+}
+
+@media (max-width: 1350px){
+  .home .header .container .text{
+    width: 550px;
+  } 
+  .home .header .container .img img{
+    width: 500px;
+  }
+}
+
+@media (max-width: 1300px){
+  .home .header .container .text{
+    width: 500px;
+  } 
+  .home .header .container .img img{
+    width: 500px;
+  }
+}
+
+@media (max-width: 1300px){
+  .home .header .container .text{
+    width: 45%;
+  } 
+}
+
+@media (max-width: 1200px){
+  .home .testimonials .container{
+    width: 80%;
+  } 
+}
+
+@media (max-width: 1100px){
+  .home .header .container .text{
+    width: 40%;
+  } 
+}
+
+@media (max-width: 920px){
+  .home .header .container{
+    width: 100%;
+  }
+  .home .header .container .img{
+    right: 0;
+  }
+  .home .header .container .img img {
+    width: 60%;
+    margin-right: 0;
+  }
+  .home .testimonials{
+    padding-bottom: 0;
+  }
+  .home .testimonials .container{
+    width: 100%;
+  } 
+  .home .testimonials .container .quote .text{
+    width: 100%;
+  }
+  .home .testimonials .container .quote .text p{
+    margin-bottom: 20px;
+  }
+  .home .solutions{
+    padding-top: 0;
+  }
+  .home .solutions ul .text{
+    padding: 50px;
+  }
+}
+
+@media (max-width: 730px){
+  .home .header{
+    height: auto;
+  }
+  .home .header .container{
+    margin: 0;
+  }
+  .home .header .container .text{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .home .header .container{
+    padding: 0;
+  }
+  .home .header .container .img{
+    position: unset;
+    display: unset;
+  }
+  .home .signup-buttons a.sign-up{
+    margin: auto;
+  }
+  .home .header .container .img{
+    display: flex;
+  }
+  .home .header .container .img img{
+    margin: auto;
+  }
+}
+
+@media (max-width: 600px){
+  .home .testimonials{
+    padding: 10px;
+    padding-top: 20px;
+  }
+  .home .testimonials .container p{
+    font-size: 2rem;
+  }
+  .home .testimonials .customers a{
+    width: 28%;
+  }
+  .home .testimonials .customers a img{
+    max-width: 100%;
+    height: auto;
+  }
+  .home .testimonials .container .quote .text p{
+    font-size: 1.5rem;
+  }
+  .home .testimonials .container .quote .text, .home .solutions ul .text{
+    padding: 0;
+  }
+  .home .testimonials .square{
+    height: 250px;
+  }
+  .home .solutions, .home .large-features{
+    padding: 0;
+  }
+  .home .solutions ul{
+    width: 100%;
+  }
+  .home .solutions ul li{
+    width: 90%;
+    padding: 10px;
+  }
+  .home .solutions ul li h3{
+    height: unset;
+  }
+  .home .solutions ul li .btn{
+    position: unset;
+  }
+  .home .large-features ul li{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .home .large-features ul li .img{
+    min-height: unset;
+  }
+  .home .small-features ul li{
+    width: 100%;
+  }
+  .home .iso-btns{
+    margin-bottom: unset;
+    padding: 0 10px 20px 10px;
+  }
+  .home .demo{
+    padding: 10px;
+    width: 100%;
+  }
+  .home .demo .container{
+    width: 100%;
+  }
+  .home .demo .img{
+    margin: auto;
+  }
+  .home .demo .container .text{
+    text-align: center;
+  }
+  .help .container{
+    width: 100%;
+  }
+  .help ul{
+    width:100%;
+  }
+  .help ul li img{
+    position: unset;
+  }
+  .help ul li{
+    width: 100%;
+    margin-bottom: unset;
+    padding: 10px;
+  }
+  .help ul li .btns{
+    position: unset;
+  }
+  .help ul li .btns a:nth-child(2){
+    display: none;
+  }
+  .home .small-features{
+    padding: 10px;
+    padding-bottom: 0;
+    padding-top: 50px;
+  }
 }
 
 /* Home Page */
@@ -1528,6 +1689,7 @@ a.more-info:hover{
 .iso-btns a img{
   height: 75px;
   margin: 5px;
+  width: auto;
 }
 
 .hothhome-features{
