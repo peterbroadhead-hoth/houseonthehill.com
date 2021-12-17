@@ -51,7 +51,7 @@
         <!--<a class="sign-up" href="https://house-on-the-hill.com/mothership/register">START YOUR FREE TRIAL</a>-->
         <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
       </div>
-      <p><strong>1000's of organisations choose House-on-the-Hill</strong></p>
+      <p><strong>1000s of organisations choose House-on-the-Hill</strong></p>
       <div class="customers">
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
           <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
