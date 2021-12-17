@@ -17,12 +17,14 @@
 	<link href="<?php echo get_stylesheet_directory_uri(); ?>/fonts/fontawesome-pro-5.3.1-web/css/all.css" rel="stylesheet">
 	<link rel="shortcut icon" href="<?php echo site_url(); ?>/wp-content/uploads/2014/07/hoth.jpg" />
 	<?php wp_head(); ?>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1071861445"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5009086-1"></script>
 	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'AW-1071861445');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-5009086-1');
 	</script>
 
 	<!-- trackers -->
@@ -37,7 +39,9 @@
 		
 <script type="text/javascript"> _linkedin_partner_id = "2323322"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script>
 <script type="text/javascript"> (function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(window.lintrk); </script> 
-	<noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2323322&fmt=gif" /> </noscript>
+<noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2323322&fmt=gif" /> </noscript>
+
+
 </head>
 
 		
@@ -236,7 +240,7 @@
 								<p>Maximize how you work in Teams with House-on-the-Hill's Teams integration</p>
 							</li>
 						</a>
-						<a href="/features/house-chat/">
+						<a href="/supportdesk-chat-2/">
 							<li>
 								<h2>House Chat</h2>
 								<p>Add another facet to your customer service and provide support with immediate engagement.</p>
