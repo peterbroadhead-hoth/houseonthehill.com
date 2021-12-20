@@ -1601,8 +1601,9 @@ a.more-info:hover{
   box-shadow: 0 0 30px #00000033;
 }
 
-
-
+.hothhome-testimonial-container .hoth-bulletin:empty{
+  display: none;
+}
 
 .hothhome-testimonial p span{
   font-weight: bold;

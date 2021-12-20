@@ -75,7 +75,7 @@
 
 <div class="hothhome-testimonial">
   <div class="hothhome-testimonial-container">
-    <a href="/hoth-software-and-cloud-platform-not-vulnerable-to-apache-log4j-2/" class="hoth-bulletin">HotH Software and Cloud Platform not vulnerable to Apache Log4j 2</a>
+    <a href="/hoth-software-and-cloud-platform-not-vulnerable-to-apache-log4j-2/" class="hoth-bulletin"><?php the_field('bulletin'); ?></a>
     <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
       <h2>"Buy it, it is the best ITSM toolkit I have ever worked with, including ServiceNow."</h2>
       <p>Michael Bebbington, Service Delivery Manager, <span>UK Plumbing Supplies</span></p>
