@@ -85,7 +85,6 @@ ul{
   flex-wrap: wrap;
   padding: 10px;
 	padding-top: 50px;
-	padding-bottom: 200px;
   width: 80%;
   margin: auto;
 }
@@ -750,15 +749,10 @@ a.more-info:hover{
 /* footer */
 
 .hoth-footer{
-  background-image:url(images/wave-footer.webp);
-  background-position-y: -20px;
-  background-size: 100%;
-  background-repeat: no-repeat;
   min-height: 500px;
   display: flex;
-  margin-top: -90px;
-  position: absolute;
   width: 100%;
+  background-color: #f5f5f5;
 }
 
 .hoth-footer-container{
@@ -774,7 +768,6 @@ a.more-info:hover{
   width: 80%;
   margin: auto;
   padding-bottom: 50px;
-  padding-top: 150px;
   justify-content: center;
 }
 
@@ -793,7 +786,7 @@ a.more-info:hover{
 }
 
 .hoth-footer-container .footer-links{
-  border-top: 3px solid #1E3550;
+  border-top: 3px solid #1e3550;
   display: flex;
   padding-top: 50px;
   padding-bottom: 30px;
@@ -823,10 +816,10 @@ a.more-info:hover{
 }
 
 .hoth-footer-container .footer-links .company p a{
-  background: #93bfc0;
+  background: #1e3550;
   padding: 5px;
   border-radius: 4px;
-  color: #1E3550;
+  color: white;
   margin-right: 10px;
 }
 
@@ -861,10 +854,10 @@ a.more-info:hover{
 }
 
 .hoth-footer-container .footer-links .socials a i{
-  background: #93bfc0;
+  background: #1e3550;
   padding: 10px;
   border-radius: 4px;
-  color: #1E3550;
+  color: white;
   margin: auto;
   font-size: 15px;
   width: 35px;
@@ -874,8 +867,7 @@ a.more-info:hover{
 }
 
 .hoth-footer-container .footer-links .socials a:hover i{
-  color: white;
-  background: #1E3550;
+  opacity: 0.9;
 }
 
 .hoth-footer-container .footer-links .company p{
@@ -886,10 +878,7 @@ a.more-info:hover{
 }
 
 .hoth-footer-container .footer-links .company p a:hover{
-  color: white;
-  padding: 5px;
-  border-radius: 4px;
-  background: #1E3550;
+  opacity: 0.9;
 }
 
 /* 2021 home page */
@@ -3710,7 +3699,6 @@ ul.whats-new li .whats-new-img img{
   }
   .hoth-footer-container .trial{
     width: 100%;
-    padding-top: 50px;
     text-align: left;
   }
   .hoth-footer-container .footer-links{
@@ -3783,7 +3771,6 @@ ul.whats-new li .whats-new-img img{
   }
   .hoth-footer-container .trial{
     width: 100%;
-    padding-top: 50px;
     text-align: left;
   }
   .hoth-footer-container .footer-links{
