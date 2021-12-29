@@ -51,7 +51,7 @@
         <!--<a class="sign-up" href="https://house-on-the-hill.com/mothership/register">START YOUR FREE TRIAL</a>-->
         <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
       </div>
-      <p><strong>1000's of organisations choose House-on-the-Hill</strong></p>
+      <p><strong>1000s of organisations choose House-on-the-Hill</strong></p>
       <div class="customers">
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
           <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
@@ -75,6 +75,7 @@
 
 <div class="hothhome-testimonial">
   <div class="hothhome-testimonial-container">
+    <a href="/hoth-software-and-cloud-platform-not-vulnerable-to-apache-log4j-2/" class="hoth-bulletin"><?php the_field('bulletin'); ?></a>
     <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
       <h2>"Buy it, it is the best ITSM toolkit I have ever worked with, including ServiceNow."</h2>
       <p>Michael Bebbington, Service Delivery Manager, <span>UK Plumbing Supplies</span></p>
