@@ -782,6 +782,7 @@ a.more-info:hover{
 .hoth-footer-container .trial h2{
   width: 100%;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .hoth-footer-container .trial .btns{
@@ -1334,17 +1335,14 @@ a.more-info:hover{
 
 @media (max-width: 1300px){
   .home .header .container .text{
-    width: 500px;
+    width: 45%;
   } 
   .home .header .container .img img{
     width: 500px;
   }
-}
-
-@media (max-width: 1300px){
-  .home .header .container .text{
-    width: 45%;
-  } 
+  .help ul{
+    width: 100%;
+  }
 }
 
 @media (max-width: 1200px){
@@ -1371,7 +1369,8 @@ a.more-info:hover{
     margin-right: 0;
   }
   .home .testimonials{
-    padding-bottom: 0;
+    padding: 10px;
+    padding-top: 50px;
   }
   .home .testimonials .container{
     width: 100%;
@@ -1383,10 +1382,49 @@ a.more-info:hover{
     margin-bottom: 20px;
   }
   .home .solutions{
-    padding-top: 0;
+    padding: 10px;
+  }
+  .home .solutions ul{
+    width: 100%;
+  }
+  .home .solutions ul li{
+    width: 45%;
   }
   .home .solutions ul .text{
     padding: 50px;
+  }
+  .home .small-features ul{
+    width: 100%;
+  }
+  .home .small-features ul li{
+    width: 45%;
+    margin-left: 0;
+  }
+  .home .large-features ul{
+    width: 100%;
+  }
+  .home .large-features ul li .img{
+    min-height: 200px;
+  }
+  .help .container, .help ul{
+    width: 100%;
+  }
+  .help ul li img{
+    position: unset;
+  }
+}
+
+@media (max-width: 800px){
+  .home .demo .container{
+    width: 100%;
+    border: unset;
+  }
+  .home .demo .container .text{
+    width: 100%;
+    text-align: center;
+  }
+  .home .demo .img{
+    margin: auto;
   }
 }
 
@@ -1460,15 +1498,21 @@ a.more-info:hover{
   .home .solutions ul li .btn{
     position: unset;
   }
-  .home .large-features ul li{
+  .home .large-features ul{
     width: 100%;
+  }
+  .home .large-features ul li{
+    width: 90%;
     margin-bottom: 20px;
   }
   .home .large-features ul li .img{
     min-height: unset;
   }
-  .home .small-features ul li{
+  .home .small-features ul{
     width: 100%;
+  }
+  .home .small-features ul li{
+    width: 90%;
   }
   .home .iso-btns{
     margin-bottom: unset;
