@@ -133,7 +133,7 @@
       <li>
         <div class="icon"><i class="fal fa-traffic-light-go"></i></div>
         <h3>SLA <br>& KPI</h3>
-        <p>Set default priorities to automatically populate the required first response and target completion times. Ensure alignment with operational business Service Level Agreements with the KPI Monitor and determine trends in the performance of the support service. business</p>
+        <p>Set default priorities to automatically populate the required first response and target completion times. Ensure alignment with operational business Service Level Agreements with the KPI Monitor and determine trends in the performance of the support service.</p>
       </li>
       <li>
         <div class="icon"><i class="fal fa-laptop"></i></div>
