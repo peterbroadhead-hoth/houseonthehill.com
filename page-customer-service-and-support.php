@@ -1,112 +1,132 @@
 <?php get_header();?>
-<div class="solution-header csm">
-  <div class="solution-header-container">
-    <div class="text">
-      <h1>Customer Service Management</h1> 
-      <p>Support your Customers with House-on-the-Hill CSM service desk solution.</p>
-      <div class="signup-buttons">
-      <form action="https://house-on-the-hill.com/mothership/supisacs.dll" method="POST" id="theForm" name="theForm"
-          onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
-          <input type="HIDDEN" id="ID" name="ID" value="52d8bfffda342ee">
-          <input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
-          <input type="HIDDEN" id="selchange" name="selchange" value="">
-          <input type="HIDDEN" id="selparam1" name="selparam1" value="">
-          <input type="HIDDEN" id="AjaxUpdate" name="AjaxUpdate" value="">
-          <input type="HIDDEN" id="A" name="A" value="AnonCall">
-          <input type="HIDDEN" id="F1" name="F1" value="">
-          <input type="HIDDEN" id="F2158" name="F2158" value="0">
-          <input type="HIDDEN" id="NextStep" name="NextStep" value="">
-          <input type="HIDDEN" id="F2126" name="F2126" value="341">
-          <input type="HIDDEN" id="F2127_ctrl" name="F2127_ctrl" value="">
-          <input type="HIDDEN" id="F2128_ctrl" name="F2128_ctrl" value="">
-          <input type="HIDDEN" id="F2150_ctrl" name="F2150_ctrl" value="">
-          <input type="HIDDEN" id="F2129_ctrl" name="F2129_ctrl" value="">
-          <input type="HIDDEN" id="F2130_ctrl" name="F2130_ctrl" value="">
-          <input type="HIDDEN" id="F2148_ctrl" name="F2148_ctrl" value="">
-          <input type="HIDDEN" id="F2149_ctrl" name="F2149_ctrl" value="">
-          <input type="HIDDEN" id="ActResolved_ctrl" name="ActResolved_ctrl" value="">
-          <input type="HIDDEN" id="ActRespondedTo_ctrl" name="ActRespondedTo_ctrl" value="">
-          <input type="HIDDEN" id="F5006_ctrl" name="F5006_ctrl" value="">
-          <input type="HIDDEN" id="ContactId" name="ContactId" value="0">
-          <input type="HIDDEN" id="F" name="F" value="0">
-          <input type="HIDDEN" id="iViewHistory" name="iViewHistory" value="0">
-          <input type="HIDDEN" id="CCSM" name="CCSM" value="0">
-          <input type="HIDDEN" id="InitMedium" name="InitMedium" value="8192">
-          <input type="HIDDEN" id="SummViewFold" name="SummViewFold" value="0">
-          <input type="HIDDEN" id="CUOCHF" name="CUOCHF" value="1">
-          <input type="HIDDEN" id="savebtn" name="savebtn" value="">
-          <input type="HIDDEN" id="savebtn1" name="savebtn1" value="">
-          <input type="HIDDEN" id="CFID" name="CFID"
-              value="eJxTclXSUUJD4YmZJZl56cpGpnAhx7z8PCBlaKZvYKlvZGBkCOKYWhkYo2mFqgMiC0NLI0yjIQhojKEBujEGegYGQMoEJGSIRR4ZGaBht8yi4hIFn8y8VLgSI0MCToUgXUNMMZipRCKow7G7TNcSCBDmoRtrgM4CB4EFgm9sAnWgZ4hCcGpRWWZyqoJvYl5iempual4JuQ7HsBaEGACQ+Fww">
-          <input type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Organisation Name">
-          <input type="TEXT" name="F38" id="reg_email" size="0035" maxlength="50" value="" placeholder="Work Email">
-          <input type="HIDDEN" name="F2178" id="F2178" size="1" value="CSM">
-          <input class="Button" id="reg_submit" type="Submit" value="START FREE TRIAL">
-        </form>
+<div class="solution csm">
+  <div class="header">
+    <div class="container">  
+      <div class="text">  
+        <h1>Customer Service Management</h1> 
+        <p>Support your Customers with House-on-the-Hill CSM service desk solution.</p>
+        <div class="signup-buttons">
+          <a class="sign-up" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">START YOUR FREE TRIAL</a>
+          <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
+        </div>
       </div>
-      <p><strong>1000's of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
-      <div class="customers">
-            <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
-              <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
-            </a>  
-            <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
-              <img height="25" width="147" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bm-25.png" alt="Broadway Malyan Logo">
-            </a>  
-            <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
-              <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bbraun-25.png" alt="BBraun Medicine Logo">
-            </a>  
-            <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
-              <img height="25" width="134" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/hb-25.png" alt="Holland & Barrett Logo">
-            </a>  
-            <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-              <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
-            </a>  
-      </div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-Header.jpg" alt="Tailored home page graphic"></div>
     </div>
   </div>
-</div>
 
-<div class="solution-testimonial csm">
-  <div class="solution-testimonial-container">
-    <h2>" The team at House-on-the-Hill are doing a great job at assisting the integration of the service desk and sorting out all the question and changes. "</h2>
-    <p>Allan Andrews <span>BBraun Australia Pty Ltd</span></p>
-  </div> 
-  <img src="/wp-content/uploads/2021/09/CSM-screenshot-2021.png" alt="House-on-the-Hill Agent Dashboard">
-</div>
+  <div class="testimonials">
+    <div class="container">
+      <p><strong>1000's of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
+      <div class="customers">
+        <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
+          <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
+        </a>  
+        <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
+          <img height="25" width="147" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bm-25.png" alt="Broadway Malyan Logo">
+        </a>  
+        <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
+          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bbraun-25.png" alt="BBraun Medicine Logo">
+        </a>  
+        <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
+          <img height="25" width="134" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/hb-25.png" alt="Holland & Barrett Logo">
+        </a>  
+        <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
+          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
+        </a>  
+      </div>
 
+      <div class="quote">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/csm-screenshot-2021.png">
+        <div class="text">
+          <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
+            <h2>"The team at House-on-the-Hill are doing a great job at assisting the integration of the service desk and sorting out all the question and changes."</h2>
+            <p>Allan Andrews,<span> BBraun Australia Pty Ltd</span></p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="square"></div>
+  </div>
 
-
-<div class="solution-key-features">
-  <div class="solution-key-features-container">
-    <h2>Support your customers</h2>
-    <p>All the tools needed for a quality customer support service.</p>
-    <ul class="solutions">
+  <div class="solutions">
+    <ul>
+      <div class="text">
+        <h2 style="color: white;">Support your customers</h2>
+        <p style="color: white;">All the tools needed for a quality customer support service.</span></p>
+      </div>
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2020/08/self-service-portal.png"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/selfservice.png" alt="SSP icon"></div>
         <h3>Self-Service <br>Portal</h3>
         <p>Enable and encourage your customers to log and track their issues and requests directly, easing the workload of the service desk. Simple navigation provided with a personally styled dashboard to promote your services.</p>
-        <a href="/features/self-service" class="more-info">Find out more</a>
+        <div class="btn">
+          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+        </div>
       </li>
+
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2021/05/csmfeedbackicon.png"></div>
-        <h3>Customer Feedback <br>Surveys</h3>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/feedback.png" alt="feedback icon"></div>
+        <h3>Customer Feedback Surveys</h3>
         <p>Identify which of the services you provide are performing best for your business by asking for feedback via Customer Satisfaction Surveys.</p>
-        <a href="/features/customer-satisfaction-survey-tool/" class="more-info">Find out more</a>
+        <div class="btn">
+          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+        </div>
       </li>
+
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2021/04/reading-a-book.png"></div>
-        <h3>Knowledgbase</h3>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/book.png" alt="Knowledgebase book"></div>
+        <h3>KnowledgeBase</h3>
         <p>Customers can also be offered the option to self-diagnose issues with access to Frequently Asked Questions: a specially screened area of your service desk KnowledgeBase.</p>
-        <a class="more-info" href="/features/knowledgebase">Find out more</a>
+        <div class="btn">
+          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+        </div>
       </li>
+
       <li>
-        <div class="icon"><img src="/wp-content/uploads/2020/12/customer-specific-forms.png"></div>
-        <h3>Create Customer <br>Specific Forms</h3>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/brush.png" alt="Create Customer Specific Forms"></div>
+        <h3>Create Customer Specific Forms</h3>
         <p>Create custom forms to capture essential information, such as equipment request, starter, mover, leaver forms. The Drag and Drop Form Builder allows you to create your own forms with unique functionality and workflows.</p>
-        <a href="/features/drag-and-drop-form-builder/" class="more-info">Find out more</a>
+        <div class="btn">
+          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+        </div>
       </li>
     </ul>
   </div>
+
+  <div class="small-features">
+    <ul>
+      <li>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/handshake.png" alt="handshake icon"></div>
+        <h4>Manage Customer Relationships</h4>
+        <p>Customer Relationship Management with sophisticated formula editor and intuitive filtering enables the creation of effectively targeted campaigns, with Sales Opportunities to manage new prospects.</p>
+      </li>
+      <li>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/performance.png" alt="performance icon"></div>
+        <h4>Monitor and Report on Performance</h4>
+        <p>Schedule service desk reports to display Customer Service Management data such as Assignee Performance, Tickets Logged by Customer and Priority, Contract Expiration dates and more.</p>
+      </li>
+      <li>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/contract.png" alt="contract icon"></div>
+        <h4>Contracts</h4>
+        <p>Keep a record of customers contracts with you and get reminded on renewal and expiry dates.</p>
+      </li>
+      <li>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/creditcard.png" alt="purchase icon"></div>
+        <h4>Purchase Orders</h4>
+        <p>Easily order kit with your suppliers and link to your customers tickets.</p>
+      </li>
+      <li>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/kpi.png" alt="report icon"></div>
+        <h4>Easy Reporting</h4>
+        <p>Build your own custom reports with our easy report builder and schedule them to be run and emailed as required.</p>
+      </li>
+      <li>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/sla.png" alt="sla icon"></div>
+        <h4>SLA</h4>
+        <p>Different SLAs can be set against Customers, Contracts and Inventory.</p>
+      </li>
+    </ul>
+  </div>
+
   <div class="iso-btns">
     <h3>ISO certified, we take your data very seriously.</h3>
     <a href="https://cvs.babcert.com/babcert.asp?c=234054&v=wgb5351g6c"  target="_blank" rel="noopener">
@@ -119,44 +139,17 @@
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/ccs-75.png" height="75" width="100" alt="Crown Commercial Supplier Logo"/>
     </a> 
   </div>
-</div>
 
-<div class="solution-features">
-  <div class="solution-features-container">
-    <h2>Helping you to help your customers</h2>
-    <p>All the tools needed for a quality customer support service.</p>
-    <ul class="features csm">
-      <li>
-        <div class="icon"><i class="far fa-handshake-alt"></i></div>
-        <h3> Manage Customer Relationships</h3>
-        <p>Customer Relationship Management with sophisticated formula editor and intuitive filtering enables the creation of effectively targeted campaigns, with Sales Opportunities to manage new prospects.</p>
-      </li>
-      <li>
-        <div class="icon"><i class="far fa-tachometer-fast"></i></div>
-        <h3>Monitor and Report on Performance</h3>
-        <p>Schedule service desk reports to display Customer Service Management data such as Assignee Performance, Tickets Logged by Customer and Priority, Contract Expiration dates and more.</p>
-      </li>
-      <li>
-        <div class="icon"><i class="far fa-file-signature"></i></div>
-        <h3>Contracts</h3>
-        <p>Keep a record of customers contracts with you and get reminded on renewal and expiry dates.</p>
-      </li>
-      <li>
-        <div class="icon"><i class="fal fa-credit-card"></i></div>
-        <h3>Purchase Orders</h3>
-        <p>Easily order kit with your suppliers and link to your customers tickets.</p>
-      </li>
-      <li>
-        <div class="icon"><i class="far fa-chart-bar"></i></div>
-        <h3>Easy Reporting</h3>
-        <p>Build your own custom reports with our easy report builder and schedule them to be run and emailed as required.</p>
-      </li>
-      <li>
-        <div class="icon"><i class="far fa-traffic-light-stop"></i></div>
-        <h3>SLA</h3>
-        <p>Different SLAs can be set against Customers, Contracts and Inventory.</p>
-      </li>
-    </ul>
+  <div class="demo">
+    <div class="container">
+      <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/demo-man.png" height="200"></div>
+      <div class="text">
+        <h2>Ready to give <br>House-on-the-Hill CSM a go?</h2>
+        <p>Sign up for a demo and get a tour of your potentional new home.</p>
+        <a class="sign-up" href="/demo">Request a Demo</a>
+      </div>
+    </div>
   </div>
 </div>
+
 <?php get_footer();?>
