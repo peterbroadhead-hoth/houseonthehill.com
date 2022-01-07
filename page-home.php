@@ -3,8 +3,7 @@
   <div class="header">
     <div class="container">  
       <div class="text">  
-        <h1>The Help Desk software tailored for you and your team</h1> 
-        <p></p>
+        <h1>2022 The Help Desk software tailored for you and your team</h1> 
         <p>Get a trusted Cloud Service Desk & Portal which you can use for for Freedom of Information Requests, IT Support, Customer Service or Facilities Management and customise to your fit your needs and those of your users.</p>
         <div class="signup-buttons">
           <!--<form action="https://house-on-the-hill.com/mothership/supisacs.dll" method="POST" id="theForm" name="theForm" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
@@ -84,7 +83,7 @@
       </div>
 
       <div class="quote">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png" alt="itsm screenshot">
         <div class="text">
           <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
             <h2>"Buy it, it is the best ITSM toolkit I have ever worked with, including ServiceNow."</h2>
@@ -104,7 +103,7 @@
       </div>
       <li class="foi">
         <h3>FOI, Case & Complaints <br>Management</h3>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-Header.jpg" alt="Customer Service Management Icon"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-Header.jpg" alt="foi Icon"></div>
         <p>Who knew you could manage the full FOI, DPA, SAR, ROPA & the IG lifecycle paperlessly within one solution. Well you can see why many UK councils, public bodies and organisations chose HotH.</p>
         <div class="btn">
           <a class="sign-up">Try for free</a>
@@ -114,7 +113,7 @@
 
       <li class="itsm">
         <h3>IT Service <br>Management</h3>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-Header.jpg" alt="Customer Service Management Icon"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-Header.jpg" alt="itsm Icon"></div>
         <p>Our flagship. A versatile ITIL ready service desk solution, pre-loaded with all the tools you need deliver great IT support at a snip.</p>
         <div class="btn">
           <a class="sign-up">Try for free</a>  
@@ -134,7 +133,7 @@
 
       <li class="cafm">
         <h3>Computer Aided Facilities <br>Management</h3>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/Cafm-Header.jpg" alt="Customer Service Management Icon"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/Cafm-Header.jpg" alt="CAFM Icon"></div>
         <p>The new digital era of managing your infrastructure portfolio. Reactive & scheduled jobs, engineer calendars & a mobile app all under one roof.</p>
         <div class="btn">
           <a class="sign-up">Try for free</a>   
@@ -198,22 +197,22 @@
         <p>Analyse Service Level Agreement performance by helpdesk agent, customer, status, Priority, and other service desk metrics.</p>
       </li>
       <li>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/workflow.webp" alt="branded self service portal"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/workflow.webp" alt="workflow engine icon"></div>
         <h4>Workflow Engine</h4>
         <p>Design the service desk process workflows to suit your organisation and get reminds on breaches.</p>
       </li>
       <li>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/mobile.webp" alt="branded self service portal"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/mobile.webp" alt="mobile icon"></div>
         <h4>Mobile</h4>
         <p>House-on-the-Hill’s mobile service desk allows engineers to access the work queue, and log, update and escalate calls while working on customer sites.</p>
       </li>
       <li>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/asset.webp" alt="branded self service portal"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/asset.webp" alt="Asset Icon"></div>
         <h4>Asset & Software Licence Management</h4>
         <p>Asset and Software Licence Management with House-on-the-Hill enables you to analyse and report on your company’s hardware, and ensure complete software licence compliance.</p>
       </li>
       <li>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/servicerequest.webp" alt="branded self service portal"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/servicerequest.webp" alt="service request"></div>
         <h4>Service Requests</h4>
         <p>Service Request icons assist customers in the identification of required services, and enhance the overall user experience of the self-service portal.</p>
       </li>
@@ -235,7 +234,7 @@
 
   <div class="demo">
     <div class="container">
-      <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/demo-man.png" height="200"></div>
+      <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/demo-man.png" height="200" alt="demo icon"></div>
       <div class="text">
         <h2>Ready to give <br>House-on-the-Hill a go?</h2>
         <p>Sign up for a demo and get a tour of your potentional new home.</p>
@@ -252,37 +251,37 @@
           <h2>Looking for support?</h2>
           <p>Help is at hand, get in touch and we will be available to help.</p>
           <div class="btns">
-            <a class="more-info" href="">Call</a>
-            <a class="more-info" href="">Chat</a>
-            <a class="more-info" href="">Email</a>
+            <a class="more-info" href="/contact-us/">Call</a>
+            <a class="more-info" onclick="HothChatWidget.toggle()">Chat</a>
+            <a class="more-info" href="mailto:support@houseonthehill.com">Email</a>
           </div>
         </li>
         <li>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/users.webp" alt="hoth support icon">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/users.webp" alt="hoth consultancy icon">
           <h2>Consultancy</h2>
           <p>Get the most out of your ServiceDesk with bespoke Consultancy.</p>
           <div class="btns">
-            <a class="more-info" href="">Call</a>
-            <a class="more-info" href="">Chat</a>
-            <a class="more-info" href="">Email</a>
+            <a class="more-info" href="/contact-us/">Call</a>
+            <a class="more-info" onclick="HothChatWidget.toggle()">Chat</a>
+            <a class="more-info" href="mailto:support@houseonthehill.com">Email</a>
           </div>
         </li>
         <li>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/cloud.webp" alt="hoth support icon">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/cloud.webp" alt="hoth install icon">
           <h2>Installation Services</h2>
           <p>Get House-on-the-Hill installed on your own server or migrate your on-side system into the cloud and we will look after your data for you.</p>
           <div class="btns">
-            <a class="more-info" href="">Call</a>
-            <a class="more-info" href="">Chat</a>
-            <a class="more-info" href="">Email</a>
+            <a class="more-info" href="/contact-us/">Call</a>
+            <a class="more-info" onclick="HothChatWidget.toggle()">Chat</a>
+            <a class="more-info" href="mailto:support@houseonthehill.com">Email</a>
           </div>
         </li>
         <li>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/book.webp" alt="hoth support icon">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/book.webp" alt="hoth docs icon">
           <h2>Documents</h2>
           <p>Want to improve your House-on-the-Hill knowledge? <br>Read our product documentation.</p>
           <div class="btns">
-            <a class="more-info" href="">Docs</a>
+            <a class="more-info" href="/docs">Docs</a>
           </div>
         </li>
       </ul>

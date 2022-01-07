@@ -6,11 +6,11 @@
         <h1>IT Service Management</h1> 
         <p>A versatile service desk solution to help you deliver great IT support.</p>
         <div class="signup-buttons">
-          <a class="sign-up" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">START YOUR FREE TRIAL</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">START YOUR FREE TRIAL</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
         </div>
       </div>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-Header.jpg" alt="Tailored home page graphic"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-Header.jpg" alt="itsm icon"></div>
     </div>
   </div>
 
@@ -36,7 +36,7 @@
       </div>
 
       <div class="quote">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png" alt="itsm screenshot">
         <div class="text">
           <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
             <h2>"The combination of price, features and their amazing support made the choice simple. HotH makes managing tickets, escalations, SLA’s and KPI’s simple."</h2>
@@ -55,7 +55,7 @@
         <p style="color: white;">Use these features to ease your workload.</span></p>
       </div>
       <li>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/selfservice.png" alt="Knowledgebase book"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/selfservice.png" alt="ssp icon"></div>
         <h3>Self-Service <br>Portal</h3>
         <p>Enable and encourage your customers to log and track their issues and requests directly, easing the workload of the service desk. Simple navigation provided with a personally styled dashboard to promote your services.</p>
         <div class="btn">
@@ -64,7 +64,7 @@
       </li>
 
       <li>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/dragdrop.png" alt="Knowledgebase book"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/dragdrop.png" alt="drag and drop icon"></div>
         <h3>Drag & Drop Call Form Builder</h3>
         <p>Build unique Forms for all types of call, be they Incidents, Problems, Equipment Requests, New Starters, Inventory items, Activities or Contracts. Using Drag and Drop features you can quickly build the Forms you require.</p>
         <div class="btn">
@@ -82,7 +82,7 @@
       </li>
 
       <li>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/kanban.png" alt="Knowledgebase book"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/kanban.png" alt="kanban icon"></div>
         <h3>Kanban Workboard</h3>
         <p>Offers service managers real-time list views of Service Desk tickets at specific statuses.</p>
         <div class="btn">

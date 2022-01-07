@@ -713,6 +713,12 @@ a.more-info:hover{
 	background: #9DCCD1;
 }
 
+/* Iso Buttons */
+.home .iso-btns img{
+  width: 75px;
+  height: auto;
+}
+
 /* Header dropdown button mobile only!! */
 
 .hoth-header ul li .dropbtn{
@@ -1314,6 +1320,9 @@ a.more-info:hover{
   .home .header .container .text, .home .header .container .img img{
     width: 600px;
   }
+  .home .large-features ul li .img{
+    min-height: 290px;
+  }
 }
 
 @media (max-width: 1500px){
@@ -1323,6 +1332,12 @@ a.more-info:hover{
   .home .header .container .img img{
     width: 550px;
   }
+  .home .solutions ul li h3{
+    height: 100px;
+  }
+  .home .large-features ul li .img{
+    min-height: 250px;
+  }
 }
 
 @media (max-width: 1350px){
@@ -1331,6 +1346,15 @@ a.more-info:hover{
   } 
   .home .header .container .img img{
     width: 500px;
+  }
+  .home .solutions ul li{
+    width: 45%;
+  }
+  .home .solutions ul li h3{
+    height: unset;
+  }
+  .home .large-features ul li .img{
+    min-height: 220px;
   }
 }
 
@@ -1356,6 +1380,9 @@ a.more-info:hover{
   .home .header .container .text{
     width: 40%;
   } 
+  .home .large-features ul li .img{
+    min-height: 185px;
+  }
 }
 
 @media (max-width: 920px){
@@ -1478,7 +1505,7 @@ a.more-info:hover{
     font-size: 1.5rem;
   }
   .home .testimonials .container .quote .text, .home .solutions ul .text{
-    padding: 0;
+    padding: 10px;
   }
   .home .testimonials .square{
     height: 250px;
@@ -1717,8 +1744,8 @@ a.more-info:hover{
   margin: auto;
 }
  
-.solution.itsm .solutions ul li, .solution.csm .solutions ul li, .solution.cafm .solutions ul li{
-  width: 23%;
+.solution.foi .solutions ul li{
+  width: 31%;
 }
 
 .solution.itsm .solutions ul li .btn{
@@ -1728,7 +1755,7 @@ a.more-info:hover{
 .solution .solutions ul li{
   list-style: none;
   background-color: white;
-  width: 31%;
+  width: 23%;
   margin: 0 auto;
   padding: 20px 50px;
   border-radius: 4px;
@@ -1830,7 +1857,7 @@ a.more-info:hover{
   width: 100%;
   background-color: #3b5067;
   border-radius: 4px 4px 0 0;
-  height: 350px;
+  min-height: 350px;
   overflow: hidden;
 }
  
@@ -1922,7 +1949,6 @@ a.more-info:hover{
   margin: 2%;
   margin-left: 0;
   margin-top: 0;
-  background-color: #f7fcff;
   border-radius: 4px;
   list-style: none;
 }
@@ -1970,48 +1996,75 @@ a.more-info:hover{
   .solution .header .container .text, .solution .header .container .img img{
     width: 600px;
   }
-}
+  .solution .large-features ul li .img{
+    min-height: 290px;
+  }
+ }
  
-@media (max-width: 1500px){
+ @media (max-width: 1500px){
   .solution .header .container .text{
     width: 550px;
   } 
   .solution .header .container .img img{
     width: 550px;
   }
-}
+  .solution .solutions ul li h3{
+    height: 100px;
+  }
+  .solution .large-features ul li .img{
+    min-height: 330px;
+  }
+ }
  
-@media (max-width: 1350px){
+ @media (max-width: 1350px){
   .solution .header .container .text{
     width: 550px;
   } 
   .solution .header .container .img img{
     width: 500px;
   }
-}
+  .solution .solutions ul li{
+    width: 45%;
+  }
+  .solution .solutions ul li h3{
+    height: unset;
+  }
+  .solution .large-features ul li .img{
+    min-height: 310px;
+  }
+ }
  
-@media (max-width: 1300px){
+ @media (max-width: 1300px){
   .solution .header .container .text{
     width: 45%;
   } 
   .solution .header .container .img img{
     width: 500px;
   }
-}
+  .help ul{
+    width: 100%;
+  }
+ }
  
-@media (max-width: 1200px){
+ @media (max-width: 1200px){
   .solution .testimonials .container{
     width: 80%;
   } 
-}
+ }
  
  @media (max-width: 1100px){
   .solution .header .container .text{
     width: 40%;
   } 
-}
+  .solution.foi .solutions ul li{
+    width: 41%;
+  }
+  .solution .large-features ul li .img{
+    min-height: 185px;
+  }
+ }
  
-@media (max-width: 920px){
+ @media (max-width: 920px){
   .solution .header .container{
     width: 100%;
   }
@@ -2054,13 +2107,22 @@ a.more-info:hover{
     width: 45%;
     margin-left: 0;
   }
+  .solution.foi .solutions ul li{
+    width: 45%;
+  }
   .solution .large-features ul{
     width: 100%;
   }
   .solution .large-features ul li .img{
     min-height: 200px;
   }
-}
+  .help .container, .help ul{
+    width: 100%;
+  }
+  .help ul li img{
+    position: unset;
+  }
+ }
  
  @media (max-width: 800px){
   .solution .demo .container{
@@ -2074,7 +2136,7 @@ a.more-info:hover{
   .solution .demo .img{
     margin: auto;
   }
-}
+ }
  
  @media (max-width: 730px){
   .solution .header{
@@ -2125,7 +2187,7 @@ a.more-info:hover{
     font-size: 1.5rem;
   }
   .solution .testimonials .container .quote .text, .solution .solutions ul .text{
-    padding: 0;
+    padding: 10px;
   }
   .solution .testimonials .square{
     height: 250px;
@@ -2179,12 +2241,35 @@ a.more-info:hover{
   .solution .demo .container .text{
     text-align: center;
   }
+  .help .container{
+    width: 100%;
+  }
+  .help ul{
+    width:100%;
+  }
+  .help ul li img{
+    position: unset;
+  }
+  .help ul li{
+    width: 100%;
+    margin-bottom: unset;
+    padding: 10px;
+  }
+  .help ul li .btns{
+    position: unset;
+  }
+  .help ul li .btns a:nth-child(2){
+    display: none;
+  }
   .solution .small-features{
     padding: 10px;
     padding-bottom: 0;
     padding-top: 50px;
   }
-}
+  .foi .solution-features.list ul{
+    width: 100%;
+  }
+ }
 
 /* single page testimonial */
 
