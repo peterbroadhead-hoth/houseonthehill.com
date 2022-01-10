@@ -6,11 +6,11 @@
         <h1>FOI, Case & Complaints Management Software</h1> 
         <p>Make the best use of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaint Management Software with House-on-the-Hill Case Management Software.</p>
         <div class="signup-buttons">
-          <a class="sign-up" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">START YOUR FREE TRIAL</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">START YOUR FREE TRIAL</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
         </div>
       </div>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-Header.jpg" alt="Tailored home page graphic"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-Header.jpg" alt="foi graphic"></div>
     </div>
   </div>
 
@@ -37,7 +37,7 @@
       
 
       <div class="quote">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/foi-dashboard-2021.webp">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/foi-dashboard-2021.webp" alt="foi screenshot">
         <div class="text">
           <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
             <h2>"Timely, flexible, informed and effective response received. Thanking you kindly."</h2>
@@ -60,7 +60,6 @@
         <h3>Multiple Case <br>Types</h3>
         <p>FOI, EIR, DSAR, Complaints, Compliments, Ombudsman, Councillor and MP Enquiries, Information Governance, RoPA and more.</p>
         <div class="btn">
-          <a class="more-info" href="/features/workflow-engine/">Find out more ></a>
         </div>
       </li>
 
@@ -69,7 +68,6 @@
         <h3>Configurable Email <br>Replies</h3>
         <p>Decide if you want to pick and choose when and which email is sent or if you want preselected emails to be triggered automatically on stages of the case management</p>
         <div class="btn">
-          <a class="more-info" href="/features/workflow-engine/">Find out more ></a>
         </div>
       </li>
 
@@ -78,7 +76,6 @@
         <h3>Delegation of <br>Requests</h3>
         <p>All or part of any requests can be delegated to other departments who will recieve an advisory email and subsequent reminders if the response is late. Department performance analysis helps to identify why Cases are breaching.</p>
         <div class="btn">
-          <a class="more-info" href="/features/workflow-engine/">Find out more ></a>
         </div>
       </li>
     </ul>
@@ -95,16 +92,16 @@
           <h4>Customisable Forms</h4>
           <p>Out of the box Case Management Forms that are amendable. Easily edit our Case Form Templates or start from scratch and create your own custom field and forms suited for your Case Management. 
           <br><Br>Each Case Form can be customised with House-on-the-Hills Drag and Drop form builder to allow collection of the required data and information for that Case.</p>
-          <a class="more-info" href="/features/customer-portal-branding/">Find out more</a>
+          <a class="more-info" href="/features/drag-and-drop-form-builder/">Find out more</a>
         </div>
       </li>
       <li>
         <div class="img"><img src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/screenshots/createquickreport.webp" alt="FOI software quick report"></div>
         <div class="text">
           <h4>Run Case Reports</h4>
-          <p>Report on outcomes, exemptions and other key performance indicators at the touch of a button, and customise and schedule Case reports using House-on-the-Hill’s <a href="/report-designer/">QuickReport Designer.</a>
+          <p>Report on outcomes, exemptions and other key performance indicators at the touch of a button, and customise and schedule Case reports using House-on-the-Hill’s QuickReport Designer.
           <br><br>Use our default templates as a guide or build your own from scratch. The choice is yours.</p>
-          <a class="more-info" href="/features/workflow-engine/">Find out more</a>
+          <a class="more-info" href="/features/report-designer/">Find out more</a>
         </div>
       </li>
     </ul>

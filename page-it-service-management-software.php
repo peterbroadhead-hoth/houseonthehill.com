@@ -6,7 +6,7 @@
         <h1>IT Service Management</h1> 
         <p>A versatile service desk solution to help you deliver great IT support.</p>
         <div class="signup-buttons">
-          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">START YOUR FREE TRIAL</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">START YOUR FREE TRIAL</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
         </div>
       </div>
@@ -59,7 +59,7 @@
         <h3>Self-Service <br>Portal</h3>
         <p>Enable and encourage your customers to log and track their issues and requests directly, easing the workload of the service desk. Simple navigation provided with a personally styled dashboard to promote your services.</p>
         <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+          <a class="more-info" href="/features/self-service/">Find out more ></a>
         </div>
       </li>
 
@@ -68,7 +68,7 @@
         <h3>Drag & Drop Call Form Builder</h3>
         <p>Build unique Forms for all types of call, be they Incidents, Problems, Equipment Requests, New Starters, Inventory items, Activities or Contracts. Using Drag and Drop features you can quickly build the Forms you require.</p>
         <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+          <a class="more-info" href="/features/drag-and-drop-form-builder/">Find out more ></a>
         </div>
       </li>
 
@@ -76,9 +76,6 @@
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/book.png" alt="Knowledgebase book"></div>
         <h3>KnowledgeBase</h3>
         <p>For speedy call resolution, solutions can be searched for and copied directly from House-on-the-Hill’s KnowledgeBase.</p>
-        <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
-        </div>
       </li>
 
       <li>
@@ -86,7 +83,7 @@
         <h3>Kanban Workboard</h3>
         <p>Offers service managers real-time list views of Service Desk tickets at specific statuses.</p>
         <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+          <a class="more-info" href="/features/kanban-workboard/">Find out more ></a>
         </div>
       </li>
     </ul>

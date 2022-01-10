@@ -6,11 +6,11 @@
         <h1>Customer Service Management</h1> 
         <p>Support your Customers with House-on-the-Hill CSM service desk solution.</p>
         <div class="signup-buttons">
-          <a class="sign-up" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">START YOUR FREE TRIAL</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">START YOUR FREE TRIAL</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
         </div>
       </div>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-Header.jpg" alt="Tailored home page graphic"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-Header.jpg" alt="csm graphic"></div>
     </div>
   </div>
 
@@ -59,7 +59,7 @@
         <h3>Self-Service <br>Portal</h3>
         <p>Enable and encourage your customers to log and track their issues and requests directly, easing the workload of the service desk. Simple navigation provided with a personally styled dashboard to promote your services.</p>
         <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+          <a class="more-info" href="/features/self-service/">Find out more ></a>
         </div>
       </li>
 
@@ -68,7 +68,7 @@
         <h3>Customer Feedback Surveys</h3>
         <p>Identify which of the services you provide are performing best for your business by asking for feedback via Customer Satisfaction Surveys.</p>
         <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+          <a class="more-info" href="/customer-satisfaction-survey-tool/">Find out more ></a>
         </div>
       </li>
 
@@ -77,7 +77,6 @@
         <h3>KnowledgeBase</h3>
         <p>Customers can also be offered the option to self-diagnose issues with access to Frequently Asked Questions: a specially screened area of your service desk KnowledgeBase.</p>
         <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
         </div>
       </li>
 
@@ -86,7 +85,7 @@
         <h3>Create Customer Specific Forms</h3>
         <p>Create custom forms to capture essential information, such as equipment request, starter, mover, leaver forms. The Drag and Drop Form Builder allows you to create your own forms with unique functionality and workflows.</p>
         <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+          <a class="more-info" href="/features/drag-and-drop-form-builder/">Find out more ></a>
         </div>
       </li>
     </ul>

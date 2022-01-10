@@ -3,7 +3,7 @@
   <div class="header">
     <div class="container">  
       <div class="text">  
-        <h1>2022 The Help Desk software tailored for you and your team</h1> 
+        <h1>The Help Desk software tailored for you and your team</h1> 
         <p>Get a trusted Cloud Service Desk & Portal which you can use for for Freedom of Information Requests, IT Support, Customer Service or Facilities Management and customise to your fit your needs and those of your users.</p>
         <div class="signup-buttons">
           <!--<form action="https://house-on-the-hill.com/mothership/supisacs.dll" method="POST" id="theForm" name="theForm" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">

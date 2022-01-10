@@ -6,7 +6,7 @@
         <h1>Computer Aided Facilities Management</h1> 
         <p>Software to help keep your properties well maintained and safe.</p>
         <div class="signup-buttons">
-          <a class="sign-up" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">START YOUR FREE TRIAL</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">START YOUR FREE TRIAL</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
         </div>
       </div>
@@ -59,7 +59,7 @@
         <h3>Bookings</h3>
         <p>With House-on-the-Hill Facilities Management Software, you can plan for any circumstance that may affect your business’s infrastructure using Planned Preventative Maintenance, with drill-down calendars showing engineers an overview of upcoming and future jobs.</p>
         <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+          <a class="more-info" href="/features/planned-preventative-maintenance/">Find out more ></a>
         </div>
       </li>
 
@@ -77,7 +77,7 @@
         <h3>Compliance Management</h3>
         <p>Manage safety and risk assessments associated with work requests and other jobs using custom built forms.</p>
         <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+          <a class="more-info" href="/features/drag-and-drop-form-builder/">Find out more ></a>
         </div>
       </li>
 
@@ -86,7 +86,7 @@
         <h3>Real-time Reporting</h3>
         <p>Instantly view in real-time the jobs that are still open, and which Engineer they are assigned to with KPI Monitoring real-time dashboard.</p>
         <div class="btn">
-          <a class="more-info" href="/foi-request-management/">Find out more ></a>
+          <a class="more-info" href="/features/report-designer/">Find out more ></a>
         </div>
       </li>
     </ul>
