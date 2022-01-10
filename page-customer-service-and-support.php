@@ -97,7 +97,7 @@
         <div class="icon"><img src="/wp-content/uploads/2021/04/reading-a-book.png"></div>
         <h3>Knowledgbase</h3>
         <p>Customers can also be offered the option to self-diagnose issues with access to Frequently Asked Questions: a specially screened area of your service desk KnowledgeBase.</p>
-        <a class="more-info" href="/features/knowledgebase">Find out more</a>
+        
       </li>
       <li>
         <div class="icon"><img src="/wp-content/uploads/2020/12/customer-specific-forms.png"></div>
