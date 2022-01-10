@@ -95,7 +95,7 @@
       </li>
       <li>
         <div class="icon"><img src="/wp-content/uploads/2021/04/reading-a-book.png"></div>
-        <h3>Knowledgbase</h3>
+        <h3>KnowledgBase</h3>
         <p>Customers can also be offered the option to self-diagnose issues with access to Frequently Asked Questions: a specially screened area of your service desk KnowledgeBase.</p>
         
       </li>
