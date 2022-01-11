@@ -268,489 +268,42 @@ a.more-info:hover{
   height: 30px;
 }
 
-/* Header */
-
-
-.hoth-header-container{
-	width: 100%;
-	background: white;
-	position: fixed;
-	top: 0;
-	z-index: 9999;
-	-webkit-box-shadow: 0px 2px 23px -16px rgb(0 0 0 / 30%);
-	-moz-box-shadow: 0px 2px 23px -16px rgb(0 0 0 / 30%);
-	box-shadow: 0px 2px 23px -16px rgb(0 0 0 / 30%);
-}
-
-.hoth-header-container .hoth-header{
-	width: 80%;
-	margin: auto;
-	background: white;
-	display: flex;
-	flex-wrap: wrap;
-	height: 70px;
-}
-
-.hoth-header-container .hoth-header .hoth-home{
-	font-size: 23px;
-	display: flex;
-	align-items: center;
-	text-decoration: none;
-	color: #1e3550;
-	padding: 10px;
-  font-weight: bold;
-}
-
-.hoth-header-container .hoth-header .hoth-home:hover{
-  opacity:0.8;
-}
-
-.hoth-header-container .hoth-header .hoth-home img{
-	height: 50px;
-	width: 50px;
-  border-radius: 4px;
-}
-
-
-
-.hoth-header a.sign-up-toggle{
-  padding: 10px 20px;
-  border-radius: 4px;
-  display: inline-block;
-  background: #1e3550;
-  margin-left: 20px;
-  color: white;
-  white-space: nowrap;
-  height: unset;
-  margin-left: 20px;
-  box-shadow: 0 0 20px #00000024;
-  font-weight: bold;
-}
-
-.hoth-header  .sign-up.mobile-only{
-  display: none;
-}
-
-.hoth-header ul li:hover a.sign-up-toggle{
-	color: white;
-	opacity: 0.9;
-}
-
-.mini_contact{
-	background: white;
-  position: fixed;
-  padding: 10px;
-  border-radius: 4px;
-  right: 20px;
-  z-index: 9999;
-  box-shadow: 0 0 20px #70707033;
-  font-size: 12px;
-  top: 90px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 200px;
-}
-
-.mini_contact h3{
-	margin:0;	
-  display: flex;
-  align-items: center;	
-  font-size: 15px;
-	flex:100%;
-}
-
-.mini_contact .img{
-	border-radius: 100px;
-  overflow: hidden;
-  height: 30px;
-  width: 30px;
-  margin-right: 10px;
-}
-
-.mini_contact a{
-	flex:100%;
-	font-size:15px;
-}
-
-.hoth-header ul {
-  font-size: 0;
-  list-style-type: none;
-  margin: unset;
-  display: flex;
-  width: auto;
-  margin: 0 auto;
-  margin-left: 20px;
-}
-
-.hoth-header ul.sales{
-	margin-right: 0;
-  margin-left: 5px;
-}
-
-.hoth-header ul a{
-  font-size: 15px;
-  display: flex;
-  position: relative;
-  align-items: center;
-  padding: 10px;
-  color: #3a3a3a;
-  padding: 10px;
-  height: 100%;
-  letter-spacing: 0.5px;
-}
-
-.hoth-header ul a.whats-new{
-  background: #F4DDC7;
-  border-radius: 4px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.hoth-header ul a.whats-new li{
-  padding: 10px !important;
-}
-
-.hoth-header ul li{
-  font-size: 14px;
-  display: flex;
-  position: relative;
-  align-items: center;
-}
-
-.hoth-header ul a li{
-	padding: 0;
-}
-
-.hoth-header ul li span{
-}
-
-.hoth-header ul li i{
-	display: none;
-	font-size: 16px;
-}
-
-.hoth-header ul li ul {
-  display: none;
-}
-
-.hoth-header ul li:hover a{
-  cursor: pointer;
-  color: #FF8780;
-}
-
-.hoth-header ul li:hover ul {
-	display: block;
-	top: 70px;
-	width: 100%;
-	left: 0;
-	position: fixed;
-	padding-bottom: 50px;
-	background:white;
-  margin: unset;
-}
-
-.hoth-header ul li:hover ul .container{
-	width: 80%;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 10px;
-}
-
-.hoth-header ul li:hover ul .container h2.title{
-	font-size: 16px;
-  border-bottom: 1px solid #E0E0E0;
-  width: 98%;
-  padding: unset;
-  padding-bottom: 10px;
-  height: 35px;
-  margin-bottom: 0;;
-}
-
-.hoth-header ul li.solutions:hover ul .container .main-menu{
-  width: 40%;
-}
-
-.hoth-header ul li:hover ul .container .main-menu{
-	padding: 0px;
-	width: 60%;
-	background: white;
-	padding-bottom: 20px;
-}
-
-.hoth-header ul li:hover ul .container .main-menu .main-menu-container{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.hoth-header ul li:hover ul li {
-	display: block;
-	width: 100%;
-  padding: 15px;
-  padding-left: 0;
-}
-
-.hoth-header ul li:hover ul a:hover h2{
-	color: #D67066;
-}
-
-.hoth-header ul li:hover ul .container .main-menu a{
-  display: block;
-  width: 90%;
-  margin-left: 0;
-  margin-right: 5%;
-	position: relative;
-	border-radius: 4px;
-}
-
-.hoth-header ul li:hover ul li h2{
-	font-size: 14px;
-	color: #1e3550;
-	margin-top: 0;
-  margin-bottom: 5px;
-}
-
-.hoth-header ul li:hover ul li p{
-	font-size: 13px;
-	margin: 0;
-	color: #1e3550;
-	white-space: normal;
-}
-
-.hoth-header ul li:hover ul li i{
-  font-size: 14px;
-  color: #1e3550;
-  width: 25px;
-}
-
-.hoth-header ul li:hover ul a{
-	padding: 0;
-	height: unset;
-}
-
-.hoth-header ul li:hover ul .container .main-menu li.itsm:hover h2{
-	color: #FF8780;
-}
-
-.hoth-header ul li:hover ul .container .main-menu li.csm:hover h2{
-	color: #efb293;
-}
-
-.hoth-header ul li:hover ul .container .main-menu li.cafm:hover h2{
-	color: #9DCCD1;
-}
-
-.hoth-header ul li:hover ul .container .main-menu li.foi:hover h2{
-	color: #E48E28;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu.solutions{
-  width: 35%;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu.plans{
-	width: 25%;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu{
-	background: white;
-	padding-left: 20px;
-	padding-right: 0px;
-	width: 40%;
-  border-left: 1px solid #E0E0E0;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu li{
-	width: 100%;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu li a{
-  color: #1e3550;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu.contact li:hover a{
-  color:  #FF8780;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu li p{
-	padding: 0;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu .col-md-4{
-	width: 80%;
-	padding: 0;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu .col-md-4 .text{
-	display: block;
-	padding: 20px;
-	padding-left: 0;
-	padding-right: 0;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu .col-md-4 h3{
-  font-size: 14px;
-  color: #1e3550;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.hoth-header ul li:hover ul .container .sub-menu .col-md-4 p{
-	font-size: 13px;
-	margin: 0;
-	color: #1e3550;
-}
-
-.hoth-header ul li:hover ul .container .foot-menu{
-	background: #f8f8f8;
-	width: 100%;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	border-top: 1px solid #E0E0E0;
-	display: flex;
-	border-bottom: 1px solid #E0E0E0;
-}
-
-.hoth-header ul li:hover ul .container .foot-menu .contact{
-	padding: 15px 10px;
-	width: 80%;
-	margin: auto;
-	display: flex;
-}
-
-.hoth-header ul li:hover ul .container .foot-menu .contact a{
-	font-size: 14px;
-	color: #006b8e;
-}
-
-.hoth-header ul li:hover ul .container .foot-menu .contact a:hover{
-	color: #3a3a3a;
-}
-
-.hoth-header ul li:hover ul .container .foot-menu .contact .vl{
-	border-left: 1px solid #E0E0E0;
-  height: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  align-items: center;
-}
-
-.header-hover{
-  display: none;
-}
-.demo.header-hover{
-  background-color: unset;
-  padding: unset;
-}
-
-/* Header latest feature */
-.sub-menu .latest-feature{
-  padding: 20px 0;
-}
-
-.sub-menu .latest-feature .single-feature{
-  width: 100%;
-}
-
-.sub-menu .latest-feature .single-feature h2{
-  font-size: 14px;
-  color: #1e3550;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.sub-menu .latest-feature .single-feature p{
-  font-size: 14px;
-  margin: 0;
-}
-
-.sub-menu .latest-feature .single-feature .description .img{
-  width: 50px;
-  height: 50px;
-  display: flex;
-}
-
-.sub-menu .latest-feature .single-feature .description .img img{
-  max-width: 50px;
-  max-height: 50px;
-  height: auto;
-  width: auto;
-  margin: auto;
-}
-
-.sub-menu .latest-feature .single-feature .feature-categories{
-  width: 100%;
-  display: flex;
-  left: unset;
-  position: unset;
-  padding: 0;
-  background: unset;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.hoth-header .sub-menu .latest-feature .single-feature .feature-categories li{
-  padding: 0;
-  width: auto;
-  margin-right: 5px;
-}
-
-.hoth-header .sub-menu .latest-feature .single-feature .feature-categories li p.it-service-management span{
-	background: #D67066;
-}
-
-.hoth-header .sub-menu .latest-feature .single-feature .feature-categories li p.freedom-of-information-management span{
-	background: #E48E28;
-}
-
-.hoth-header .sub-menu .latest-feature .single-feature .feature-categories li p.customer-service-and-support span{
-	background: #efb293;
-}
-
-.hoth-header .sub-menu .latest-feature .single-feature .feature-categories li p.facilities-management span{
-	background: #9DCCD1;
-}
-
 /* Iso Buttons */
 .home .iso-btns img{
   width: 75px;
   height: auto;
 }
 
-/* Header dropdown button mobile only!! */
-
-.hoth-header ul li .dropbtn{
-  border: none;
-  cursor: pointer;
-  background: none;
-  display: none;
-  padding: 10px;
+/* Header */
+.hoth-header-container{
+  width: 100%;
+  background: white;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 }
 
-.hoth-header ul li.dropdown{
-  position: relative;
-  display: inline-block;
+.hoth-header-container .hoth-header{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 70px;
 }
 
-.hoth-header ul li .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 260px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  top: 40px;
+.hoth-header-container .hoth-header .hoth-home img{
+  border-radius: 5px;
 }
 
-.hoth-header ul li .dropdown-content a {
+.hoth-header-container .hoth-header .hoth-home {
+  font-size: 23px;
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  display: block;
+  color: #1e3550;
+  padding: 10px;
+  font-weight: bold;
 }
-
-.hoth-header ul li .show {display: block;}
 
 /* footer */
 
@@ -2567,9 +2120,7 @@ ul.key-features{
 /* Pricing */
 
 .pricing{
-  background-color: /*#ffeee2*/ #D0E4E9;
   padding: 70px 10px;
-  background-size: 76%;
 }
 
 .pricing-container{
@@ -2599,6 +2150,7 @@ ul.key-features{
   margin-right: 0.5%;
   background-color: white;
   border-radius: 4px;
+  border: 3px solid #1e3550;
 }
 
 .pricing ul.solutions li .intro{
@@ -2680,14 +2232,6 @@ ul.key-features{
   padding-top: 0;
 }
 
-.pricing ul.solutions li:nth-child(5), .pricing ul.solutions li:nth-child(6), .pricing ul.solutions li:nth-child(7), .pricing ul.solutions li:nth-child(8){
-	border-bottom: unset;
-}
-
-.pricing ul.solutions li:nth-child(4), .pricing ul.solutions li:nth-child(8){
-	border-right: unset;
-}
-
 .pricing ul li.features{
   display: unset;
   flex-wrap: unset;
@@ -2747,24 +2291,26 @@ table.solution-table-price .table-header{
 table.solution-table-price .table-header th{
   position: static; 
   top: 0;
+  border: 3px solid #1E3550;
 }
 
-table.solution-table-price .corefeatures{background: #F3ECD8 ; width: 25%;}
+/*table.solution-table-price .corefeatures{background: #fee119 ; width: 25%;}
 
 table.solution-table-price .featureprice{background: white; width: 25%;}
 
-table.solution-table-price .itsm{background: #FF8780; color: white;}
+table.solution-table-price .itsm{background: #1E3550; color: white;}
 
-table.solution-table-price .csm{background: #efb293; color: white;}
+table.solution-table-price .csm{background: #1E3550; color: white;}
 
-table.solution-table-price .cafm{background: #9DCCD1; color: white;}
+table.solution-table-price .cafm{background: #1E3550; color: white;}
 
-table.solution-table-price .foi{background: #E48E28; color: white;}
+table.solution-table-price .foi{background: #1E3550; color: white;}*/
 
 
 
 tr.category-container{
   cursor: pointer;
+  border: 3px solid #b7d6f0;
 }
 
 tr.pricing-key:hover td{
@@ -2780,16 +2326,19 @@ table.solution-table-price th, table.solution-table-price td{
 
 table.solution-table-price .category{
   background: #DDEBF7;
-  border-bottom: 1px solid #b7d6f0;
+  border-bottom: 3px solid #b7d6f0;
+}
+
+table.solution-table-price tr:hover td{
+  background-color: #fafafa;
 }
 
 table.solution-table-price tr:hover td, table.solution-table-price tr:hover  i.fal.fa-check-circle{
-  background: #F3ECD8;
   color: black;
 }
 
 table.solution-table-price td{
-  border: 1px solid #e3e3e3;
+  border: 3px solid #e3e3e3;
   color: #5a5a5a;
 }
 
@@ -2802,7 +2351,6 @@ table.solution-table-price i.fal.fa-check-circle{
 }
 
 table.solution-table-price .collapsible {
-  background: #FCF2D6;
   display: none;
 }
 
@@ -2812,7 +2360,7 @@ tr.pricing-key td p{
 }
 
 table.solution-table-price tr:hover .category{
-  background: #D0E4E9;
+  background: #eaf1f7;
 }
 
 table.solution-table-price .collapsible:hover td, table.solution-table-price tr:hover i.fal.fa-check-circle{
