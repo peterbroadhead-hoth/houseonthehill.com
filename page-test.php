@@ -58,37 +58,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <div class="hoth-header-container">
 	<div class="hoth-header">
-		<a class="hoth-home" href="/"><div class="img"></div></a>
+		<a class="hoth-home" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Hoth-transparent.webp" alt="House-on-the-Hill Logo"> <span style="margin-left:10px;"><!--House-on-the-Hill--></span></a>
   <div class="dropdown">
    <button class="dropbtn">Solutions</button>
 				<div id="m1" class="dropdown-content-container">
 					<div id="m1" class="dropdown-content">	
-						<ul class="solutions">
-							<div class="text" style="width: 100%">
-									<h2 style="color: white;">Choose the right solution to power your business</h2>
-									<p style="color: white;"></p>
-							</div>
-							<li>
-									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-Header.jpg"></div>
-									<h2>FOI & Case</h2>
-									<p>Manage your FOI Requests.</p>
-							</li>
-							<li>
-									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-Header.jpg"></div>
-									<h2>ITSM</h2>
-									<p>Versatile ITIL ready service desk solution.</p>
-							</li>
-							<li>
-									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-Header.jpg"></div>
-									<h2>CSM</h2>
-									<p>Harness the power of self-service.</p>
-							</li>
-							<li>
-									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-Header.jpg"></div>
-									<h2>CAFM</h2>
-									<p>Manage your infrastructure portfolio.</p>
-							</li>
-						</ul>
+						<a href="#">[PR]:4-hr Calibrated Tornado Probability</a>
+						<a href="#">[PR]:4-hr Calibrated Hail Probability</a>
 					</div>
 				</div>
    </div>
@@ -114,6 +90,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script>
 $(document).ready(function(){
+
 $(document).on('click','.dropbtn',function(){
     $('.dropbtn').not(this).next().removeClass('show');
     $(this).next().toggleClass('show');
