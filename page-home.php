@@ -38,9 +38,9 @@
           <input type="HIDDEN" id="savebtn1" name="savebtn1" value="">
           <input type="HIDDEN" id="CFID" name="CFID"
               value="eJxTclXSUUJD4YmZJZl56cpGpnAhx7z8PCBlaKZvYKlvZGBkCOKYWhkYo2mFqgMiC0NLI0yjIQhojKEBujEGegYGQMoEJGSIRR4ZGaBht8yi4hIFn8y8VLgSI0MCToUgXUNMMZipRCKow7G7TNcSCBDmoRtrgM4CB4EFgm9sAnWgZ4hCcGpRWWZyqoJvYl5iempual4JuQ7HsBaEGACQ+Fww">
-          <input style="border-radius: 5px 0 0 5px" type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Organisation Name">
-          <input type="TEXT" name="F38" id="reg_email" size="0035" maxlength="50" value="" placeholder="Work Email">
-          <select class="suptabde" name="F2178" id="F2178" size="1" onchange="selChg(2178);">
+          <input style="border-radius: 5px 0 0 5px" type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Organisation Name" required>
+          <input type="TEXT" name="F38" id="reg_email" size="0035" maxlength="50" value="" placeholder="Work Email" required>
+          <select class="suptabde" name="F2178" id="F2178" size="1" onchange="selChg(2178);" required>
             <option value="FOI%20and%20Case%20Management">Freedom of Information Management</option>
             <option value="IT%20Service%20Management" selected>IT Service Management</option>
             <option value="Customer%20Service%20Management">Customer Service & Support</option>
