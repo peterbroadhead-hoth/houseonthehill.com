@@ -4356,9 +4356,19 @@ ul.whats-new li .whats-new-img img{
   }
 }
 
-@media (max-width: 340px){
-  .hoth-header ul li, .hoth-header ul a{
-    font-size: 12px;
+  @media (max-width: 340px){
+    .hoth-header ul li, .hoth-header ul a{
+      font-size: 12px;
+    }
   }
+
 }
 
+body #hoth-chat-button {
+  background: #fee119;
+  box-shadow: 0px 0px 33px 0px #d4d4d4;
+}
+
+body #hoth-chat-button i{
+  color:#000;
+}
