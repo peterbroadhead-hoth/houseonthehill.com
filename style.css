@@ -268,8 +268,14 @@ a.more-info:hover{
   height: 30px;
 }
 
+
+/* chat */
 #hoth-close-button{
   display: none;
+}
+
+#hoth-chat-button{
+
 }
 
 /* Iso Buttons */
@@ -435,6 +441,7 @@ a.more-info:hover{
   color: white;
   white-space: normal;
   font-weight: 400;
+  margin-bottom: 5px;
 }
 
 .dropdown-content ul.solutions li p{
