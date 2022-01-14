@@ -59,7 +59,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="hoth-header-container">
 	<div class="hoth-header">
 		<a class="hoth-home" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/HotH-logo-square-50.png" alt="House-on-the-Hill Logo"></a>
-		<a class="hoth-home-white" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Hoth-transparent-white-50.webp" alt="House-on-the-Hill Logo"></a>
+		<a class="hoth-home-white" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/hoth-transparent-white-50.webp" alt="House-on-the-Hill Logo"></a>
 		<div class="main">	
 			<div class="dropdown">
 				<button class="dropbtn">Solutions <i class="fas fa-caret-down"></i></button>
@@ -71,7 +71,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							</div>
 							<a href="/foi-request-management/">
 								<li>
-									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-Header.jpg"></div>
+									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg"></div>
 									<h3>FOI, Case & Complaints Management</h3>
 									<p>Manage your FOI Requests.</p>
 								</li>
@@ -79,7 +79,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 							<a href="/it-service-management-software/">
 								<li>
-									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-Header.jpg"></div>
+									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.jpg"></div>
 									<h3>IT Service <br>Management</h3>
 									<p>Versatile ITIL ready service desk solution.</p>
 								</li>
@@ -87,7 +87,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 							<a href="/customer-service-and-support/">
 								<li>
-									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-Header.jpg"></div>
+									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-header.jpg"></div>
 									<h3>Customer Service <br>Management</h3>
 									<p>Harness the power of self-service.</p>
 								</li>
@@ -95,7 +95,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 							<a href="/facilities-management/">
 								<li>
-									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-Header.jpg"></div>
+									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-header.jpg"></div>
 									<h3>Computer Aided Facilities Management</h3>
 									<p>Manage your infrastructure portfolio.</p>
 								</li>

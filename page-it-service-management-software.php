@@ -4,9 +4,13 @@
     <div class="container">  
       <div class="text">  
         <h1>IT Service Management</h1> 
+<<<<<<< HEAD
+        <p>A tried & tested versatile service desk solution to help you deliver great IT support.</p>
+=======
         <p>Where you can deliver a modern ITIL driven service desk with a deep set of tools, automated workflows and a self-service portal. Where your users can raise tickets, access common service requests and search the knowledge base for FAQs.</p>
+>>>>>>> ca359165b764483a8c23b53ec527432b61723dd6
         <div class="signup-buttons">
-          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">START YOUR FREE TRIAL</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">Start your free trial</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
         </div>
       </div>

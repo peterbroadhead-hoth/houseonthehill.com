@@ -6,7 +6,7 @@
         <h1>Computer Aided Facilities Management</h1> 
         <p>Will allow you to manage your whole property portfolio, jobs and keep your engineers on the road. Your tool kit will include an engineer mobile app, reactive job logging, property maps, planned preventative maintenance, Job Sheets, Quotes, Invoices and more!</p>
         <div class="signup-buttons">
-          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">START YOUR FREE TRIAL</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Start your free trial</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
         </div>
       </div>

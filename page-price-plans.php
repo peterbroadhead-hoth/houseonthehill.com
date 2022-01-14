@@ -3,7 +3,7 @@
   <div class="pricing-container">
     <div class="intro">
       <h1>Affordable and feature packed</h1>
-      <p><span>Available On-Demand or On-Premise<br>Prices based on annual billing</span></p>
+      <p><span>Available in the Cloud or On-Site<br>Prices based on annual billing</span></p>
     </div>
     <ul class="solutions">
       <li class="itsm">

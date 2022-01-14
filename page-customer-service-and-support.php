@@ -6,7 +6,7 @@
         <h1>Customer Service Management</h1> 
         <p>Helps your sales team provide high quality customer support. Keep customers and staff happy by capturing key information through the branded portal, chat, email, feedback surveys and use data driven decisions from reports and KPIs to continually improve your service.</p>
         <div class="signup-buttons">
-          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">START YOUR FREE TRIAL</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">Start your free trial</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
         </div>
       </div>
