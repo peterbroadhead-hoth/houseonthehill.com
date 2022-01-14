@@ -89,7 +89,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-header.jpg"></div>
 									<h3>Customer Service <br>Management</h3>
-									<p>Make customers happy and harness the power of self-service.</p>
+									<p>Make your customers happy and harness the power of self-service.</p>
 								</li>
 							</a>
 
