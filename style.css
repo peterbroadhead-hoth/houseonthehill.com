@@ -268,8 +268,14 @@ a.more-info:hover{
   height: 30px;
 }
 
+
+/* chat */
 #hoth-close-button{
   display: none;
+}
+
+#hoth-chat-button{
+
 }
 
 /* Iso Buttons */
@@ -361,6 +367,11 @@ a.more-info:hover{
   border: unset;
 }
 
+.hoth-header .dropbtn i{
+  line-height: 1px;
+  margin-left: 5px;
+}
+
 .hoth-header .dropdown-content-container{
   display: none;
   position: absolute;
@@ -369,6 +380,10 @@ a.more-info:hover{
   white-space: nowrap;
   background: #1D3550;
   z-index: 1;
+<<<<<<< HEAD
+=======
+  /*border-top: 1px solid #fee119;*/
+>>>>>>> ca359165b764483a8c23b53ec527432b61723dd6
   left: 0;
   border-bottom: 1px solid white;
 }
@@ -429,6 +444,7 @@ a.more-info:hover{
   color: white;
   white-space: normal;
   font-weight: 400;
+  margin-bottom: 5px;
 }
 
 .dropdown-content ul.solutions li p{
@@ -465,13 +481,14 @@ a.more-info:hover{
   overflow: hidden;
   margin-left: 0;
   margin-right: 20px;
-  padding: 0;
+  padding: 20px 0;
 }
 
 .dropdown-content ul.about li h3{
   color: white;
   white-space: normal;
   font-weight: 400;
+  margin: 5px 0;
 }
 
 .dropdown-content ul.about li p{

@@ -62,7 +62,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<a class="hoth-home-white" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Hoth-transparent-white-50.webp" alt="House-on-the-Hill Logo"></a>
 		<div class="main">	
 			<div class="dropdown">
-				<button class="dropbtn">Solutions</button>
+				<button class="dropbtn">Solutions <i class="fas fa-caret-down"></i></button>
 				<div id="m1" class="dropdown-content-container">
 					<div id="m1" class="dropdown-content">	
 						<ul class="solutions">
@@ -72,7 +72,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<a href="/foi-request-management/">
 								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-Header.jpg"></div>
-									<h3>FOI & Case</h3>
+									<h3>FOI, Case & Complaints Management</h3>
 									<p>Manage your FOI Requests.</p>
 								</li>
 							</a>
@@ -80,7 +80,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<a href="/it-service-management-software/">
 								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-Header.jpg"></div>
-									<h3>ITSM</h3>
+									<h3>IT Service <br>Management</h3>
 									<p>Versatile ITIL ready service desk solution.</p>
 								</li>
 							</a>
@@ -88,7 +88,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<a href="/customer-service-and-support/">
 								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-Header.jpg"></div>
-									<h3>CSM</h3>
+									<h3>Customer Service <br>Management</h3>
 									<p>Harness the power of self-service.</p>
 								</li>
 							</a>
@@ -96,7 +96,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<a href="/facilities-management/">
 								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-Header.jpg"></div>
-									<h3>CAFM</h3>
+									<h3>Computer Aided Facilities Management</h3>
 									<p>Manage your infrastructure portfolio.</p>
 								</li>
 							</a>
@@ -104,10 +104,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 				</div>
 			</div>
+
 			<a href="/price-plans">Pricing</a>
+
 			<a href="/features">Features</a>
+
 			<div class="dropdown about">
-				<button class="dropbtn">About</button>
+				<button class="dropbtn">About <i class="fas fa-caret-down"></i></button>
 				<div id="m1" class="dropdown-content-container">
 					<div id="m1" class="dropdown-content">	
 						<ul class="about">
@@ -183,9 +186,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
 $(document).ready(function(){
 $(document).on('click','.dropbtn',function(){
+				if($(this).next().hasClass('show')){
+					$('.hoth-header-container').removeClass('show');
+				}
+				else{
+    	$('.hoth-header-container').addClass('show');
+				}
     $('.dropbtn').not(this).next().removeClass('show');
     $(this).next().toggleClass('show');
-    $('.hoth-header-container').addClass('show');
 });
 
 $(document).on('click',function(e){

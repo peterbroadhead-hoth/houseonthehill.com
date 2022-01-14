@@ -4,7 +4,7 @@
     <div class="container">  
       <div class="text">  
         <h1>FOI, Case & Complaints Management Software</h1> 
-        <p>Make the best use of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaint Management Software with House-on-the-Hill Case Management Software.</p>
+        <p>A popular fully paperless solution to aid your team with new requests logged by the public via the portal or by email. These cases can then be categorised into types and workflows such as FOI, Data Protection, Subject Access Requests, Complaints, Compliments, Information Governance and RoPA.</p>
         <div class="signup-buttons">
           <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Start your free trial</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
