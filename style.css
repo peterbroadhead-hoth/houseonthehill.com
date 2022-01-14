@@ -367,6 +367,10 @@ a.more-info:hover{
   border: unset;
 }
 
+.hoth-header .dropbtn:hover, .hoth-header a:hover{
+  color:#407fac;
+}
+
 .hoth-header .dropbtn i{
   line-height: 1px;
   margin-left: 5px;
@@ -488,7 +492,7 @@ a.more-info:hover{
 }
 
 .dropdown-content ul.about li p{
-  color: white;
+  color: #a3c2d8;
   white-space: normal;
   font-weight: 400;
   font-size: 15px;
