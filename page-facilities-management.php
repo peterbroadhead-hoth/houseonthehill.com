@@ -6,7 +6,7 @@
         <h1>Computer Aided Facilities Management</h1> 
         <p>Software to help keep your properties well maintained and safe.</p>
         <div class="signup-buttons">
-          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">START YOUR FREE TRIAL</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Start your free trial</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
         </div>
       </div>

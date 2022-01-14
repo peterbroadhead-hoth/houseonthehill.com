@@ -6,7 +6,7 @@
         <h1>FOI, Case & Complaints Management Software</h1> 
         <p>Make the best use of your time by managing FOI Requests, Data Breaches, Subject Access, Information Governance & Complaint Management Software with House-on-the-Hill Case Management Software.</p>
         <div class="signup-buttons">
-          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">START YOUR FREE TRIAL</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Start your free trial</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No Credit Card Required </p>
         </div>
       </div>
