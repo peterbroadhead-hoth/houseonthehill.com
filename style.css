@@ -380,10 +380,6 @@ a.more-info:hover{
   white-space: nowrap;
   background: #1D3550;
   z-index: 1;
-<<<<<<< HEAD
-=======
-  /*border-top: 1px solid #fee119;*/
->>>>>>> ca359165b764483a8c23b53ec527432b61723dd6
   left: 0;
   border-bottom: 1px solid white;
 }
