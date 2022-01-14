@@ -58,50 +58,118 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <div class="hoth-header-container">
 	<div class="hoth-header">
-		<a class="hoth-home" href="/"><div class="img"></div></a>
-  <div class="dropdown">
-   <button class="dropbtn">Solutions</button>
+		<a class="hoth-home" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/HotH-logo-square-50.png" alt="House-on-the-Hill Logo"></a>
+		<a class="hoth-home-white" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Hoth-transparent-white-50.webp" alt="House-on-the-Hill Logo"></a>
+		<div class="main">	
+			<div class="dropdown">
+				<button class="dropbtn">Solutions</button>
 				<div id="m1" class="dropdown-content-container">
 					<div id="m1" class="dropdown-content">	
 						<ul class="solutions">
 							<div class="text" style="width: 100%">
-									<h2 style="color: white;">Choose the right solution to power your business</h2>
-									<p style="color: white;"></p>
+								<h3>Choose the right solution to power your business</h3>
 							</div>
-							<li>
+							<a href="/foi-request-management/">
+								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-Header.jpg"></div>
-									<h2>FOI & Case</h2>
+									<h3>FOI & Case</h3>
 									<p>Manage your FOI Requests.</p>
-							</li>
-							<li>
+								</li>
+							</a>
+
+							<a href="/it-service-management-software/">
+								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-Header.jpg"></div>
-									<h2>ITSM</h2>
+									<h3>ITSM</h3>
 									<p>Versatile ITIL ready service desk solution.</p>
-							</li>
-							<li>
+								</li>
+							</a>
+
+							<a href="/customer-service-and-support/">
+								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-Header.jpg"></div>
-									<h2>CSM</h2>
+									<h3>CSM</h3>
 									<p>Harness the power of self-service.</p>
-							</li>
-							<li>
+								</li>
+							</a>
+
+							<a href="/facilities-management/">
+								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-Header.jpg"></div>
-									<h2>CAFM</h2>
+									<h3>CAFM</h3>
 									<p>Manage your infrastructure portfolio.</p>
-							</li>
+								</li>
+							</a>
 						</ul>
 					</div>
 				</div>
-   </div>
+			</div>
+			<a href="/price-plans">Pricing</a>
 			<a href="/features">Features</a>
-   <div class="dropdown">
-   <button class="dropbtn">About</button>
-				<div id="m2" class="dropdown-content-container">
-					<div id="m2" class="dropdown-content">	
-						<a href="#">[fsdfsdfsdf</a>
-						<a href="#">[PR]:4-hr Calibrated Hail Probability</a>
+			<div class="dropdown about">
+				<button class="dropbtn">About</button>
+				<div id="m1" class="dropdown-content-container">
+					<div id="m1" class="dropdown-content">	
+						<ul class="about">
+						<a href="/about-house-on-the-hill-software">
+									<li class="">
+										<h3>About House-on-the-Hill</h3>
+										<p>A small business running powerful service desk solutions</p>
+									</li>
+								</a>
+								<a href="/testimonials">
+									<li class="">
+										<h3>Customer Testimonials</h3>
+										<p>Dont just take our word for it, see what our customers say</p>
+									</li>
+								</a>
+								<a href="/blog">
+									<li class="">
+										<h3>Blog</h3>
+										<p>Keep up to date with all that we do at HotH</p>
+									</li>
+								</a>
+								<a href="/casestudy">
+									<li class="">
+										<h3>Customer Case Studies</h3>
+										<p>Read how we helped businesses make our House, their Home</p>
+									</li>
+								</a>
+								<a href="/contact-us">
+									<li class="">
+										<h3>Contact House-on-the-Hill</h3>
+										<p>Need help? Want a demo? Questions on our pricing? Get in touch, were ready to help</p>
+									</li>
+								</a>
+								<a href="/careers">
+									<li class="">
+										<h3>Careers</h3>
+										<p>Interested in joining the HotH team?</p>
+									</li>
+								</a>
+								<a href="/social-values-statement/">
+									<li class="">
+										<h3>Social Values</h3>
+										<p>We are proud to support charities, fund-raising events and work experience programs</p>
+									</li>
+								</a>
+						</ul>
+						<!--<div class="foot-menu">
+							<div class="contact">
+								<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Log In</a>
+							</div>
+						</div>-->
 					</div>
 				</div>
-   </div>
+			</div>
+		</div>
+		<div class="sales">
+			<ul>
+				<li><a href="https://support.houseonthehill.com/" rel="noopener">Log In</a></li>
+				<li><a href="/demo">Book a Demo</a></li>
+				<li><a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank">Free Trial</a></li>
+			</ul>
+		</div>
 	</div>
 </div>
 

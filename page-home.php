@@ -3,8 +3,8 @@
   <div class="header">
     <div class="container">  
       <div class="text">  
-        <h1>The Help Desk software tailored for you and your team</h1> 
-        <p>Get a trusted Cloud Service Desk & Portal which you can use for for Freedom of Information Requests, IT Support, Customer Service or Facilities Management and customise to your fit your needs and those of your users.</p>
+        <h1>Made to Measure Service Desk Solutions</h1> 
+        <p>House-on-the-hill Software is built to support you, support the people that matter. With four interchangeable solutions, HotH is the flexible and affordable service desk solution created with you and your organization at the heart of what we do.</p>
         <div class="signup-buttons">
           <!--<form action="https://house-on-the-hill.com/mothership/supisacs.dll" method="POST" id="theForm" name="theForm" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
             <input type="HIDDEN" id="ID" name="ID" value="52d8bfffda342ee">
@@ -63,7 +63,11 @@
 
   <div class="testimonials">
     <div class="container">
-      <p><strong>Many UK Public and Private Organisations are making easy work of Case Management with intuitive workflow, reusable e-mail templates and automatic notification of approaching breaches.</strong></p>
+      <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
+        <h2>"Buy it, it is the best ITSM toolkit I have ever worked with, including ServiceNow."</h2>
+        <p>Michael Bebbington, Service Delivery Manager, <strong>UK Plumbing Supplies</strong></p>
+      </a>
+      
       <div class="customers">
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
           <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
@@ -85,10 +89,8 @@
       <div class="quote">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png" alt="itsm screenshot">
         <div class="text">
-          <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
-            <h2>"Buy it, it is the best ITSM toolkit I have ever worked with, including ServiceNow."</h2>
-            <p>Michael Bebbington, Service Delivery Manager, <span>UK Plumbing Supplies</span></p>
-          </a>
+        <h2>The Perfect Fit</h2>
+        <p>5 users or 5000, we have the solution for you. Out-of-the-box House-on-the-Hill helps you in solving IT Support Tickets, managing Public FOI Cases or Logging Facilities Work Requests. House-on-the-Hill is the fully customisable Cloud Service & Support Solution for your organisational needs.</p>
         </div>
       </div>
     </div>
@@ -104,9 +106,9 @@
       <li class="foi">
         <h3>FOI, Case & Complaints <br>Management</h3>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-Header.jpg" alt="foi Icon"></div>
-        <p>Who knew you could manage the full FOI, DPA, SAR, ROPA & the IG lifecycle paperlessly within one solution. Well you can see why many UK councils, public bodies and organisations chose HotH.</p>
+        <p>A popular fully paperless solution to aid your team with new requests logged by the public via the portal or by email. These cases can then be categorised into types and workflows such as FOI, Data Protection, Subject Access Requests, Complaints, Compliments, Information Governance and RoPA. </p>
         <div class="btn">
-          <a class="sign-up">Try for free</a>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Try for free</a>
           <a class="more-info" href="/foi-request-management/">More HotH FOI ></a>
         </div>
       </li>
@@ -114,9 +116,9 @@
       <li class="itsm">
         <h3>IT Service <br>Management</h3>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-Header.jpg" alt="itsm Icon"></div>
-        <p>Our flagship. A versatile ITIL ready service desk solution, pre-loaded with all the tools you need deliver great IT support at a snip.</p>
+        <p>Where you can deliver a modern ITIL driven service desk with a deep set of tools, automated workflows and a self-service portal. Where your users can raise tickets, access common service requests and search the knowledge base for FAQs.  </p>
         <div class="btn">
-          <a class="sign-up">Try for free</a>  
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">Try for free</a>
           <a class="more-info" href="/it-service-management-software/">More HotH ITSM ></a>
         </div>
       </li>
@@ -124,9 +126,9 @@
       <li class="csm">
         <h3>Customer Service <br>Management</h3>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/CSM-Header.jpg" alt="Customer Service Management Icon"></div>
-        <p>Harness the power of self-service & full email integration. Your customers will revel in your super support!</p>
+        <p>Helps your sales team provide high quality customer support. Keep customers and staff happy by capturing key information through the branded portal, chat, email, feedback surveys and use data driven decisions from reports and KPIs to continually improve your service.</p>
         <div class="btn">
-          <a class="sign-up">Try for free</a> 
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">Try for free</a>
           <a class="more-info" href="/customer-service-and-support/">More HotH CSM ></a>
         </div>
       </li>
@@ -134,9 +136,9 @@
       <li class="cafm">
         <h3>Computer Aided Facilities <br>Management</h3>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/Cafm-Header.jpg" alt="CAFM Icon"></div>
-        <p>The new digital era of managing your infrastructure portfolio. Reactive & scheduled jobs, engineer calendars & a mobile app all under one roof.</p>
+        <p>Will allow you to manage your whole property portfolio, jobs and keep your engineers on the road. Your tool kit will include an engineer mobile app, reactive job logging, property maps, planned preventative maintenance, Job Sheets, Quotes, Invoices and more! </p>
         <div class="btn">
-          <a class="sign-up">Try for free</a>   
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Try for free</a>
           <a class="more-info" href="/facilities-management/">More HotH CAFM ></a>
         </div>
       </li>
