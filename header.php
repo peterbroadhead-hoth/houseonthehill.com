@@ -62,7 +62,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<a class="hoth-home-white" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Hoth-transparent-white-50.webp" alt="House-on-the-Hill Logo"></a>
 		<div class="main">	
 			<div class="dropdown">
-				<button class="dropbtn">Solutions <i class="fas fa-sort-down"></i></button>
+				<button class="dropbtn">Solutions <i class="fas fa-caret-down"></i></button>
 				<div id="m1" class="dropdown-content-container">
 					<div id="m1" class="dropdown-content">	
 						<ul class="solutions">
@@ -110,7 +110,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<a href="/features">Features</a>
 
 			<div class="dropdown about">
-				<button class="dropbtn">About <i class="fas fa-sort-down"></i></button>
+				<button class="dropbtn">About <i class="fas fa-caret-down"></i></button>
 				<div id="m1" class="dropdown-content-container">
 					<div id="m1" class="dropdown-content">	
 						<ul class="about">

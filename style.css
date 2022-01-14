@@ -361,6 +361,11 @@ a.more-info:hover{
   border: unset;
 }
 
+.hoth-header .dropbtn i{
+  line-height: 1px;
+  margin-left: 5px;
+}
+
 .hoth-header .dropdown-content-container{
   display: none;
   position: absolute;
@@ -466,13 +471,14 @@ a.more-info:hover{
   overflow: hidden;
   margin-left: 0;
   margin-right: 20px;
-  padding: 0;
+  padding: 20px 0;
 }
 
 .dropdown-content ul.about li h3{
   color: white;
   white-space: normal;
   font-weight: 400;
+  margin: 5px 0;
 }
 
 .dropdown-content ul.about li p{
