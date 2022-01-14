@@ -369,7 +369,6 @@ a.more-info:hover{
   white-space: nowrap;
   background: #1D3550;
   z-index: 1;
-  border-top: 1px solid #fee119;
   left: 0;
   border-bottom: 1px solid white;
 }
@@ -594,6 +593,7 @@ a.more-info:hover{
   display: flex;
   width: 100%;
   background-color: #f5f5f5;
+  padding-top: 50px;
 }
 
 .hoth-footer-container{
@@ -797,6 +797,11 @@ a.more-info:hover{
   position: relative;
 }
 
+.home .testimonials h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
 .home .testimonials .square{
   position: absolute;
   bottom: 0;
@@ -837,6 +842,7 @@ a.more-info:hover{
   font-size: 1.8rem;
   padding-bottom: 0;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .home .testimonials .container .quote{
@@ -844,7 +850,9 @@ a.more-info:hover{
 }
 
 .home .testimonials .container .quote img{
-  max-width: 100%;
+  max-width: 100%;  
+  border-radius: 4px;
+  box-shadow: 0 0 45px #c3c3c3a6;
 }
 
 .home .testimonials .container .quote .text{
@@ -874,8 +882,8 @@ a.more-info:hover{
 .home .solutions ul .text{
   width: 100%;
   padding: 100px;
-  text-align: center;
-  border-top: 2px solid white;
+  padding-top: 0;
+  text-align: center;  
 }
 
 .home .solutions ul{
@@ -890,7 +898,7 @@ a.more-info:hover{
   background-color: white;
   width: 23%;
   margin: 0 auto;
-  padding: 20px 50px;
+  padding: 20px 25px;
   border-radius: 4px;
   text-align: center;
   margin-bottom: 50px;
