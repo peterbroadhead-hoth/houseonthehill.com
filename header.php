@@ -186,9 +186,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
 $(document).ready(function(){
 $(document).on('click','.dropbtn',function(){
+				if($(this).next().hasClass('show')){
+					$('.hoth-header-container').removeClass('show');
+				}
+				else{
+    	$('.hoth-header-container').addClass('show');
+				}
     $('.dropbtn').not(this).next().removeClass('show');
     $(this).next().toggleClass('show');
-    $('.hoth-header-container').addClass('show');
 });
 
 $(document).on('click',function(e){
