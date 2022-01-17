@@ -606,6 +606,26 @@ body #hoth-chat-button i{
   .hoth-header-container .hoth-header .sales ul li a.sign-up{
     padding: 5px;
   }
+  .hoth-header .dropdown-content{
+    padding-left: 30px;
+  }
+  .dropdown-content ul.solutions li{
+    padding: 10px 0;
+  }
+  .dropdown-content ul.solutions li h3{
+    margin: 5px 0;
+  }
+}
+
+
+
+@media (max-width: 400px){ 
+  .hoth-header-container .hoth-header .sales ul li a.sign-up{
+    display: none;
+  }
+  .hoth-header .dropbtn, .hoth-header a{
+    padding: 5px;
+  }
 }
 
 /* footer */
