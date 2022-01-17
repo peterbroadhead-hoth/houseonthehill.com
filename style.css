@@ -275,7 +275,7 @@ a.more-info:hover{
 }
 
 #hoth-chat-button{
-
+  box-shadow: none;
 }
 
 /* Iso Buttons */
