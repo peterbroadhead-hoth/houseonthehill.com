@@ -210,7 +210,7 @@
         <li>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/cloud.webp" alt="hoth install icon">
           <h2>On-site installation Services</h2>
-          <p>Get House-on-the-Hill installed on your own server or migrate your on-side system into the cloud and we will look after your data for you.</p>
+          <p>Get House-on-the-Hill installed on your own server or migrate your on-site system into the cloud and we will look after your data for you.</p>
           <div class="btns">
             <a class="more-info" href="/contact-us/">Call</a>
             <a class="more-info" onclick="HothChatWidget.toggle()">Chat</a>
