@@ -274,8 +274,13 @@ a.more-info:hover{
   display: none;
 }
 
-#hoth-chat-button{
-  box-shadow: none;
+body #hoth-chat-button {
+  background: #fee119;
+  box-shadow: unset;
+}
+
+body #hoth-chat-button i{
+  color:#000;
 }
 
 /* Iso Buttons */
@@ -4362,13 +4367,4 @@ ul.whats-new li .whats-new-img img{
     }
   }
 
-}
-
-body #hoth-chat-button {
-  background: #fee119;
-  box-shadow: 0px 0px 33px 0px #d4d4d4;
-}
-
-body #hoth-chat-button i{
-  color:#000;
 }
