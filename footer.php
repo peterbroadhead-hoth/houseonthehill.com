@@ -52,6 +52,7 @@
 <script src='https://support.houseonthehill.com/suppdeskchat/scripts/HothChatWidget.js'></script>
 <script>HothChatWidget.config('https://support.houseonthehill.com/suppdeskchat');</script>
 
+
 <script>
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-5009086-1']);

@@ -36,7 +36,7 @@
       </div>
 
       <div class="quote">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/csm-screenshot-2021.png">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/CSM-screenshot-2021.png">
         <div class="text">
           <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
             <h2>"The team at House-on-the-Hill are doing a great job at assisting the integration of the service desk and sorting out all the question and changes."</h2>

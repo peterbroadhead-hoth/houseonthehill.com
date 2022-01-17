@@ -36,7 +36,7 @@
       </div>
 
       <div class="quote">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/cafm-screenshot-2021.png">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/CAFM-screenshot-2021.png">
         <div class="text">
           <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
             <h2>"HotH’s knowledge is excellent and their ability to find solutions to even the most complicated requirements is second to none. I would recommend their services to anyone looking for a bespoke, fully functional and user-friendly service management software provider."</h2>

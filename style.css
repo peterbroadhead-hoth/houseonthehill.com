@@ -367,6 +367,10 @@ a.more-info:hover{
   border: unset;
 }
 
+.hoth-header .dropbtn:hover, .hoth-header a:hover{
+  color:#407fac;
+}
+
 .hoth-header .dropbtn i{
   line-height: 1px;
   margin-left: 5px;
@@ -444,7 +448,7 @@ a.more-info:hover{
 }
 
 .dropdown-content ul.solutions li p{
-  color: white;
+  color: #a3c2d8;
   white-space: normal;
   font-weight: 400;
   font-size: 15px;
@@ -488,7 +492,7 @@ a.more-info:hover{
 }
 
 .dropdown-content ul.about li p{
-  color: white;
+  color: #a3c2d8;
   white-space: normal;
   font-weight: 400;
   font-size: 15px;
@@ -742,7 +746,7 @@ a.more-info:hover{
   height: 500px;
   background: white;
   position: relative;
-  background-image:url(<?php echo get_stylesheet_directory_uri(); ?>/images/foi-home-solution.webp);
+  background-image:url("/images/foi-home-solution.webp");
   background-position: right;
   background-position-x: 90%;
   background-size: 550px;
@@ -4352,9 +4356,19 @@ ul.whats-new li .whats-new-img img{
   }
 }
 
-@media (max-width: 340px){
-  .hoth-header ul li, .hoth-header ul a{
-    font-size: 12px;
+  @media (max-width: 340px){
+    .hoth-header ul li, .hoth-header ul a{
+      font-size: 12px;
+    }
   }
+
 }
 
+body #hoth-chat-button {
+  background: #fee119;
+  box-shadow: 0px 0px 33px 0px #d4d4d4;
+}
+
+body #hoth-chat-button i{
+  color:#000;
+}

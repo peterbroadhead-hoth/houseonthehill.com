@@ -62,7 +62,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<a class="hoth-home-white" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/hoth-transparent-white-50.webp" alt="House-on-the-Hill Logo"></a>
 		<div class="main">	
 			<div class="dropdown">
-				<button class="dropbtn">Solutions <i class="fas fa-caret-down"></i></button>
+				<button class="dropbtn">Solutions <i class="fal fa-caret-down"></i></button>
 				<div id="m1" class="dropdown-content-container">
 					<div id="m1" class="dropdown-content">	
 						<ul class="solutions">
@@ -73,7 +73,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg"></div>
 									<h3>FOI, Case & Complaints Management</h3>
-									<p>Manage your FOI Requests.</p>
+									<p>All your FOIs, Complaints & Requests under one digital roof.</p>
 								</li>
 							</a>
 
@@ -81,7 +81,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.jpg"></div>
 									<h3>IT Service <br>Management</h3>
-									<p>Versatile ITIL ready service desk solution.</p>
+									<p>Fully equipped & versatile ITIL ready service desk solution.</p>
 								</li>
 							</a>
 
@@ -89,7 +89,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-header.jpg"></div>
 									<h3>Customer Service <br>Management</h3>
-									<p>Harness the power of self-service.</p>
+									<p>Make your customers happy and harness the power of self-service.</p>
 								</li>
 							</a>
 
@@ -97,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-header.jpg"></div>
 									<h3>Computer Aided Facilities Management</h3>
-									<p>Manage your infrastructure portfolio.</p>
+									<p>A the tools to manage your jobs, property portfolio & engineers.</p>
 								</li>
 							</a>
 						</ul>
@@ -110,7 +110,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<a href="/features">Features</a>
 
 			<div class="dropdown about">
-				<button class="dropbtn">About <i class="fas fa-caret-down"></i></button>
+				<button class="dropbtn">About <i class="fal fa-caret-down"></i></button>
 				<div id="m1" class="dropdown-content-container">
 					<div id="m1" class="dropdown-content">	
 						<ul class="about">
