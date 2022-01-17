@@ -874,7 +874,7 @@ body #hoth-chat-button i{
 .home .testimonials .container .quote img{
   max-width: 100%;  
   border-radius: 4px;
-  box-shadow: 0 0 45px #c3c3c3a6;
+  /*box-shadow: 0 0 45px #c3c3c3a6;*/
 }
 
 .home .testimonials .container .quote .text{
