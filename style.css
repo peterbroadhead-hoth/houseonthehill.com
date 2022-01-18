@@ -2925,6 +2925,7 @@ table.solution-table-price td:hover .description{
   width: 50%;
   height: auto;
   margin: auto;
+  max-width: 250px;
 }
 
 .blog-post .caption{
@@ -3750,9 +3751,7 @@ ul.whats-new li .whats-new-img img{
     background-position-y: 130px;
     background-size: 100%;
   }
-  .blog-post .img{
-    height: 200px;
-  }
+
   ul.whats-new li{
     padding: 50px 20px;
   }
@@ -3935,9 +3934,6 @@ ul.whats-new li .whats-new-img img{
   }
   .hothhome-testimonial-container{
     width: 80%;
-  }
-  .blog-post .img{
-    height: 150px;
   }
   .solution-header-container .text{
     width: 100%;
@@ -4324,9 +4320,6 @@ ul.whats-new li .whats-new-img img{
     width: 100%;
     margin: 0;
     margin-bottom: 50px;
-  }
-  .blog-post .img{
-    height: 120px;
   }
   .blog-post .caption{
     padding: 10px;
