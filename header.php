@@ -168,9 +168,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 		<div class="sales">
 			<ul>
-				<li><a href="https://support.houseonthehill.com/" rel="noopener">Log In</a></li>
-				<li><a href="/demo">Book a Demo</a></li>
-				<li><a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank">Free Trial</a></li>
+				<li><a href="https://support.houseonthehill.com/" rel="noopener">Log in</a></li>
+				<li><a href="/demo">Book a demo</a></li>
+				<li><a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank">Free trial</a></li>
 			</ul>
 		</div>
 	</div>
