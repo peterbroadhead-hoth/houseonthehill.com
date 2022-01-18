@@ -3,8 +3,8 @@
 <div class="container pad-top-bottom">
 	<div class="row">
 		<div class="col-md-12 pad-bottom"><h1><?php the_title(); ?></h1></div>
-		<div class="col-md-2 blog-img">
-			<?php echo get_the_post_thumbnail( $post_id, $size, $attr ); ?>
+		<!--<div class="col-md-2 blog-img">
+			<?php echo get_the_post_thumbnail( $post_id, $size, $attr ); ?>-->
 			<p class="blog-date"><i class="fal fa-calendar-alt"></i> <?php the_date(); ?></p>
 			<a href="/blog"><i class="fal fa-chevron-left"></i> Blog</a>
 		</div>

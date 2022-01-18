@@ -1095,6 +1095,10 @@ body #hoth-chat-button i{
   flex-wrap: wrap;
 }
 
+.home .small-features ul a{
+  margin: auto;
+}
+
 .home .small-features ul li{
   list-style: none;
   width: 30%;
@@ -2191,7 +2195,7 @@ body #hoth-chat-button i{
 
 .features .header{
   display: flex;
-  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/09/featuresimg.png);
+  background-image: url(/wp-content/themes/houseonthehill.com/images/22icons/original/featuresimg.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 700px;
@@ -2792,11 +2796,11 @@ table.solution-table-price td:hover .description{
 /* blog */
 
 .blog-container{
-	padding: 200px 10px;
+	padding: 10px;
 	padding-top: 0px;;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #FFEEE2;
+	background-color: white;
 }
 
 .blog-container .header{
@@ -2807,11 +2811,11 @@ table.solution-table-price td:hover .description{
 }
 
 .blog-container .header .text{
-	width: 400px;
+	width: 60%;
   margin: auto;
   text-align: center;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
 .blog-container .header .img{
@@ -2865,6 +2869,7 @@ table.solution-table-price td:hover .description{
 	width: 100%;
 }
 
+
 .blog-items {
   width: 80%;
   margin: auto;
@@ -2872,25 +2877,54 @@ table.solution-table-price td:hover .description{
   flex-wrap: wrap;
 }
 
-.blog-post{
-	width: 47%;
+.blog-post:first-child{
+  width: 100%;
+  border: none;
+  padding: 0;
+  border-bottom: 3px solid #1e3550;
+}
+
+.blog-post:first-child .blog-post-contents{
+  display: flex;
+}
+
+.blog-post:first-child .img{
+  width: 35%;
   border-radius: 4px;
-  background-color: white;
-  margin: 2%;
-  margin-bottom: 0;
-  margin-right: 0;
+}
+
+.blog-post:first-child .img img{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-left: auto;
+}
+
+.blog-post:first-child .caption{
+  width: 45%;
+  margin: auto;
+}
+
+.blog-post{
+  padding: 20px;
+  width: 48%;
+  margin: 0 auto;
+  margin-left: 0;
+  margin-bottom: 100px;
 }
 
 .blog-post .img{
 	width: 100%;
-	height: 400px;
 	overflow: hidden;
-  border-radius: 4px 4px 0 0;
+  display: flex;
+  border-radius: 4px;
+  padding: 20px;
 }
 
 .blog-post .img img{
-  width: 100%;
+  width: 50%;
   height: auto;
+  margin: auto;
 }
 
 .blog-post .caption{
@@ -2899,8 +2933,7 @@ table.solution-table-price td:hover .description{
   -webkit-line-clamp: 2;
 	-webkit-box-orient: vertical; 
 	overflow: hidden;*/
-  padding: 10px 75px;
-  text-align: center;
+  text-align: left;
 }
 
 .blog-post p{
@@ -3615,9 +3648,6 @@ ul.whats-new li .whats-new-img img{
     width: 40%;
     margin: 0 auto;
     margin-bottom: 50px;
-  }
-  .blog-post .img{
-    height: 250px;
   }
   .solution-header-container .text{
     width: 60%;

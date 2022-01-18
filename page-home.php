@@ -166,6 +166,7 @@
         <h4>Service Requests</h4>
         <p>Service Request icons assist customers in the identification of required services, and enhance the overall user experience of the self-service portal.</p>
       </li>
+      <a class="more-info" href="/features">View all HotH Features</a>
     </ul>
   </div>
 
