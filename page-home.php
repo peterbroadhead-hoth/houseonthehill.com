@@ -52,15 +52,6 @@
         <h2 style="color: white;">What can I use House-on-the-Hill for?</h2>
         <p style="color: white;">Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
       </div>
-      <li class="foi">
-        <h3>FOI, Case & Complaints <br>Management</h3>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg" alt="foi Icon"></div>
-        <p>A popular fully paperless solution to aid your team with new requests logged by the public via the portal or by email. These cases can then be categorised into types and workflows such as FOI, Data Protection, Subject Access Requests, Complaints, Compliments, Information Governance and RoPA. </p>
-        <div class="btn">
-          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Try for free</a>
-          <a class="more-info" href="/foi-request-management/">More HotH FOI ></a>
-        </div>
-      </li>
 
       <li class="itsm">
         <h3>IT Service <br>Management</h3>
@@ -69,6 +60,16 @@
         <div class="btn">
           <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">Try for free</a>
           <a class="more-info" href="/it-service-management-software/">More HotH ITSM ></a>
+        </div>
+      </li>
+
+      <li class="foi">
+        <h3>FOI, Case & Complaints <br>Management</h3>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg" alt="foi Icon"></div>
+        <p>A popular fully paperless solution to aid your team with new requests logged by the public via the portal or by email. These cases can then be categorised into types and workflows such as FOI, Data Protection, Subject Access Requests, Complaints, Compliments, Information Governance and RoPA. </p>
+        <div class="btn">
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Try for free</a>
+          <a class="more-info" href="/foi-request-management/">More HotH FOI ></a>
         </div>
       </li>
 

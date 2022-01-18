@@ -69,19 +69,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="text" style="width: 100%">
 								<h3>Choose the right solution to power your business</h3>
 							</div>
-							<a href="/foi-request-management/">
-								<li>
-									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg"></div>
-									<h3>FOI, Case & Complaints Management</h3>
-									<p>All your FOIs, Complaints & Requests under one digital roof.</p>
-								</li>
-							</a>
-
 							<a href="/it-service-management-software/">
 								<li>
 									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.jpg"></div>
 									<h3>IT Service <br>Management</h3>
 									<p>Fully equipped & versatile ITIL ready service desk solution.</p>
+								</li>
+							</a>
+							
+							<a href="/foi-request-management/">
+								<li>
+									<div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg"></div>
+									<h3>FOI, Case & Complaints Management</h3>
+									<p>All your FOIs, Complaints & Requests under one digital roof.</p>
 								</li>
 							</a>
 
