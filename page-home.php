@@ -140,33 +140,38 @@
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/msteams.webp" alt="microsoft teams bot"></div>
         <h4>Microsoft Teams Integration</h4>
         <p>Start a chat with your users, create tickets and get notifications in with our Microsoft Teams integration</p>
+        <a class="more-info" href="/features/microsoft-teams-integration/">More info</a>
       </li>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/kpi.webp" alt="kpi"></div>
         <h4>KPI & Reports</h4>
         <p>Analyse Service Level Agreement performance by helpdesk agent, customer, status, Priority, and other service desk metrics.</p>
+        <a class="more-info" href="/features/kpi-monitor/">More info</a>
       </li>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/workflow.webp" alt="workflow engine icon"></div>
         <h4>Workflow Engine</h4>
         <p>Design the service desk process workflows to suit your organisation and get reminds on breaches.</p>
+        <a class="more-info" href="/features/workflow-engine/">More info</a>
       </li>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/mobile.webp" alt="mobile icon"></div>
         <h4>Mobile</h4>
         <p>House-on-the-Hill’s mobile service desk allows engineers to access the work queue, and log, update and escalate calls while working on customer sites.</p>
+        <a class="more-info" href="/features/mobile">More info</a>
       </li>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/asset.webp" alt="Asset Icon"></div>
         <h4>Asset & Software Licence Management</h4>
         <p>Asset and Software Licence Management with House-on-the-Hill enables you to analyse and report on your company’s hardware, and ensure complete software licence compliance.</p>
+        <a class="more-info" href="/features/asset-and-software-licence-management/">More info</a>
       </li>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/servicerequest.webp" alt="service request"></div>
         <h4>Service Requests</h4>
         <p>Service Request icons assist customers in the identification of required services, and enhance the overall user experience of the self-service portal.</p>
+        <a class="more-info" href="/features/service-request-buttons/">More info</a>
       </li>
-      <a class="more-info" href="/features">View all HotH Features</a>
     </ul>
   </div>
 

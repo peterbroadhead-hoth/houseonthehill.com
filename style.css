@@ -1095,10 +1095,6 @@ body #hoth-chat-button i{
   flex-wrap: wrap;
 }
 
-.home .small-features ul a{
-  margin: auto;
-}
-
 .home .small-features ul li{
   list-style: none;
   width: 30%;
@@ -1108,6 +1104,8 @@ body #hoth-chat-button i{
   text-align: center;
   position: relative;
   padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .home .small-features ul li .img{
@@ -1120,10 +1118,19 @@ body #hoth-chat-button i{
   height: 75px; 
 }
 
-.home .small-features ul li h4, .home .small-features ul li p{
+.home .small-features ul li h4{
   text-align: left;
   width: 100%;
   margin-bottom: 0;
+}
+
+.home .small-features ul li p{
+  text-align: left;
+  width: 100%;
+}
+
+.home .small-features ul li a{
+  margin-left: 0;
 }
 
 .home .demo{
