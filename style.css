@@ -928,6 +928,13 @@ body #hoth-chat-button i{
   text-align: center;  
 }
 
+.home .solutions ul .text p span{
+  background: #3b5067;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
 .home .solutions ul{
   width: 80%;
   display: flex;

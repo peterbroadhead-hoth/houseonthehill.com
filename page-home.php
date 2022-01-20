@@ -7,7 +7,7 @@
         <p>House-on-the-Hill Software is built to support you and the people that matter. We provide four interchangeable solutions: <a href="/it-service-management-software/">IT Service Management</a>, <a href="/foi-request-management/">FOI & Case Management</a>, <a href="/facilities-management/">Facilities Management</a> and <a href="/customer-service-and-support/">Customer Service</a>. Our software is flexible, affordable and created with you at the heart.</p>
         <div class="signup-buttons">
           <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Start your free trial</a>
-          <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No credit card required </p>
+          <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No credit card required</p>
         </div>
       </div>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/transparent-home.png" alt="Tailored home page graphic"></div>
@@ -51,6 +51,7 @@
       <div class="text">
         <h2 style="color: white;">What can I use House-on-the-Hill for?</h2>
         <p style="color: white;">Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
+        <a href="/price-plans"><p> <span>All HotH solutions start as low as £30 per agent, per month</span></p></a>
       </div>
 
       <li class="itsm">
