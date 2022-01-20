@@ -928,7 +928,7 @@ body #hoth-chat-button i{
   text-align: center;  
 }
 
-.solutions ul .text p span.price{
+.solutions ul .text p.price span{
   background: #3b5067;
   color: white;
   padding: 10px 20px;
@@ -2185,6 +2185,14 @@ body #hoth-chat-button i{
   }
   .foi .solution-features.list ul{
     width: 100%;
+  }
+  .solutions ul .text p.price{
+    background: #3b5067;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .solutions ul .text p.price span{
+    background: none;
   }
  }
 

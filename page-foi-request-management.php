@@ -54,7 +54,7 @@
       <div class="text">
         <h2 style="color: white;">Get on the case</h2>
         <p style="color: white;">Capture any type of Requests with Ease with <br><span style="font-weight: bold;">House-on-the-hill's FOI, Case & Complaints Management Software</span></p>
-        <a href="/price-plans"><p> <span class="price">HotH FOI, Case & Complaints starts as low as £30 per agent, per month</span></p></a>
+        <a href="/price-plans"><p class="price"> <span>HotH FOI, Case & Complaints starts as low as £30 per agent, per month</span></p></a>
       </div>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/folders.png" alt="Case types"></div>
