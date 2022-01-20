@@ -53,6 +53,7 @@
       <div class="text">
         <h2 style="color: white;">Stay on top of your tasks</h2>
         <p style="color: white;">All your facilities management needs under one roof.</span></p>
+        <a href="/price-plans"><p> <span class="price">HotH CAFM starts as low as £30 per agent, per month</span></p></a>
       </div>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/booking.png" alt="SSP icon"></div>

@@ -53,6 +53,7 @@
       <div class="text">
         <h2 style="color: white;">IT Service Management made simple</h2>
         <p style="color: white;">Use these features to ease your workload.</span></p>
+        <a href="/price-plans"><p> <span class="price">HotH IT Service Management starts as low as £30 per agent, per month</span></p></a>
       </div>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/selfservice.png" alt="ssp icon"></div>
