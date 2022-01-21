@@ -67,7 +67,7 @@
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/mail.png" alt="Email"></div>
         <h3>Configurable Email <br>Replies</h3>
-        <p>Decide if you want to pick and choose when and which email is sent or if you want preselected emails to be triggered automatically on stages of the case management</p>
+        <p>Choose when and which email is sent or if you want preselected emails to be triggered automatically on stages of the case management.</p>
         <div class="btn">
         </div>
       </li>
@@ -75,7 +75,7 @@
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/delegation.png" alt="delegation of requests"></div>
         <h3>Delegation of <br>Requests</h3>
-        <p>All or part of any requests can be delegated to other departments who will recieve an advisory email and subsequent reminders if the response is late. Department performance analysis helps to identify why Cases are breaching.</p>
+        <p>All or part of any requests can be delegated to other departments. They will receive an advisory email and subsequent reminders if the response is late. Department performance analysis helps to identify why Cases are breaching.</p>
         <div class="btn">
         </div>
       </li>
