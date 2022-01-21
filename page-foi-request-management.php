@@ -85,7 +85,7 @@
   <div class="large-features">
     <ul>
       <div class="text">
-        <h2 style="color:white">Powerful out of the box features to power your Case Management Software</h2>
+        <h2 style="color:white">Powerful out-of-the-box features to power your Case Management Software</h2>
       </div>
       <li>
         <div class="img"><img src="https://houseonthehill.com/wp-content/uploads/2021/11/FOICaseScreen-1.webp" alt="custom hoth portal" /></div>
