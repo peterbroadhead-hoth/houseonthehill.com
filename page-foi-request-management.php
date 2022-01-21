@@ -227,7 +227,7 @@
         </div>
         <li>
           <h3>Disclosure Log</h3>
-          <p>​Add closed cases to a public facing Dislosure Log.</p>
+          <p>​Add closed cases to a public facing Disclosure Log.</p>
         </li>
         <li>
           <h3>Search and Grouping</h3>
