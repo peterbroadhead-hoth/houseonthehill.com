@@ -91,8 +91,8 @@
         <div class="img"><img src="https://houseonthehill.com/wp-content/uploads/2021/11/FOICaseScreen-1.webp" alt="custom hoth portal" /></div>
         <div class="text">
           <h4>Customisable Forms</h4>
-          <p>Out of the box Case Management Forms that are amendable. Easily edit our Case Form Templates or start from scratch and create your own custom field and forms suited for your Case Management. 
-          <br><Br>Each Case Form can be customised with House-on-the-Hills Drag and Drop form builder to allow collection of the required data and information for that Case.</p>
+          <p>All of the preloaded forms can be easily edited. You can even start from scratch and create your own forms with unlimited custom fields to match your case management workflow.
+          <br><br>Each form can be customised using the drag and drop designer to include all the fields you need to capture case information. </p>
           <a class="more-info" href="/features/drag-and-drop-form-builder/">Find out more</a>
         </div>
       </li>
@@ -100,7 +100,7 @@
         <div class="img"><img src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/screenshots/createquickreport.webp" alt="FOI software quick report"></div>
         <div class="text">
           <h4>Run Case Reports</h4>
-          <p>Report on outcomes, exemptions and other key performance indicators at the touch of a button, and customise and schedule Case reports using House-on-the-Hill’s QuickReport Designer.
+          <p>Report on outcomes, exemptions and other key performance indicators at the touch of a button. Customise and schedule Case reports using House-on-the-Hill’s QuickReport Designer.
           <br><br>Use our default templates as a guide or build your own from scratch. The choice is yours.</p>
           <a class="more-info" href="/features/report-designer/">Find out more</a>
         </div>
