@@ -227,11 +227,11 @@
         </div>
         <li>
           <h3>Disclosure Log</h3>
-          <p>​Add closed cases to a public facing Disclosure Log.</p>
+          <p>​Populate a branded public facing Disclosure Log with your completed cases. Managing a case can be lengthy, so save time for your team and prevent unnecessary requests by pro-actively allowing requestors to find the information they are looking for within the Disclosure log. </p>
         </li>
         <li>
           <h3>Search and Grouping</h3>
-          <p>​Customise the disclosure log to offer searching and filtering by your classifications.</p>
+          <p>​Make it easy for the public to search the Disclosure Log  for relevant cases by categorising and creating filters. You can also brand the Disclosure Log to maintain your organisation's branding and themes.</p>
         </li>
       </ul>
     </div>
