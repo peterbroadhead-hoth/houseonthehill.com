@@ -114,32 +114,32 @@
           <h2>Integration and training</h2>
         </div>
         <li>
-          <p>​Integration with Microsoft tools i.e. Outlook, Active Directory, SSO</p>
+          <p>​House-on-the-Hill Case Management integrates with Microsoft 365. This will allow you to connect Outlook, Active Directory, Single Sign-On (SSO) and MS Teams to your case management system. </p>
         </li>
         <li>
-          <p>​BPSS checked HotH FOI Consultants</p>
+          <p>​Have full confidence in our training, support and implementation from our ​BPSS checked HotH FOI Consultants.</p>
         </li>
         <li>
-          <p>​Limited training required. Intuitive Forms, mandatory fields, simple workflow all make the system simple to pick up and put into use. </p>
+          <p>​Your team will requires little training as House-on-the-Hill is simple to pick up and put into use. All thanks to its intuitive workflows, simple form management and public data capture.</p>
         </li>
       </ul>
     </div>
     <div class="solution-features list">
       <ul>
         <div class="text">
-          <h2>Public Facing Internal Forms plus email integration​</h2>
+          <h2>Public request portal</h2>
         </div>
         <li>
           <h3>Public ‘Request Submission’ Forms</h3>
-          <p>Public ‘Request Submission’ Forms for inclusion on customer website with Captcha Form Submission security​.</p>
+          <p>The Public ‘Request Submission’ Forms can be loaded on to your website to make freedom of information requests quick and easy. Not only is this easiest way to collect your FOI data, it is also the safest with Captcha Form Submission security​ protecting your forms from any unwanted surprises.</p>
         </li>
         <li>
           <h3>Internal Data Breach</h3>
-          <p>Logging Forms to allow staff to report lost or misdirected data to feed the Information Governance Process.​</p>
+          <p>Allow staff to report lost or misdirected data to feed the Information Governance Process all within House-on-the-Hill.</p>
         </li>
         <li>
           <h3>Mail Automation</h3>
-          <p>Allows E-mails to be processed and converted to New Case Records.</p>
+          <p>Process and convert emails into to New Case Records with HotH mail automation. This seamless process allows your team more time to hit deadlines, SLAs and focus on the people that matter.</p>
         </li>
       </ul>
     </div>
