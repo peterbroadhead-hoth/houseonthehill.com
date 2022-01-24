@@ -2820,7 +2820,7 @@ table.solution-table-price td:hover .description{
 
 .blog-container{
 	padding: 10px;
-	padding-top: 0px;;
+	padding-top: 0px;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
@@ -3046,6 +3046,72 @@ table.solution-table-price td:hover .description{
  
 .demo-container form .rc-anchor{
   border-radius: 4px;
+}
+
+/* Single Blog */
+
+.blog{
+  width: 100%;
+}
+
+.blog .col-md-2.blog-sidebar{
+  width: 100%;
+  float: unset;
+  position: fixed;
+  top: 90px;
+  padding: 0;
+  background: unset;
+  z-index: 9;
+}
+
+.blog .col-md-2.blog-sidebar .form{
+  width: 95%;
+  margin: auto;
+}
+
+.blog .col-md-2.blog-sidebar h2{
+  display: none;
+}
+
+.blog .col-md-2.blog-sidebar #mc_embed_signup{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog .col-md-2.blog-sidebar #mc_embed_signup form{
+  margin: auto;
+  margin-right: 0;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.blog .col-md-2.blog-sidebar #mc_embed_signup form input{
+  box-shadow: none;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.blog .col-md-2.blog-sidebar #mc_embed_signup form #mc-embedded-subscribe{
+  background: #1e3550;
+  color: #ffffff;
+  margin-left: 0;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: unset;
+  font-size: 16px;
+  margin: 0;
+}
+
+.blog .container{
+  width: 50%;
+}
+
+.blog .container .col-md-8{
+  width: 100%;
 }
 
 /* Testimonials */
