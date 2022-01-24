@@ -3114,6 +3114,30 @@ table.solution-table-price td:hover .description{
   width: 100%;
 }
 
+@media (max-width: 1200px){
+  .blog .container{
+    width: 95%;
+    margin-top: 100px;
+  }
+  .blog .col-md-2.blog-sidebar .form{
+    width: 100%;
+  }
+  .blog .col-md-2.blog-sidebar #mc_embed_signup{
+    background: white;
+  }
+  .blog .col-md-2.blog-sidebar #mc_embed_signup form{
+    display: flex;
+    width: unset;
+  }
+  .blog .col-md-2.blog-sidebar #mc_embed_signup form input{
+    margin-bottom: 0;
+    margin-right: 5px;
+  }
+  .blog .col-md-2.blog-sidebar{
+    top: 70px;
+  }
+}
+
 /* Testimonials */
 
 .testimonials{
