@@ -277,6 +277,7 @@ a.more-info:hover{
 body #hoth-chat-button {
   background: #fee119;
   box-shadow: unset;
+  z-index: 9;
 }
 
 body #hoth-chat-button i{
@@ -850,7 +851,7 @@ body #hoth-chat-button i{
   left: 0;
   width: 100%;
   background: #1D3550;
-  height: 480px;
+  height: 320px;
   z-index: 0;
 }
 
@@ -1315,6 +1316,10 @@ body #hoth-chat-button i{
   .home .testimonials .container{
     width: 100%;
   } 
+  .home .testimonials .container .quote iframe{
+    width: 95% !important;
+    height: 500px !important;
+  }
   .home .testimonials .container .quote .text{
     width: 100%;
   }
@@ -1396,6 +1401,11 @@ body #hoth-chat-button i{
   .home .header .container .img img{
     margin: auto;
   }
+
+  .home .testimonials .container .quote iframe{
+    width: 95% !important;
+    height: 450px !important;
+  }
 }
 
 @media (max-width: 600px){
@@ -1417,7 +1427,7 @@ body #hoth-chat-button i{
     padding: 10px;
   }
   .home .testimonials .square{
-    height: 250px;
+    height: 230px;
   }
   .home .solutions, .home .large-features{
     padding: 0;
@@ -1492,6 +1502,11 @@ body #hoth-chat-button i{
     padding: 10px;
     padding-bottom: 0;
     padding-top: 50px;
+  }
+
+  .home .testimonials .container .quote iframe{
+    width: 95% !important;
+    height: 250px !important;
   }
 }
 
