@@ -2894,17 +2894,15 @@ table.solution-table-price td:hover .description{
 
 
 .blog-items {
-  width: 80%;
+  width: 60%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .blog-post:first-child{
-  width: 100%;
-  border: none;
+  width: 90%;
   padding: 0;
-  border-bottom: 3px solid #1e3550;
 }
 
 .blog-post:first-child .blog-post-contents{
@@ -2930,10 +2928,12 @@ table.solution-table-price td:hover .description{
 
 .blog-post{
   padding: 20px;
-  width: 48%;
+  width: 40%;
   margin: 0 auto;
   margin-left: 0;
   margin-bottom: 100px;
+  border: 3px solid #1e3550;
+  border-radius: 4px;
 }
 
 .blog-post .img{
@@ -3110,6 +3110,10 @@ table.solution-table-price td:hover .description{
   width: 50%;
 }
 
+.blog .container p{
+  width: 100%;
+}
+
 .blog .container .col-md-8{
   width: 100%;
 }
@@ -3120,7 +3124,7 @@ table.solution-table-price td:hover .description{
     margin-top: 100px;
   }
   .blog .col-md-2.blog-sidebar .form{
-    width: 100%;
+    width: 95%;
   }
   .blog .col-md-2.blog-sidebar #mc_embed_signup{
     background: white;
@@ -3128,6 +3132,7 @@ table.solution-table-price td:hover .description{
   .blog .col-md-2.blog-sidebar #mc_embed_signup form{
     display: flex;
     width: unset;
+    padding-right: 0;
   }
   .blog .col-md-2.blog-sidebar #mc_embed_signup form input{
     margin-bottom: 0;
@@ -3135,6 +3140,7 @@ table.solution-table-price td:hover .description{
   }
   .blog .col-md-2.blog-sidebar{
     top: 70px;
+    background: white;
   }
 }
 
@@ -3142,7 +3148,6 @@ table.solution-table-price td:hover .description{
 
 .testimonials{
 	display: flex;
-	background: #eff5f6;
 }
 
 .testimonials-container{
@@ -3158,11 +3163,6 @@ table.solution-table-price td:hover .description{
 .testimonials-header-container{
 	width: 100%;
 	padding: 100px 0;
-	background-image: url(https://houseonthehill.com/wp-content/uploads/2021/05/F380845C-FFF9-42AB-9C9A-5BE87D6196D9.png);
-	background-size: 765px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-position-y: 125px;
 }
 
 .testimonials .col-md-3{
