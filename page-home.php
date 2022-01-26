@@ -135,14 +135,6 @@
         </div>
       </li>
     </ul>
-
-    <div class="tryforfree">
-      <div class="container">
-        <h1>Still not tempted?</h1>
-        <p>Try free for 30 days</p>
-        <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Free trial</a>
-      </div>
-    </div>
   </div>
 
   <div class="small-features">

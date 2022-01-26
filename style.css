@@ -765,37 +765,6 @@ body #hoth-chat-button i{
   opacity: 0.9;
 }
 
-.tryforfree{
-  margin: auto;
-  margin-top: 100px;
-  width: 80%;
-}
-
-.tryforfree .container{
-  text-align: center;
-  display: block;
-  flex-wrap: unset;
-  padding: 50px;
-  width: 30%;
-  border: 3px solid white;
-  border-radius: 4px;
-}
-
-.tryforfree .container h1{
-  color: white;
-}
-
-.tryforfree .container p{
-  color: white;
-  margin-bottom: 30px;
-}
-
-.tryforfree .container a{
-  color: white;
-  border: 2px solid white;
-  box-shadow: none;
-}
-
 /* Home page */
 
 .home .header{
