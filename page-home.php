@@ -7,7 +7,7 @@
         <p>House-on-the-Hill Software is built to support you and the people that matter. We provide four interchangeable solutions: <a href="/it-service-management-software/">IT Service Management</a>, <a href="/foi-request-management/">FOI & Case Management</a>, <a href="/facilities-management/">Facilities Management</a> and <a href="/customer-service-and-support/">Customer Service</a>. Our software is flexible, affordable and created with you at the heart.</p>
         <div class="signup-buttons">
           <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Start your free trial</a>
-          <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No credit card required</p>
+          <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No credit card required / Free 30 day trial</p>
         </div>
       </div>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/transparent-home.png" alt="Tailored home page graphic"></div>
@@ -135,7 +135,16 @@
         </div>
       </li>
     </ul>
+
+    <div class="tryforfree">
+      <div class="container">
+        <h1>Still not tempted?</h1>
+        <p>Try free for 30 days</p>
+        <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Free trial</a>
+      </div>
+    </div>
   </div>
+
   <div class="small-features">
     <ul>
       <li>
@@ -173,6 +182,29 @@
         <h4>Service Requests</h4>
         <p>Service Request icons assist customers in the identification of required services, and enhance the overall user experience of the self-service portal.</p>
         <a class="more-info" href="/features/service-request-buttons/">More info</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="promo">
+    <ul>
+      <li>
+        <h4>HotH Updates</h4>
+        <h3>Whats new to <br>HotH</h3>
+        <p>Discover the upgrades available to streamline and enhance your service desk.</p>
+          <a class="more-info" href="/whats-new/">Read what's new ></a>
+      </li>
+      <li>
+        <h4>Blog</h4>
+        <h3>Keep up to date with all things HotH</h3>
+        <p>Subscribe to our monthly newsletter that features consultancy discounts, HotH tips and the latest upgrades available for your service.</p>
+          <a class="more-info" href="/blog/">Blog ></a>
+      </li>
+      <li>
+        <h4>Case Studies</h4>
+        <h3>How customers made our House their Home</h3>
+        <p>From local councils to local tradesmen, learn about how our customers have used HotH to support the people that matter.</p>
+          <a class="more-info" href="/case-studies/">Read customer case studies ></a>
       </li>
     </ul>
   </div>

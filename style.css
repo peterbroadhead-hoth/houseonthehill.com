@@ -765,6 +765,37 @@ body #hoth-chat-button i{
   opacity: 0.9;
 }
 
+.tryforfree{
+  margin: auto;
+  margin-top: 100px;
+  width: 80%;
+}
+
+.tryforfree .container{
+  text-align: center;
+  display: block;
+  flex-wrap: unset;
+  padding: 50px;
+  width: 30%;
+  border: 3px solid white;
+  border-radius: 4px;
+}
+
+.tryforfree .container h1{
+  color: white;
+}
+
+.tryforfree .container p{
+  color: white;
+  margin-bottom: 30px;
+}
+
+.tryforfree .container a{
+  color: white;
+  border: 2px solid white;
+  box-shadow: none;
+}
+
 /* Home page */
 
 .home .header{
@@ -1140,6 +1171,58 @@ body #hoth-chat-button i{
 .home .small-features ul li a{
   margin: auto;
   margin-left: 0;
+}
+
+.home .promo{
+  background: white;
+  padding: 50px 10px;
+}
+
+.home .promo ul{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.home .promo ul li{
+  width: 30%;
+  margin: 0 auto;
+  text-align: left;
+  list-style: none;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.home .promo ul li:first-child{
+  border-bottom: 3px solid #fee119;
+}
+
+.home .promo ul li:nth-child(2){
+  border-bottom: 3px solid #9DCCD1;
+}
+
+.home .promo ul li:nth-child(3){
+  border-bottom: 3px solid #1D3550;
+}
+
+.home .promo ul li h4{
+  text-align: left;
+  font-size: 14px;
+}
+
+.home .promo ul li a{
+  border: unset;
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  padding: 0;
+}
+
+.home .promo ul li a:hover{
+  opacity: .9;
+  background: unset;
+  color: unset;
 }
 
 .home .demo{
