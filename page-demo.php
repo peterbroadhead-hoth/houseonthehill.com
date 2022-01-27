@@ -9,6 +9,7 @@
 <div class="demo">
   <div class="demo-container">
     <div class="header">
+      <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/demoicon.png"></div>
       <h1>See House-on-the-Hill in action!</h1>
       <p>Let one of our team show you around your own personalised trial which you get to take away! This is a great way for us to learn about you and show you on the fly how HotH can help your organisation. No matter the size. </p>
       <p style="margin-top: 10px;">Just fill out this form or email <b>demo@houseonthehill.com</b> and we can arrange a Microsoft Teams meeting for when's best for you.</p>
