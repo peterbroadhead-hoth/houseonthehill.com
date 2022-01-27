@@ -1409,6 +1409,12 @@ body #hoth-chat-button i{
   .help ul li img{
     position: unset;
   }
+  .home .promo ul{
+    width: 100%;
+  }
+  .home .promo ul li{
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 800px){
@@ -1559,6 +1565,9 @@ body #hoth-chat-button i{
   .home .testimonials .container .quote iframe{
     width: 95% !important;
     height: 250px !important;
+  }
+  .home .promo ul li{
+    width: 100%;
   }
 }
 
@@ -2266,7 +2275,7 @@ body #hoth-chat-button i{
 /* single page testimonial */
 
 .hoth-single-testimonial{
-  background: #ffeee2;
+  background: #1e3550;
 }
 
 .hoth-single-testimonial-container{
@@ -2276,9 +2285,17 @@ body #hoth-chat-button i{
   padding: 100px 0;
 }
 
-.hoth-single-testimonial p span{
+.hoth-single-testimonial-container h2{
+  margin-top: 0;
+}
+
+.hoth-single-testimonial-container p{
+  margin-bottom: 0;
+}
+
+.hoth-single-testimonial-container h2, .hoth-single-testimonial-container p, .hoth-single-testimonial p span{
   font-weight: bold;
-  color: #1E3550;
+  color: white;
 }
 
 /* Features */
@@ -3037,7 +3054,7 @@ table.solution-table-price td:hover .description{
 
 /* Demo */
 .demo{
-  background-color: #FBC4B4;
+  background-color: white;
   padding: 50px 0px 50px 0px;
 }
  
@@ -3056,22 +3073,26 @@ table.solution-table-price td:hover .description{
 }
  
 .demo-container .form{
-  width: 300px;
+  width: 342px;
+  margin: auto;
+  margin-top: 0;
   margin-right: 0;
+  background: #1e3550;
+  padding: 20px;
+  border-radius: 4px;
 }
  
 .demo-container .header .img{
-  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/05/orange-splat-350px.png);
-  background-repeat: no-repeat;
-  background-size: 350px;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   display: flex;
 }
  
 .demo-container .header .img img{
-  border-radius: 100%;
   margin: auto;
+  margin-left: 0;
+  width: 100%;
+  height: auto;
 }
  
 .demo-container .form form{
@@ -3113,6 +3134,21 @@ table.solution-table-price td:hover .description{
  
 .demo-container form .rc-anchor{
   border-radius: 4px;
+}
+
+@media (max-width: 1200px){
+  .demo-container{
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px){
+  .demo-container .header{
+    width: 100%;
+  }
+  .demo-container .form{
+    margin-left: 0;
+  }
 }
 
 /* Single Blog */
@@ -4329,7 +4365,7 @@ ul.whats-new li .whats-new-img img{
   /* testimonials mobile */
   .hoth-single-testimonial-container,  .solution-testimonial-container{
     width: 80%;
-    padding: 10px;
+    padding: 20px;
   }
 
   /* solutions mobile */
