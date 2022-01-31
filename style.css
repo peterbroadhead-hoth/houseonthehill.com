@@ -856,7 +856,7 @@ body #hoth-chat-button i{
 
 .home .header .container{
   padding: 50px 10px;
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
 
@@ -1011,7 +1011,7 @@ body #hoth-chat-button i{
 }
 
 .home .solutions ul{
-  width: 80%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -1107,7 +1107,7 @@ body #hoth-chat-button i{
 
 .home .large-features ul{
   margin: auto;
-  width: 80%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1172,7 +1172,7 @@ body #hoth-chat-button i{
 
 .home .small-features ul{
   margin: auto;
-  width: 80%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1223,7 +1223,7 @@ body #hoth-chat-button i{
 
 .home .promo ul{
   display: flex;
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
 
@@ -1313,7 +1313,7 @@ body #hoth-chat-button i{
 
 .help .container{
   display: block;
-  width: 80%;
+  width: 95%;
 }
 
 .help ul{ 
@@ -1325,7 +1325,7 @@ body #hoth-chat-button i{
 
 .help ul li{
   list-style: none;
-  width: 45%;
+  width: 44%;
   padding: 20px;
   padding-right: 30px;
   margin: 0 auto;
@@ -1667,7 +1667,7 @@ body #hoth-chat-button i{
  
 .solution .header .container{
   padding: 50px 10px;
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
  
@@ -1807,7 +1807,7 @@ body #hoth-chat-button i{
 }
  
 .solution .solutions ul{
-  width: 80%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -1905,7 +1905,7 @@ body #hoth-chat-button i{
  
 .solution .large-features ul{
   margin: auto;
-  width: 80%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1971,7 +1971,7 @@ body #hoth-chat-button i{
  
 .solution .small-features ul{
   margin: auto;
-  width: 80%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -2005,7 +2005,7 @@ body #hoth-chat-button i{
 
 .foi .solution-features.list ul{
   border-top: 2px solid rgba(29, 53, 80, 0.15);
-  width: 80%;
+  width: 95%;
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -3998,7 +3998,7 @@ ul.whats-new li .whats-new-img img{
     margin: auto;
     margin-right: 0;
     text-align: left;
-    margin-top: 85px;
+    margin-top: 50px;
   }
   .hoth-footer-container .footer-links .company {
     font-size: 12px;
