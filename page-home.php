@@ -57,7 +57,7 @@
 
       <li class="itsm">
         <h3>IT Service <br>Management</h3>
-        <a href="/it-service-management-software/"><h3>
+        <a href="/it-service-management-software/">
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.jpg" alt="itsm Icon"></div>
         </a>
         <p>Deliver a modern ITIL driven service desk with a deep set of tools, automated workflows and a self-service portal. Where your users can raise tickets, access common service requests and search the knowledge base for FAQs.  </p>
