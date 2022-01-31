@@ -785,7 +785,11 @@ body #hoth-chat-button i{
   margin: auto;
   margin-top: 0;
   text-align: center;
-  width: 50%;
+  width: 70%;
+}
+
+.signupform .text h2{
+  margin-top: 0;
 }
 
 .signupform .text h2, .signupform .text p{
@@ -795,39 +799,53 @@ body #hoth-chat-button i{
 .signupform .text .img{
   width: 100%;
   display: flex;
-  position: relative;
 }
 
 .signupform .text .img img{
   width: 100%;
   height: auto;
   margin: auto;
-  position: absolute;
   border-radius: 4px;
-}
-
-.signupform .form{
-  width: 45%;
-  margin: auto;
 }
 
 .signupform form{
-  width: 300px;
+  width: 100%;
   margin: auto;
+  display: flex;
+  margin: 20px 0;
+  margin-bottom: 40px;
 }
 
 .signupform form input, .signupform form select{
-  width: 100%;
-  margin: auto;
-  border-radius: 4px;
+  width: 25%;
   padding: 15px;
   border: none;
   box-shadow: none;
-  margin-bottom: 10px;
+}
+
+.signupform form input#F2177{
+  border-radius: 4px 0 0 4px;
+  border-right: 1px solid black;
+}
+
+.signupform form input#reg_email{
+  border-right: 1px solid black;
 }
 
 .signupform form #reg_submit{
   background: #fee119;
+  border-radius: 0px 4px 4px 0px;
+}
+
+@media (max-width: 1000px){
+  .signupform form{
+    display: unset;
+  }
+  .signupform form input, .signupform form select{
+    width: 100%;
+    border-radius: 4px !important;
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 720px){
@@ -836,6 +854,9 @@ body #hoth-chat-button i{
   }
   .signupform .text, .signupform .form{
     width: 100%;
+  }
+  .signupform .text{
+    width: 80%;
   }
 }
 
@@ -1778,7 +1799,7 @@ body #hoth-chat-button i{
 .solution .testimonials .container .quote .text{
   margin: auto;
   padding: 50px;
-  width: 80%;
+  width: 100%;
 }
  
 .solution .testimonials .container .quote .text h2, .solution .testimonials .container .quote .text p, .solution .testimonials .container .quote .text p span{
