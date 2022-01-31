@@ -182,7 +182,7 @@
     <div class="container">
       <div class="text">
         <h2>Get the keys to your new home</h2>
-        <p>tart your free 30 day trial. No credit card required.</p>
+        <p>Start your free 30 day trial. No credit card required.</p>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png" alt="itsm screenshot"></div>
       </div>
 
