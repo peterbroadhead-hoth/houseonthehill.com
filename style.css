@@ -1118,6 +1118,7 @@ body #hoth-chat-button i{
 .home .large-features{
   background: #1D3550;
   padding: 100px 10px;
+  padding-top: 0;
 }
 
 .home .large-features .text{
@@ -2684,7 +2685,7 @@ ul.key-features{
 }
 
 .pricing-container{
-  width: 80%;
+  width: 95%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -2830,10 +2831,24 @@ ul.key-features{
   padding: unset;
 }
 
+@media (max-width: 1500px){
+  .pricing ul.solutions li {
+    width: 24%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1000px){
+  .pricing ul.solutions li{
+    width: 48%;
+  }
+}
+
 /* Pricing table */
 
 .solution-table-container{
-  width: 80%;
+  width: 95%;
   margin: auto;
   padding: 100px 10px;
   padding-bottom: 300px;
@@ -2974,6 +2989,12 @@ table.solution-table-price td:hover .description{
 
 .description .navbar-default{
   display: none;
+}
+
+@media (max-width: 1000px){
+  .solution-table-container{
+    width: 93%;
+  }
 }
 
 /* about house-on-the-hill */
@@ -3965,11 +3986,6 @@ ul.whats-new li .whats-new-img img{
   }
   .hoth-footer-container .btns:before{
     display: none;
-  }
-  .pricing ul.solutions li {
-    width: 40%;
-    margin: 0 auto;
-    margin-bottom: 50px;
   }
   .solution-header-container .text{
     width: 60%;
