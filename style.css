@@ -261,6 +261,28 @@ a.more-info:hover{
 }
 
 .demo-btn{
+	background: #1e3550;
+	color: #ffffff;
+	margin-left: 0;
+	border-radius: 4px;
+	padding: 10px 20px;
+	font-weight: bold;
+	box-shadow: unset;
+	font-size: 16px;
+}
+
+.demo-btn:hover{
+	color: #ffffff;
+	opacity: 0.8;
+}
+
+.reveal{
+	display: none;
+}
+
+.home .reveal form{
+  display: unset;
+  flex-wrap: unset;
 }
 
 .demo-btn img{
@@ -877,7 +899,7 @@ body #hoth-chat-button i{
 
 .home .header .container{
   padding: 50px 10px;
-  width: 95%;
+  width: 80%;
   margin: auto;
 }
 
@@ -899,7 +921,7 @@ body #hoth-chat-button i{
   margin: auto;
 }
 
-.home .signup-buttons form{
+/* .home .signup-buttons form{
   display: flex;
   flex-wrap: wrap;
   width: 600px;
@@ -927,7 +949,7 @@ body #hoth-chat-button i{
   padding: 10px;
   border: 1px solid #c2c2c2;
   border-radius: 4px;
-}
+} */
 
 .home .testimonials{
   background: white;
@@ -1032,7 +1054,7 @@ body #hoth-chat-button i{
 }
 
 .home .solutions ul{
-  width: 95%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -1129,7 +1151,7 @@ body #hoth-chat-button i{
 
 .home .large-features ul{
   margin: auto;
-  width: 95%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1194,7 +1216,7 @@ body #hoth-chat-button i{
 
 .home .small-features ul{
   margin: auto;
-  width: 95%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1245,7 +1267,7 @@ body #hoth-chat-button i{
 
 .home .promo ul{
   display: flex;
-  width: 95%;
+  width: 80%;
   margin: auto;
 }
 
@@ -1384,6 +1406,10 @@ body #hoth-chat-button i{
 }
 
 @media (max-width: 1500px){
+  .home .header .container, .home .solutions ul, .home .large-features ul, .home .small-features ul, .home .promo ul, .help ul{
+    width: 95%;
+  }
+  
   .home .header .container .text{
     width: 550px;
   } 
@@ -1689,7 +1715,7 @@ body #hoth-chat-button i{
  
 .solution .header .container{
   padding: 50px 10px;
-  width: 95%;
+  width: 80%;
   margin: auto;
 }
  
@@ -1829,7 +1855,7 @@ body #hoth-chat-button i{
 }
  
 .solution .solutions ul{
-  width: 95%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -1927,7 +1953,7 @@ body #hoth-chat-button i{
  
 .solution .large-features ul{
   margin: auto;
-  width: 95%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1993,7 +2019,7 @@ body #hoth-chat-button i{
  
 .solution .small-features ul{
   margin: auto;
-  width: 95%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -2027,7 +2053,7 @@ body #hoth-chat-button i{
 
 .foi .solution-features.list ul{
   border-top: 2px solid rgba(29, 53, 80, 0.15);
-  width: 95%;
+  width: 80%;
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -2098,6 +2124,9 @@ body #hoth-chat-button i{
  }
  
  @media (max-width: 1500px){
+  .solution .header .container, .solution .solutions ul, .solution .large-features ul, .solution .small-features ul, .foi .solution-features.list ul{
+    width: 95%;
+  }
   .solution .header .container .text{
     width: 550px;
   } 
