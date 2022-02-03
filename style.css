@@ -1012,7 +1012,10 @@ body #hoth-chat-button i{
 
 .home .testimonials .customers img{
   margin: auto;
-  max-height: 25px;
+  height: auto;
+  max-height: 50px;
+  width: auto;
+  max-width: 125px;
 }
 
 .home .testimonials .container{
@@ -1827,7 +1830,10 @@ body #hoth-chat-button i{
  
 .solution .testimonials .customers img{
   margin: auto;
-  max-height: 75px;
+  height: auto;
+  max-height: 50px;
+  width: auto;
+  max-width: 125px;
 }
  
 .solution .testimonials .container{
