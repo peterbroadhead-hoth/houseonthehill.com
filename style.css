@@ -1816,6 +1816,7 @@ body #hoth-chat-button i{
   justify-content: center;
   height: 70px;
   display: flex;
+  margin-top: 10px;
 }
  
 .solution .testimonials .customers a{
@@ -1826,7 +1827,7 @@ body #hoth-chat-button i{
  
 .solution .testimonials .customers img{
   margin: auto;
-  max-height: 50px;
+  max-height: 75px;
 }
  
 .solution .testimonials .container{

@@ -31,8 +31,8 @@
         <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
           <img height="25" width="147" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bm-25.png" alt="Broadway Malyan Logo">
         </a>  
-        <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
-          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bbraun-25.png" alt="BBraun Medicine Logo">
+        <a href="https://weareworldchallenge.com/uk/" target="_blank" rel="noopener">
+          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/worldchallenge.webp" alt="BBraun Medicine Logo">
         </a>  
         <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
           <img height="25" width="134" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/hb-25.png" alt="Holland & Barrett Logo">

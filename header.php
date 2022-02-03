@@ -175,7 +175,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<li><a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank">Free trial</a></li>
 
 				<div class="reveal">
-					<p><strong>Want a personal HotH tour?</strong> <br><br>Email us at <a href="mailto:demo@houseonthehill.com" target="_blank" rel="noopener noreferrer">demo@houseonthehill.com</a> or sign in this quick form and let one of our team show you around your own personalised trial which you get to take away!</p>
+					<p><strong>Interested in a personal HotH tour?</strong> <br><br>Email us at <a href="mailto:demo@houseonthehill.com" target="_blank" rel="noopener noreferrer">demo@houseonthehill.com</a> or fill in this quick form and let a member of our team show you around your own personalised trial which you get to take away!</p>
 					<div class="form">
 							<form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
 											<input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
