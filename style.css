@@ -3333,6 +3333,30 @@ table.solution-table-price td:hover .description{
   .demo-container .form{
     margin-left: 0;
   }
+  .blog-items, .blog-post:first-child{
+    width: 100%;
+    padding: 20px;
+  }
+  .blog-post:first-child .blog-post-contents{
+    display: unset;
+  }
+  .blog-post:first-child .img{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  .blog-post:first-child .img img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    max-width: 250px;
+  }
+  .blog-post:first-child .caption{
+    width: unset;
+    padding: 20px;
+  }
 }
 
 /* Single Blog */
