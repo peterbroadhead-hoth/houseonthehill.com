@@ -922,6 +922,7 @@ body #hoth-chat-button i{
 .home .header .container .text{
   width: 700px;
   margin: auto 0;
+  z-index: 9;
 }
 
 .home .header .container .img{
