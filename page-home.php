@@ -108,7 +108,7 @@
     </ul>
   </div>
 
-  <div class="large-features">
+  <!--<div class="large-features">
     <ul>
       <div class="text">
         <h2 style="color:white">Popular features</h2>
@@ -138,7 +138,7 @@
         </div>
       </li>
     </ul>
-  </div>
+  </div>-->
 
   <div class="small-features">
     <ul>
@@ -252,7 +252,7 @@
         <h4>Case Studies</h4>
         <h3>How customers made our House their Home</h3>
         <p>From local councils to local tradesmen, learn about how our customers have used HotH to support the people that matter.</p>
-          <a class="more-info" href="/case-studies/">Read customer case studies ></a>
+          <a class="more-info" href="/casestudy/">Read customer case studies ></a>
       </li>
     </ul>
   </div>
