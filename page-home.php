@@ -84,7 +84,7 @@
 
       <li class="csm">
         <h3>Customer Service <br>Management</h3>
-        <a class="more-info" href="/customer-service-and-support/">
+        <a href="/customer-service-and-support/">
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-header.jpg" alt="Customer Service Management Icon"></div>
         </a>
         <p>Helps your sales team provide high quality customer support. Keep customers and staff happy by capturing key information through the branded portal, chat, email, feedback surveys and use data driven decisions from reports and KPIs to continually improve your service.</p>
@@ -96,7 +96,7 @@
 
       <li class="cafm">
         <h3>Computer Aided Facilities <br>Management</h3>
-        <a class="more-info" href="/facilities-management/">
+        <a href="/facilities-management/">
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-header.jpg" alt="CAFM Icon"></div>
         </a>
         <p>Will allow you to manage your whole property portfolio, jobs and keep your engineers on the road. Your tool kit will include an engineer mobile app, reactive job logging, property maps, planned preventative maintenance, Job Sheets, Quotes, Invoices and more! </p>
