@@ -1,46 +1,54 @@
 <?php get_header();?>
-<div class="wrapper">
-		<div class="text">
-				<h2 style="color: white;">What can I use House-on-the-Hill for?</h2>
-				<p style="color: white;">Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
-				<a href="/price-plans"><p class="price"> <span>All HotH solutions start as low as £30 per agent, per month</span></p></a>
-		</div>
-  <input type="radio" name="slider" checked id="itsm">
-  <input type="radio" name="slider" id="foi">
-  <input type="radio" name="slider" id="csm">
-  <input type="radio" name="slider" id="cafm">
-  <nav>
-    <label for="itsm" class="itsm">IT service <br>management</label>
-    <label for="foi" class="foi">FOI, case & complaints <br>management</label>
-    <label for="csm" class="csm">Customer service <br>management</label>
-    <label for="cafm" class="cafm">Computer aided facilities <br>management</label>
-    <div class="slider"></div>
-  </nav>
-  <section>
-    <div class="content content-1">
-      <div class="title">This is a itsm content</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero aspernatur nobis provident dolores molestias quia quisquam laborum, inventore quis, distinctioa, fugit repudiandae delectus sunt ipsam! Odio illo at quia doloremque fugit iops, asperiores? Consectetur esse officia labore voluptatum blanditiis molestias dic voluptas est, minima unde sequi, praesentium dicta suscipit quisquam iure sed, nemo.</p>
-    </div>
-    <div class="content content-2">
-      <div class="title">This is a foi content</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit amet. Possimus doloris nesciunt mollitia culpa sint itaque, vitae praesentium assumenda suscipit fugit doloremque adipisci doloribus, sequi facere itaque cumque accusamus, quam molestias sed provident quibusdam nam deleniti. Autem eaque aut impedit eo nobis quia, eos sequi tempore! Facere ex repellendus, laboriosam perferendise. Enim quis illo harum, exercitationem nam totam fugit omnis natus quam totam, repudiandae dolor laborum! Commodi?</p>
-    </div>
-    <div class="content content-3">
-      <div class="title">This is a csm content</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, debitis nesciunt! Consectetur officiis, libero nobis dolorem pariatur quisquam temporibus. Labore quaerat neque facere itaque laudantium odit veniam consectetur numquam delectus aspernatur, perferendis repellat illo sequi excepturi quos ipsam aliquid est consequuntur.</p>
-    </div>
-    <div class="content content-4">
-      <div class="title">This is a cafm content</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reprehenderit null itaq, odio repellat asperiores vel voluptatem magnam praesentium, eveniet iure ab facere officiis. Quod sequi vel, rem quam provident soluta nihil, eos. Illo oditu omnis cumque praesentium voluptate maxime voluptatibus facilis nulla ipsam quidem mollitia! Veniam, fuga, possimus. Commodi, fugiat aut ut quorioms stu necessitatibus, cumque laborum rem provident tenetur.</p>
-    </div>
-  </section>
+<div class="solutions">
+	<div class="text">
+			<h2 style="color: white;">What can I use House-on-the-Hill for?</h2>
+			<p style="color: white;">Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
+			<a href="/price-plans"><p class="price"> <span>All HotH solutions start as low as £30 per agent, per month</span></p></a>
+	</div>
+	<div class="wrapper">
+			<input type="radio" name="slider" checked id="itsm">
+			<input type="radio" name="slider" id="foi">
+			<input type="radio" name="slider" id="csm">
+			<input type="radio" name="slider" id="cafm">
+			<nav>
+					<label for="itsm" class="itsm">IT service <br>management</label>
+					<label for="foi" class="foi">FOI, case & complaints <br>management</label>
+					<label for="csm" class="csm">Customer service <br>management</label>
+					<label for="cafm" class="cafm">Computer aided facilities <br>management</label>
+					<div class="slider"></div>
+			</nav>
+			<section>
+					<div class="content content-1">
+							<div class="title">This is a itsm content</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero aspernatur nobis provident dolores molestias quia quisquam laborum, inventore quis, distinctioa, fugit repudiandae delectus sunt ipsam! Odio illo at quia doloremque fugit iops, asperiores? Consectetur esse officia labore voluptatum blanditiis molestias dic voluptas est, minima unde sequi, praesentium dicta suscipit quisquam iure sed, nemo.</p>
+					</div>
+					<div class="content content-2">
+							<div class="title">This is a foi content</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit amet. Possimus doloris nesciunt mollitia culpa sint itaque, vitae praesentium assumenda suscipit fugit doloremque adipisci doloribus, sequi facere itaque cumque accusamus, quam molestias sed provident quibusdam nam deleniti. Autem eaque aut impedit eo nobis quia, eos sequi tempore! Facere ex repellendus, laboriosam perferendise. Enim quis illo harum, exercitationem nam totam fugit omnis natus quam totam, repudiandae dolor laborum! Commodi?</p>
+					</div>
+					<div class="content content-3">
+							<div class="title">This is a csm content</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, debitis nesciunt! Consectetur officiis, libero nobis dolorem pariatur quisquam temporibus. Labore quaerat neque facere itaque laudantium odit veniam consectetur numquam delectus aspernatur, perferendis repellat illo sequi excepturi quos ipsam aliquid est consequuntur.</p>
+					</div>
+					<div class="content content-4">
+							<div class="title">This is a cafm content</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reprehenderit null itaq, odio repellat asperiores vel voluptatem magnam praesentium, eveniet iure ab facere officiis. Quod sequi vel, rem quam provident soluta nihil, eos. Illo oditu omnis cumque praesentium voluptate maxime voluptatibus facilis nulla ipsam quidem mollitia! Veniam, fuga, possimus. Commodi, fugiat aut ut quorioms stu necessitatibus, cumque laborum rem provident tenetur.</p>
+					</div>
+			</section>
+	</div>
 </div>
 
 <style>
+.solutions {
+	background: #1D3550;
+	padding: 100px 10px;
+	padding-top: 50px;
+}
 .wrapper{
 	width: 80%;
 	margin: 100px auto;
 	padding: 25px 30px 30px 30px;
+	background: white;
 }
 
 .wrapper nav{
