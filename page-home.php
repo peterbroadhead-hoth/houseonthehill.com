@@ -51,77 +51,63 @@
   </div>
 
   <div class="solutions">
-	<div class="text">
-			<h2 style="color: white;">What can I use House-on-the-Hill for?</h2>
-			<p style="color: white;">Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
-			<a href="/price-plans"><p class="price"> <span>All HotH solutions start as low as £30 per agent, per month</span></p></a>
-	</div>
-	<div class="wrapper">
-			<input type="radio" name="slider" checked id="itsm">
-			<input type="radio" name="slider" id="foi">
-			<input type="radio" name="slider" id="csm">
-			<input type="radio" name="slider" id="cafm">
-			<nav>
-					<label for="itsm" class="itsm">IT service <br>management</label>
-					<label for="foi" class="foi">FOI, case & complaints <br>management</label>
-					<label for="csm" class="csm">Customer service <br>management</label>
-					<label for="cafm" class="cafm">Computer aided facilities <br>management</label>
-					<div class="slider"></div>
-			</nav>
-			<section>
-					<div class="content content-1">
-            <div class="text">
-              <h3>IT Service Management</h3>
-              <p>Deliver a modern ITIL driven service desk with a deep set of tools, automated workflows and a self-service portal. Where your users can raise tickets, access common service requests and search the knowledge base for FAQs.  </p>
-              <p><i class="far fa-check-circle"></i> Drag and Drop Form & Dashboard Designer</p>
-              <p><i class="far fa-check-circle"></i> Self-Service Portal (Unlimited End-Users)</p>
-              <p><i class="far fa-check-circle"></i> Seamless SSO and MS AD/Outlook365/Azure integration</p>
-              <div class="signup-buttons">
-                <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Start your free trial</a>
-                <a href="/demo" class="more-info">Request a demo</a>
-                <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No credit card required / Free 30 day trial</p>
-              </div>
-              <div class="customers">
-                <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-                  <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
-                </a>  
-                <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-                  <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
-                </a>  
-                <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-                  <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
-                </a>  
-                <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-                  <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
-                </a>  
-                <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-                  <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
-                </a>  
-              </div>
-            </div>
-            <div class="img">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png" alt="itsm Icon">
-              <div class="quote">
-                <h3>“HOTH have been the best provider of services we have experienced. Nothing is too difficult. All the staff know the systems intimately and nothing is ever a problem.”</h3>
-                <p>Craig Busst, <strong>Global Telecommunications Ltd.</strong></p>
-              </div>
-            </div>
-					</div>
-					<div class="content content-2">
-							<div class="title">This is a foi content</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit amet. Possimus doloris nesciunt mollitia culpa sint itaque, vitae praesentium assumenda suscipit fugit doloremque adipisci doloribus, sequi facere itaque cumque accusamus, quam molestias sed provident quibusdam nam deleniti. Autem eaque aut impedit eo nobis quia, eos sequi tempore! Facere ex repellendus, laboriosam perferendise. Enim quis illo harum, exercitationem nam totam fugit omnis natus quam totam, repudiandae dolor laborum! Commodi?</p>
-					</div>
-					<div class="content content-3">
-							<div class="title">This is a csm content</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, debitis nesciunt! Consectetur officiis, libero nobis dolorem pariatur quisquam temporibus. Labore quaerat neque facere itaque laudantium odit veniam consectetur numquam delectus aspernatur, perferendis repellat illo sequi excepturi quos ipsam aliquid est consequuntur.</p>
-					</div>
-					<div class="content content-4">
-							<div class="title">This is a cafm content</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reprehenderit null itaq, odio repellat asperiores vel voluptatem magnam praesentium, eveniet iure ab facere officiis. Quod sequi vel, rem quam provident soluta nihil, eos. Illo oditu omnis cumque praesentium voluptate maxime voluptatibus facilis nulla ipsam quidem mollitia! Veniam, fuga, possimus. Commodi, fugiat aut ut quorioms stu necessitatibus, cumque laborum rem provident tenetur.</p>
-					</div>
-			</section>
-    </div>
+    <ul>
+      <div class="text">
+        <h2 style="color: white;">What can I use House-on-the-Hill for?</h2>
+        <p style="color: white;">Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
+        <a href="/price-plans"><p class="price"> <span>All HotH solutions start as low as £30 per agent, per month</span></p></a>
+      </div>
+
+      <li class="itsm">
+        <h3>IT Service <br>Management</h3>
+        <a href="/it-service-management-software/">
+          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.jpg" alt="itsm Icon"></div>
+        </a>
+        <p>Deliver a modern ITIL driven service desk with a deep set of tools, automated workflows and a self-service portal. Where your users can raise tickets, access common service requests and search the knowledge base for FAQs.  </p>
+        <div class="btn">
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">Try for free</a>
+          <a class="more-info" href="/it-service-management-software/">More HotH ITSM ></a>
+        </div>
+      </li>
+
+      <li class="foi">
+        <h3>FOI, Case & Complaints <br>Management</h3>
+        <a href="/foi-request-management/">
+          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg" alt="foi Icon"></div>
+        </a>
+        <p>A popular fully paperless solution to aid your team with new requests logged by the public via the portal or by email. These cases can then be categorised into types and workflows such as FOI, Data Protection, Subject Access Requests, Complaints, Compliments, Information Governance and RoPA. </p>
+        <div class="btn">
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Try for free</a>
+          <a class="more-info" href="/foi-request-management/">More HotH FOI ></a>
+        </div>
+      </li>
+
+      <li class="csm">
+        <h3>Customer Service <br>Management</h3>
+        <a href="/customer-service-and-support/">
+          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-header.jpg" alt="Customer Service Management Icon"></div>
+        </a>
+        <p>Helps your sales team provide high quality customer support. Keep customers and staff happy by capturing key information through the branded portal, chat, email, feedback surveys and use data driven decisions from reports and KPIs to continually improve your service.</p>
+        <div class="btn">
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">Try for free</a>
+          <a class="more-info" href="/customer-service-and-support/">More HotH CSM ></a>
+        </div>
+      </li>
+
+      <li class="cafm">
+        <h3>Computer Aided Facilities <br>Management</h3>
+        <a href="/facilities-management/">
+          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-header.jpg" alt="CAFM Icon"></div>
+        </a>
+        <p>Will allow you to manage your whole property portfolio, jobs and keep your engineers on the road. Your tool kit will include an engineer mobile app, reactive job logging, property maps, planned preventative maintenance, Job Sheets, Quotes, Invoices and more! </p>
+        <div class="btn">
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Try for free</a>
+          <a class="more-info" href="/facilities-management/">More HotH CAFM ></a>
+        </div>
+      </li>
+    </ul>
   </div>
+
   <!--<div class="large-features">
     <ul>
       <div class="text">
@@ -340,155 +326,4 @@
     </div>
   </div>
 </div>
-
-<style>
-.solutions {
-	background: #1D3550;
-	padding: 100px 10px;
-	padding-top: 50px;
-}
-.wrapper{
-	width: 95%;
-  border-radius: 4px;
-	margin: auto;
-	padding: 25px 30px 30px 30px;
-	background: white;
-}
-
-.wrapper nav{
-	position: relative;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	margin: auto;
-}
-
-.wrapper nav label{
-	display: block;
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	cursor: pointer;
-	position: relative;
-	z-index: 1;
-	color: #1e3550;
-	font-size: 17px;
-	border-radius: 4px;
-	margin: 0 5px;
-	transition: all 0.3s ease;
-	padding: 5px;
-}
-
-.wrapper nav label:hover{
-	background: rgba(30, 53, 80, 0.25);
-}
-
-#itsm:checked ~ nav label.itsm,
-#foi:checked ~ nav label.foi,
-#csm:checked ~ nav label.csm,
-#cafm:checked ~ nav label.cafm{
-	color: #fff;
-}
-
-nav label i{
-	padding-right: 7px;
-}
-
-nav .slider{
-	position: absolute;
-	height: 100%;
-	width: 25%;
-	left: 0;
-	bottom: 0;
-	z-index: 0;
-	border-radius: 5px;
-	background: #1e3550;
-	transition: all 0.3s ease;
-}
-
-input[type="radio"]{
-	display: none;
-}
-
-#foi:checked ~ nav .slider{
-	left: 25%;
-}
-
-#csm:checked ~ nav .slider{
-	left: 50%;
-}
-
-#cafm:checked ~ nav .slider{
-	left: 75%;
-}
-
-section .content{
-	display: none;
-  width: 100%;
-  padding-top: 50px;
-}
-
-.home .solutions section .content .text{
-  width: 50%;
-  padding: 0;
-  text-align: left;
-}
-
-.home .solutions section .content .text i{
-  color: #fee119;
-}
-
-.home .solutions section .content .text .customers{
-  width: 100%;
-  display: flex;
-  margin-top: 20px;
-}
-
-.home .solutions section .content .text .customers a{
-  width: 18%;
-  margin: auto;
-  margin-left: 0;
-  display: flex;
-}
-
-.home .solutions section .content .text .customers img{
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  max-height: 50px;
-  margin: auto;
-}
-
-.home .solutions section .content .img{
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  margin-right: 0;
-}
-
-.home .solutions section .content .img img{
-  width: 100%;
-}
-
-.home .solutions section .content .img .quote{
-  width: 100%;
-}
-
-.home .solutions section .content .img .quote h3{
-  font-size: 20px;
-  color: #1e3550;
-}
-
-.home .solutions section .content .img .quote p{
-  color: #1e3550;
-}
-
-#itsm:checked ~ section .content-1,
-#foi:checked ~ section .content-2,
-#csm:checked ~ section .content-3,
-#cafm:checked ~ section .content-4{
-	display: flex;
-}
-</style>
 <?php get_footer();?>
