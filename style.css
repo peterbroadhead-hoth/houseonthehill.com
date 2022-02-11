@@ -849,7 +849,7 @@ body #hoth-chat-button i{
 }
 
 .signupform .text .img img{
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin: auto;
   border-radius: 4px;
