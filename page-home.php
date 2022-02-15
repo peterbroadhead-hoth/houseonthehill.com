@@ -26,19 +26,22 @@
       
       <div class="customers">
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
-          <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
         </a>  
         <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
-          <img height="25" width="147" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bm-25.png" alt="Broadway Malyan Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bm-25.png" alt="Broadway Malyan Logo">
         </a>  
         <a href="https://weareworldchallenge.com/uk/" target="_blank" rel="noopener">
-          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/worldchallenge.webp" alt="BBraun Medicine Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/worldchallenge.webp" alt="World Challenge Logo">
+        </a>  
+        <a href="https://www.speedyservices.com" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/speedy.webp" alt="speedy Logo">
         </a>  
         <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
-          <img height="25" width="134" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/hb-25.png" alt="Holland & Barrett Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/hb-25.png" alt="Holland & Barrett Logo">
         </a>  
         <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
         </a>  
       </div>
 
