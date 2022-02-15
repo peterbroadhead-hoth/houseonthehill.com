@@ -5,7 +5,7 @@
   <div class="header">
     <div class="container">  
       <div class="text">  
-        <h1>Made to measure service desk solutions</h1> 
+        <h1>Made to measure service desk software</h1> 
         <p>House-on-the-Hill Software is built to support you and the people that matter. We provide four interchangeable solutions: <a href="/it-service-management-software/">IT Service Management</a>, <a href="/foi-request-management/">FOI & Case Management</a>, <a href="/facilities-management/">Facilities Management</a> and <a href="/customer-service-and-support/">Customer Service</a>. Our software is flexible, affordable and created with you at the heart.</p>
         <div class="signup-buttons">
           <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Start your free trial</a>
