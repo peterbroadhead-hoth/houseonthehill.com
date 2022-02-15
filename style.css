@@ -2991,6 +2991,7 @@ table.solution-table-price i.fal.fa-times-circle{
 
 table.solution-table-price i.fal.fa-check-circle{
   color: #588342;
+  font-weight: bold;
 }
 
 table.solution-table-price .collapsible {
