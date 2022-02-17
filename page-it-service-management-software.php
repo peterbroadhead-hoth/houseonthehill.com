@@ -16,7 +16,7 @@
 
   <div class="testimonials">
     <div class="container">
-      <p><strong>1000's of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
+      <p><strong>1000s of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
       <div class="customers">
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
           <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
