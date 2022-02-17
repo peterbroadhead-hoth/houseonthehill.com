@@ -67,7 +67,7 @@
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/dragdrop.png" alt="drag and drop icon"></div>
         <h3>Drag & Drop Call Form Builder</h3>
-        <p>Build unique Forms for all types of call, be they Incidents, Problems, Equipment Requests, New Starters, Inventory items, Activities or Contracts. Using Drag and Drop features you can quickly build the Forms you require.</p>
+        <p>Build unique Forms for all types of call, be they Incidents, Problems, Equipment Requests, New Starters, Inventory items, Activities or Contracts. Using the Drag and Drop feature you can quickly build the Forms you require.</p>
         <div class="btn">
           <a class="more-info" href="/features/drag-and-drop-form-builder/">Find out more ></a>
         </div>
