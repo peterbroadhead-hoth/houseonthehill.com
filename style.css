@@ -1000,8 +1000,9 @@ body #hoth-chat-button i{
 
 .home .testimonials .customers{
   justify-content: center;
-  height: 70px;
+  /*height: 70px;*/
   display: flex;
+  flex-wrap: wrap;
 }
 
 .home .testimonials .customers a{
@@ -1009,6 +1010,8 @@ body #hoth-chat-button i{
   display: flex;
   padding: 5px;
   height: 50px;
+  width: 20%;
+  margin-bottom: 10px;
 }
 
 .home .testimonials .customers img{
@@ -1817,23 +1820,25 @@ body #hoth-chat-button i{
  
 .solution .testimonials .customers{
   justify-content: center;
-  height: 70px;
+  /*height: 70px;*/
   display: flex;
-  margin-top: 10px;
+  flex-wrap: wrap;
 }
- 
+
 .solution .testimonials .customers a{
   margin: auto;
   display: flex;
   padding: 5px;
+  height: 50px;
+  width: 20%;
+  margin-bottom: 10px;
 }
- 
+
 .solution .testimonials .customers img{
-  margin: auto;
-  height: auto;
-  max-height: 50px;
+  max-height: 100%;
   width: auto;
-  max-width: 125px;
+  max-width: 100%;
+  margin: auto;
 }
  
 .solution .testimonials .container{
@@ -1849,6 +1854,7 @@ body #hoth-chat-button i{
   font-size: 2.6rem;
   padding-bottom: 0;
   margin: 0;
+  margin-bottom: 20px;
 }
  
 .solution .testimonials .container .quote{

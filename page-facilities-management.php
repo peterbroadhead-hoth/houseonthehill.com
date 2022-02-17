@@ -19,19 +19,34 @@
       <p><strong>1000's of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
       <div class="customers">
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
-          <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
+          <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/nhs-50.png" alt="NHS Logo">
         </a>  
         <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
-          <img height="25" width="147" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bm-25.png" alt="Broadway Malyan Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bm-50.png" alt="Broadway Malyan Logo">
         </a>  
         <a href="https://weareworldchallenge.com/uk/" target="_blank" rel="noopener">
-          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/worldchallenge.webp" alt="BBraun Medicine Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/worldchallenge.webp" alt="World Challenge Logo">
+        </a>  
+        <a href="https://www.speedyservices.com" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/speedy.webp" alt="speedy Logo">
         </a>  
         <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
-          <img height="25" width="134" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/hb-25.png" alt="Holland & Barrett Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/hb-50.png" alt="Holland & Barrett Logo">
         </a>  
         <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
+          <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/dentons-50.png" alt="Dentons Law Firm Logo">
+        </a>  
+        <a href="https://www.beaverbrooks.co.uk" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Beaverbrookslogo.webp" alt="beaverbrooks Logo">
+        </a>  
+        <a href="https://www.thedonkeysanctuary.org.uk" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/thedonkeysanctuary.webp" alt="the donkey sanctuary Logo">
+        </a>  
+        <a href="https://www.ndcs.org.uk" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/ndcs-logo.png" alt="ndcs Logo">
+        </a>  
+        <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bbraun-50.png" alt="bbraun Logo">
         </a>  
       </div>
 
