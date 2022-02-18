@@ -3181,15 +3181,15 @@ table.solution-table-price td:hover .description{
 
 
 .blog-items {
-  width: 60%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .blog-post:first-child{
-  width: 90%;
-  padding: 0;
+  width: 100%;
+  padding: 20px;
 }
 
 .blog-post:first-child .blog-post-contents{
@@ -3197,7 +3197,7 @@ table.solution-table-price td:hover .description{
 }
 
 .blog-post:first-child .img{
-  width: 35%;
+  width: 50%;
   border-radius: 4px;
 }
 
@@ -3215,11 +3215,10 @@ table.solution-table-price td:hover .description{
 
 .blog-post{
   padding: 20px;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
-  margin-left: 0;
   margin-bottom: 100px;
-  border: 3px solid #1e3550;
+  /*border: 3px solid #1e3550;*/
   border-radius: 4px;
 }
 
@@ -3235,7 +3234,7 @@ table.solution-table-price td:hover .description{
   width: 50%;
   height: auto;
   margin: auto;
-  max-width: 250px;
+  max-width: 400px;
 }
 
 .blog-post .caption{
@@ -3253,6 +3252,23 @@ table.solution-table-price td:hover .description{
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical; 
 	overflow: hidden;
+}
+
+
+.blog-post:nth-child(3n-5) .img{
+  background-color:#FEF6C5;
+}
+.blog-post:nth-child(3n-7) .img{
+  background-color:#B3BAC4;
+}
+.blog-post:nth-child(3n-6) .img{
+background-color:#E3F1F3;
+}
+
+@media (max-width: 1500px){
+  .blog-items{
+    width: 95%;
+  }
 }
 
 /* Demo */
