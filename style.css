@@ -3265,6 +3265,13 @@ table.solution-table-price td:hover .description{
 background-color:#E3F1F3;
 }
 
+
+/* single blog */
+.wp-block-media-text.is-image-fill .wp-block-media-text__media{
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 @media (max-width: 1500px){
   .blog-items{
     width: 95%;
