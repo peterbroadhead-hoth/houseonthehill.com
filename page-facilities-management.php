@@ -22,7 +22,7 @@
           <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/nhs-50.png" alt="NHS Logo">
         </a>  
         <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bm-50.png" alt="Broadway Malyan Logo">
+          <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bm-50.png" alt="Broadway Malyan Logo">
         </a>  
         <a href="https://weareworldchallenge.com/uk/" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/worldchallenge.webp" alt="World Challenge Logo">
@@ -31,7 +31,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/speedy.webp" alt="speedy Logo">
         </a>  
         <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/hb-50.png" alt="Holland & Barrett Logo">
+          <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/hb-50.png" alt="Holland & Barrett Logo">
         </a>  
         <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
           <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/dentons-50.png" alt="Dentons Law Firm Logo">
@@ -46,7 +46,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/ndcs-logo.png" alt="ndcs Logo">
         </a>  
         <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bbraun-50.png" alt="bbraun Logo">
+          <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bbraun-50.png" alt="bbraun Logo">
         </a>  
       </div>
 
