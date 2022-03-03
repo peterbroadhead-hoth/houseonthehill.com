@@ -49,7 +49,7 @@
 		<?php
 		    $features_loop = new WP_Query( array(
 		    'post_type' => 'casestudy',
-		        'posts_per_page' => 6
+		        'posts_per_page' => 40
 		    ) );
 		if ( $features_loop->have_posts() ) : ?>
 		<?php while ( $features_loop->have_posts() ) : $features_loop->the_post(); ?>
