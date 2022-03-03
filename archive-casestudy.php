@@ -39,8 +39,8 @@
 
 	<div class="df-quote">
 		<div class="text">
-			<h2>"The combination of price, features and their amazing support made the choice simple. HotH makes managing tickets, escalations, SLA’s and KPI’s simple."</h2>
-			<p>Jamie Dobbs, <span>TMT</span></p>
+			<h2>"HotH is laser focused on Service Management, where many other platforms try to be all things to all men.  It’s a great product, I think this largely reflects the great people at HotH, everybody I have spoken to is business-like, pleasant and easy to work with."</h2>
+			<p>Stuart Williams, <span>Head of Operations – FourNet</span></p>
 		</div>
 	</div>
 
