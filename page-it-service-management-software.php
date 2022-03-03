@@ -53,7 +53,7 @@
       <div class="quote">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png" alt="itsm screenshot">
         <div class="text">
-          <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
+          <a href="/testimonials">
             <h2>"The combination of price, features and their amazing support made the choice simple. HotH makes managing tickets, escalations, SLA’s and KPI’s simple."</h2>
             <p>Jamie Dobbs, <span>TMT</span></p>
           </a>
