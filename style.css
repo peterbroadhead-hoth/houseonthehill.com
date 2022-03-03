@@ -235,6 +235,22 @@ a.more-info:hover{
   opacity: unset;
 }
 
+.df-quote{ 
+  background: #1D3550;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+}
+
+.df-quote .text{
+  width: 60%;
+  margin: auto;
+}
+
+.df-quote h2, .df-quote p{
+  color: white;
+}
+
 .break{
   position: relative;
   width: 100%;
@@ -3101,6 +3117,55 @@ table.solution-table-price td:hover .description{
 
 .charity tr td p{
 	text-align: center;
+}
+
+/* Case Study */
+
+.case-study{
+  background: #B3BAC4;
+  display: flex;
+  padding: 100px 0;
+}
+
+.case-study-header{
+  padding: 100px;
+  text-align: center;
+  background-color: #1e3550;
+}
+
+.case-study-header h1, .case-study-header p{
+  color: white;
+}
+
+.case-study .col-md-12{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.case-study .col-md-3{
+  width: 31%;
+  margin: 1%;
+  background-color: white;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.case-study .col-md-3 img{
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+}
+
+.case-study .col-md-3 .caption{
+  padding: 20px;
+}
+
+.case-study.two .col-md-12 .col-md-3:nth-child(1),
+.case-study.two .col-md-12 .col-md-3:nth-child(2),
+.case-study.two .col-md-12 .col-md-3:nth-child(3){
+  display: none;
 }
 
 /* blog */
