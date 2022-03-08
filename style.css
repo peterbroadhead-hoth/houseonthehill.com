@@ -3955,21 +3955,10 @@ ul.whats-new li .whats-new-img img{
 
 /* About house on the hill software */
 
-.about-us-container{
-  padding-bottom: 300px;
-}
-
-.about-us{
-  background: #F3DEC7;
-}
 
 .about-us-container .intro{
   display: flex;
   flex-wrap: wrap;
-  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/08/questionmark.png);
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  background-position: center left;
   width: 80%;
   margin: auto;
   padding: 150px 10px;
@@ -3989,15 +3978,20 @@ ul.whats-new li .whats-new-img img{
 }
 
 .about-us-container .we-listen{
-  width: 60%;
+  width: 100%;
   margin: auto;
   text-align: center;
   padding: 100px;
   margin-bottom: 50px;
+  background-color: #1e3550;
 }
 
-.about-us-container .we-listen img{
-  width: 250px;
+.about-us-container .we-listen h2{
+  font-size: 40px;
+}
+
+.about-us-container .we-listen h2, .about-us-container .we-listen p{
+  color: white;
 }
 
 .about-us-container ul{
@@ -4359,9 +4353,7 @@ ul.whats-new li .whats-new-img img{
   .about-us-container .intro p{
     width: 100%;
   }
-  .about-us-container .we-listen{
-    width: 80%;
-  }
+  
   .about-us-container ul{
     width: 80%;
   }
