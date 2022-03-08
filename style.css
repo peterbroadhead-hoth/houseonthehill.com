@@ -251,6 +251,12 @@ a.more-info:hover{
   color: white;
 }
 
+@media (max-width: 1000px) {
+  .df-quote .text{
+    width: 100%;
+  }
+}
+
 .break{
   position: relative;
   width: 100%;
@@ -3168,6 +3174,26 @@ table.solution-table-price td:hover .description{
   display: none;
 }
 
+@media (max-width: 1000px){
+  .case-study .col-md-3{
+    width: 48%;
+  }
+}
+
+@media (max-width: 700px){
+  .case-study-header{
+    padding: 50px;
+  }
+  .case-study{
+    padding: 50px 0;
+  }
+  .case-study .col-md-3{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+
 /* blog */
 
 .blog-container{
@@ -4021,7 +4047,7 @@ ul.whats-new li .whats-new-img img{
 /* Social Values Statement */
 .social-values-container{
 	padding: 100px 10px;
-	background-color: pink;
+	background-color: white;
 }
 
 .social-values {
@@ -4043,22 +4069,25 @@ ul.whats-new li .whats-new-img img{
 }
 
 .social-values-content{
-	width: 80%;
-	margin: auto;
+	width: 100%;
+  display: flex;
 	padding: 10px;
   padding-bottom: 200px;
 }
 
-.social-values-content ul li{
-	list-style: none;
+.social-values-content ul{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .social-values-content ul li{
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  text-align: left;
+  list-style: none;
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 30px;
   padding: 10px;
 }
 
@@ -4068,11 +4097,12 @@ ul.whats-new li .whats-new-img img{
 }
 
 .social-values-content ul li .img img{
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 200px;
+  max-height: 200px;
   width: auto;
   height: auto;
   margin: auto;
+  margin-left: 0;
   border-radius: 4px;
 }
 
