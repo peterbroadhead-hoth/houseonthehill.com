@@ -3592,6 +3592,7 @@ background-color:#E3F1F3;
 
 .testimonials{
 	display: flex;
+  background: #f6f6f6;
 }
 
 .testimonials-container{
@@ -3601,7 +3602,11 @@ background-color:#E3F1F3;
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
-	padding-bottom: 200px;
+}
+
+.testimonials-container .container-fluid{
+  width: 100%;
+  padding: 0;
 }
 
 .testimonials-header-container{
@@ -3615,12 +3620,18 @@ background-color:#E3F1F3;
 
 .testimonials .col-md-6{
 	width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .testimonials .jumbotron{
 	background: unset;
-	width: 80%;
-	margin: auto;
+	width: 45%;
+	margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 40px;
+  background: white;
+  border-radius: 4px;
 }
 
 .testimonials .jumbotron img{
@@ -3628,16 +3639,17 @@ background-color:#E3F1F3;
 }
 
 .testimonials .jumbotron p{
-	font-weight: bold;
-	color: #1e3550;
-	font-size: 30px;
+	color: #3a3a3a;
+	font-size: 18px;
+  text-align: left;
+  margin-top: 0;
 }
 
 .testimonials .jumbotron p.contact{
 	font-weight: unset;
-	margin: 20px 0;
-	font-size: 1.8rem;
-	color: unset;
+	margin: 40px 0;
+  margin-bottom: 0;
+  color: #3a3a3a;
 }
 
 .testimonials .jumbotron p.contact span{

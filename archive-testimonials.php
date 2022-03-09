@@ -5,8 +5,8 @@
 		<div class="testimonials-header-container">
 			<div class="testimonials-header">
 				<div class="info">
-					<p>Customer Testimonials</p>
 					<h2>Quick question, why House-on-the-Hill?</h2>
+					<p>See what our customers say about us.</p>
 				</div>
 			</div>
 		</div>
