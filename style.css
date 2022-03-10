@@ -221,7 +221,7 @@ a.more-info{
   border: 3px solid #1E3550;
   color: #1E3550;
   background-color: transparent;
-  padding: 5px 22px;
+  padding: 7px 22px;
   font-size: 16px;
   border-radius: 4px;
   margin-left: 0;
@@ -233,6 +233,28 @@ a.more-info:hover{
   background-color: #1e3550;
   color: white;
   opacity: unset;
+}
+
+.df-quote{ 
+  background: #1D3550;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+}
+
+.df-quote .text{
+  width: 60%;
+  margin: auto;
+}
+
+.df-quote h2, .df-quote p{
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .df-quote .text{
+    width: 100%;
+  }
 }
 
 .break{
@@ -260,12 +282,58 @@ a.more-info:hover{
   margin: 0;
 }
 
-.demo-btn{
+.reveal{
+	display: none;
+  position: fixed;
+  top: 80px;
+  right: 2.5%;
+  border: 3px solid #1E3550;
+  color: #1E3550;
+  border-radius: 4px;
+  padding: 20px;
+  width: 342px;
+  background: white;
 }
 
-.demo-btn img{
-  border-radius: 100%;
-  height: 30px;
+.reveal p{
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.hoth-header .reveal a{
+  color: #006b8e;
+  font-size: 14px;
+  padding: 0;
+  display: unset;
+}
+
+.reveal form{
+  width: 100%;
+}
+
+.reveal form select, .reveal form input, .reveal form .submit{
+  border-radius: 4px;
+  width: 100%;
+  padding: 15px;
+  border: unset;
+  margin: 5px 0;
+  border: 3px solid #1E3550;
+  color: #1E3550;
+  outline: unset;
+  background: white;
+}
+
+.reveal form .submit{
+  background: #1E3550;
+  color: white;
+}
+
+.reveal form .submit:hover{
+  opacity: 0.8;
+}
+
+.reveal form .submit{
+  font-size: 16px;
 }
 
 
@@ -274,8 +342,14 @@ a.more-info:hover{
   display: none;
 }
 
-#hoth-chat-button{
+body #hoth-chat-button {
+  background: #fee119;
+  box-shadow: unset;
+  z-index: 9;
+}
 
+body #hoth-chat-button i{
+  color:#000;
 }
 
 /* Iso Buttons */
@@ -365,6 +439,7 @@ a.more-info:hover{
   background: unset;
   box-shadow: unset;
   border: unset;
+  cursor: pointer;
 }
 
 .hoth-header .dropbtn:hover, .hoth-header a:hover{
@@ -583,8 +658,8 @@ a.more-info:hover{
   .dropdown-content ul.solutions .text{
     display: none;
   }
-  .hoth-header-container .hoth-header .sales ul li a{
-    display: none;
+  .hoth-header-container .hoth-header .sales ul li a, .hoth-header-container .hoth-header .sales .reveal{
+    display: none !important;
   }
   .hoth-header-container .hoth-header .sales ul li a.sign-up{
     display: initial;
@@ -599,6 +674,26 @@ a.more-info:hover{
     width: 35px;
   }
   .hoth-header-container .hoth-header .sales ul li a.sign-up{
+    padding: 5px;
+  }
+  .hoth-header .dropdown-content{
+    padding-left: 30px;
+  }
+  .dropdown-content ul.solutions li{
+    padding: 10px 0;
+  }
+  .dropdown-content ul.solutions li h3{
+    margin: 5px 0;
+  }
+}
+
+
+
+@media (max-width: 400px){ 
+  .hoth-header-container .hoth-header .sales ul li a.sign-up{
+    display: none;
+  }
+  .hoth-header .dropbtn, .hoth-header a{
     padding: 5px;
   }
 }
@@ -739,11 +834,106 @@ a.more-info:hover{
   opacity: 0.9;
 }
 
+/* Sign up form */
+
+.signupform{
+  background: #1e3550;
+  overflow: hidden;
+}
+
+.signupform .container{
+  padding: 100px 10px;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px;
+}
+
+.signupform .text{
+  margin: auto;
+  margin-top: 0;
+  text-align: center;
+  width: 70%;
+}
+
+.signupform .text h2{
+  margin-top: 0;
+}
+
+.signupform .text h2, .signupform .text p{
+  color: white;
+}
+
+.signupform .text .img{
+  width: 100%;
+  display: flex;
+}
+
+.signupform .text .img img{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.signupform form{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin: 20px 0;
+  margin-bottom: 40px;
+}
+
+.signupform form input, .signupform form select{
+  width: 25%;
+  padding: 15px;
+  border: none;
+  box-shadow: none;
+}
+
+.signupform form input#F2177{
+  border-radius: 4px 0 0 4px;
+  border-right: 1px solid black;
+}
+
+.signupform form input#reg_email{
+  border-right: 1px solid black;
+}
+
+.signupform form #reg_submit{
+  background: #fee119;
+  border-radius: 0px 4px 4px 0px;
+}
+
+@media (max-width: 1000px){
+  .signupform form{
+    display: unset;
+  }
+  .signupform form input, .signupform form select{
+    width: 100%;
+    border-radius: 4px !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 720px){
+  .signupform .text .img{
+    display: none;
+  }
+  .signupform .text, .signupform .form{
+    width: 100%;
+  }
+  .signupform .text{
+    width: 80%;
+  }
+}
+
 /* Home page */
 
 .home .header{
   padding: 10px;
-  height: 500px;
+  min-height: 500px;
   background: white;
   position: relative;
   background-image:url("/images/foi-home-solution.webp");
@@ -763,6 +953,7 @@ a.more-info:hover{
 .home .header .container .text{
   width: 700px;
   margin: auto 0;
+  z-index: 9;
 }
 
 .home .header .container .img{
@@ -778,7 +969,7 @@ a.more-info:hover{
   margin: auto;
 }
 
-.home .signup-buttons form{
+/* .home .signup-buttons form{
   display: flex;
   flex-wrap: wrap;
   width: 600px;
@@ -806,7 +997,7 @@ a.more-info:hover{
   padding: 10px;
   border: 1px solid #c2c2c2;
   border-radius: 4px;
-}
+} */
 
 .home .testimonials{
   background: white;
@@ -825,25 +1016,31 @@ a.more-info:hover{
   left: 0;
   width: 100%;
   background: #1D3550;
-  height: 480px;
+  height: 320px;
   z-index: 0;
 }
 
 .home .testimonials .customers{
   justify-content: center;
-  height: 70px;
+  /*height: 70px;*/
   display: flex;
+  flex-wrap: wrap;
 }
 
 .home .testimonials .customers a{
   margin: auto;
   display: flex;
   padding: 5px;
+  height: 50px;
+  width: 20%;
+  margin-bottom: 10px;
 }
 
 .home .testimonials .customers img{
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
   margin: auto;
-  max-height: 25px;
 }
 
 .home .testimonials .container{
@@ -869,7 +1066,7 @@ a.more-info:hover{
 .home .testimonials .container .quote img{
   max-width: 100%;  
   border-radius: 4px;
-  box-shadow: 0 0 45px #c3c3c3a6;
+  /*box-shadow: 0 0 45px #c3c3c3a6;*/
 }
 
 .home .testimonials .container .quote .text{
@@ -896,11 +1093,18 @@ a.more-info:hover{
   padding-top: 50px;
 }
 
-.home .solutions ul .text{
+.home .solutions .text{
   width: 100%;
   padding: 100px;
   padding-top: 0;
   text-align: center;  
+}
+
+.solutions .text p.price span{
+  background: #3b5067;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 
 .home .solutions ul{
@@ -990,6 +1194,7 @@ a.more-info:hover{
 .home .large-features{
   background: #1D3550;
   padding: 100px 10px;
+  padding-top: 0;
 }
 
 .home .large-features .text{
@@ -1079,6 +1284,8 @@ a.more-info:hover{
   text-align: center;
   position: relative;
   padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .home .small-features ul li .img{
@@ -1091,10 +1298,72 @@ a.more-info:hover{
   height: 75px; 
 }
 
-.home .small-features ul li h4, .home .small-features ul li p{
+.home .small-features ul li h4{
   text-align: left;
   width: 100%;
   margin-bottom: 0;
+}
+
+.home .small-features ul li p{
+  text-align: left;
+  width: 100%;
+}
+
+.home .small-features ul li a{
+  margin: auto;
+  margin-left: 0;
+}
+
+.home .promo{
+  background: white;
+  padding: 100px 10px;
+}
+
+.home .promo ul{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.home .promo ul li{
+  width: 30%;
+  margin: 0 auto;
+  text-align: left;
+  list-style: none;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.home .promo ul li:first-child{
+  border-bottom: 3px solid #fee119;
+}
+
+.home .promo ul li:nth-child(2){
+  border-bottom: 3px solid #9DCCD1;
+}
+
+.home .promo ul li:nth-child(3){
+  border-bottom: 3px solid #1D3550;
+}
+
+.home .promo ul li h4{
+  text-align: left;
+  font-size: 14px;
+}
+
+.home .promo ul li a{
+  border: unset;
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  padding: 0;
+}
+
+.home .promo ul li a:hover{
+  opacity: .9;
+  background: unset;
+  color: unset;
 }
 
 .home .demo{
@@ -1142,7 +1411,7 @@ a.more-info:hover{
 
 .help .container{
   display: block;
-  width: 80%;
+  width: 95%;
 }
 
 .help ul{ 
@@ -1154,7 +1423,7 @@ a.more-info:hover{
 
 .help ul li{
   list-style: none;
-  width: 45%;
+  width: 44%;
   padding: 20px;
   padding-right: 30px;
   margin: 0 auto;
@@ -1191,6 +1460,10 @@ a.more-info:hover{
 }
 
 @media (max-width: 1500px){
+  .home .header .container, .home .solutions ul, .home .large-features ul, .home .small-features ul, .home .promo ul, .help ul{
+    width: 95%;
+  }
+  
   .home .header .container .text{
     width: 550px;
   } 
@@ -1271,6 +1544,10 @@ a.more-info:hover{
   .home .testimonials .container{
     width: 100%;
   } 
+  .home .testimonials .container .quote iframe{
+    width: 95% !important;
+    height: 500px !important;
+  }
   .home .testimonials .container .quote .text{
     width: 100%;
   }
@@ -1308,6 +1585,13 @@ a.more-info:hover{
   .help ul li img{
     position: unset;
   }
+  .home .promo ul{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .home .promo ul li{
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 800px){
@@ -1343,14 +1627,31 @@ a.more-info:hover{
     position: unset;
     display: unset;
   }
-  .home .signup-buttons a.sign-up{
-    margin: auto;
+  .home .signup-buttons{
+    display: unset;
+  }
+  .home .signup-buttons a{
+    display: unset;
   }
   .home .header .container .img{
     display: flex;
   }
   .home .header .container .img img{
     margin: auto;
+  }
+
+  .home .testimonials .container .quote iframe{
+    width: 95% !important;
+    height: 450px !important;
+  }
+}
+
+@media (max-width: 650px){
+  .help ul li .btns a{
+    margin-bottom: 5px;
+  }
+  .help ul li .btns{
+    position: unset;
   }
 }
 
@@ -1373,7 +1674,7 @@ a.more-info:hover{
     padding: 10px;
   }
   .home .testimonials .square{
-    height: 250px;
+    height: 230px;
   }
   .home .solutions, .home .large-features{
     padding: 0;
@@ -1448,6 +1749,14 @@ a.more-info:hover{
     padding: 10px;
     padding-bottom: 0;
     padding-top: 50px;
+  }
+
+  .home .testimonials .container .quote iframe{
+    width: 95% !important;
+    height: 250px !important;
+  }
+  .home .promo ul li{
+    width: 100%;
   }
 }
 
@@ -1533,19 +1842,25 @@ a.more-info:hover{
  
 .solution .testimonials .customers{
   justify-content: center;
-  height: 70px;
+  /*height: 70px;*/
   display: flex;
+  flex-wrap: wrap;
 }
- 
+
 .solution .testimonials .customers a{
   margin: auto;
   display: flex;
   padding: 5px;
+  height: 50px;
+  width: 20%;
+  margin-bottom: 10px;
 }
- 
+
 .solution .testimonials .customers img{
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
   margin: auto;
-  max-height: 50px;
 }
  
 .solution .testimonials .container{
@@ -1561,6 +1876,7 @@ a.more-info:hover{
   font-size: 2.6rem;
   padding-bottom: 0;
   margin: 0;
+  margin-bottom: 20px;
 }
  
 .solution .testimonials .container .quote{
@@ -1574,7 +1890,7 @@ a.more-info:hover{
 .solution .testimonials .container .quote .text{
   margin: auto;
   padding: 50px;
-  width: 80%;
+  width: 100%;
 }
  
 .solution .testimonials .container .quote .text h2, .solution .testimonials .container .quote .text p, .solution .testimonials .container .quote .text p span{
@@ -1597,7 +1913,7 @@ a.more-info:hover{
  
 .solution .solutions ul .text{
   width: 100%;
-  padding: 100px;
+  padding: 100px 0;
   text-align: center;
   border-top: 2px solid white;
 }
@@ -1872,6 +2188,9 @@ a.more-info:hover{
  }
  
  @media (max-width: 1500px){
+  .solution .header .container, .solution .solutions ul, .solution .large-features ul, .solution .small-features ul, .foi .solution-features.list ul{
+    width: 95%;
+  }
   .solution .header .container .text{
     width: 550px;
   } 
@@ -2142,12 +2461,20 @@ a.more-info:hover{
   .foi .solution-features.list ul{
     width: 100%;
   }
+  .solutions ul .text p.price{
+    background: #3b5067;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .solutions ul .text p.price span{
+    background: none;
+  }
  }
 
 /* single page testimonial */
 
 .hoth-single-testimonial{
-  background: #ffeee2;
+  background: #1e3550;
 }
 
 .hoth-single-testimonial-container{
@@ -2157,16 +2484,24 @@ a.more-info:hover{
   padding: 100px 0;
 }
 
-.hoth-single-testimonial p span{
+.hoth-single-testimonial-container h2{
+  margin-top: 0;
+}
+
+.hoth-single-testimonial-container p{
+  margin-bottom: 0;
+}
+
+.hoth-single-testimonial-container h2, .hoth-single-testimonial-container p, .hoth-single-testimonial p span{
   font-weight: bold;
-  color: #1E3550;
+  color: white;
 }
 
 /* Features */
 
 .features .header{
   display: flex;
-  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/09/featuresimg.png);
+  background-image: url(/wp-content/themes/houseonthehill.com/images/22icons/original/featuresimg.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 700px;
@@ -2182,9 +2517,10 @@ a.more-info:hover{
 }
 
 .features .testimonial{
-  width: 80%;
+  width: 70%;
   text-align: center;
   margin: auto;
+  margin-top: 20px;
 }
 
 .features .feature-list-container{
@@ -2196,7 +2532,7 @@ a.more-info:hover{
 .features .feature-list-container .feature-list{
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
@@ -2225,6 +2561,12 @@ box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
   font-size: 14px;
 }
 
+.feature-list .single-feature a .description{
+  position: relative;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
 .feature-list .single-feature a .description .img{
   width: 50px;
   height: 50px;
@@ -2232,14 +2574,18 @@ box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
 }
 
 .feature-list .single-feature a .description .img img{
-  height: 100%;
-  width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
   margin: auto;
 }
 
 .feature-list .single-feature a .description ul{
   display: flex;
   flex-wrap: wrap;
+  position: absolute;
+  bottom: 0;
 }
 
 .feature-list .single-feature a .description ul li{
@@ -2256,20 +2602,14 @@ box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
   padding: 2px 4px;
 }
 
-.feature-list .single-feature a .description ul li p.it-service-management span{
-  background: #D67066;
+.feature-list .single-feature a .description ul li p span{
+  background: #1e3550;
 }
 
-.feature-list .single-feature a .description ul li p.freedom-of-information-management span{
-  background: #E48E28;
-}
-
-.feature-list .single-feature a .description ul li p.customer-service-and-support span{
-  background: #efb293;
-}
-
-.feature-list .single-feature a .description ul li p.facilities-management span{
-  background: #9DCCD1;
+@media (max-width: 1500px){
+  .features .feature-list-container .feature-list{
+    width: 95%;
+  }
 }
 
 /* Single Features */
@@ -2443,7 +2783,7 @@ ul.key-features{
 }
 
 .pricing-container{
-  width: 80%;
+  width: 95%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -2589,10 +2929,24 @@ ul.key-features{
   padding: unset;
 }
 
+@media (max-width: 1500px){
+  .pricing ul.solutions li {
+    width: 24%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1000px){
+  .pricing ul.solutions li{
+    width: 48%;
+  }
+}
+
 /* Pricing table */
 
 .solution-table-container{
-  width: 80%;
+  width: 95%;
   margin: auto;
   padding: 100px 10px;
   padding-bottom: 300px;
@@ -2667,6 +3021,7 @@ table.solution-table-price i.fal.fa-times-circle{
 
 table.solution-table-price i.fal.fa-check-circle{
   color: #588342;
+  font-weight: bold;
 }
 
 table.solution-table-price .collapsible {
@@ -2735,6 +3090,12 @@ table.solution-table-price td:hover .description{
   display: none;
 }
 
+@media (max-width: 1000px){
+  .solution-table-container{
+    width: 93%;
+  }
+}
+
 /* about house-on-the-hill */
 .about-container{
   width: 100%;
@@ -2764,14 +3125,83 @@ table.solution-table-price td:hover .description{
 	text-align: center;
 }
 
+/* Case Study */
+
+.case-study{
+  background: #B3BAC4;
+  display: flex;
+  padding: 100px 0;
+}
+
+.case-study-header{
+  padding: 100px;
+  text-align: center;
+  background-color: #1e3550;
+}
+
+.case-study-header h1, .case-study-header p{
+  color: white;
+}
+
+.case-study .col-md-12{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.case-study .col-md-3{
+  width: 31%;
+  margin: 1%;
+  background-color: white;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.case-study .col-md-3 img{
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+}
+
+.case-study .col-md-3 .caption{
+  padding: 20px;
+}
+
+.case-study.two .col-md-12 .col-md-3:nth-child(1),
+.case-study.two .col-md-12 .col-md-3:nth-child(2),
+.case-study.two .col-md-12 .col-md-3:nth-child(3){
+  display: none;
+}
+
+@media (max-width: 1000px){
+  .case-study .col-md-3{
+    width: 48%;
+  }
+}
+
+@media (max-width: 700px){
+  .case-study-header{
+    padding: 50px;
+  }
+  .case-study{
+    padding: 50px 0;
+  }
+  .case-study .col-md-3{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+
 /* blog */
 
 .blog-container{
-	padding: 200px 10px;
-	padding-top: 0px;;
+	padding: 10px;
+	padding-top: 0px;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #FFEEE2;
+	background-color: white;
 }
 
 .blog-container .header{
@@ -2782,11 +3212,11 @@ table.solution-table-price td:hover .description{
 }
 
 .blog-container .header .text{
-	width: 400px;
+	width: 60%;
   margin: auto;
   text-align: center;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
 .blog-container .header .img{
@@ -2840,6 +3270,7 @@ table.solution-table-price td:hover .description{
 	width: 100%;
 }
 
+
 .blog-items {
   width: 80%;
   margin: auto;
@@ -2847,25 +3278,54 @@ table.solution-table-price td:hover .description{
   flex-wrap: wrap;
 }
 
-.blog-post{
-	width: 47%;
+.blog-post:first-child{
+  width: 100%;
+  padding: 20px;
+}
+
+.blog-post:first-child .blog-post-contents{
+  display: flex;
+}
+
+.blog-post:first-child .img{
+  width: 50%;
   border-radius: 4px;
-  background-color: white;
-  margin: 2%;
-  margin-bottom: 0;
-  margin-right: 0;
+}
+
+.blog-post:first-child .img img{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-left: auto;
+}
+
+.blog-post:first-child .caption{
+  width: 45%;
+  margin: auto;
+}
+
+.blog-post{
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  /*border: 3px solid #1e3550;*/
+  border-radius: 4px;
 }
 
 .blog-post .img{
 	width: 100%;
-	height: 400px;
 	overflow: hidden;
-  border-radius: 4px 4px 0 0;
+  display: flex;
+  border-radius: 4px;
+  padding: 20px;
 }
 
 .blog-post .img img{
-  width: 100%;
+  width: 50%;
   height: auto;
+  margin: auto;
+  max-width: 400px;
 }
 
 .blog-post .caption{
@@ -2874,8 +3334,7 @@ table.solution-table-price td:hover .description{
   -webkit-line-clamp: 2;
 	-webkit-box-orient: vertical; 
 	overflow: hidden;*/
-  padding: 10px 75px;
-  text-align: center;
+  text-align: left;
 }
 
 .blog-post p{
@@ -2886,9 +3345,33 @@ table.solution-table-price td:hover .description{
 	overflow: hidden;
 }
 
+
+.blog-post:nth-child(3n-5) .img{
+  background-color:#FEF6C5;
+}
+.blog-post:nth-child(3n-7) .img{
+  background-color:#B3BAC4;
+}
+.blog-post:nth-child(3n-6) .img{
+background-color:#E3F1F3;
+}
+
+
+/* single blog */
+.wp-block-media-text.is-image-fill .wp-block-media-text__media{
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 1500px){
+  .blog-items{
+    width: 95%;
+  }
+}
+
 /* Demo */
 .demo{
-  background-color: #FBC4B4;
+  background-color: white;
   padding: 50px 0px 50px 0px;
 }
  
@@ -2907,22 +3390,26 @@ table.solution-table-price td:hover .description{
 }
  
 .demo-container .form{
-  width: 300px;
+  width: 342px;
+  margin: auto;
   margin-right: 0;
+  background: #1e3550;
+  padding: 20px;
+  border-radius: 4px;
 }
  
 .demo-container .header .img{
-  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/05/orange-splat-350px.png);
-  background-repeat: no-repeat;
-  background-size: 350px;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   display: flex;
+  margin: auto;
 }
  
 .demo-container .header .img img{
-  border-radius: 100%;
   margin: auto;
+  margin-left: 0;
+  width: 100%;
+  height: auto;
 }
  
 .demo-container .form form{
@@ -2966,11 +3453,146 @@ table.solution-table-price td:hover .description{
   border-radius: 4px;
 }
 
+@media (max-width: 1200px){
+  .demo-container{
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px){
+  .demo-container .header{
+    width: 100%;
+  }
+  .demo-container .form{
+    margin-left: 0;
+  }
+  .blog-items, .blog-post:first-child{
+    width: 100%;
+    padding: 20px;
+  }
+  .blog-post:first-child .blog-post-contents{
+    display: unset;
+  }
+  .blog-post:first-child .img{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  .blog-post:first-child .img img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    max-width: 250px;
+  }
+  .blog-post:first-child .caption{
+    width: unset;
+    padding: 20px;
+  }
+}
+
+/* Single Blog */
+
+.blog{
+  width: 100%;
+}
+
+.blog .col-md-2.blog-sidebar{
+  width: 100%;
+  float: unset;
+  position: fixed;
+  top: 90px;
+  padding: 0;
+  background: unset;
+  z-index: 9;
+}
+
+.blog .col-md-2.blog-sidebar .form{
+  width: 95%;
+  margin: auto;
+}
+
+.blog .col-md-2.blog-sidebar h2{
+  display: none;
+}
+
+.blog .col-md-2.blog-sidebar #mc_embed_signup{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog .col-md-2.blog-sidebar #mc_embed_signup form{
+  margin: auto;
+  margin-right: 0;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.blog .col-md-2.blog-sidebar #mc_embed_signup form input{
+  box-shadow: none;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.blog .col-md-2.blog-sidebar #mc_embed_signup form #mc-embedded-subscribe{
+  background: #1e3550;
+  color: #ffffff;
+  margin-left: 0;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: unset;
+  font-size: 16px;
+  margin: 0;
+}
+
+.blog .container{
+  width: 50%;
+}
+
+.blog .container p{
+  width: 100%;
+}
+
+.blog .container .col-md-8{
+  width: 100%;
+}
+
+@media (max-width: 1200px){
+  .blog .container{
+    width: 95%;
+    margin-top: 100px;
+  }
+  .blog .col-md-2.blog-sidebar .form{
+    width: 95%;
+  }
+  .blog .col-md-2.blog-sidebar #mc_embed_signup{
+    background: white;
+  }
+  .blog .col-md-2.blog-sidebar #mc_embed_signup form{
+    display: flex;
+    width: unset;
+    padding-right: 0;
+  }
+  .blog .col-md-2.blog-sidebar #mc_embed_signup form input{
+    margin-bottom: 0;
+    margin-right: 5px;
+  }
+  .blog .col-md-2.blog-sidebar{
+    top: 70px;
+    background: white;
+  }
+}
+
 /* Testimonials */
 
 .testimonials{
 	display: flex;
-	background: #eff5f6;
+  background: #f6f6f6;
 }
 
 .testimonials-container{
@@ -2980,17 +3602,16 @@ table.solution-table-price td:hover .description{
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
-	padding-bottom: 200px;
+}
+
+.testimonials-container .container-fluid{
+  width: 100%;
+  padding: 0;
 }
 
 .testimonials-header-container{
 	width: 100%;
 	padding: 100px 0;
-	background-image: url(https://houseonthehill.com/wp-content/uploads/2021/05/F380845C-FFF9-42AB-9C9A-5BE87D6196D9.png);
-	background-size: 765px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-position-y: 125px;
 }
 
 .testimonials .col-md-3{
@@ -2999,12 +3620,18 @@ table.solution-table-price td:hover .description{
 
 .testimonials .col-md-6{
 	width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .testimonials .jumbotron{
 	background: unset;
-	width: 80%;
-	margin: auto;
+	width: 45%;
+	margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 40px;
+  background: white;
+  border-radius: 4px;
 }
 
 .testimonials .jumbotron img{
@@ -3012,16 +3639,17 @@ table.solution-table-price td:hover .description{
 }
 
 .testimonials .jumbotron p{
-	font-weight: bold;
-	color: #1e3550;
-	font-size: 30px;
+	color: #3a3a3a;
+	font-size: 18px;
+  text-align: left;
+  margin-top: 0;
 }
 
 .testimonials .jumbotron p.contact{
 	font-weight: unset;
-	margin: 20px 0;
-	font-size: 1.8rem;
-	color: unset;
+	margin: 40px 0;
+  margin-bottom: 0;
+  color: #3a3a3a;
 }
 
 .testimonials .jumbotron p.contact span{
@@ -3339,21 +3967,10 @@ ul.whats-new li .whats-new-img img{
 
 /* About house on the hill software */
 
-.about-us-container{
-  padding-bottom: 300px;
-}
-
-.about-us{
-  background: #F3DEC7;
-}
 
 .about-us-container .intro{
   display: flex;
   flex-wrap: wrap;
-  background-image: url(https://houseonthehill.com/wp-content/uploads/2021/08/questionmark.png);
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  background-position: center left;
   width: 80%;
   margin: auto;
   padding: 150px 10px;
@@ -3373,15 +3990,20 @@ ul.whats-new li .whats-new-img img{
 }
 
 .about-us-container .we-listen{
-  width: 60%;
+  width: 100%;
   margin: auto;
   text-align: center;
   padding: 100px;
   margin-bottom: 50px;
+  background-color: #1e3550;
 }
 
-.about-us-container .we-listen img{
-  width: 250px;
+.about-us-container .we-listen h2{
+  font-size: 40px;
+}
+
+.about-us-container .we-listen h2, .about-us-container .we-listen p{
+  color: white;
 }
 
 .about-us-container ul{
@@ -3431,7 +4053,7 @@ ul.whats-new li .whats-new-img img{
 /* Social Values Statement */
 .social-values-container{
 	padding: 100px 10px;
-	background-color: pink;
+	background-color: white;
 }
 
 .social-values {
@@ -3453,22 +4075,25 @@ ul.whats-new li .whats-new-img img{
 }
 
 .social-values-content{
-	width: 80%;
-	margin: auto;
+	width: 100%;
+  display: flex;
 	padding: 10px;
   padding-bottom: 200px;
 }
 
-.social-values-content ul li{
-	list-style: none;
+.social-values-content ul{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .social-values-content ul li{
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  text-align: left;
+  list-style: none;
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 30px;
   padding: 10px;
 }
 
@@ -3478,11 +4103,12 @@ ul.whats-new li .whats-new-img img{
 }
 
 .social-values-content ul li .img img{
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 200px;
+  max-height: 200px;
   width: auto;
   height: auto;
   margin: auto;
+  margin-left: 0;
   border-radius: 4px;
 }
 
@@ -3586,14 +4212,6 @@ ul.whats-new li .whats-new-img img{
   .hoth-footer-container .btns:before{
     display: none;
   }
-  .pricing ul.solutions li {
-    width: 40%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
-  .blog-post .img{
-    height: 250px;
-  }
   .solution-header-container .text{
     width: 60%;
   }
@@ -3642,7 +4260,7 @@ ul.whats-new li .whats-new-img img{
     margin: auto;
     margin-right: 0;
     text-align: left;
-    margin-top: 85px;
+    margin-top: 50px;
   }
   .hoth-footer-container .footer-links .company {
     font-size: 12px;
@@ -3695,9 +4313,7 @@ ul.whats-new li .whats-new-img img{
     background-position-y: 130px;
     background-size: 100%;
   }
-  .blog-post .img{
-    height: 200px;
-  }
+
   ul.whats-new li{
     padding: 50px 20px;
   }
@@ -3749,9 +4365,7 @@ ul.whats-new li .whats-new-img img{
   .about-us-container .intro p{
     width: 100%;
   }
-  .about-us-container .we-listen{
-    width: 80%;
-  }
+  
   .about-us-container ul{
     width: 80%;
   }
@@ -3880,9 +4494,6 @@ ul.whats-new li .whats-new-img img{
   }
   .hothhome-testimonial-container{
     width: 80%;
-  }
-  .blog-post .img{
-    height: 150px;
   }
   .solution-header-container .text{
     width: 100%;
@@ -4098,7 +4709,7 @@ ul.whats-new li .whats-new-img img{
   /* testimonials mobile */
   .hoth-single-testimonial-container,  .solution-testimonial-container{
     width: 80%;
-    padding: 10px;
+    padding: 20px;
   }
 
   /* solutions mobile */
@@ -4270,9 +4881,6 @@ ul.whats-new li .whats-new-img img{
     margin: 0;
     margin-bottom: 50px;
   }
-  .blog-post .img{
-    height: 120px;
-  }
   .blog-post .caption{
     padding: 10px;
   }
@@ -4362,13 +4970,4 @@ ul.whats-new li .whats-new-img img{
     }
   }
 
-}
-
-body #hoth-chat-button {
-  background: #fee119;
-  box-shadow: 0px 0px 33px 0px #d4d4d4;
-}
-
-body #hoth-chat-button i{
-  color:#000;
 }

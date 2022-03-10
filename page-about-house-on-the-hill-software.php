@@ -17,12 +17,10 @@
   </div>
 
   <div class="we-listen">
-    <img src="/wp-content/uploads/2021/08/we-listen.png">
     <h2>We listen to you.</h2>
     <p>This is why House-on-the-Hill has been helping businesses for 30 years. <br>Our relationship with our customers is what we care most about.  <br>Your feedback helps us innovate our service.</p>
   </div>
 
-  <div class="break"><img src="/wp-content/uploads/2021/04/stroke-coral.png"></div>
   <ul>
     <h2>Quick Wins with HotH.</h2>
     <li><p>Cloud and On-Site</p></li>
@@ -37,7 +35,6 @@
     <li><p>Report on any data</p></li>
     <p><strong>We would love to show you around 🙂 Drop us an email at <br><a href="/demo">demo@houseonthehill.com</a></strong></p>
   </ul>
-  <div class="break"><img src="/wp-content/uploads/2021/04/stroke-coral.png"></div>
 
 
   <h4 class="charity">Charities We Support</h4>

@@ -54,6 +54,7 @@
       <div class="text">
         <h2 style="color: white;">Get on the case</h2>
         <p style="color: white;">Capture any type of Requests with Ease with <br><span style="font-weight: bold;">House-on-the-hill's FOI, Case & Complaints Management Software</span></p>
+        <a href="/price-plans"><p class="price"> <span>HotH FOI, Case & Complaints starts as low as £30 per agent, per month</span></p></a>
       </div>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/folders.png" alt="Case types"></div>
@@ -66,7 +67,7 @@
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/mail.png" alt="Email"></div>
         <h3>Configurable Email <br>Replies</h3>
-        <p>Decide if you want to pick and choose when and which email is sent or if you want preselected emails to be triggered automatically on stages of the case management</p>
+        <p>Choose when and which email is sent or if you want preselected emails to be triggered automatically on stages of the case management.</p>
         <div class="btn">
         </div>
       </li>
@@ -74,7 +75,7 @@
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/delegation.png" alt="delegation of requests"></div>
         <h3>Delegation of <br>Requests</h3>
-        <p>All or part of any requests can be delegated to other departments who will recieve an advisory email and subsequent reminders if the response is late. Department performance analysis helps to identify why Cases are breaching.</p>
+        <p>All or part of any requests can be delegated to other departments. They will receive an advisory email and subsequent reminders if the response is late. Department performance analysis helps to identify why Cases are breaching.</p>
         <div class="btn">
         </div>
       </li>
@@ -84,14 +85,14 @@
   <div class="large-features">
     <ul>
       <div class="text">
-        <h2 style="color:white">Powerful out of the box features to power your Case Management Software</h2>
+        <h2 style="color:white">Powerful out-of-the-box features to power your Case Management Software</h2>
       </div>
       <li>
         <div class="img"><img src="https://houseonthehill.com/wp-content/uploads/2021/11/FOICaseScreen-1.webp" alt="custom hoth portal" /></div>
         <div class="text">
           <h4>Customisable Forms</h4>
-          <p>Out of the box Case Management Forms that are amendable. Easily edit our Case Form Templates or start from scratch and create your own custom field and forms suited for your Case Management. 
-          <br><Br>Each Case Form can be customised with House-on-the-Hills Drag and Drop form builder to allow collection of the required data and information for that Case.</p>
+          <p>All of the preloaded forms can be easily edited. You can even start from scratch and create your own forms with unlimited custom fields to match your case management workflow.
+          <br><br>Each form can be customised using the drag and drop designer to include all the fields you need to capture case information. </p>
           <a class="more-info" href="/features/drag-and-drop-form-builder/">Find out more</a>
         </div>
       </li>
@@ -99,7 +100,7 @@
         <div class="img"><img src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/screenshots/createquickreport.webp" alt="FOI software quick report"></div>
         <div class="text">
           <h4>Run Case Reports</h4>
-          <p>Report on outcomes, exemptions and other key performance indicators at the touch of a button, and customise and schedule Case reports using House-on-the-Hill’s QuickReport Designer.
+          <p>Report on outcomes, exemptions and other key performance indicators at the touch of a button. Customise and schedule Case reports using House-on-the-Hill’s QuickReport Designer.
           <br><br>Use our default templates as a guide or build your own from scratch. The choice is yours.</p>
           <a class="more-info" href="/features/report-designer/">Find out more</a>
         </div>
@@ -113,32 +114,32 @@
           <h2>Integration and training</h2>
         </div>
         <li>
-          <p>​Integration with Microsoft tools i.e. Outlook, Active Directory, SSO</p>
+          <p>​House-on-the-Hill Case Management integrates with Microsoft 365. This will allow you to connect Outlook, Active Directory, Single Sign-On (SSO) and MS Teams to your case management system. </p>
         </li>
         <li>
-          <p>​BPSS checked HotH FOI Consultants</p>
+          <p>​Have full confidence in our training, support and implementation from our ​BPSS checked HotH FOI Consultants.</p>
         </li>
         <li>
-          <p>​Limited training required. Intuitive Forms, mandatory fields, simple workflow all make the system simple to pick up and put into use. </p>
+          <p>​Your team will requires little training as House-on-the-Hill is simple to pick up and put into use. All thanks to its intuitive workflows, simple form management and public data capture.</p>
         </li>
       </ul>
     </div>
     <div class="solution-features list">
       <ul>
         <div class="text">
-          <h2>Public Facing Internal Forms plus email integration​</h2>
+          <h2>Public request portal</h2>
         </div>
         <li>
           <h3>Public ‘Request Submission’ Forms</h3>
-          <p>Public ‘Request Submission’ Forms for inclusion on customer website with Captcha Form Submission security​.</p>
+          <p>The Public ‘Request Submission’ Forms can be loaded on to your website to make freedom of information requests quick and easy. Not only is this easiest way to collect your FOI data, it is also the safest with Captcha Form Submission security​ protecting your forms from any unwanted surprises.</p>
         </li>
         <li>
           <h3>Internal Data Breach</h3>
-          <p>Logging Forms to allow staff to report lost or misdirected data to feed the Information Governance Process.​</p>
+          <p>Allow staff to report lost or misdirected data to feed the Information Governance Process all within House-on-the-Hill.</p>
         </li>
         <li>
           <h3>Mail Automation</h3>
-          <p>Allows E-mails to be processed and converted to New Case Records.</p>
+          <p>Process and convert emails into to New Case Records with HotH mail automation. This seamless process allows your team more time to hit deadlines, SLAs and focus on the people that matter.</p>
         </li>
       </ul>
     </div>
@@ -226,11 +227,11 @@
         </div>
         <li>
           <h3>Disclosure Log</h3>
-          <p>​Add closed cases to a public facing Dislosure Log.</p>
+          <p>​Populate a branded public facing Disclosure Log with your completed cases. Managing a case can be lengthy, so save time for your team and prevent unnecessary requests by pro-actively allowing requestors to find the information they are looking for within the Disclosure log. </p>
         </li>
         <li>
           <h3>Search and Grouping</h3>
-          <p>​Customise the disclosure log to offer searching and filtering by your classifications.</p>
+          <p>​Make it easy for the public to search the Disclosure Log  for relevant cases by categorising and creating filters. You can also brand the Disclosure Log to maintain your organisation's branding and themes.</p>
         </li>
       </ul>
     </div>

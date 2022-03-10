@@ -1,108 +1,137 @@
-<?php 
-/**
- * Default Header
- *
- * @package WordPress
- * @subpackage House on the Hill Wordpress Bootstrap 2021
- * @since Wp Bootstrap 1.0
- *
- */?>
-<!DOCTYPE html>
-<head>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-N8MGDJH');</script>
-	<!-- End Google Tag Manager -->
-	<html <?php language_attributes(); ?>>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link href="<?php echo get_stylesheet_directory_uri(); ?>/fonts/fontawesome-pro-5.3.1-web/css/all.css" rel="stylesheet">
-	<link rel="shortcut icon" href="<?php echo site_url(); ?>/wp-content/uploads/2014/07/hoth.jpg" />
-	<?php wp_head(); ?>
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5009086-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-5009086-1');
-	</script>
-
-	<!-- trackers -->
-
-	<!-- Event snippet for G-Cloud click conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> 
-	<script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-1071861445/lUtqCP6Jq4QDEMWdjf8D', 'event_callback': callback }); return false; } </script>
-	<!-- Event snippet for Trial Sign Ups conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> 
-	<script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-1071861445/ZO5PCI6NzNsCEMWdjf8D', 'event_callback': callback }); return false; } </script>
-	<!-- Event snippet for Book a Demo conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> 
-	<script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-1071861445/oBkGCKnf_YMDEMWdjf8D', 'event_callback': callback }); return false; } </script>
-
-		
-<script type="text/javascript"> _linkedin_partner_id = "2323322"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script>
-<script type="text/javascript"> (function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(window.lintrk); </script> 
-<noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2323322&fmt=gif" /> </noscript>
-
-
-</head>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8MGDJH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<div class="hoth-header-container">
-	<div class="hoth-header">
-		<a class="hoth-home" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Hoth-transparent.webp" alt="House-on-the-Hill Logo"> <span style="margin-left:10px;"><!--House-on-the-Hill--></span></a>
-  <div class="dropdown">
-   <button class="dropbtn">Solutions</button>
-				<div id="m1" class="dropdown-content-container">
-					<div id="m1" class="dropdown-content">	
-						<a href="#">[PR]:4-hr Calibrated Tornado Probability</a>
-						<a href="#">[PR]:4-hr Calibrated Hail Probability</a>
+<?php get_header();?>
+<div class="solutions">
+	<div class="text">
+			<h2 style="color: white;">What can I use House-on-the-Hill for?</h2>
+			<p style="color: white;">Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
+			<a href="/price-plans"><p class="price"> <span>All HotH solutions start as low as £30 per agent, per month</span></p></a>
+	</div>
+	<div class="wrapper">
+			<input type="radio" name="slider" checked id="itsm">
+			<input type="radio" name="slider" id="foi">
+			<input type="radio" name="slider" id="csm">
+			<input type="radio" name="slider" id="cafm">
+			<nav>
+					<label for="itsm" class="itsm">IT service <br>management</label>
+					<label for="foi" class="foi">FOI, case & complaints <br>management</label>
+					<label for="csm" class="csm">Customer service <br>management</label>
+					<label for="cafm" class="cafm">Computer aided facilities <br>management</label>
+					<div class="slider"></div>
+			</nav>
+			<section>
+					<div class="content content-1">
+							<div class="title">This is a itsm content</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero aspernatur nobis provident dolores molestias quia quisquam laborum, inventore quis, distinctioa, fugit repudiandae delectus sunt ipsam! Odio illo at quia doloremque fugit iops, asperiores? Consectetur esse officia labore voluptatum blanditiis molestias dic voluptas est, minima unde sequi, praesentium dicta suscipit quisquam iure sed, nemo.</p>
 					</div>
-				</div>
-   </div>
-			<a href="/features">Features</a>
-   <div class="dropdown">
-   <button class="dropbtn">About</button>
-				<div id="m2" class="dropdown-content-container">
-					<div id="m2" class="dropdown-content">	
-						<a href="#">[fsdfsdfsdf</a>
-						<a href="#">[PR]:4-hr Calibrated Hail Probability</a>
+					<div class="content content-2">
+							<div class="title">This is a foi content</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit amet. Possimus doloris nesciunt mollitia culpa sint itaque, vitae praesentium assumenda suscipit fugit doloremque adipisci doloribus, sequi facere itaque cumque accusamus, quam molestias sed provident quibusdam nam deleniti. Autem eaque aut impedit eo nobis quia, eos sequi tempore! Facere ex repellendus, laboriosam perferendise. Enim quis illo harum, exercitationem nam totam fugit omnis natus quam totam, repudiandae dolor laborum! Commodi?</p>
 					</div>
-				</div>
-   </div>
+					<div class="content content-3">
+							<div class="title">This is a csm content</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, debitis nesciunt! Consectetur officiis, libero nobis dolorem pariatur quisquam temporibus. Labore quaerat neque facere itaque laudantium odit veniam consectetur numquam delectus aspernatur, perferendis repellat illo sequi excepturi quos ipsam aliquid est consequuntur.</p>
+					</div>
+					<div class="content content-4">
+							<div class="title">This is a cafm content</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reprehenderit null itaq, odio repellat asperiores vel voluptatem magnam praesentium, eveniet iure ab facere officiis. Quod sequi vel, rem quam provident soluta nihil, eos. Illo oditu omnis cumque praesentium voluptate maxime voluptatibus facilis nulla ipsam quidem mollitia! Veniam, fuga, possimus. Commodi, fugiat aut ut quorioms stu necessitatibus, cumque laborum rem provident tenetur.</p>
+					</div>
+			</section>
 	</div>
 </div>
 
+<style>
+.solutions {
+	background: #1D3550;
+	padding: 100px 10px;
+	padding-top: 50px;
+}
+.wrapper{
+	width: 80%;
+	margin: 100px auto;
+	padding: 25px 30px 30px 30px;
+	background: white;
+}
 
-<!--<div class="mini_contact">	
-	<h3><div class="img"><img src="/wp-content/themes/houseonthehill.com/images/pete-headshot.jpg" height="30" width="30" alt="Pete Headshot"></div>Schedule a Demo</h3>
-	<a href="mailto:demo@houseonthehill.com">demo@houseonthehill.com</a> 
-	<a href="tel:+44 (0) 161 449 7057">+44 (0) 161 528 1259</a>
-</div>-->
+.wrapper nav{
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin: auto;
+}
 
-<script>
-$(document).ready(function(){
+.wrapper nav label{
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	z-index: 1;
+	color: #1e3550;
+	font-size: 17px;
+	border-radius: 4px;
+	margin: 0 5px;
+	transition: all 0.3s ease;
+	padding: 5px;
+}
 
-$(document).on('click','.dropbtn',function(){
-    $('.dropbtn').not(this).next().removeClass('show');
-    $(this).next().toggleClass('show');
-    $('.hoth-header-container').addClass('show');
-});
+.wrapper nav label:hover{
+	background: rgba(30, 53, 80, 0.25);
+}
 
-$(document).on('click',function(e){
-    if(!$(e.target).closest('.dropbtn').length) {  /* find closest dropbtn2 to where you have clicked but if nothing found then do this */
-        $('.dropbtn').next().removeClass('show'); /* remove show class on all dropbtn2 */
-        $('.hoth-header-container').removeClass('show');   /* remove show class on all hoth-container */
-    }
-});    
+#itsm:checked ~ nav label.itsm,
+#foi:checked ~ nav label.foi,
+#csm:checked ~ nav label.csm,
+#cafm:checked ~ nav label.cafm{
+	color: #fff;
+}
 
-});
-</script>
+nav label i{
+	padding-right: 7px;
+}
+
+nav .slider{
+	position: absolute;
+	height: 100%;
+	width: 25%;
+	left: 0;
+	bottom: 0;
+	z-index: 0;
+	border-radius: 5px;
+	background: #1e3550;
+	transition: all 0.3s ease;
+}
+
+input[type="radio"]{
+	display: none;
+}
+
+#foi:checked ~ nav .slider{
+	left: 25%;
+}
+
+#csm:checked ~ nav .slider{
+	left: 50%;
+}
+
+#cafm:checked ~ nav .slider{
+	left: 75%;
+}
+
+section .content{
+	display: none;
+}
+
+#itsm:checked ~ section .content-1,
+#foi:checked ~ section .content-2,
+#csm:checked ~ section .content-3,
+#cafm:checked ~ section .content-4{
+	display: block;
+}
+
+section .content .title{
+	font-size: 21px;
+	margin: 30px 0 10px 0;
+}
+</style>
+<?php get_footer();?>

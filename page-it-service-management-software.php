@@ -16,29 +16,44 @@
 
   <div class="testimonials">
     <div class="container">
-      <p><strong>1000's of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
+      <p><strong>1000s of organisations have benefited from House-on-the-Hill's <br>30 years experience in creating bespoke service desk solutions.</strong></p>
       <div class="customers">
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
-          <img height="25" width="55" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/nhs-25.png" alt="NHS Logo">
+          <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/nhs-50.png" alt="NHS Logo">
         </a>  
         <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
-          <img height="25" width="147" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bm-25.png" alt="Broadway Malyan Logo">
+          <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bm-50.png" alt="Broadway Malyan Logo">
         </a>  
-        <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
-          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/bbraun-25.png" alt="BBraun Medicine Logo">
+        <a href="https://weareworldchallenge.com/uk/" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/worldchallenge.webp" alt="World Challenge Logo">
+        </a>  
+        <a href="https://www.speedyservices.com" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/speedy.webp" alt="speedy Logo">
         </a>  
         <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
-          <img height="25" width="134" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/hb-25.png" alt="Holland & Barrett Logo">
+          <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/hb-50.png" alt="Holland & Barrett Logo">
         </a>  
         <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
-          <img height="25" width="129" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/25/dentons-25.png" alt="Dentons Law Firm Logo">
+          <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/dentons-50.png" alt="Dentons Law Firm Logo">
+        </a>  
+        <a href="https://www.beaverbrooks.co.uk" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Beaverbrookslogo.webp" alt="beaverbrooks Logo">
+        </a>  
+        <a href="https://www.thedonkeysanctuary.org.uk" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/thedonkeysanctuary.webp" alt="the donkey sanctuary Logo">
+        </a>  
+        <a href="https://www.ndcs.org.uk" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/ndcs-logo.png" alt="ndcs Logo">
+        </a>  
+        <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
+          <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bbraun-50.png" alt="bbraun Logo">
         </a>  
       </div>
 
       <div class="quote">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png" alt="itsm screenshot">
         <div class="text">
-          <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
+          <a href="/testimonials">
             <h2>"The combination of price, features and their amazing support made the choice simple. HotH makes managing tickets, escalations, SLA’s and KPI’s simple."</h2>
             <p>Jamie Dobbs, <span>TMT</span></p>
           </a>
@@ -53,6 +68,7 @@
       <div class="text">
         <h2 style="color: white;">IT Service Management made simple</h2>
         <p style="color: white;">Use these features to ease your workload.</span></p>
+        <a href="/price-plans"><p class="price"> <span>HotH IT Service Management starts as low as £30 per agent, per month</span></p></a>
       </div>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/selfservice.png" alt="ssp icon"></div>
@@ -66,7 +82,7 @@
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/dragdrop.png" alt="drag and drop icon"></div>
         <h3>Drag & Drop Call Form Builder</h3>
-        <p>Build unique Forms for all types of call, be they Incidents, Problems, Equipment Requests, New Starters, Inventory items, Activities or Contracts. Using Drag and Drop features you can quickly build the Forms you require.</p>
+        <p>Build unique Forms for all types of call, be they Incidents, Problems, Equipment Requests, New Starters, Inventory items, Activities or Contracts. Using the Drag and Drop feature you can quickly build the Forms you require.</p>
         <div class="btn">
           <a class="more-info" href="/features/drag-and-drop-form-builder/">Find out more ></a>
         </div>

@@ -2,7 +2,7 @@
 <div class="social-values-container">
 	<div class="social-values">
 		<div class="title">
-			<img src="/wp-content/uploads/2021/09/social-values.png">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/socialvalues.png" alt="social values graphic">
 			<h1>Our social values</h1>
 		  <p>At House-on-the-Hill, we are continually extending our efforts to support humanitarian causes, whether locally, nationally or internationally. As such, we are proud to support the following charities, fund-raising events and work experience programs.</p>
 		</div>
@@ -18,6 +18,13 @@
 				<div class="img"><img src="/wp-content/uploads/2020/12/RASHFORD-FARESHARE.jpg"></div>
 			</li>
 
+			<li>
+				<h2><span>National:</span></h2>
+				<h3>Centrepoint – Give Homeless Young People a Future</h3>
+				<p>Centrepoint works with young people who are homeless or at risk of homelessness in London, the North East and Yorkshire.  House-on-the-Hill has donated to Centrepoint since 2011, giving homeless young people a chance to turn their lives around, build firm foundations, and prepare for a future where they realise their potential. For more information, please see <a href="http://www.centrepoint.org.uk/">http://www.centrepoint.org.uk/</a></p>
+				<div class="img"><img src="/wp-content/uploads/2016/05/centrepoint-300x300.jpg"></div>
+			</li>
+
 	  	<li>
 				<h2><span>Local:</span></h2>
 				<h3>Operation Oscar</h3>
@@ -30,13 +37,6 @@
 				<h3>World Vision – Every Child Free from Fear</h3>
 				<p>World Vision is the world’s largest international children’s charity improving the lives of the world’s poorest children by working closely with communities to tackle the root causes of poverty. For more than 20 years House-on-the-Hill has sponsored children around the world, through donating money and communicating with children personally, bringing real hope and changing their life, together with the lives of many more growing up alongside them. World Vision improves the lives of the world’s poorest children by working closely with communities to tackle the root causes of poverty. For more information, please see <a href="http://www.worldvision.org.uk/">http://www.worldvision.org.uk/</a></p>
 				<div class="img"><img src="/wp-content/uploads/2014/09/worldvision-300x300.jpeg"></div>
-			</li>
-
-			<li>
-				<h2><span>National:</span></h2>
-				<h3>Centrepoint – Give Homeless Young People a Future</h3>
-				<p>Centrepoint works with young people who are homeless or at risk of homelessness in London, the North East and Yorkshire.  House-on-the-Hill has donated to Centrepoint since 2011, giving homeless young people a chance to turn their lives around, build firm foundations, and prepare for a future where they realise their potential. For more information, please see <a href="http://www.centrepoint.org.uk/">http://www.centrepoint.org.uk/</a></p>
-				<div class="img"><img src="/wp-content/uploads/2016/05/centrepoint-300x300.jpg"></div>
 			</li>
 
 			<li>
