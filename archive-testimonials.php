@@ -24,6 +24,7 @@
 					
 					<?php while ( $features_loop->have_posts() ) : $features_loop->the_post(); ?>
 								   <div class="jumbotron">
+											<p class="quote">"</p>
 									  <?php the_content();?>
 										<p class="contact"><?php the_title(); ?></p>
 									</div>

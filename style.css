@@ -3634,6 +3634,14 @@ background-color:#E3F1F3;
   border-radius: 4px;
 }
 
+.testimonials .jumbotron .quote{
+  font-size: 40px;
+  color: #1e3550;
+  margin: 0;
+  font-weight: bold;
+  line-height: 0.8;
+}
+
 .testimonials .jumbotron img{
 	display: none;
 }
