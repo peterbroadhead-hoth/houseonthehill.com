@@ -2497,6 +2497,94 @@ body #hoth-chat-button i{
   color: white;
 }
 
+/* Integrations */
+.integrations .header{
+  height: 500px;
+  background: #f6f6f6;
+  display: flex;
+  position: relative;
+}
+
+.integrations .header .container{
+  padding: 10px;
+}
+
+.integrations .header .text{
+ width: 40%;
+  margin: auto 1%;
+}
+
+.integrations .header .img{
+ height: 500px;
+ bottom: 0;
+ right: 0;
+ max-width: 60%;
+ position: absolute;
+}
+
+.integrations .header .img img{
+  height: 100%;
+}
+
+.integrations-list{
+  background: white;
+  display: flex;
+}
+
+.integrations-list ul{
+  width: 80%;
+  margin: auto;
+  padding: 50px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.integrations-list ul li{
+  list-style: none;
+  background: #f6f6f6;
+  padding: 40px;
+  padding-bottom: 80px;
+  border-radius: 4px;
+  width: 31%;
+  margin: 1%;
+  position: relative;
+}
+
+.integrations-list ul li .img{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #1e3550;
+}
+
+.integrations-list ul li .img img{
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.integrations-list ul li h2{
+  margin-top: 30px;
+}
+
+.integrations-list ul li h2, .integrations-list ul li p{
+  margin-bottom: 0;
+}
+
+.integrations-list ul li a{
+  position: absolute;
+  bottom: 40px;
+}
+
+.integrations-list ul li a p{
+  color: #006b8e;
+}
+
+.integrations-list ul li a:hover p{
+  opacity: 0.8;
+}
+
 /* Features */
 
 .features .header{
