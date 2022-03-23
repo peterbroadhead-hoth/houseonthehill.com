@@ -1646,6 +1646,12 @@ body #hoth-chat-button i{
   }
 }
 
+@media (max-width: 600px){
+  .home .signup-buttons{
+    display: grid;
+  }
+}
+
 @media (max-width: 650px){
   .help ul li .btns a{
     margin-bottom: 5px;
@@ -2518,12 +2524,15 @@ body #hoth-chat-button i{
  height: 500px;
  bottom: 0;
  right: 0;
- max-width: 60%;
  position: absolute;
+ max-width: 60%;
 }
 
 .integrations .header .img img{
-  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 .integrations-list{
@@ -2585,6 +2594,49 @@ body #hoth-chat-button i{
   opacity: 0.8;
 }
 
+@media (max-width: 1500px){
+  .integrations .header .container, .integrations-list ul{
+    width: 95%;
+  }
+}
+
+@media (max-width: 920px){
+  .integrations .header .img{
+    width: 100%;
+    position: unset;
+    display: flex;
+    height: 200px;
+    max-width: unset;
+    background-size: 395px;
+    background-image: url("/wp-content/themes/houseonthehill.com/images/22icons/original/integrationpower.png");
+  }
+  .integrations .header .img img{
+    display: none;
+  }
+  .integrations .header{
+    height: unset;
+  }
+  .integrations .header{
+    display: unset;
+  }
+  .integrations .header .text{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px){
+  .integrations-list ul li{
+    width: 48%;
+  }
+}
+
+@media (max-width: 600px){
+  .integrations-list ul li{
+    width: 98%;
+  }
+}
+
 /* Features */
 
 .features .header{
@@ -2602,6 +2654,35 @@ body #hoth-chat-button i{
   margin-top: 0;
   text-align: center;
   padding: 50px;
+}
+
+.features .header .title .form{
+  width: 400px;
+  margin: auto;
+}
+
+.features .header .title .form form{
+  display: flex;
+}
+
+.features .header .title .form form input{
+  width: 100%;
+  border: 3px solid #1e3550;
+  padding: 10px 20px;
+  border-radius: 4px 0 0 4px;
+}
+
+.features .header .title .form form input.submit{
+  width: auto;
+  background: #1e3550;
+  color: #ffffff;
+  margin-left: 0;
+  border-radius: 0 4px 4px 0;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: unset;
+  font-size: 16px;
+  border: none;
 }
 
 .features .testimonial{
@@ -2695,6 +2776,12 @@ box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
 }
 
 @media (max-width: 1500px){
+  .features .feature-list-container .feature-list{
+    width: 95%;
+  }
+}
+
+@media (max-width: 600px){
   .features .feature-list-container .feature-list{
     width: 95%;
   }
@@ -2806,7 +2893,6 @@ background: #f6f6f6;
 	min-height: unset;
 	background-color: #f6f6f6;
 	padding: 0;
-	padding-top: 80px;
 }
 
 .features.single .header .img{
@@ -2823,19 +2909,29 @@ background: #f6f6f6;
 }
 
 hr{
-border-top: 3px solid #E48E28;
+border-top: 3px solid #fee119;
 width: 300px;
 margin: auto;
 }
 
 .features.single .content{
-	width: 80%;
-	margin: auto;
-  padding: 10px;
-	padding-top: 50px;
-	padding-bottom: 200px;
+	width: 100%;
+	background: white;
+  display: flex;
+}
+
+.features.single .content ul{
   display: flex;
   flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.features.single .content ul li{
+  width: 31%;
+  list-style: none;
+  margin: 1%;
 }
 
 .features.single .content .text{
@@ -2844,10 +2940,20 @@ margin: auto;
   margin: 0 5%;
 }
 
-.features.single .content img{
-  margin-top: 20px;
+.features.single .content ul li .img{
+  width: 100%;
+  background: #fbfbfb;
   border-radius: 4px;
-  max-width: 100%;
+  display: flex;
+  height: 250px;
+}
+
+.features.single .content ul li .img img{
+  max-width: 90%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  margin: auto;
 }
 
 
@@ -4859,6 +4965,10 @@ ul.whats-new li .whats-new-img img{
     height: unset;
     min-height: unset;
     background-image: unset;
+    padding-bottom: 0;
+  }
+  .features .testimonial{
+    display: none;
   }
   .features.single .header{
     padding: unset;
@@ -4866,7 +4976,7 @@ ul.whats-new li .whats-new-img img{
   }
   .features .header .title{
     padding: 50px 10px;
-    width: 80%;
+    width: 100%;
   }
   .features.single .header .img{
     width: 100%;
