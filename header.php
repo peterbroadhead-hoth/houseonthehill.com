@@ -24,7 +24,7 @@
 	<link href="<?php echo get_stylesheet_directory_uri(); ?>/fonts/fontawesome-pro-5.3.1-web/css/all.css" rel="stylesheet">
 	<link rel="shortcut icon" href="<?php echo site_url(); ?>/wp-content/uploads/2014/07/hoth.jpg" />
 	<?php wp_head(); ?>
-	
+	<!-- ms teams chat --><script src="//www.socialintents.com/api/chat/socialintents.1.3.js#2c9fa0e17fbc5940017fc17d29ea0600" async="async"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5009086-1"></script>
 	<script>
