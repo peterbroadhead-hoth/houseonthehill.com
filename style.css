@@ -2378,6 +2378,12 @@ body #hoth-chat-button i{
  }
  
  @media (max-width: 600px){
+  .solution .header .container{
+    flex-wrap: wrap-reverse;
+  }
+  .solution .header .container .img img{
+    width: 70%;
+  }
   .solution .testimonials{
     padding: 10px;
     padding-top: 20px;
