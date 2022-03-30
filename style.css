@@ -1544,7 +1544,7 @@ body #hoth-chat-button i{
   .home .testimonials .container{
     width: 100%;
   } 
-  .home .testimonials .container .quote iframe{
+  .home .testimonials .container .quote iframe,  .solution .testimonials .container .quote iframe{
     width: 95% !important;
     height: 500px !important;
   }
@@ -1640,7 +1640,7 @@ body #hoth-chat-button i{
     margin: auto;
   }
 
-  .home .testimonials .container .quote iframe{
+  .home .testimonials .container .quote iframe,  .solution .testimonials .container .quote iframe{
     width: 95% !important;
     height: 450px !important;
   }
@@ -1768,7 +1768,7 @@ body #hoth-chat-button i{
     padding-top: 50px;
   }
 
-  .home .testimonials .container .quote iframe{
+  .home .testimonials .container .quote iframe,  .solution .testimonials .container .quote iframe{
     width: 95% !important;
     height: 250px !important;
   }
