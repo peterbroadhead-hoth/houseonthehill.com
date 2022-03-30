@@ -1059,10 +1059,6 @@ body #hoth-chat-button i{
   margin-bottom: 20px;
 }
 
-.home .testimonials .container .quote{
-  padding-top: 50px;
-}
-
 .home .testimonials .container .quote img{
   max-width: 100%;  
   border-radius: 4px;
@@ -1087,15 +1083,25 @@ body #hoth-chat-button i{
   font-weight: bold;
 }
 
-.home .solutions{
+.home .video{
+  display: flex;
   background: #1D3550;
+  padding: 50px;
+}
+
+.home .video iframe{
+  margin: auto;
+}
+
+.home .solutions{
+  background: #f7f7f7;
   padding: 100px 10px;
   padding-top: 50px;
 }
 
 .home .solutions .text{
   width: 100%;
-  padding: 100px;
+  padding: 50px;
   padding-top: 0;
   text-align: center;  
 }
@@ -1108,7 +1114,7 @@ body #hoth-chat-button i{
 }
 
 .home .solutions ul{
-  width: 80%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -1117,31 +1123,28 @@ body #hoth-chat-button i{
 .home .solutions ul li{
   list-style: none;
   background-color: white;
-  width: 23%;
+  border: 1px solid #e6e4e4;
+  box-shadow: 0px 2px 10px 0px rgba(12, 0, 46, 0.06);
+  width: 24%;
   margin: 0 auto;
-  padding: 20px 25px;
+  padding: 20px;
   border-radius: 4px;
-  text-align: center;
   margin-bottom: 50px;
   position: relative;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 
 .home .solutions ul li .btn{
-  display: flex;
-  flex-wrap: wrap;
   position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
+  bottom: 20px;
+  padding: 0;
+  left: 20px;
 }
 
 .home .solutions ul li .img{
-  border-radius: 100%;
-  width: 150px;
+  width: 100%;
   height: 150px;
-  border: 5px solid #1e3550;
   overflow: hidden;
   display: flex;
   margin: auto;
@@ -1149,8 +1152,8 @@ body #hoth-chat-button i{
 }
 
 .home .solutions ul li .img img{
-  width: 100%;
-  margin: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .home .solutions ul li.cafm .img img{
@@ -1161,7 +1164,13 @@ body #hoth-chat-button i{
 }
 
 .home .solutions ul li h3{
-  height: 85px;
+  color: #1e3550;
+  margin: 10px 0;
+}
+
+.home .solutions ul li p{
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .home .solutions ul li a.sign-up{
@@ -1171,8 +1180,6 @@ body #hoth-chat-button i{
 .home .solutions ul li a.more-info{
   border: unset;
   margin: auto;
-  width: 100%;
-  margin-top: 20px;
 }
 
 .home .solutions ul li a.more-info:hover{
@@ -1470,9 +1477,6 @@ body #hoth-chat-button i{
   .home .header .container .img img{
     width: 550px;
   }
-  .home .solutions ul li h3{
-    height: 100px;
-  }
   .home .large-features ul li .img{
     min-height: 250px;
   }
@@ -1544,7 +1548,7 @@ body #hoth-chat-button i{
   .home .testimonials .container{
     width: 100%;
   } 
-  .home .testimonials .container .quote iframe,  .solution .testimonials .container .quote iframe{
+  .home .video iframe,  .solution .testimonials .container .quote iframe{
     width: 95% !important;
     height: 500px !important;
   }
@@ -1605,6 +1609,9 @@ body #hoth-chat-button i{
   }
   .home .demo .img{
     margin: auto;
+  }
+  .home .solutions ul li{
+    width: 60%;
   }
 }
 
