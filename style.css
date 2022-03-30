@@ -1662,6 +1662,12 @@ body #hoth-chat-button i{
 }
 
 @media (max-width: 600px){
+  .home .header .container{
+    flex-wrap: wrap-reverse;
+  }
+  .home .header .container .img img{
+    width: 70%;
+  }
   .home .testimonials{
     padding: 10px;
     padding-top: 20px;
@@ -1678,6 +1684,11 @@ body #hoth-chat-button i{
   }
   .home .testimonials .container .quote .text, .home .solutions ul .text{
     padding: 10px;
+  }
+  .home .solutions ul .text h2{
+    width: 50%;
+    word-break: keep-all;
+    margin: auto;
   }
   .home .testimonials .square{
     height: 230px;
@@ -2970,6 +2981,9 @@ ul.key-features{
   padding: 25px 0;
 }
 
+@media (max-width: 600px){
+  
+}
 /* Pricing */
 
 .pricing{

@@ -51,11 +51,7 @@
       </div>
 
       <div class="quote">
-<<<<<<< HEAD
-      <iframe width="760" height="515" src="https://www.youtube.com/embed/IrPJdLYRcpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-=======
         <iframe width="760" height="515" src="https://www.youtube.com/embed/IrPJdLYRcpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
->>>>>>> 3870f70fae188c5d27e78c7952c36852cef619b6
         <div class="text">
           <a href="/testimonials">
             <h2>"The combination of price, features and their amazing support made the choice simple. HotH makes managing tickets, escalations, SLA’s and KPI’s simple."</h2>
