@@ -1686,7 +1686,7 @@ body #hoth-chat-button i{
     padding: 10px;
   }
   .home .solutions ul .text h2{
-    width: 50%;
+    width: 60%;
     word-break: keep-all;
     margin: auto;
   }
@@ -2399,7 +2399,7 @@ body #hoth-chat-button i{
     padding: 10px;
   }
   .solution .testimonials .square{
-    height: 250px;
+    height: 380px;
   }
   .solution .solutions, .solution .large-features{
     padding: 0;
