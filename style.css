@@ -236,7 +236,7 @@ a.more-info:hover{
 }
 
 .df-quote{ 
-  background: #1D3550;
+  background: #1e3550;
   text-align: center;
   padding: 50px;
   display: flex;
@@ -368,7 +368,7 @@ body #hoth-chat-button i{
 }
 
 .hoth-header-container.show{
-  background: #1D3550;
+  background: #1e3550;
 }
 
 .hoth-header-container.show .hoth-header .dropbtn, .hoth-header-container.show .hoth-header a{
@@ -457,7 +457,7 @@ body #hoth-chat-button i{
   padding: 10px;
   width: 100%;
   white-space: nowrap;
-  background: #1D3550;
+  background: #1e3550;
   z-index: 1;
   left: 0;
   border-bottom: 1px solid white;
@@ -1015,7 +1015,7 @@ body #hoth-chat-button i{
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #1D3550;
+  background: #1e3550;
   height: 320px;
   z-index: 0;
 }
@@ -1085,7 +1085,7 @@ body #hoth-chat-button i{
 
 .home .video{
   display: flex;
-  background: #1D3550;
+  background: #1e3550;
   padding: 50px;
 }
 
@@ -1107,7 +1107,7 @@ body #hoth-chat-button i{
 }
 
 .solutions .text p.price span{
-  background: #3b5067;
+  background: #1e3550;
   color: white;
   padding: 10px 20px;
   border-radius: 4px;
@@ -1199,7 +1199,7 @@ body #hoth-chat-button i{
 }
 
 .home .large-features{
-  background: #1D3550;
+  background: #1e3550;
   padding: 100px 10px;
   padding-top: 0;
 }
@@ -1350,7 +1350,7 @@ body #hoth-chat-button i{
 }
 
 .home .promo ul li:nth-child(3){
-  border-bottom: 3px solid #1D3550;
+  border-bottom: 3px solid #1e3550;
 }
 
 .home .promo ul li h4{
@@ -1784,6 +1784,319 @@ body #hoth-chat-button i{
   }
 }
 
+/* Home Solution Carousel */
+.solution-carousel-container{
+  width: 95%;
+  margin: auto;
+  padding: 50px 10px;
+}
+
+.solution-carousel {
+  width: 100%;
+  position: relative;
+}
+
+.solution-carousel-activator {
+  display: none;
+}
+
+.solution-carousel-controls {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+}
+.solution-carousel-controls:first-of-type {
+  justify-content: flex-end;
+}
+.solution-carousel-controls:last-of-type {
+  justify-content: flex-start;
+}
+
+.solution-carousel-control {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #3d414a;
+  border-radius: 100%;
+  box-shadow: 0 2px 10px 0 rgba(33, 34, 36, 0.3);
+  font-size: 24px;
+  height: 48px;
+  justify-content: center;
+  transition: 0.3s all;
+  width: 48px;
+  z-index: 1;
+}
+
+.solution-carousel-control.mobile{
+  display: none;
+}
+
+.solution-carousel-control:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.solution-carousel-activator:nth-of-type(1):checked
+~ .solution-carousel-controls:nth-of-type(1) {
+  display: flex;
+}
+
+/*.solution-carousel-activator:nth-of-type(1):checked
+~ .solution-carousel-screen
+.solution-carousel-track {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}*/
+
+.solution-carousel-activator:nth-of-type(2):checked
+~ .solution-carousel-controls:nth-of-type(2) {
+  display: flex;
+}
+
+.solution-carousel-activator:nth-of-type(2):checked
+~ .solution-carousel-screen
+.solution-carousel-track {
+  -webkit-transform: translateX(-33%);
+          transform: translateX(-33%);
+}
+
+.solution-carousel-track {
+  font-size: 0;
+  transition: all 0.3s ease 0s;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.solution-carousel-item {
+  display: inline-flex;
+  padding-right: 16px;
+  white-space: normal;
+  width: 33%;
+}
+
+.solution-carousel-container .text{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.solution-carousel-container .text p.price span {
+  background: #3b5067;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  }
+
+.solution-carousel-content {
+  list-style: none;
+  background-color: white;
+  border: 1px solid #e6e4e4;
+  box-shadow: 0px 2px 10px 0px rgba(12, 0, 46, 0.06);
+  width: 100%;
+  padding: 20px;
+  border-radius: 4px;
+  position: relative;
+  min-height: 570px;
+  padding-bottom: 50px;
+}
+
+.solution-carousel-content .img{
+  height: 200px;
+}
+
+.solution-carousel-content .img img{
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.solution-carousel-content .btn {
+  position: absolute;
+  bottom: 20px;
+  padding: 0;
+  left: 20px;
+  }
+
+.solution-carousel-content a.more-info{
+  border: unset;
+  margin: auto;
+}
+
+.solution-carousel-content a.more-info:hover{
+  opacity: .9;
+  background: unset;
+  color: unset;
+}
+
+@media (min-width: 1700px){
+  .solution-carousel-activator:nth-of-type(1):checked ~ .solution-carousel-controls:nth-of-type(1){
+    display: none;
+  }
+  .solution-carousel-track{
+    display: flex;
+  }
+  .solution-carousel-item{
+    width: 24%;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 1300px){
+  .solution-carousel-item{
+    width: 47%;
+  }
+  .solution-carousel-activator:nth-of-type(2):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-94%);
+            transform: translateX(-94%);
+  }
+}
+
+@media (max-width: 1150px){
+  .solution-carousel-item{
+    width: 47%;
+  }
+  .solution-carousel-activator:nth-of-type(2):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-94%);
+            transform: translateX(-94%);
+  }
+}
+
+@media (max-width: 920px){
+  .solution-carousel-container{
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px){
+  .solution-carousel-controls {
+    left: 0;
+  }
+  .solution-carousel-control.mobile{
+    display: flex;
+  }
+  .solution-carousel-container p.price {
+    background: #3b5067;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .solution-carousel-container .text p.price span{
+    background: none;
+  }
+  .solution-carousel-item{
+    width: 75%;
+  }
+  .solution-carousel-content{
+    min-height: 500px;
+  }
+  .solution-carousel-content .img{
+    height: 150px;
+  }
+  .solution-carousel-activator:nth-of-type(1):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(15%);
+            transform: translateX(15%);
+  }
+  .solution-carousel-activator:nth-of-type(2):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-60%);
+            transform: translateX(-60%);
+  }
+  .solution-carousel-activator:nth-of-type(3):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-135%);
+            transform: translateX(-135%);
+  }
+  .solution-carousel-activator:nth-of-type(3):checked
+  ~ .solution-carousel-controls:nth-of-type(3) {
+    display: flex;
+  }
+  .solution-carousel-activator:nth-of-type(4):checked
+  ~ .solution-carousel-controls:nth-of-type(4) {
+    display: flex;
+  }
+  .solution-carousel-activator:nth-of-type(4):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-210%);
+            transform: translateX(-210%);
+  }
+  .solution-carousel-control{
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 600px){
+  .solution-carousel-controls {
+    left: 0;
+  }
+  .solution-carousel-control.mobile{
+    display: flex;
+  }
+  .solution-carousel-container p.price {
+    background: #3b5067;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .solution-carousel-container .text p.price span{
+    background: none;
+  }
+  .solution-carousel-item{
+    width: 90%;
+  }
+  .solution-carousel-content{
+    min-height: 520px;
+  }
+  .solution-carousel-content .img{
+    height: 150px;
+  }
+  .solution-carousel-activator:nth-of-type(1):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(8.5%);
+            transform: translateX(8.5%);
+  }
+  .solution-carousel-activator:nth-of-type(2):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-82%);
+            transform: translateX(-82%);
+  }
+  .solution-carousel-activator:nth-of-type(3):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-172%);
+            transform: translateX(-172%);
+  }
+  .solution-carousel-activator:nth-of-type(3):checked
+  ~ .solution-carousel-controls:nth-of-type(3) {
+    display: flex;
+  }
+  .solution-carousel-activator:nth-of-type(4):checked
+  ~ .solution-carousel-controls:nth-of-type(4) {
+    display: flex;
+  }
+  .solution-carousel-activator:nth-of-type(4):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-264%);
+            transform: translateX(-264%);
+  }
+}
+
 /* 2021 solution page */
 
 .solution .header{
@@ -1859,7 +2172,7 @@ body #hoth-chat-button i{
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #1D3550;
+  background: #1e3550;
   height: 480px;
   z-index: 0;
 }
@@ -1902,44 +2215,53 @@ body #hoth-chat-button i{
   margin: 0;
   margin-bottom: 20px;
 }
- 
-.solution .testimonials .container .quote{
-  padding-top: 50px;
-}
- 
-.solution .testimonials .container .quote img{
-  max-width: 100%;
-}
- 
-.solution .testimonials .container .quote .text{
-  margin: auto;
+
+.solution .quote{
+  display: flex;
+  flex-wrap: wrap;
+  background: #1e3550;
   padding: 50px;
-  width: 100%;
+}
+
+.solution .quote iframe{
+  margin: auto;
 }
  
-.solution .testimonials .container .quote .text h2, .solution .testimonials .container .quote .text p, .solution .testimonials .container .quote .text p span{
+.solution .quote .text h2, .solution .quote .text p, .quote .text p span{
   color: white;
 }
  
-.solution .testimonials .container .quote .text p{
+.solution .quote img{
+  max-width: 50%;
+  margin: auto;
+}
+ 
+.solution .quote .text{
+  margin: auto;
+  padding: 50px;
+  padding-bottom: 0;
+  width: 70%;
+  text-align: center;
+}
+ 
+.solution .quote .text p{
   font-size: 1.8rem;
 }
  
-.solution .testimonials .container .quote .text p span{
+.solution .quote .text p span{
   font-weight: bold;
 }
  
 .solution .solutions{
-  background: #1D3550;
+  background: #f7f7f7;
   padding: 100px 10px;
   padding-top: 50px;
 }
  
 .solution .solutions ul .text{
   width: 100%;
-  padding: 100px 0;
   text-align: center;
-  border-top: 2px solid white;
+  padding: 50px;
 }
  
 .solution .solutions ul{
@@ -1952,36 +2274,41 @@ body #hoth-chat-button i{
 .solution.foi .solutions ul li{
   width: 31%;
 }
-
-.solution.itsm .solutions ul li .btn{
-  bottom: 0;
-}
  
 .solution .solutions ul li{
   list-style: none;
   background-color: white;
-  width: 23%;
+  border: 1px solid #e6e4e4;
+  box-shadow: 0px 2px 10px 0px rgba(12, 0, 46, 0.06);
+  width: 24%;
   margin: 0 auto;
-  padding: 20px 50px;
+  padding: 20px;
   border-radius: 4px;
-  text-align: center;
   margin-bottom: 50px;
   position: relative;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
+}
+
+.solution .solutions ul li h3{
+  color: #1e3550;
+  margin: 10px 0;
+  min-height: 55px;
 }
  
- 
+.solution .solutions ul li p{
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 .solution .solutions ul li .btn{
-  display: flex;
-  flex-wrap: wrap;
   position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
+  bottom: 20px;
+  padding: 0;
+  left: 0px;
 }
  
 .solution .solutions ul li .img{
-  width: 150px;
+  width: 100%;
   height: 150px;
   overflow: hidden;
   display: flex;
@@ -1990,8 +2317,8 @@ body #hoth-chat-button i{
 }
  
 .solution .solutions ul li .img img{
-  width: 100%;
-  margin: auto;
+  max-width: 100%;
+  height: auto;
 }
  
 .solution .solutions ul li.cafm .img img{
@@ -2009,7 +2336,6 @@ body #hoth-chat-button i{
   border: unset;
   margin: auto;
   width: 100%;
-  margin-top: 20px;
 }
  
 .solution .solutions ul li a.more-info:hover{
@@ -2029,7 +2355,7 @@ body #hoth-chat-button i{
 }
  
 .solution .large-features{
-  background: #1D3550;
+  background: #1e3550;
   padding: 100px 10px;
 }
  
@@ -2221,14 +2547,8 @@ body #hoth-chat-button i{
   .solution .header .container .img img{
     width: 550px;
   }
-  .solution .solutions ul li h3{
-    height: 100px;
-  }
   .solution .large-features ul li .img{
     min-height: 330px;
-  }
-  .solution .solutions ul li{
-    width: 41%;
   }
  }
  
@@ -2241,9 +2561,6 @@ body #hoth-chat-button i{
   }
   .solution .solutions ul li{
     width: 45%;
-  }
-  .solution .solutions ul li h3{
-    height: unset;
   }
   .solution .large-features ul li .img{
     min-height: 310px;
@@ -2423,9 +2740,6 @@ body #hoth-chat-button i{
   .solution .solutions ul li{
     width: 90%;
     padding: 10px;
-  }
-  .solution .solutions ul li h3{
-    height: unset;
   }
   .solution .solutions ul li .btn{
     position: unset;

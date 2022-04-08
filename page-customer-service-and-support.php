@@ -49,25 +49,24 @@
           <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bbraun-50.png" alt="bbraun Logo">
         </a>  
       </div>
-
-      <div class="quote">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/CSM-screenshot-2021.png">
-        <div class="text">
-          <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
-            <h2>"The team at House-on-the-Hill are doing a great job at assisting the integration of the service desk and sorting out all the question and changes."</h2>
-            <p>Allan Andrews,<span> BBraun Australia Pty Ltd</span></p>
-          </a>
-        </div>
-      </div>
     </div>
-    <div class="square"></div>
+  </div>
+
+  <div class="quote">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/CSM-screenshot-2021.png">
+    <div class="text">
+      <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
+        <h2>"The team at House-on-the-Hill are doing a great job at assisting the integration of the service desk and sorting out all the question and changes."</h2>
+        <p>Allan Andrews,<span> BBraun Australia Pty Ltd</span></p>
+      </a>
+    </div>
   </div>
 
   <div class="solutions">
     <ul>
       <div class="text">
-        <h2 style="color: white;">Support your customers</h2>
-        <p style="color: white;">All the tools needed for a quality customer support service.</span></p>
+        <h2>Support your customers</h2>
+        <p>All the tools needed for a quality customer support service.</span></p>
         <a href="/price-plans"><p class="price"> <span>HotH Customer Service Management starts as low as £30 per agent, per month</span></p></a>
       </div>
       <li>

@@ -49,25 +49,24 @@
           <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bbraun-50.png" alt="bbraun Logo">
         </a>  
       </div>
-
-      <div class="quote">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/CAFM-screenshot-2021.png">
-        <div class="text">
-          <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
-            <h2>"HotH’s knowledge is excellent and their ability to find solutions to even the most complicated requirements is second to none. I would recommend their services to anyone looking for a bespoke, fully functional and user-friendly service management software provider."</h2>
-            <p>Andrea Ashurst, <span>Ascot Services</span></p>
-          </a>
-        </div>
-      </div>
     </div>
-    <div class="square"></div>
+  </div>
+
+  <div class="quote">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/CAFM-screenshot-2021.png">
+    <div class="text">
+      <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
+        <h2>"HotH’s knowledge is excellent and their ability to find solutions to even the most complicated requirements is second to none. I would recommend their services to anyone looking for a bespoke, fully functional and user-friendly service management software provider."</h2>
+        <p>Andrea Ashurst, <span>Ascot Services</span></p>
+      </a>
+    </div>
   </div>
 
   <div class="solutions">
     <ul>
       <div class="text">
-        <h2 style="color: white;">Stay on top of your tasks</h2>
-        <p style="color: white;">All your facilities management needs under one roof.</span></p>
+        <h2>Stay on top of your tasks</h2>
+        <p>All your facilities management needs under one roof.</span></p>
         <a href="/price-plans"><p class="price"> <span>HotH CAFM starts as low as £30 per agent, per month</span></p></a>
       </div>
       <li>

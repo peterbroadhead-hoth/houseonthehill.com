@@ -1,137 +1,300 @@
-<?php get_header();?>
-<div class="solutions">
-	<div class="text">
-			<h2 style="color: white;">What can I use House-on-the-Hill for?</h2>
-			<p style="color: white;">Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
-			<a href="/price-plans"><p class="price"> <span>All HotH solutions start as low as £30 per agent, per month</span></p></a>
-	</div>
-	<div class="wrapper">
-			<input type="radio" name="slider" checked id="itsm">
-			<input type="radio" name="slider" id="foi">
-			<input type="radio" name="slider" id="csm">
-			<input type="radio" name="slider" id="cafm">
-			<nav>
-					<label for="itsm" class="itsm">IT service <br>management</label>
-					<label for="foi" class="foi">FOI, case & complaints <br>management</label>
-					<label for="csm" class="csm">Customer service <br>management</label>
-					<label for="cafm" class="cafm">Computer aided facilities <br>management</label>
-					<div class="slider"></div>
-			</nav>
-			<section>
-					<div class="content content-1">
-							<div class="title">This is a itsm content</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero aspernatur nobis provident dolores molestias quia quisquam laborum, inventore quis, distinctioa, fugit repudiandae delectus sunt ipsam! Odio illo at quia doloremque fugit iops, asperiores? Consectetur esse officia labore voluptatum blanditiis molestias dic voluptas est, minima unde sequi, praesentium dicta suscipit quisquam iure sed, nemo.</p>
-					</div>
-					<div class="content content-2">
-							<div class="title">This is a foi content</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit amet. Possimus doloris nesciunt mollitia culpa sint itaque, vitae praesentium assumenda suscipit fugit doloremque adipisci doloribus, sequi facere itaque cumque accusamus, quam molestias sed provident quibusdam nam deleniti. Autem eaque aut impedit eo nobis quia, eos sequi tempore! Facere ex repellendus, laboriosam perferendise. Enim quis illo harum, exercitationem nam totam fugit omnis natus quam totam, repudiandae dolor laborum! Commodi?</p>
-					</div>
-					<div class="content content-3">
-							<div class="title">This is a csm content</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, debitis nesciunt! Consectetur officiis, libero nobis dolorem pariatur quisquam temporibus. Labore quaerat neque facere itaque laudantium odit veniam consectetur numquam delectus aspernatur, perferendis repellat illo sequi excepturi quos ipsam aliquid est consequuntur.</p>
-					</div>
-					<div class="content content-4">
-							<div class="title">This is a cafm content</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reprehenderit null itaq, odio repellat asperiores vel voluptatem magnam praesentium, eveniet iure ab facere officiis. Quod sequi vel, rem quam provident soluta nihil, eos. Illo oditu omnis cumque praesentium voluptate maxime voluptatibus facilis nulla ipsam quidem mollitia! Veniam, fuga, possimus. Commodi, fugiat aut ut quorioms stu necessitatibus, cumque laborum rem provident tenetur.</p>
-					</div>
-			</section>
-	</div>
-</div>
-
+<div class='demo-container'>
+    <div class='carousel'>
+      <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
+      <input class='carousel__activator' id='carousel-slide-activator-2' name='carousel' type='radio'>
+      <input class='carousel__activator' id='carousel-slide-activator-3' name='carousel' type='radio'>
+      <div class='carousel__controls'>
+        <label class='carousel__control carousel__control--forward' for='carousel-slide-activator-2'>
+          👉
+        </label>
+        <label class='carousel__control carousel__control--backward' for='carousel-slide-activator-1'>
+          👈
+        </label>
+        <label class='carousel__control carousel__control--forward' for='carousel-slide-activator-3'>
+          👉
+        </label>
+      </div>
+      <div class='carousel__controls'>
+        <label class='carousel__control carousel__control--backward' for='carousel-slide-activator-2'>
+          👈
+        </label>
+      </div>
+      <div class='carousel__screen'>
+        <div class='carousel__track'>
+          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+            <div class='demo-content'>
+              a
+            </div>
+          </div>
+          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+            <div class='demo-content'>
+              b
+            </div>
+          </div>
+          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+            <div class='demo-content'>
+              c
+            </div>
+          </div>
+          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+            <div class='demo-content'>
+              d
+            </div>
+          </div>
+          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+            <div class='demo-content'>
+              e
+            </div>
+          </div>
+          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+            <div class='demo-content'>
+              f
+            </div>
+          </div>
+          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+            <div class='demo-content'>
+              g
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 <style>
-.solutions {
-	background: #1D3550;
-	padding: 100px 10px;
-	padding-top: 50px;
-}
-.wrapper{
-	width: 80%;
-	margin: 100px auto;
-	padding: 25px 30px 30px 30px;
-	background: white;
+html {
+  box-sizing: border-box;
 }
 
-.wrapper nav{
-	position: relative;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	margin: auto;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-.wrapper nav label{
-	display: block;
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	cursor: pointer;
-	position: relative;
-	z-index: 1;
-	color: #1e3550;
-	font-size: 17px;
-	border-radius: 4px;
-	margin: 0 5px;
-	transition: all 0.3s ease;
-	padding: 5px;
+.carousel {
+  min-width: 900px;
+  max-width: 1236px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 48px;
+  padding-right: 48px;
+  position: relative;
 }
 
-.wrapper nav label:hover{
-	background: rgba(30, 53, 80, 0.25);
+.carousel__activator {
+  display: none;
 }
 
-#itsm:checked ~ nav label.itsm,
-#foi:checked ~ nav label.foi,
-#csm:checked ~ nav label.csm,
-#cafm:checked ~ nav label.cafm{
-	color: #fff;
+.carousel__controls {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: 16px;
+  left: 16px;
+  bottom: 0;
+}
+.carousel__controls:first-of-type {
+  justify-content: flex-end;
+}
+.carousel__controls:last-of-type {
+  justify-content: flex-start;
 }
 
-nav label i{
-	padding-right: 7px;
+.carousel__control {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #3d414a;
+  border-radius: 100%;
+  box-shadow: 0 2px 10px 0 rgba(33, 34, 36, 0.3);
+  font-size: 24px;
+  height: 48px;
+  justify-content: center;
+  transition: 0.3s all;
+  width: 48px;
+  z-index: 1;
+}
+.carousel__control:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
-nav .slider{
-	position: absolute;
-	height: 100%;
-	width: 25%;
-	left: 0;
-	bottom: 0;
-	z-index: 0;
-	border-radius: 5px;
-	background: #1e3550;
-	transition: all 0.3s ease;
+.carousel__activator:nth-of-type(1):checked
+~ .carousel__controls:nth-of-type(1) {
+  display: flex;
 }
 
-input[type="radio"]{
-	display: none;
+.carousel__activator:nth-of-type(1):checked
+~ .carousel__screen
+.carousel__track {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
-#foi:checked ~ nav .slider{
-	left: 25%;
+.carousel__activator:nth-of-type(2):checked
+~ .carousel__controls:nth-of-type(2) {
+  display: flex;
 }
 
-#csm:checked ~ nav .slider{
-	left: 50%;
+.carousel__activator:nth-of-type(2):checked
+~ .carousel__screen
+.carousel__track {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
-#cafm:checked ~ nav .slider{
-	left: 75%;
+.carousel__activator:nth-of-type(3):checked
+~ .carousel__controls:nth-of-type(3) {
+  display: flex;
 }
 
-section .content{
-	display: none;
+.carousel__activator:nth-of-type(3):checked
+~ .carousel__screen
+.carousel__track {
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
 }
 
-#itsm:checked ~ section .content-1,
-#foi:checked ~ section .content-2,
-#csm:checked ~ section .content-3,
-#cafm:checked ~ section .content-4{
-	display: block;
+.carousel__screen {
+  overflow: hidden;
+  margin-left: -16px;
+  margin-right: -16px;
 }
 
-section .content .title{
-	font-size: 21px;
-	margin: 30px 0 10px 0;
+.carousel__track {
+  font-size: 0;
+  transition: all 0.3s ease 0s;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel__item {
+  display: inline-flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  vertical-align: top;
+  white-space: normal;
+}
+
+.carousel__item--desktop-in-1 {
+  width: 100%;
+}
+
+.carousel__item--desktop-in-2 {
+  width: 50%;
+}
+
+.carousel__item--desktop-in-3 {
+  width: 33.3333333333%;
+}
+
+.carousel__item--desktop-in-4 {
+  width: 25%;
+}
+
+.carousel__item--desktop-in-5 {
+  width: 20%;
+}
+
+
+
+.demo-content {
+  color: #fff;
+  display: flex;
+  font-family: Helvetica;
+  font-weight: 100;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 56px;
+  height: 250px;
+  width: 100%;
+}
+
+.carousel__item:nth-child(1) .demo-content {
+  background-color: #216485;
+}
+
+.carousel__item:nth-child(2) .demo-content {
+  background-color: #3692b6;
+}
+
+.carousel__item:nth-child(3) .demo-content {
+  background-color: #6fccc9;
+}
+
+.carousel__item:nth-child(4) .demo-content {
+  background-color: #a6e3cf;
+}
+
+.carousel__item:nth-child(5) .demo-content {
+  background-color: #aff0be;
+}
+
+.carousel__item:nth-child(6) .demo-content {
+  background-color: #527059;
+}
+
+.carousel__item:nth-child(7) .demo-content {
+  background-color: #243127;
+}
+
+@media screen and (max-width: 1023px) {
+  .carousel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .carousel__activator:nth-of-type(n):checked ~ .carousel__controls:nth-of-type(n) {
+    display: none;
+  }
+  .carousel__activator:nth-of-type(n):checked ~ .carousel__screen .carousel__track {
+    -webkit-transform: none;
+            transform: none;
+  }
+
+  .carousel__screen {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .carousel__track {
+    overflow-x: auto;
+    width: auto;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .carousel__item--tablet-in-1 {
+    width: 90%;
+  }
+
+  .carousel__item--tablet-in-2 {
+    width: 45%;
+  }
+
+  .carousel__item--tablet-in-3 {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .carousel__track {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .carousel__item--mobile-in-1 {
+    width: 90%;
+  }
+
+  .carousel__item--mobile-in-2 {
+    width: 45%;
+  }
+
+  .carousel__item--mobile-in-3 {
+    width: 30%;
+  }
 }
 </style>
-<?php get_footer();?>

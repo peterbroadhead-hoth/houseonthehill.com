@@ -34,26 +34,24 @@
           <img src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/logos/25/nhs-25.png" alt="NHS Logo">
         </a>  
       </div>
-      
-
-      <div class="quote">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/foi-dashboard-2021.webp" alt="foi screenshot">
-        <div class="text">
-          <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
-            <h2>"Timely, flexible, informed and effective response received. Thanking you kindly."</h2>
-            <p>James Smuts, <span>Parliamentary and Health Service Ombudsman</span></p>
-          </a>
-        </div>
-      </div>
     </div>
-    <div class="square"></div>
+  </div>
+
+  <div class="quote">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/foi-dashboard-2021.webp" alt="foi screenshot">
+    <div class="text">
+      <a href="/casestudy/the-welding-of-plumbing-heating-investments-ltd-and-plumbase/">
+        <h2>"Timely, flexible, informed and effective response received. Thanking you kindly."</h2>
+        <p>James Smuts, <span>Parliamentary and Health Service Ombudsman</span></p>
+      </a>
+    </div>
   </div>
 
   <div class="solutions">
     <ul>
       <div class="text">
-        <h2 style="color: white;">Get on the case</h2>
-        <p style="color: white;">Capture any type of Requests with Ease with <br><span style="font-weight: bold;">House-on-the-hill's FOI, Case & Complaints Management Software</span></p>
+        <h2>Get on the case</h2>
+        <p>Capture any type of Requests with Ease with <br><span style="font-weight: bold;">House-on-the-hill's FOI, Case & Complaints Management Software</span></p>
         <a href="/price-plans"><p class="price"> <span>HotH FOI, Case & Complaints starts as low as £30 per agent, per month</span></p></a>
       </div>
       <li>

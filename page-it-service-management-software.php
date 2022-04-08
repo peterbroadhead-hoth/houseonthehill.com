@@ -49,25 +49,24 @@
           <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bbraun-50.png" alt="bbraun Logo">
         </a>  
       </div>
-
-      <div class="quote">
-        <iframe width="760" height="515" src="https://www.youtube.com/embed/IrPJdLYRcpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class="text">
-          <a href="/testimonials">
-            <h2>"The combination of price, features and their amazing support made the choice simple. HotH makes managing tickets, escalations, SLA’s and KPI’s simple."</h2>
-            <p>Jamie Dobbs, <span>TMT</span></p>
-          </a>
-        </div>
-      </div>
     </div>
-    <div class="square"></div>
+  </div>
+
+  <div class="quote">
+    <iframe width="760" height="515" src="https://www.youtube.com/embed/IrPJdLYRcpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="text">
+      <a href="/testimonials">
+        <h2>"The combination of price, features and their amazing support made the choice simple. HotH makes managing tickets, escalations, SLA’s and KPI’s simple."</h2>
+        <p>Jamie Dobbs, <span>TMT</span></p>
+      </a>
+    </div>
   </div>
 
   <div class="solutions">
     <ul>
       <div class="text">
-        <h2 style="color: white;">IT Service Management made simple</h2>
-        <p style="color: white;">Use these features to ease your workload.</span></p>
+        <h2>IT Service Management made simple</h2>
+        <p>Use these features to ease your workload.</span></p>
         <a href="/price-plans"><p class="price"> <span>HotH IT Service Management starts as low as £30 per agent, per month</span></p></a>
       </div>
       <li>
@@ -81,7 +80,7 @@
 
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/dragdrop.png" alt="drag and drop icon"></div>
-        <h3>Drag & Drop Call Form Builder</h3>
+        <h3>Drag & Drop Call <br>Form Builder</h3>
         <p>Build unique Forms for all types of call, be they Incidents, Problems, Equipment Requests, New Starters, Inventory items, Activities or Contracts. Using the Drag and Drop feature you can quickly build the Forms you require.</p>
         <div class="btn">
           <a class="more-info" href="/features/drag-and-drop-form-builder/">Find out more ></a>
@@ -89,18 +88,18 @@
       </li>
 
       <li>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/book.png" alt="Knowledgebase book"></div>
-        <h3>KnowledgeBase</h3>
-        <p>For speedy call resolution, solutions can be searched for and copied directly from House-on-the-Hill’s KnowledgeBase.</p>
-      </li>
-
-      <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/kanban.png" alt="kanban icon"></div>
-        <h3>Kanban Workboard</h3>
+        <h3>Kanban <br>Workboard</h3>
         <p>Offers service managers real-time list views of Service Desk tickets at specific statuses.</p>
         <div class="btn">
           <a class="more-info" href="/features/kanban-workboard/">Find out more ></a>
         </div>
+      </li>
+
+      <li>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/book.png" alt="Knowledgebase book"></div>
+        <h3>KnowledgeBase</h3>
+        <p>For speedy call resolution, solutions can be searched for and copied directly from House-on-the-Hill’s KnowledgeBase.</p>
       </li>
     </ul>
   </div>
