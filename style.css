@@ -1789,6 +1789,7 @@ body #hoth-chat-button i{
   width: 95%;
   margin: auto;
   padding: 50px 10px;
+  overflow: hidden;
 }
 
 .solution-carousel {
