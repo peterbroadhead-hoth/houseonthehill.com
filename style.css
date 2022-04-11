@@ -1735,6 +1735,16 @@ body #hoth-chat-button i{
   }
   .home .small-features ul li{
     width: 90%;
+    margin: auto;
+  }
+  .home .small-features ul li .img{
+    margin: auto;
+  }
+  .home .small-features ul li h4, .home .small-features ul li p{
+    text-align: center;
+  }
+  .home .small-features ul li a{
+    margin: auto;
   }
   .home .iso-btns{
     margin-bottom: unset;
