@@ -218,7 +218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 											<input type="HIDDEN" name="F2178" id="F2178" size="1" value="Demo">
 											<input required="" type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Company Name">
 											<!--<input type="TEXT" name="F10011" id="F10011" class="suptabde" size="0035" maxlength="10000" placeholder="Your Name">-->
-											<input type="TEXT" name="F38" id="reg_email" size="0035" maxlength="50" value="" placeholder="Email Address">
+											<input type="TEXT" name="F10010" id="reg_email" size="0035" maxlength="50" value="" placeholder="Email Address">
 									<select class="suptabde" name="F10013" id="F10013" size="1">
 											<option value="ITSM" selected="">ITSM</option>
 											<option value="CAFM">CAFM</option>
