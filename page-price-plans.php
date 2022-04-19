@@ -911,7 +911,7 @@
       </tr>
       <tr class="collapsible api" style="">
         <td>Report JSON Api</td>
-        <td class="price">£250 py</td>
+        <td class="price">£500 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
