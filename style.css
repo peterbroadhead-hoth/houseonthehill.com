@@ -1843,6 +1843,12 @@ body #hoth-chat-button i{
   .home .promo ul li{
     width: 100%;
   }
+  .whyhoth .container{
+    width: 100%;
+  }
+  .whyhoth .img{
+    width: 80%;
+  }
 }
 
 /* Home Solution Carousel */
