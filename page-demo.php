@@ -39,8 +39,8 @@
         <input type="HIDDEN" id="CCSM" name="CCSM" value="0">
         <input type="HIDDEN" id="InitMedium" name="InitMedium" value="8192">
         <input type="HIDDEN" id="SummViewFold" name="SummViewFold" value="0">
-        <input type="HIDDEN" id="F3" name="F3" value="25">
-        <input type="HIDDEN" id="F2156" name="F3" value="48">
+        <input type="HIDDEN" id="F3" name="F3" value="66">
+        <!--<input type="HIDDEN" id="F2156" name="F3" value="48">-->
         <input type="HIDDEN" id="savebtn" name="savebtn" value="">
         <input type="HIDDEN" id="savebtn1" name="savebtn1" value="">
         <input type="HIDDEN" name="F2178" id="F2178" size="1" value="Demo">
