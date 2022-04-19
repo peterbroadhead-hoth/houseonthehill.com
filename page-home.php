@@ -234,6 +234,23 @@
     </ul>
   </div>
 
+  <div class="whyhoth">
+      <div class="container">
+        <div class="text">
+          <h1>Change your service now!</h1>
+          <h3>Find out why people are choosing <span>House-on-the-Hill</span> over ServiceNow.</h3>
+          <p>Quite often House-on-the-Hill comes face-to-face with other enterprise solutions such as ServiceNow.<br>
+But on multiple occasions where organisations have had to choose between a solution, House-on-the-Hill comes out on top!<br>
+Some deciding factors are that ServiceNow is far more expensive, the support feedback was too slow and that it can take an awful long time to make any changes to your system.
+          </p>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">Try for free</a>
+        </div>
+        <div class="img">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/winner.png" alt="service request">
+        </div>
+      </div>
+  </div>
+
   <div class="signupform">
     <div class="container">
       <div class="text">

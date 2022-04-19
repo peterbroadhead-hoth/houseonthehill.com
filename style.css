@@ -323,6 +323,18 @@ a.more-info:hover{
   background: white;
 }
 
+.reveal form textarea {
+  border-radius: 4px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0;
+  height: auto;
+  resize: unset;
+  height: 100px;
+  outline: unset;
+  border: 3px solid #1E3550;
+}
+
 .reveal form .submit{
   background: #1E3550;
   color: white;
@@ -1325,6 +1337,24 @@ body #hoth-chat-button i{
   margin-left: 0;
 }
 
+.whyhoth .container{
+  padding: 50px 10px;
+}
+
+.whyhoth .text{
+  width: 50%;
+}
+
+.whyhoth .img{
+  width: 50%;
+  display: flex;
+}
+
+.whyhoth .img img{
+  width: 100%;
+  margin: auto;
+}
+
 .home .promo{
   background: white;
   padding: 100px 10px;
@@ -1531,6 +1561,22 @@ body #hoth-chat-button i{
   } 
   .home .large-features ul li .img{
     min-height: 185px;
+  }
+}
+
+@media (max-width: 1000px){
+  .whyhoth .container{
+    padding: 100px 10px;
+    flex-wrap: wrap-reverse;
+  }
+  .whyhoth .text{
+    width: 100%;
+    text-align: center;
+  }
+  .whyhoth .img{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
   }
 }
 

@@ -218,6 +218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 											<input type="HIDDEN" name="F2178" id="F2178" size="1" value="Demo">
 											<input required="" type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Company Name">
 											<!--<input type="TEXT" name="F10011" id="F10011" class="suptabde" size="0035" maxlength="10000" placeholder="Your Name">-->
+        			<input type="hidden" name="F38" id="F38" value="demo@houseonthehill.com">
 											<input type="TEXT" name="F10010" id="reg_email" size="0035" maxlength="50" value="" placeholder="Email Address">
 									<select class="suptabde" name="F10013" id="F10013" size="1">
 											<option value="ITSM" selected="">ITSM</option>
@@ -225,6 +226,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 											<option value="CSM">CSM</option>
 											<option value="FOI">FOI</option>
 									</select>
+        <textarea class="suptabde" name="F10010" id="F10010" placeholder="When would you like the demo / What areas or features would you like us to cover?"></textarea>
 									<div id="captcha_result"></div>
 									<input class="submit" type="submit" value="Send Demo Request"> 
 							</form>
