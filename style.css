@@ -1353,6 +1353,7 @@ body #hoth-chat-button i{
 .whyhoth .img img{
   width: 100%;
   margin: auto;
+  display: flex;
 }
 
 .home .promo{
