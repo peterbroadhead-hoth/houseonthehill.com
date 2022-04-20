@@ -697,9 +697,13 @@ body #hoth-chat-button i{
   .dropdown-content ul.solutions li h3{
     margin: 5px 0;
   }
+  .dropdown-content ul.solutions li p{
+    display: none;
+  }
+  .hoth-header-container .hoth-header .hoth-home{
+    padding: 5px;
+  }
 }
-
-
 
 @media (max-width: 400px){ 
   .hoth-header-container .hoth-header .sales ul li a.sign-up{
