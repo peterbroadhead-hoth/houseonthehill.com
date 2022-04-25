@@ -863,7 +863,7 @@
       </tr>
       <tr class="collapsible api" style="">
         <td><a href="/features/microsoft-teams/">Microsoft Teams Ticket Creation</a></td>
-        <td class="price">£1000 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
