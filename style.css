@@ -3213,6 +3213,7 @@ box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
   flex-wrap: wrap;
   position: absolute;
   bottom: 0;
+  display: none;
 }
 
 .feature-list .single-feature .description ul li{
