@@ -235,6 +235,15 @@ a.more-info:hover{
   opacity: unset;
 }
 
+a.more-info-alt{
+  color: #1E3550;
+  font-size: 16px;
+}
+
+a.more-info-alt:hover{
+  opacity: .9;
+}
+
 .df-quote{ 
   background: #1e3550;
   text-align: center;
@@ -1104,6 +1113,26 @@ body #hoth-chat-button i{
 
 .home .testimonials .container .quote .text p span{
   font-weight: bold;
+}
+
+.home .sits{
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.home .sits .text{
+  margin: auto;
+  text-align: center;
+}
+
+.home .sits .img{
+  width: 70%;
+  margin: auto;
+}
+
+.home .sits .img img{
+  width: 100%;
 }
 
 .home .video{
@@ -3056,11 +3085,6 @@ body #hoth-chat-button i{
 
 .features .header{
   display: flex;
-  background-image: url(/wp-content/themes/houseonthehill.com/images/22icons/original/featuresimg.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 700px;
-  padding-bottom: 250px;
 }
 
 .features .header .title{
@@ -3068,7 +3092,7 @@ body #hoth-chat-button i{
   margin: auto;
   margin-top: 0;
   text-align: center;
-  padding: 50px;
+  padding: 100px 50px;
 }
 
 .features .header .title .form{
@@ -3109,55 +3133,74 @@ body #hoth-chat-button i{
 
 .features .feature-list-container{
   background: white;
-  padding-top: 50px;
-  padding-bottom: 200px;
 }
 
 .features .feature-list-container .feature-list{
   display: flex;
   flex-wrap: wrap;
   width: 80%;
+  padding: 50px 10px;
   margin: auto;
+  border-top: 3px solid #1e3550;
+}
+
+.features .feature-list-container .feature-list:first-child{
+  border-top: unset;
+}
+
+.features .feature-list-container .feature-list .sub-header{
+  width: 25%;
+}
+
+.features .feature-list-container .feature-list .posts{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-right: 0;
 }
 
 .feature-list .single-feature{
-  width: 22%;
+  width: 31%;
   margin: 1%;
-  border-radius: 4px;
-  padding: 10px 20px;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 0 20px #b8b8b814;
+  padding: 20px;
+  /*border: 1px solid #e0e0e0;
+  box-shadow: 0 0 20px #b8b8b814;*/
 }
 
-.feature-list .single-feature:hover{
+/*.feature-list .single-feature:hover{
   -webkit-box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
 -moz-box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
 box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
-}
+}*/
 
-.feature-list .single-feature a .description h3{
+.feature-list .single-feature .description h3{
   margin: 10px 0;
   font-size: 18px;
 }
 
-.feature-list .single-feature a .description p{
+.feature-list .single-feature .description p{
   margin: 10px 0;
   font-size: 14px;
 }
 
-.feature-list .single-feature a .description{
+.feature-list .single-feature .description{
   position: relative;
   height: 100%;
-  padding-bottom: 20px;
 }
 
-.feature-list .single-feature a .description .img{
+.feature-list .single-feature .description a{
+  position: absolute;
+  bottom: -20px;
+}
+
+.feature-list .single-feature .description .img{
   width: 50px;
   height: 50px;
   display: flex;
 }
 
-.feature-list .single-feature a .description .img img{
+.feature-list .single-feature .description .img img{
   width: auto;
   height: auto;
   max-height: 100%;
@@ -3165,28 +3208,28 @@ box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
   margin: auto;
 }
 
-.feature-list .single-feature a .description ul{
+.feature-list .single-feature .description ul{
   display: flex;
   flex-wrap: wrap;
   position: absolute;
   bottom: 0;
 }
 
-.feature-list .single-feature a .description ul li{
+.feature-list .single-feature .description ul li{
   list-style: none;
   margin-right: 5px;
 }
 
-.feature-list .single-feature a .description ul li p{
+.feature-list .single-feature .description ul li p{
   margin: 0;
   font-size: 14px;
 } 
 
-.feature-list .single-feature a .description ul li p span{
+.feature-list .single-feature .description ul li p span{
   padding: 2px 4px;
 }
 
-.feature-list .single-feature a .description ul li p span{
+.feature-list .single-feature .description ul li p span{
   background: #1e3550;
 }
 
