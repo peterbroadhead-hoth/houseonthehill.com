@@ -984,6 +984,10 @@ body #hoth-chat-button i{
   margin: auto;
 }
 
+.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form br{
+  display: none;
+}
+
 .pum-container .pum-content>:last-child, .pum-form__message:last-child{
   margin-bottom: auto !important;
 }
