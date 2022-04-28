@@ -957,6 +957,35 @@ body #hoth-chat-button i{
   }
 }
 
+/* Pop up box */
+.pum-theme-20170 .pum-content, .pum-theme-lightbox .pum-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .img{
+  width: 50%;
+  display: flex;
+}
+
+.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .img img{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .text{
+  width: 50%;
+  margin: auto;
+}
+
+.pum-container .pum-content>:last-child, .pum-form__message:last-child{
+  margin-bottom: auto !important;
+}
+
 /* Home page */
 
 .home{
