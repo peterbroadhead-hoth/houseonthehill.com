@@ -982,6 +982,7 @@ body #hoth-chat-button i{
 .pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .text{
   width: 50%;
   margin: auto;
+  padding: 10px;
 }
 
 .pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form #theForm{
