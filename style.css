@@ -985,30 +985,28 @@ body #hoth-chat-button i{
   padding: 10px;
 }
 
-.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form #theForm{
+.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form form{
   display: flex;
 }
 
-.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form #theForm #reg_email{
-  border-radius: 4px;
-  padding: 15px;
-  border: unset;
-  margin: 5px 0;
-  border: 3px solid #1E3550;
-  color: #1E3550;
-  outline: unset;
-  background: white;
+.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form form input{
+  width: 100%;
+  border: 3px solid #1e3550;
+  padding: 10px 20px;
+  border-radius: 4px 0 0 4px;
 }
 
-.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form #theForm .submit{
-  border-radius: 4px;
-  padding: 15px;
-  border: unset;
-  margin: 5px 0;
-  border: 3px solid #1E3550;
-  color: #1E3550;
-  outline: unset;
-  background: white;
+.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form form .submit{
+  width: auto;
+  background: #1e3550;
+  color: #ffffff;
+  margin-left: 0;
+  border-radius: 0 4px 4px 0;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: unset;
+  font-size: 16px;
+  border: none;
 }
 
 .pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form br{
