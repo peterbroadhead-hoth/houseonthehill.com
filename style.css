@@ -1000,7 +1000,7 @@ body #hoth-chat-button i{
   background: white;
 }
 
-.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form #theForm p{
+.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form #theForm .submit{
   border-radius: 4px;
   padding: 15px;
   border: unset;
