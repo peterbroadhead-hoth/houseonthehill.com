@@ -780,6 +780,7 @@ body #hoth-chat-button i{
   margin-left: 0;
   width: auto;
   color: #1E3550;
+  width: 35%;
 }
 
 .hoth-footer-container .footer-links .company .btns{
@@ -805,16 +806,18 @@ body #hoth-chat-button i{
 }
 
 .hoth-footer-container .footer-links .site-links{
-  width: auto;
+  width: 85%;
   margin: auto;
   margin-top: 10px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .hoth-footer-container .footer-links .site-links h2{
   font-size: 15px;
-  padding: 10px;
-  margin: 0;
+  padding: 15px;
+  padding-left: 0;
+  margin: auto;
   padding-top: 0;
 }
 
@@ -827,7 +830,7 @@ body #hoth-chat-button i{
 }
 
 .hoth-footer-container .footer-links .socials{
-  width: 10%;
+  width: 15%;
   margin: auto;
   margin-top: 0;
   margin-right: 0;
@@ -860,6 +863,34 @@ body #hoth-chat-button i{
 
 .hoth-footer-container .footer-links .company p a:hover{
   opacity: 0.9;
+}
+
+@media (max-width: 1500px) {
+  .hoth-footer-container{
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hoth-footer-container{
+    width: 95%;
+  }
+}
+
+@media (max-width: 800px) {
+  .hoth-footer-container, .hoth-footer-container .trial, .hoth-footer-container .footer-links .company{
+    width: 100%;
+  }
+  .hoth-footer-container .footer-links{
+    flex-wrap: wrap-reverse;
+  }
+  .hoth-footer-container .footer-links .site-links h2{
+    margin: 0;
+  }
+}
+
+@media screen {
+  
 }
 
 /* Sign up form */
@@ -4893,62 +4924,6 @@ ul.whats-new li .whats-new-img img{
   .hoth-header-container .hoth-header .hoth-home img{
     margin: 0;
   }
-  .hoth-footer{
-    display: inherit;
-    padding-top: 50px;
-    min-height: 600px;
-    background-position-y: -10px;
-  }
-  .hoth-footer-container{
-    width: 60%;
-    margin: auto;
-    padding: 10px;
-  }
-  .hoth-footer-container .trial .btns{
-    margin: unset;
-  }
-  .hoth-footer-container .trial{
-    width: 100%;
-    text-align: left;
-  }
-  .hoth-footer-container .footer-links{
-    flex-wrap: wrap;
-    position: relative;
-    height: 400px;
-  }
-  .hoth-footer-container .footer-links .site-links {
-    width: 100%;
-    margin: auto;
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 50px;
-  }
-  .hoth-footer-container .footer-links .site-links h2{
-    padding-left: 0;
-    padding-right: 20px;
-  }
-  .hoth-footer-container .footer-links .socials {
-    width: 100%;
-    margin: auto;
-    margin-right: 0;
-    text-align: left;
-    margin-top: 50px;
-  }
-  .hoth-footer-container .footer-links .company {
-    font-size: 12px;
-    margin: auto;
-    margin-top: 10px;
-    margin-left: 0;
-    width: 100%;
-    color: #1E3550;
-    position: absolute;
-    bottom: 20px;
-  }
-  .hoth-footer-container .btns:before{
-    display: none;
-  }
   .solution-header-container .text{
     width: 60%;
   }
@@ -4963,54 +4938,6 @@ ul.whats-new li .whats-new-img img{
 	}
   .hoth-footer{
     display: inherit;
-  }
-  .hoth-footer-container{
-    width: 80%;
-  }
-  .hoth-footer-container .trial .btns{
-    margin: unset;
-  }
-  .hoth-footer-container .trial{
-    width: 100%;
-    text-align: left;
-  }
-  .hoth-footer-container .footer-links{
-    flex-wrap: wrap;
-    position: relative;
-    height: 400px;
-  }
-  .hoth-footer-container .footer-links .site-links {
-    width: 100%;
-    margin: auto;
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 50px;
-  }
-  .hoth-footer-container .footer-links .site-links h2{
-    padding-left: 0;
-    padding-right: 20px;
-  }
-  .hoth-footer-container .footer-links .socials {
-    width: 100%;
-    margin: auto;
-    margin-right: 0;
-    text-align: left;
-    margin-top: 50px;
-  }
-  .hoth-footer-container .footer-links .company {
-    font-size: 12px;
-    margin: auto;
-    margin-top: 10px;
-    margin-left: 0;
-    width: 100%;
-    color: #1E3550;
-    position: absolute;
-    bottom: 20px;
-  }
-  .hoth-footer-container .btns:before{
-    display: none;
   }
   .features .header{
     min-height: 600px;
@@ -5381,8 +5308,6 @@ ul.whats-new li .whats-new-img img{
     margin-left: 0;
   }
 
-  /* footer mobile */
-
   /* home mobile */
   .hothhome-header-container{
     padding: 25px 10px;
@@ -5632,32 +5557,6 @@ ul.whats-new li .whats-new-img img{
   #captcha_result{
     overflow: hidden;
     border-radius: 4px;
-  }
-
-  /* footer mobile */
-  .hoth-footer{
-    padding: 0;
-  }
-  .hoth-footer-container{
-    width: 80%;
-  }
-  .hoth-footer-container .trial{
-    padding: 0;
-  }
-  .hoth-footer-container .trial .btns a.sign-up{
-    margin-bottom: 10px;
-  }
-  .hoth-footer-container .footer-links{
-    min-height: 420px;
-    padding-top: 15px;
-    margin-top: 20px;
-  }
-  .hoth-footer-container .footer-links .site-links{
-    margin-top: 0;
-    top: 20px;
-  }
-  .hoth-footer-container .footer-links .company{
-    bottom: 50px;
   }
 
   /* mobile about us */
