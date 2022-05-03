@@ -143,10 +143,6 @@ a.sign-up:hover{
   align-items: center;
 }
 
-.signup-buttons a:hover{
-  opacity:0.8
-}
-
 
 .signup-buttons .g-cloud{
   background:#000;
@@ -199,7 +195,6 @@ a.sign-up{
   border-radius: 4px;
   padding: 10px 20px;
   font-weight: bold;
-  box-shadow: 0 0 20px #ffffff38;
   font-size: 16px;
 }
 
@@ -233,6 +228,20 @@ a.more-info:hover{
   background-color: #1e3550;
   color: white;
   opacity: unset;
+}
+
+a.contact-us{
+  background: #fee119;
+  color: #000000;
+  margin-left: 0;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a.contact-us:hover{
+  opacity: 0.9;
 }
 
 a.more-info-alt{

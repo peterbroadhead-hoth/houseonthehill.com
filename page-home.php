@@ -10,6 +10,7 @@
         <div class="signup-buttons">
           <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Start your free trial</a>
           <a href="/demo" class="more-info">Request a demo</a>
+          <a href="/contact-us" class="contact-us">Contact us</a>
           <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:10px">No credit card required / Free 30 day trial</p>
         </div>
       </div>
