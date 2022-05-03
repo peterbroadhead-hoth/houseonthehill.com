@@ -746,7 +746,7 @@ body #hoth-chat-button i{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   margin: auto;
   padding-bottom: 50px;
   justify-content: center;
@@ -871,6 +871,11 @@ body #hoth-chat-button i{
   }
 }
 
+.hoth-footer-container .trial .signup-buttons a{
+  display: unset;
+  height: unset;
+}
+
 @media (max-width: 1000px) {
   .hoth-footer-container{
     width: 95%;
@@ -886,6 +891,11 @@ body #hoth-chat-button i{
   }
   .hoth-footer-container .footer-links .site-links h2{
     margin: 0;
+  }
+  .hoth-footer-container .trial a{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
