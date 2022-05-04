@@ -1046,13 +1046,17 @@ body #hoth-chat-button i{
   border-radius: 4px 0 0 4px;
 }
 
+.pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form form p{
+  margin: 0;
+}
+
 .pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .form form .submit{
   width: auto;
   background: #1e3550;
   color: #ffffff;
   margin-left: 0;
   border-radius: 0 4px 4px 0;
-  padding: 10px 20px;
+  padding: 13px 20px;
   font-weight: bold;
   box-shadow: unset;
   font-size: 16px;
