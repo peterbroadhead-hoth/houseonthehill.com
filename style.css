@@ -1071,6 +1071,15 @@ body #hoth-chat-button i{
   margin-bottom: auto !important;
 }
 
+@media (max-width: 800px){
+  .pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .img{
+    display: none;
+  }
+  .pum-theme-20170 .pum-container, .pum-theme-lightbox .pum-container .text{
+    width: 100%;
+  }
+}
+
 /* Home page */
 
 .home{
