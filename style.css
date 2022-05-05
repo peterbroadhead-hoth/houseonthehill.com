@@ -3523,6 +3523,12 @@ margin: auto;
   margin: 0 5%;
 }
 
+.features.single .content .text img{
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
 .features.single .content ul li .img{
   width: 100%;
   background: #fbfbfb;
