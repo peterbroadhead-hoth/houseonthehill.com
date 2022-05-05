@@ -1863,12 +1863,6 @@ body #hoth-chat-button i{
   }
 }
 
-@media (max-width: 600px){
-  .home .signup-buttons{
-    display: grid;
-  }
-}
-
 @media (max-width: 650px){
   .help ul li .btns a{
     margin-bottom: 5px;
@@ -1879,6 +1873,12 @@ body #hoth-chat-button i{
 }
 
 @media (max-width: 600px){
+  .home .signup-buttons{
+    display: grid;
+  }
+  .home .signup-buttons a{
+    margin: 5px;
+  }
   .home .header .container{
     flex-wrap: wrap-reverse;
   }
