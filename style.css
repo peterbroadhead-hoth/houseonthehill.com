@@ -3280,7 +3280,7 @@ body #hoth-chat-button i{
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  margin-right: 0;
+  /*margin-right: 0;*/
 }
 
 .feature-list .single-feature{

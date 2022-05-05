@@ -227,7 +227,7 @@
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/mobile.webp" alt="mobile icon"></div>
         <h4>Mobile</h4>
         <p>House-on-the-Hill’s mobile service desk allows engineers to access the work queue, and log, update and escalate calls while working on customer sites.</p>
-        <a class="more-info" href="/features/mobile">More info</a>
+        <a class="more-info" href="/features/mobile-service-desk/">More info</a>
       </li>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/asset.webp" alt="Asset Icon"></div>
