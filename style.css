@@ -5484,8 +5484,11 @@ ul.whats-new li .whats-new-img img{
     padding: 50px 10px;
   }
   .features .feature-list-container .feature-list{
-    width: 80%;
+    width: 100%;
     padding: 10px;
+  }
+  .features .feature-list-container .feature-list .posts{
+    width: 100%;
   }
   .feature-list .single-feature{
     width: 100%;
