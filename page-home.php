@@ -60,15 +60,6 @@
     </div>
   </div>
 
-  <div class="sits">
-    <div class="text">
-      <h2>Come find us at SITS 2022!</h2>
-    </div>
-    <div class="img">
-      <a target="_blank" href="https://eventdata.uk/Forms/Form.aspx?FormRef=SIT51Visitor&TrackingCode=SITS138"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sits2022.png" alt="sits show 2022"></a>
-    </div>
-  </div>
-
   <div class="video">
     <!--<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screenshots/dash-screenshot-2021.png" alt="itsm screenshot">-->
     <iframe width="760" height="515" src="https://www.youtube.com/embed/LUtaUuvzeZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

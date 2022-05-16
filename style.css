@@ -1238,26 +1238,6 @@ body #hoth-chat-button i{
   font-weight: bold;
 }
 
-.home .sits{
-  padding: 50px;
-  width: 80%;
-  margin: auto;
-}
-
-.home .sits .text{
-  margin: auto;
-  text-align: center;
-}
-
-.home .sits .img{
-  width: 70%;
-  margin: auto;
-}
-
-.home .sits .img img{
-  width: 100%;
-}
-
 .home .video{
   display: flex;
   background: #1e3550;
