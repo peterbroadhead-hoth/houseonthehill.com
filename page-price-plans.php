@@ -622,7 +622,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('cafm')">
         <th class="category">CAFM <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></th>
-        <th class="category">£750 py</th>
+        <th class="category">£950 py</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
         <th class="category"></th>
@@ -719,7 +719,7 @@
 
       <tr type="button"  class="category-container"  onclick="dropdown('crm')">
         <th class="category"><a href="/features/customer-relationship-management/">CRM <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></a></th>
-        <th class="category">£750 py</th>
+        <th class="category">£950 py</th>
         <th class="category">Add-On</th>
         <th class="category"></th>
         <th class="category">Add-On</th>
@@ -751,7 +751,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('case')">
         <th class="category">Case,Complaints & FOI Management <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></th>
-        <th class="category">£750 py</th>
+        <th class="category">£950 py</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
