@@ -53,7 +53,7 @@
         <div class="intro">
           <h3 class="header"><a href="/facilities-management/">Computer Aided Facilities <br>Management</a></h3>
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Start your free trial</a></div>
-          <div class="price"><h3>£40</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
+          <div class="price"><h3>£45</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-header.jpg" alt="CAFM Icon"></div>
         </div>
 
@@ -75,7 +75,7 @@
         <div class="intro">
           <h3 class="header"><a href="/foi-request-management/">FOI, Case & Complaints <br>Management</a></h3>
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Start your free trial</a></div>
-          <div class="price"><h3>£40</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
+          <div class="price"><h3>£45</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg" alt="foi Icon"></div>
         </div>
 
@@ -348,7 +348,7 @@
 
       <tr>
         <td><a href="/features/microsoft-teams-integration/">Microsoft Teams Integration</a></td>
-        <td class="price">£950 py</td>
+        <td class="price">£1250 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -542,7 +542,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('itsmconfiguration')">
         <th class="category">ITSM Configuration <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></th>
-        <th class="category">£1,950 py</th>
+        <th class="category">£1,850 py</th>
         <th class="category"><i class="fal fa-check-circle"></i></th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
@@ -590,7 +590,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('enterprisemds')">
         <th class="category">Enterprise Multi-Dept ServiceDesk <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></th>
-        <th class="category">£1,950 py</th>
+        <th class="category">£1,850 py</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
@@ -670,7 +670,7 @@
       </tr>
       <tr class="collapsible cafm" style="">
         <td>Unlimited Engineer/Contractor 3rd Party Access Portal (Desktop & Mobile)</td>
-        <td class="price">£950 py</td>
+        <td class="price">£650 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -678,7 +678,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('facilitiesmanagement')">
         <th class="category"><a href="/features/financial-management/">Finance <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></a></th>
-        <th class="category">£950 py</th>
+        <th class="category">£650 py</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
         <th class="category"><i class="fal fa-check-circle"></i></th>
@@ -855,7 +855,7 @@
       </tr>
       <tr class="collapsible api" style="">
         <td>SCCM, Lansweeper, Certero, Snow, Altiris Connectors</td>
-        <td class="price">£950 py</td>
+        <td class="price">£650 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
