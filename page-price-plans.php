@@ -147,7 +147,7 @@
       </tr>
       <tr>
         <td><a href="/features-chat-2/">Branded Chat Messaging App</a></a></td>
-        <td class="price">£5 per Agent pm</td>
+        <td class="price">£20 per Agent pm</td>
         <td><i class="fal fa-check-circle"></i></td>
         <td><i class="fal fa-check-circle"></i></td>
         <td><i class="fal fa-check-circle"></i></td>
