@@ -406,7 +406,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('softwareassetmanagement')">
         <th class="category"><a href="/features/asset-and-software-licence-management/"> Software Asset Management <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></a></th>
-        <th class="category">£1950 py</th>
+        <th class="category">£1250 py</th>
         <th class="category"></th>
         <th class="category"></th>
         <th class="category"></th>
