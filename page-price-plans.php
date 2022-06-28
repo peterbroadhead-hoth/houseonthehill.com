@@ -10,7 +10,7 @@
         <div class="intro">
           <h3 class="header"><a href="/it-service-management/">IT Service <br>Management</a></h3>
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">Start your free trial</a></div>
-          <div class="price"><h3>£30</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
+          <div class="price"><h3>£40</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.jpg" alt="itsm Icon"></div>
         </div>
 
@@ -32,7 +32,7 @@
         <div class="intro">
           <h3 class="header"><a href="/customer-service-and-support/">Customer Service <br>Management</a></h3>
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">Start your free trial</a> </div>
-          <div class="price"><h3>£30</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
+          <div class="price"><h3>£40</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-header.jpg" alt="Customer Service Management Icon"></div>
         </div>
 
@@ -53,7 +53,7 @@
         <div class="intro">
           <h3 class="header"><a href="/facilities-management/">Computer Aided Facilities <br>Management</a></h3>
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Start your free trial</a></div>
-          <div class="price"><h3>£30</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
+          <div class="price"><h3>£45</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-header.jpg" alt="CAFM Icon"></div>
         </div>
 
@@ -75,7 +75,7 @@
         <div class="intro">
           <h3 class="header"><a href="/foi-request-management/">FOI, Case & Complaints <br>Management</a></h3>
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Start your free trial</a></div>
-          <div class="price"><h3>£30</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
+          <div class="price"><h3>£45</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg" alt="foi Icon"></div>
         </div>
 
@@ -147,7 +147,7 @@
       </tr>
       <tr>
         <td><a href="/features-chat-2/">Branded Chat Messaging App</a></a></td>
-        <td class="price">£5 per Agent pm</td>
+        <td class="price">£20 per Agent pm</td>
         <td><i class="fal fa-check-circle"></i></td>
         <td><i class="fal fa-check-circle"></i></td>
         <td><i class="fal fa-check-circle"></i></td>
@@ -339,7 +339,7 @@
       </tr>
       <tr>
         <td>Software Support (Telephone, Email, Chat)</td>
-        <td class="price">Inc with 5 or more agents or £500 py</td>
+        <td class="price">Inc with 5 or more agents or £950 py</td>
         <td><i class="fal fa-check-circle"></i></td>
         <td><i class="fal fa-check-circle"></i></td>
         <td><i class="fal fa-check-circle"></i></td>
@@ -348,7 +348,7 @@
 
       <tr>
         <td><a href="/features/microsoft-teams-integration/">Microsoft Teams Integration</a></td>
-        <td class="price">£500 py</td>
+        <td class="price">£1250 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -356,7 +356,7 @@
       </tr>
       <tr>
         <td>Visitor Management </td>        
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -364,7 +364,7 @@
       </tr>
       <tr>
         <td><a href="/features/resource-booking-software/">Resource / Amenity Booking</a></td>        
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -406,7 +406,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('softwareassetmanagement')">
         <th class="category"><a href="/features/asset-and-software-licence-management/"> Software Asset Management <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></a></th>
-        <th class="category">£1000 py</th>
+        <th class="category">£1250 py</th>
         <th class="category"></th>
         <th class="category"></th>
         <th class="category"></th>
@@ -542,7 +542,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('itsmconfiguration')">
         <th class="category">ITSM Configuration <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></th>
-        <th class="category">£1,500 py</th>
+        <th class="category">£1,850 py</th>
         <th class="category"><i class="fal fa-check-circle"></i></th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
@@ -590,7 +590,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('enterprisemds')">
         <th class="category">Enterprise Multi-Dept ServiceDesk <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></th>
-        <th class="category">£1,500 py</th>
+        <th class="category">£1,850 py</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
@@ -622,7 +622,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('cafm')">
         <th class="category">CAFM <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></th>
-        <th class="category">£750 py</th>
+        <th class="category">£950 py</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
         <th class="category"></th>
@@ -670,7 +670,7 @@
       </tr>
       <tr class="collapsible cafm" style="">
         <td>Unlimited Engineer/Contractor 3rd Party Access Portal (Desktop & Mobile)</td>
-        <td class="price">£500 py</td>
+        <td class="price">£650 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -678,7 +678,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('facilitiesmanagement')">
         <th class="category"><a href="/features/financial-management/">Finance <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></a></th>
-        <th class="category">£500 py</th>
+        <th class="category">£650 py</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
         <th class="category"><i class="fal fa-check-circle"></i></th>
@@ -719,7 +719,7 @@
 
       <tr type="button"  class="category-container"  onclick="dropdown('crm')">
         <th class="category"><a href="/features/customer-relationship-management/">CRM <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></a></th>
-        <th class="category">£750 py</th>
+        <th class="category">£950 py</th>
         <th class="category">Add-On</th>
         <th class="category"></th>
         <th class="category">Add-On</th>
@@ -751,7 +751,7 @@
       </tr>
       <tr type="button"  class="category-container"  onclick="dropdown('case')">
         <th class="category">Case,Complaints & FOI Management <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-down"></i></th>
-        <th class="category">£750 py</th>
+        <th class="category">£950 py</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
         <th class="category">Add-On</th>
@@ -823,7 +823,7 @@
       </tr>
       <tr class="collapsible case" style="">
         <td>Information Governance </td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -831,7 +831,7 @@
       </tr>
       <tr class="collapsible case" style="">
         <td>Record of Processing Activities (RoPA)</td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -839,7 +839,7 @@
       </tr>
       <tr class="collapsible case" style="">
         <td>Unlimited Departmental Data Requesters</td>
-        <td class="price">£750 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -855,7 +855,7 @@
       </tr>
       <tr class="collapsible api" style="">
         <td>SCCM, Lansweeper, Certero, Snow, Altiris Connectors</td>
-        <td class="price">£500 py</td>
+        <td class="price">£650 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -863,7 +863,7 @@
       </tr>
       <tr class="collapsible api" style="">
         <td><a href="/features/microsoft-teams/">Microsoft Teams Ticket Creation</a></td>
-        <td class="price">£950 py</td>
+        <td class="price">£1250 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -871,7 +871,7 @@
       </tr>
       <tr class="collapsible api" style="">
         <td><a href="supportdesk/features/help-desk-twitter-integration/">Twitter</a></td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -879,7 +879,7 @@
       </tr> 
       <tr class="collapsible api" style="">
         <td><a href="/features/jira-integration/">Jira</a></td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -895,7 +895,7 @@
       </tr> 
       <tr class="collapsible api" style="">
         <td>Slack Ticket Creation</td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -903,7 +903,7 @@
       </tr>
       <tr class="collapsible api" style="">
         <td>Xero Integration</td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -911,7 +911,7 @@
       </tr>
       <tr class="collapsible api" style="">
         <td>Report JSON Api</td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -919,7 +919,7 @@
       </tr>
       <tr class="collapsible api" style="">
         <td><a href="/features/remote-session-request-button/">Bomgar Remote Session Launch Button</a></td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -927,7 +927,7 @@
       </tr>
       <tr class="collapsible api" style="">
         <td><a href="/features/skype-for-business-integration/">Skype for Business</a></td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -943,7 +943,7 @@
       </tr>
       <tr class="collapsible advancedfeatures" style="">
         <td>Document Management</td>
-        <td class="price">£750 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -951,7 +951,7 @@
       </tr>
       <tr class="collapsible advancedfeatures" style="">
         <td>Multi-Domain Support</td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -959,7 +959,7 @@
       </tr>
       <tr class="collapsible advancedfeatures" style="">
         <td><a href="/features/telephony-integration/">Telephony Agent</a></td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -967,7 +967,7 @@
       </tr>
       <tr class="collapsible advancedfeatures" style="">
         <td>Powershell Integration</td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -983,7 +983,7 @@
       </tr>
       <tr class="collapsible advancedfeatures" style="">
         <td>Sandbox Environment</td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -991,7 +991,7 @@
       </tr>
       <tr class="collapsible advancedfeatures" style="">
         <td><a href="/features/multi-lingual-help-desk-support/">Multilingual Support</a></td>
-        <td class="price">£500 py</td>
+        <td class="price">£950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -999,7 +999,7 @@
       </tr>
       <tr class="collapsible advancedfeatures" style="">
         <td>Onsite Synchronised Backup*</td>
-        <td class="price">£1,500 py</td>
+        <td class="price">£1,950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -1031,7 +1031,7 @@
       </tr>      
       <tr class="pricing-key">
         <td>
-          <p>* Requires setup <br> ** Requires consultancy</p>
+          <p>* Requires setup <br> ** Requires consultancy - £1050 per day</p>
         </td>
       </tr>
     </tbody>
