@@ -25,6 +25,7 @@
  
 <div class="features single">
     <div class="header">
+        <!--<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/features-blob.png">-->
         <div class="title">
             <div class="img">
                 <?php the_post_thumbnail(); ?>
@@ -32,7 +33,7 @@
             <h1><?php the_title(); ?></h1>
             <hr>
             <p><?php the_field('feature_tagline'); ?></p>
-            <!--<div class="form">
+            <div class="form">
 							<form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
 											<input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
 											<input type="HIDDEN" id="selchange" name="selchange" value="">
@@ -78,7 +79,7 @@
 									}
 									, false);
 									</script>
-					</div>-->
+					</div>
         </div>  
     </div>
   
