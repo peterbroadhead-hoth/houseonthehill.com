@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="features">
   <div class="header">
-    <img class="blob" src="https://hoth.local/wp-content/themes/houseonthehill.com/images/22icons/original/features-blob.png">
+    <img class="blob" src="/wp-content/themes/houseonthehill.com/images/22icons/original/features-blob.png">
     <div class="title">
       <h1>Create your perfect <br>service desk</h1>
       <p>Powerful tools built with you in mind to customise and build a solution perfect for your company.</p>
@@ -54,7 +54,7 @@
       </div>
     </div>  
 
-    <div class="img"><img src="https://hoth.local/wp-content/themes/houseonthehill.com/images/22icons/original/featureshome.png" alt="ticket logging page graphic"></div>
+    <div class="img"><img src="/wp-content/themes/houseonthehill.com/images/22icons/original/featureshome.png" alt="ticket logging page graphic"></div>
   </div>
 
   <div class="feature-list-container">
