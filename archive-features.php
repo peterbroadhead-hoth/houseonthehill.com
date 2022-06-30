@@ -189,13 +189,12 @@
       </div>
     </div>
     
-    <div class="feature-list">
+    <!--<div class="feature-list">
       <div class="sub-header">
         <h2>FOI & Case</h2>
         <p>
           Manage your services and your team with these features.
         </p>
-        <!--<a class="more-info-alt" href="/management-features">View more Management Tools ></a>-->
       </div>
       <div class="posts">
         <?php
@@ -220,7 +219,7 @@
         <?php endif; ?>
         <?php wp_reset_query(); ?>
       </div>
-    </div>
+    </div>-->
 
     <div class="feature-list">
       <div class="sub-header">
