@@ -257,7 +257,7 @@
 
     <div class="feature-list">
       <div class="sub-header">
-        <h2>Visualisation & Reporting</h2>
+        <h2>Reporting & Workflow</h2>
         <p>
           Monitor your teams performance with these features, add them to your dashboards for instant results.
         </p>
