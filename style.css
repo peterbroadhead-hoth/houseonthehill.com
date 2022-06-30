@@ -3442,9 +3442,6 @@ box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
   .features .feature-list-container .feature-list{
     width: 95%;
   }
-  .features .feature-list-container .feature-list .sub-header, .features .feature-list-container .feature-list .posts{
-    width: 100%;
-  }
   .feature-list .single-feature{
     width: 31%;
   }
@@ -3462,6 +3459,9 @@ box-shadow: 0 0 7px 3px rgba(230, 230, 230, 1);
 @media (max-width: 920px){
   .features .feature-list-container .feature-list{
     width: 100%; 
+  }
+  .features .feature-list-container .feature-list .sub-header, .features .feature-list-container .feature-list .posts{
+    width: 100%;
   }
 }
 
