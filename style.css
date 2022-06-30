@@ -3596,12 +3596,18 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
 background: #f6f6f6;
 }
 
+.features.single .title{
+  margin: auto;
+  border: unset;
+  background: unset;
+}
+
 .features.single .header{
 	background-image: unset;
 	height: auto;
 	min-height: unset;
 	background-color: #f6f6f6;
-	padding: 0;
+	padding: 10px;
 }
 
 .features.single .header img{
