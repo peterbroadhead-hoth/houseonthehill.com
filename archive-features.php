@@ -126,7 +126,7 @@
 
     <div class="feature-list">
       <div class="sub-header">
-        <h2>Customisation</h2>
+        <h2>Customisation & Branding</h2>
         <p>
           Customise your service to yours and your customers needs.
         </p>
