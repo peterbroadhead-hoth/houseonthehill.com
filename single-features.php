@@ -33,7 +33,7 @@
             <h1><?php the_title(); ?></h1>
             <hr>
             <p><?php the_field('feature_tagline'); ?></p>
-            <div class="form">
+            <!--<div class="form">
 							<form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
 											<input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
 											<input type="HIDDEN" id="selchange" name="selchange" value="">
@@ -79,7 +79,8 @@
 									}
 									, false);
 									</script>
-					</div>
+					</div>-->
+          <a href="/demo" class="more-info">Request a demo</a>
         </div>  
     </div>
   

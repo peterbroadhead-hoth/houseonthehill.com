@@ -3265,6 +3265,10 @@ background: linear-gradient(165deg, rgba(254,225,25,0.2749693627450981) 0%, rgba
   border-bottom: 3px solid black;
 }
 
+.features.single .header .title{
+  text-align: center;
+}
+
 .features.single-page .header .title{
   padding: 25px;
   margin: auto;
