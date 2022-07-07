@@ -5055,20 +5055,21 @@ ul.whats-new li .whats-new-img img{
   margin: auto;
 }
 
-.about-us-container .we-listen{
+.about-us-container .about-subheader{
   width: 100%;
   margin: auto;
   text-align: center;
   padding: 100px;
   margin-bottom: 50px;
+  margin-top: 50px;
   background-color: #1e3550;
 }
 
-.about-us-container .we-listen h2{
+.about-us-container .about-subheader h2{
   font-size: 40px;
 }
 
-.about-us-container .we-listen h2, .about-us-container .we-listen p{
+.about-us-container .about-subheader h2, .about-us-container .about-subheader p{
   color: white;
 }
 
@@ -5840,11 +5841,11 @@ ul.whats-new li .whats-new-img img{
   .about-us-container .intro h1{
     font-size: 4rem;
   }
-  .about-us-container .we-listen{
+  .about-us-container .about-subheader{
     width: 100%;
     padding: 50px 10px;
   }
-  .about-us-container .we-listen img{
+  .about-us-container .about-subheader img{
     width: 100px;
     margin: auto;
   }
