@@ -30,14 +30,15 @@
           if ( $features_loop->have_posts() ) : ?>
         <?php while ( $features_loop->have_posts() ) : $features_loop->the_post(); ?>
           <div class="single-feature">
-            <div class="description">
-              <div class="img">
-                <?php the_post_thumbnail() ?>
+            <a class="more-info-alt" href="<?php the_permalink(); ?>">
+              <div class="description">
+                <div class="img">
+                  <?php the_post_thumbnail() ?>
+                </div>
+                <h3><?php the_title();?></h3>
+                <p><?php the_field('feature_tagline'); ?></p>
               </div>
-              <h3><?php the_title();?></h3>
-              <p><?php the_field('feature_tagline'); ?></p>
-              <a class="more-info-alt" href="<?php the_permalink(); ?>">Find out more ></a>
-            </div>
+            </a>
           </div>
         <?php endwhile; else:?>
         <?php endif; ?>
@@ -63,14 +64,15 @@
           if ( $features_loop->have_posts() ) : ?>
         <?php while ( $features_loop->have_posts() ) : $features_loop->the_post(); ?>
           <div class="single-feature">
-            <div class="description">
-              <div class="img">
-                <?php the_post_thumbnail() ?>
+            <a class="more-info-alt" href="<?php the_permalink(); ?>">
+              <div class="description">
+                <div class="img">
+                  <?php the_post_thumbnail() ?>
+                </div>
+                <h3><?php the_title();?></h3>
+                <p><?php the_field('feature_tagline'); ?></p>
               </div>
-              <h3><?php the_title();?></h3>
-              <p><?php the_field('feature_tagline'); ?></p>
-              <a class="more-info-alt" href="<?php the_permalink(); ?>">Find out more ></a>
-            </div>
+            </a>
           </div>
         <?php endwhile; else:?>
         <?php endif; ?>
@@ -95,14 +97,15 @@
           if ( $features_loop->have_posts() ) : ?>
         <?php while ( $features_loop->have_posts() ) : $features_loop->the_post(); ?>
           <div class="single-feature">
-            <div class="description">
-              <div class="img">
-                <?php the_post_thumbnail() ?>
+            <a class="more-info-alt" href="<?php the_permalink(); ?>">
+              <div class="description">
+                <div class="img">
+                  <?php the_post_thumbnail() ?>
+                </div>
+                <h3><?php the_title();?></h3>
+                <p><?php the_field('feature_tagline'); ?></p>
               </div>
-              <h3><?php the_title();?></h3>
-              <p><?php the_field('feature_tagline'); ?></p>
-              <a class="more-info-alt" href="<?php the_permalink(); ?>">Find out more ></a>
-            </div>
+            </a>
           </div>
         <?php endwhile; else:?>
         <?php endif; ?>
@@ -128,14 +131,15 @@
           if ( $features_loop->have_posts() ) : ?>
         <?php while ( $features_loop->have_posts() ) : $features_loop->the_post(); ?>
           <div class="single-feature">
-            <div class="description">
-              <div class="img">
-                <?php the_post_thumbnail() ?>
+            <a class="more-info-alt" href="<?php the_permalink(); ?>">
+              <div class="description">
+                <div class="img">
+                  <?php the_post_thumbnail() ?>
+                </div>
+                <h3><?php the_title();?></h3>
+                <p><?php the_field('feature_tagline'); ?></p>
               </div>
-              <h3><?php the_title();?></h3>
-              <p><?php the_field('feature_tagline'); ?></p>
-              <a class="more-info-alt" href="<?php the_permalink(); ?>">Find out more ></a>
-            </div>
+            </a>
           </div>
         <?php endwhile; else:?>
         <?php endif; ?>
@@ -161,14 +165,15 @@
           if ( $features_loop->have_posts() ) : ?>
         <?php while ( $features_loop->have_posts() ) : $features_loop->the_post(); ?>
           <div class="single-feature">
-            <div class="description">
-              <div class="img">
-                <?php the_post_thumbnail() ?>
+            <a class="more-info-alt" href="<?php the_permalink(); ?>">
+              <div class="description">
+                <div class="img">
+                  <?php the_post_thumbnail() ?>
+                </div>
+                <h3><?php the_title();?></h3>
+                <p><?php the_field('feature_tagline'); ?></p>
               </div>
-              <h3><?php the_title();?></h3>
-              <p><?php the_field('feature_tagline'); ?></p>
-              <a class="more-info-alt" href="<?php the_permalink(); ?>">Find out more ></a>
-            </div>
+            </a>
           </div>
         <?php endwhile; else:?>
         <?php endif; ?>
@@ -193,14 +198,15 @@
           if ( $features_loop->have_posts() ) : ?>
         <?php while ( $features_loop->have_posts() ) : $features_loop->the_post(); ?>
           <div class="single-feature">
-            <div class="description">
-              <div class="img">
-                <?php the_post_thumbnail() ?>
+            <a class="more-info-alt" href="<?php the_permalink(); ?>">
+              <div class="description">
+                <div class="img">
+                  <?php the_post_thumbnail() ?>
+                </div>
+                <h3><?php the_title();?></h3>
+                <p><?php the_field('feature_tagline'); ?></p>
               </div>
-              <h3><?php the_title();?></h3>
-              <p><?php the_field('feature_tagline'); ?></p>
-              <a class="more-info-alt" href="<?php the_permalink(); ?>">Find out more ></a>
-            </div>
+            </a>
           </div>
         <?php endwhile; else:?>
         <?php endif; ?>
