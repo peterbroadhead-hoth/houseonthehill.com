@@ -676,6 +676,9 @@ body #hoth-chat-button i{
   .dropdown-content ul.solutions a{
     margin-right: 10px;
   }
+  .hoth-header-container .hoth-header .sales ul li a.contact{
+    display: none;
+  }
 }
 
 @media (max-width: 720px){
@@ -3643,9 +3646,15 @@ width: 300px;
 margin: auto;
 }
 
+.features.single .content-container{
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+
 .features.single .content{
-	width: 100%;
-	background: white;
+	width: 95%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -3665,9 +3674,9 @@ margin: auto;
 }
 
 .features.single .content .text{
-  width: 40%;
-  padding: 50px 0;
-  margin: 0 5%;
+  width: 28%;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 .features.single .content .text img{

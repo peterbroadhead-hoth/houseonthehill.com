@@ -180,6 +180,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 		<div class="sales">
 			<ul>
+				<li><a class="contact" href="/contact-us/" rel="noopener">Contact Us</a></li>
 				<li><a href="https://support.houseonthehill.com/" rel="noopener">Log in</a></li>
 				<li><a class="demo-btn">Book a demo</a></li>
 				<li><a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank">Free trial</a></li>
