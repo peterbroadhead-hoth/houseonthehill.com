@@ -62,7 +62,7 @@
 
   <div class="solution-carousel-container">
     <div class="text">
-      <h2>What can I use House-on-the-Hill for?</h2>
+      <h2>Multiple solutions all under one roof</h2>
       <p>Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
       <a href="/price-plans"><p class="price"> <span>All HotH solutions start as low as £30 per agent, per month</span></p></a>
     </div>
