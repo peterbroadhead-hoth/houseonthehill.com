@@ -29,14 +29,14 @@
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
           <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/nhs-50.png" alt="NHS Logo">
         </a>  
-        <a href="https://www.broadwaymalyan.com/" target="_blank" rel="noopener">
-          <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bm-50.png" alt="Broadway Malyan Logo">
+        <a href="https://www.midlandheart.org.uk/" target="_blank" rel="noopener">
+          <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/midland.png" alt="midland heart">
         </a>  
-        <a href="https://weareworldchallenge.com/uk/" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/worldchallenge.webp" alt="World Challenge Logo">
+        <a href="https://www.newark-sherwooddc.gov.uk/" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/newark.png" alt="Newark and sherward dc">
         </a>  
-        <a href="https://www.speedyservices.com" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/speedy.webp" alt="speedy Logo">
+        <a href="https://www.nwleics.gov.uk/" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/nwldc.png" alt="nwldc">
         </a>  
         <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
           <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/hb-50.png" alt="Holland & Barrett Logo">
@@ -44,14 +44,14 @@
         <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
           <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/dentons-50.png" alt="Dentons Law Firm Logo">
         </a>  
-        <a href="https://www.beaverbrooks.co.uk" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/Beaverbrookslogo.webp" alt="beaverbrooks Logo">
+        <a href="https://www.plusdane.co.uk/" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/plusdane.png" alt="plus dane housing">
         </a>  
-        <a href="https://www.thedonkeysanctuary.org.uk" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/thedonkeysanctuary.webp" alt="the donkey sanctuary Logo">
+        <a href="https://www.riverside.org.uk" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/riverside.png" alt="riverside">
         </a>  
-        <a href="https://www.ndcs.org.uk" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/ndcs-logo.png" alt="ndcs Logo">
+        <a href="https://www.sandwell.gov.uk" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/sandwell.png" alt="sendwell Logo">
         </a>  
         <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
           <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bbraun-50.png" alt="bbraun Logo">

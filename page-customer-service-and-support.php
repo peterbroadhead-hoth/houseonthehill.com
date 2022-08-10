@@ -67,7 +67,7 @@
       <div class="text">
         <h2>Support your customers</h2>
         <p>All the tools needed for a quality customer support service.</span></p>
-        <a href="/price-plans"><p class="price"> <span>HotH Customer Service Management starts as low as £30 per agent, per month</span></p></a>
+        <a href="/price-plans"><p class="price"> <span>View Pricing</span></p></a>
       </div>
       <li>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/selfservice.png" alt="SSP icon"></div>
