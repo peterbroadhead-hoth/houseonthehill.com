@@ -146,14 +146,6 @@
         <td><i class="fal fa-check-circle"></i></td>
       </tr>
       <tr>
-        <td><a href="/features-chat-2/">Branded Chat Messaging App</a></a></td>
-        <td class="price">£20 per Agent pm</td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-        <td><i class="fal fa-check-circle"></i></td>
-      </tr>
-      <tr>
         <td><a href="/features/mobile-service-desk/">Customizable Mobile Web App</a></td>
         <td class="price">-</td>
         <td><i class="fal fa-check-circle"></i></td>
@@ -338,7 +330,7 @@
         <td><i class="fal fa-check-circle"></i></td>
       </tr>
       <tr>
-        <td>Software Support (Telephone, Email, Chat)</td>
+        <td>Software Support (Telephone, Email)</td>
         <td class="price">Inc with 5 or more agents or £950 py</td>
         <td><i class="fal fa-check-circle"></i></td>
         <td><i class="fal fa-check-circle"></i></td>
