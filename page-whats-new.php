@@ -3,7 +3,7 @@
   <div class="header">
     <div class="title">
       <img src="/wp-content/uploads/2021/08/lightbulb.png">
-      <h1>What's new 2021</h1>
+      <h1>What's new</h1>
       <p>See what developments and features our HotH team have been working on to help improve your services this year.</p>
       <a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Start a free trial</a> 
     </div>

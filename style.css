@@ -4996,17 +4996,17 @@ background-color:#E3F1F3;
   background-color: #F3DEC7;
   display: flex;
   flex-wrap: wrap;
-  height: 600px;
 }
 
 .whats-new-container .header .title{
   margin: auto;
   text-align: center;
   width: 500px;
+  padding: 50px;
 }
 
 .whats-new-container .header .title img{
-  width: 200px;
+  width: 100px;
 }
 
 ul.whats-new{

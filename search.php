@@ -63,7 +63,7 @@
 		    </a>
 			<?php endwhile; else: ?>
 			<p style="margin-left:15px;">Hmmm looks like we can't find what you are looking for...
-			<br><br><a href="mailto:documentation@houseonthehill.com">Contact documentation@houseonthehill.com</a></p>
+			<br><br><a href="mailto:support@houseonthehill.com">Contact support@houseonthehill.com</a></p>
 			<?php endif; ?>
 	</div>
 </div>

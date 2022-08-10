@@ -83,9 +83,11 @@
           <a href="/demo" class="more-info">Request a demo</a>
         </div>  
     </div>
-  
-    <div class="content">
+    
+    <div class="content-container">
+      <div class="content">
         <?php the_content(); ?> 
+      </div>
     </div>
 </div>
  
