@@ -64,7 +64,7 @@
     <div class="text">
       <h2>Multiple solutions all under one roof</h2>
       <p>Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
-      <a href="/price-plans"><p class="price"> <span>All HotH solutions start as low as £30 per agent, per month</span></p></a>
+      <a href="/price-plans"><p class="price"> <span>View Pricing</span></p></a>
     </div>
     <div class="solution-carousel">
       <input checked="checked" class="solution-carousel-activator" id="solution-carousel-slide-activator-1" name="solution-carousel" type="radio">
