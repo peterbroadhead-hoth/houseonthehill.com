@@ -61,6 +61,7 @@
   </div>
 
   <div class="solution-carousel-container">
+    <div class="circle"></div>
     <div class="text">
       <h2>Multiple solutions all under one roof</h2>
       <p>Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
@@ -102,7 +103,7 @@
           <div class="solution-carousel-item">
             <div class="solution-carousel-content">
               <a href="/it-service-management-software/">
-              <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.jpg" alt="itsm Icon"></div>
+              <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.png" alt="itsm Icon"></div>
               </a>
               <h3>IT Service <br>Management</h3>
               <p>Deliver a modern ITIL driven service desk with a deep set of tools, automated workflows and a self-service portal. Where your users can raise tickets, access common service requests and search the knowledge base for FAQs.  </p>
@@ -115,7 +116,7 @@
           <div class="solution-carousel-item">
             <div class="solution-carousel-content">
               <a href="/foi-request-management/">
-              <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg" alt="foi Icon"></div>
+              <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.png" alt="foi Icon"></div>
               </a>
               <h3>FOI, Case & Complaints <br>Management</h3>
               <p>Fully paperless solution to aid your team with new requests logged by the public via the portal or by email, these cases can then be categorised into types and workflows, such as FOI, Data Protection, Subject Access Requests, Complaints, Compliments, Information Governance and RoPA.</p>
@@ -128,10 +129,10 @@
           <div class="solution-carousel-item">
             <div class="solution-carousel-content">
               <a href="/customer-service-and-support/">
-              <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-header.jpg" alt="Customer Service Management Icon"></div>
+              <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-header.png" alt="Customer Service Management Icon"></div>
               </a>
               <h3>Customer Service <br>Management</h3>
-              <p>Helps your sales team provide high quality customer support. Keep customers and staff happy by capturing key information through the branded portal, chat, email, feedback surveys, use data driven decisions from reports and KPIs to continually improve your service.</p>
+              <p>Helps your sales team provide high quality customer support. Keep customers and staff happy by capturing key information through the branded portal, email, feedback surveys, use data driven decisions from reports and KPIs to continually improve your service.</p>
               <div class="btn">
               <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">Try for free</a>
               <a class="more-info" href="/customer-service-and-support/">More HotH CSM ></a>
@@ -141,7 +142,7 @@
           <div class="solution-carousel-item">
             <div class="solution-carousel-content">
               <a href="/facilities-management/">
-              <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-header.jpg" alt="CAFM Icon"></div>
+              <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/fm-header.png" alt="CAFM Icon"></div>
               </a>
               <h3>Computer Aided Facilities <br>Management</h3>
               <p>Will allow you to manage your whole property portfolio, jobs and keep your engineers on the road. Your tool kit will include an engineer mobile app, reactive job logging, property maps, planned preventative maintenance, Job Sheets, Quotes, Invoices and more.</p>
@@ -212,7 +213,6 @@
           <p>Help is at hand, get in touch and we will be available to help.</p>
           <div class="btns">
             <a class="more-info" href="/contact-us/">Call</a>
-            <a class="more-info" onclick="HothChatWidget.toggle()">Chat</a>
             <a class="more-info" href="mailto:support@houseonthehill.com">Email</a>
           </div>
         </li>
@@ -222,7 +222,6 @@
           <p>Get the most out of your solution with bespoke consultancy.</p>
           <div class="btns">
             <a class="more-info" href="/contact-us/">Call</a>
-            <a class="more-info" onclick="HothChatWidget.toggle()">Chat</a>
             <a class="more-info" href="mailto:support@houseonthehill.com">Email</a>
           </div>
         </li>
@@ -232,7 +231,6 @@
           <p>Get House-on-the-Hill installed on your own server or migrate your on-site system into the cloud and we will look after your data for you.</p>
           <div class="btns">
             <a class="more-info" href="/contact-us/">Call</a>
-            <a class="more-info" onclick="HothChatWidget.toggle()">Chat</a>
             <a class="more-info" href="mailto:support@houseonthehill.com">Email</a>
           </div>
         </li>
