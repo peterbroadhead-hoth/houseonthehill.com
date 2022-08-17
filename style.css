@@ -2032,6 +2032,16 @@ backdrop-filter: blur(100px);
   background: linear-gradient(180deg, #FF78A7 0%, #FFD7BD 100%);
 }
 
+.solution-carousel-container .btn{
+  display: flex;
+  padding: 25px;
+}
+
+.solution-carousel-container .btn a{
+  margin: auto;
+  z-index: 9;
+}
+
 .solution-carousel {
   width: 95%;
   margin-left: 5%;
@@ -2123,7 +2133,7 @@ backdrop-filter: blur(100px);
 
 .solution-carousel-container .text{
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .solution-carousel-container .text p.price span {
@@ -2142,7 +2152,7 @@ backdrop-filter: blur(100px);
   padding: 0 20px;
   border-radius: 4px;
   position: relative;
-  min-height: 505px;
+  min-height: 370px;
 }
 
 .solution-carousel-content .img{
@@ -2229,7 +2239,6 @@ backdrop-filter: blur(100px);
     height: 400px;
   }
   .solution-carousel-content{
-    min-height: 530px;
   }
 }
 
@@ -2252,7 +2261,6 @@ backdrop-filter: blur(100px);
     width: 75%;
   }
   .solution-carousel-content{
-    min-height: 500px;
   }
   .solution-carousel-content .img{
     height: 150px;
@@ -2314,7 +2322,6 @@ backdrop-filter: blur(100px);
     width: 90%;
   }
   .solution-carousel-content{
-    min-height: 520px;
     padding: 10px;
     overflow: hidden;
   }
