@@ -65,7 +65,7 @@
     <div class="text">
       <h2>Multiple solutions all under one roof</h2>
       <p>Out-of-the-Box House-on-the-Hill Software is ready for these solutions in the Cloud or On-Site. <br>Pick the solution which best reflects your organisation.</p>
-      <div class="btn"><a class="sign-up" href="/price-plans">View pricing</a></div>
+      <div class="button"><a class="sign-up" href="/price-plans">View pricing</a></div>
     </div>
     <div class="solution-carousel">
       <input checked="checked" class="solution-carousel-activator" id="solution-carousel-slide-activator-1" name="solution-carousel" type="radio">
@@ -139,7 +139,7 @@
         </div>
       </div>
     </div>
-    <div class="btn"><a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Get Started</a></div>
+    <div class="button"><a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Get Started</a></div>
   </div>
 
   <div class="promo">

@@ -2032,12 +2032,12 @@ backdrop-filter: blur(100px);
   background: linear-gradient(180deg, #FF78A7 0%, #FFD7BD 100%);
 }
 
-.solution-carousel-container .btn{
+.solution-carousel-container .button{
   display: flex;
   padding: 25px;
 }
 
-.solution-carousel-container .btn a{
+.solution-carousel-container .button a{
   margin: auto;
   z-index: 9;
 }
