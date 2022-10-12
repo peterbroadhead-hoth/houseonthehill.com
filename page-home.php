@@ -10,7 +10,7 @@
             <div class="carousel">
               <div class="change_outer">
                 <div class="change_inner">
-                  <div class="element 1">IT Service Management</div>
+                  <div class="element 1">IT Service Managements</div>
                   <div class="element 2">FOI & Case <span>Management</span></div>
                   <div class="element 3">Facilties Management</div>
                   <div class="element 4">Customer Service</div>
