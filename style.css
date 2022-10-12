@@ -2405,7 +2405,8 @@ text-fill-color: transparent;
 .solution .testimonials-container .customers a{
   margin: 2%;
   display: flex;
-  width: 21%
+  width: 21%;
+  z-index: 9;
 }
 
 .solution .testimonials-container .customers a img{
