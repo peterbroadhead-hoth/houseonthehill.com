@@ -33,7 +33,7 @@
   </div>
   <?php wp_reset_query(); ?> 
   <div class="library-intro">
-		<h1 class="library-header"><?php the_title(); ?></h1>
+		<h1 class="library-header" id="title"><?php the_title(); ?></h1>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <div class="container pad-top-bottom">
       <div class="row">

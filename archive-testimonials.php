@@ -5,8 +5,8 @@
 		<div class="testimonials-header-container">
 			<div class="testimonials-header">
 				<div class="info">
-					<p>Customer Testimonials</p>
 					<h2>Quick question, why House-on-the-Hill?</h2>
+					<p>See what our customers say about us.</p>
 				</div>
 			</div>
 		</div>
@@ -18,12 +18,13 @@
 					<?php
 					    $features_loop = new WP_Query( array(
 					    'post_type' => 'Testimonials',
-					        'posts_per_page' => 40
+					        'posts_per_page' => 999
 					    ) );
 					if ( $features_loop->have_posts() ) : ?>
 					
 					<?php while ( $features_loop->have_posts() ) : $features_loop->the_post(); ?>
 								   <div class="jumbotron">
+											<p class="quote">"</p>
 									  <?php the_content();?>
 										<p class="contact"><?php the_title(); ?></p>
 									</div>

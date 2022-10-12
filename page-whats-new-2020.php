@@ -4,7 +4,7 @@
   <div class="header-container">
     <div class="header">
       <h1>What's New 2020</h1>
-      <p>See what's new to SupportDesk.</p>
+      <p>See what's new to House-on-the-Hill.</p>
     </div>
     <div class="form">
       <div class="form-container">
@@ -56,8 +56,8 @@
 
 <div class="whats-new-features">
   <div class="home-feature">
-    <h2>SupportDesk – Chat Messaging (optional add-on)</h2>
-    <p>SupportDesk Chat allows your customers & website visitors to chat with the ServiceDesk via the use of the Chat connection on the WebGuest Dashboard. A chat can either be initiated by the operator (ServiceDesk) or the customer. In the latter case this can only happen if there is an operator waiting in the chat portal. Otherwise the customer can send an email to the ServiceDesk. <br><br><a target="_blank" href="https://houseonthehill.com/supportdeskchat/">More Details</a></p>
+    <h2>House-on-the-Hill – Chat Messaging (optional add-on)</h2>
+    <p>House-on-the-Hill Chat allows your customers & website visitors to chat with the ServiceDesk via the use of the Chat connection on the WebGuest Dashboard. A chat can either be initiated by the operator (ServiceDesk) or the customer. In the latter case this can only happen if there is an operator waiting in the chat portal. Otherwise the customer can send an email to the ServiceDesk. <br><br><a target="_blank" href="https://houseonthehill.com/House-on-the-Hillchat/">More Details</a></p>
   </div>
   <div class="img-container">
     <img src="/wp-content/uploads/2020/01/mainvisitor-list.jpg">
@@ -77,7 +77,7 @@ instead of having the team manually write out the same response for each ticket.
 
     <li style="margin-right: 0;">
       <h2>Themes and UI Designer</h2>
-      <p>Quickly customise your instance of SupportDesk to match corporate colours.</p>
+      <p>Quickly customise your instance of House-on-the-Hill to match corporate colours.</p>
       <div class="img">
         <img src="/wp-content/uploads/2020/04/themes-nd-ui-designer-e1587031690736.jpg">
       </div>
@@ -93,7 +93,7 @@ instead of having the team manually write out the same response for each ticket.
 
     <li style="margin-right: 0;">
       <h2>Engineer location tracking</h2>
-      <p>Keep track of Engineers using SupportDesk through the mobile UI and quick see their location through 
+      <p>Keep track of Engineers using House-on-the-Hill through the mobile UI and quick see their location through 
 a GeoLocation dashboard.</p>
       <div class="img">
         <img src="/wp-content/uploads/2020/04/engineer-location-tracking-e1587031747346.jpg">
@@ -122,7 +122,7 @@ a GeoLocation dashboard.</p>
     <li>
       <i class="far fa-align-left"></i>
       <h3>New Buttons</h3>
-      <p>In SupportDesk we now have buttons to trigger predefined mails at run time from your library of predefined e-mails.</p>
+      <p>In House-on-the-Hill we now have buttons to trigger predefined mails at run time from your library of predefined e-mails.</p>
     </li>
     
     <li>
@@ -151,7 +151,7 @@ a GeoLocation dashboard.</p>
     <h2>Security Features</h2>
     <p>Security is high on the priority list for and URL’s generated in email templates are now encrypted using AES256 to prevent URL tampering to access other parts of the system.
 		<br>  
-    Under the hood we have tightened many other areas in the constant drive to keep your SupportDesk secure. Password strength can be checked at login with enforced password reset to match the latest security settings.
+    Under the hood we have tightened many other areas in the constant drive to keep your House-on-the-Hill secure. Password strength can be checked at login with enforced password reset to match the latest security settings.
   </p>
 </div>
 
@@ -166,7 +166,7 @@ a GeoLocation dashboard.</p>
     <li>
       <i class="fas fa-users"></i>
       <h3>Simple Multi Department mode for Logins</h3>
-      <p>Provides a simple way to allow nominated logins to be Support in One folder and WebGuests in all others. With SupportDesk use being expanded to departments other than IT, the requirement to have logins act as Support in one folder and WebGuest in others is now easier to implement and ensures consistent behaviour.<br>
+      <p>Provides a simple way to allow nominated logins to be Support in One folder and WebGuests in all others. With House-on-the-Hill use being expanded to departments other than IT, the requirement to have logins act as Support in one folder and WebGuest in others is now easier to implement and ensures consistent behaviour.<br>
 			This feature requires House-On-The-Hill activation.</p>
     </li>
 
@@ -187,7 +187,7 @@ a GeoLocation dashboard.</p>
     <li>
     	<i class="far fa-clock"></i>
     	<h3>Out of Hours recording and email</h3>
-    	<p>SupportDesk can now automatically record tickets logged “out of hours” with all the usual reporting expected and clear indication on the ticket.
+    	<p>House-on-the-Hill can now automatically record tickets logged “out of hours” with all the usual reporting expected and clear indication on the ticket.
 			<br><br>
     	A user defined mail can also be added with a dedicated recipient and which will be automatically sent each time an “out of hours” ticket is logged.
     	</p>
@@ -196,7 +196,7 @@ a GeoLocation dashboard.</p>
     <li>
       <i class="far fa-trash-alt"></i>
       <h3>Keeping Tidy</h3>
-      <p>It’s a good idea to archive old records on a regular basis to keep SupportDesk performant.<br>
+      <p>It’s a good idea to archive old records on a regular basis to keep House-on-the-Hill performant.<br>
       You can now setup up a routine to archive records daily. <br>
       Simply set the rules at Company level and then use the Work Flow Engine to do the deed!<br>
       Archived records are not deleted, they are transferred to an archive folder so can be retrieved.</p>
@@ -213,13 +213,13 @@ a GeoLocation dashboard.</p>
     <li>
       <i class="far fa-tachometer-alt-fastest"></i>
       <h3>Match incoming emails to a QuickCall</h3>
-      <p>SupportDesk already generates a ticket from an incoming email where it matches the subject of an email template. But now, in addition, if the body of the email template contains the variable to link it with a QuickCall; the field entries on the QuickCall are used to populate the new ticket, in the same manner as when using manual QuickCalls.</p>
+      <p>House-on-the-Hill already generates a ticket from an incoming email where it matches the subject of an email template. But now, in addition, if the body of the email template contains the variable to link it with a QuickCall; the field entries on the QuickCall are used to populate the new ticket, in the same manner as when using manual QuickCalls.</p>
     </li>
 
     <li>
       <i class="far fa-cloud"></i>
       <h3>Microsoft Azure Active Directory (AD) Connector.</h3>
-      <p>SupportDesk 2020 can load users from Microsoft Azure AD rather than an on-site Active Directory enabling complete cloud-based single sign-on.</p>
+      <p>House-on-the-Hill 2020 can load users from Microsoft Azure AD rather than an on-site Active Directory enabling complete cloud-based single sign-on.</p>
     </li>
 
     <li>

@@ -24,7 +24,7 @@
 	<link href="<?php echo get_stylesheet_directory_uri(); ?>/fonts/fontawesome-pro-5.3.1-web/css/all.css" rel="stylesheet">
 	<link rel="shortcut icon" href="<?php echo site_url(); ?>/wp-content/uploads/2014/07/hoth.jpg" />
 	<?php wp_head(); ?>
-	
+	<!-- ms teams chat <script src="//www.socialintents.com/api/chat/socialintents.1.3.js#2c9fa0e17fbc5940017fc17d29ea0600" async="async"></script>  -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5009086-1"></script>
 	<script>
@@ -34,7 +34,32 @@
 	gtag('config', 'UA-5009086-1');
 	</script>
 
+	<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5965e8101dc79b329518dd9c/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+	
+
 	<!-- trackers -->
+
+	<!-- Global site tag (gtag.js) - Google Ads: 1071861445 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1071861445"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-1071861445');
+</script>
 
 	<!-- Event snippet for G-Cloud click conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> 
 	<script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-1071861445/lUtqCP6Jq4QDEMWdjf8D', 'event_callback': callback }); return false; } </script>
@@ -49,342 +74,167 @@
 <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2323322&fmt=gif" /> </noscript>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8MGDJH"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <div class="hoth-header-container">
 	<div class="hoth-header">
-		<a class="hoth-home" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/HotH-logo-square-50.png" alt="House-on-the-Hill Logo"> <span style="margin-left:10px;">House-on-the-Hill</span></a>
-		<ul>
-			<li class="dropdown">
-				<button onclick="myFunction()" class="dropbtn">Solutions</button>
-				<div id="myDropdown" class="dropdown-content">
-					<a href="/foi-request-management/">FOI, Case & Complaints Management</a>
-					<a href="/it-service-management-software">IT Service Management</a>
-					<a href="/customer-service-and-support/">Customer Service Management</a>
-					<a href="/facilities-management/">Computer Aided Facilities Management</a>
+		<a class="hoth-home" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/HotH-logo-square-50.png" alt="House-on-the-Hill Logo"></a>
+		<div class="main">
+			<div class="dropdown">
+					<button class="dropbtn">Solutions</button>
+					<div class="dropdown-content">
+						<a href="/it-service-management-software/">
+							<h3>IT Service Management</h3>
+							<p>Powerful, quick, simple, ticket logging software. Tailor the way you want to create tickets.</p>
+						</a>
+						<a href="/foi-request-management/">
+							<h3>FOI, Case & Complaints Management Software</h3>
+							<p>Efficient case management software to aid your team with new requests logged by the public.</p>
+						</a>
+						<a href="/customer-service-and-support/">
+							<h3>Customer Service Management</h3>
+							<p>Help your team to provide quality customer support and use data driven decisions from reports and more.</p>
+						</a>
+						<a href="/facilities-management/">
+							<h3>Computer Aided Facilities Management</h3>
+							<p>Manage your whole property portfolio, jobs and keep your engineers on the road.</p>
+						</a>
+					</div>
+			</div>
+
+			<a href="/price-plans">Pricing <img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/underline.png"></a>
+
+			<a href="/features">Features <img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/underline.png"></a>
+
+			<div class="dropdown">
+					<button class="dropbtn about">About</button>
+					<div class="dropdown-content about">
+						<a href="/about-house-on-the-hill-software">
+							<h3>About House-on-the-Hill</h3>
+							<p>A small business running powerful service desk solutions</p>
+						</a>
+						<a href="/testimonials">
+							<h3>Customer Testimonials</h3>
+							<p>Dont just take our word for it, see what our customers say</p>
+						</a>
+						<a href="/blog">
+							<h3>Blog</h3>
+							<p>Keep up to date with all that we do at HotH</p>
+						</a>
+						<a href="/casestudy">
+							<h3>Customer Case Studies</h3>
+							<p>Read how we helped businesses make our House, their Home</p>
+						</a>
+						<a href="/contact-us">
+							<h3>Contact House-on-the-Hill</h3>
+							<p>Need help? Want a demo? Questions on our pricing? Get in touch, were ready to help</p>
+						</a>
+						<a href="/careers">
+							<h3>Careers</h3>
+							<p>Interested in joining the HotH team?</p>
+						</a>
+						<a href="/social-values-statement/">
+							<h3>Social Values</h3>
+							<p>We are proud to support charities, fund-raising events and work experience programs</p>
+						</a>
+					</div>
+			</div>
+		</div>
+		<div class="sales">
+			<ul>
+				<li><a class="contact" href="/contact-us/" rel="noopener">Contact Us</a><img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/underline.png"></li>
+				<li><a href="https://support.houseonthehill.com/" rel="noopener">Log in</a><img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/underline.png"></li>
+				<li><a href="/demo" class="demo-btn">Book a demo</a><img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/underline.png"></li>
+				<li style="display: flex;"><a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank">Free trial</a></li>
+
+				<div class="reveal">
+					<p><strong>Interested in a personal HotH tour?</strong> <br><br>Email us at <a href="mailto:demo@houseonthehill.com" target="_blank" rel="noopener noreferrer">demo@houseonthehill.com</a> or fill in this quick form and let a member of our team show you around your own personalised trial which you get to take away!</p>
+					<div class="form">
+							<form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
+											<input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
+											<input type="HIDDEN" id="selchange" name="selchange" value="">
+											<input type="HIDDEN" id="selparam1" name="selparam1" value="">
+											<input type="HIDDEN" id="AjaxUpdate" name="AjaxUpdate" value="">
+											<input type="HIDDEN" id="A" name="A" value="AnonCall">
+											<input type="HIDDEN" id="F1" name="F1" value="">
+											<input type="HIDDEN" id="F2158" name="F2158" value="0">
+											<input type="HIDDEN" id="NextStep" name="NextStep" value="">
+											<input type="HIDDEN" id="F2126" name="F2126" value="341">
+											<input type="HIDDEN" id="F2127_ctrl" name="F2127_ctrl" value="">
+											<input type="HIDDEN" id="F2128_ctrl" name="F2128_ctrl" value="">
+											<input type="HIDDEN" id="F2150_ctrl" name="F2150_ctrl" value="">
+											<input type="HIDDEN" id="F2129_ctrl" name="F2129_ctrl" value="">
+											<input type="HIDDEN" id="F2130_ctrl" name="F2130_ctrl" value="">
+											<input type="HIDDEN" id="F2148_ctrl" name="F2148_ctrl" value="">
+											<input type="HIDDEN" id="F2149_ctrl" name="F2149_ctrl" value="">
+											<input type="HIDDEN" id="ActResolved_ctrl" name="ActResolved_ctrl" value="">
+											<input type="HIDDEN" id="ActRespondedTo_ctrl" name="ActRespondedTo_ctrl" value="">
+											<input type="HIDDEN" id="F5006_ctrl" name="F5006_ctrl" value="">
+											<input type="HIDDEN" id="F" name="F" value="0">
+											<input type="HIDDEN" id="CCSM" name="CCSM" value="0">
+											<input type="HIDDEN" id="InitMedium" name="InitMedium" value="8192">
+											<input type="HIDDEN" id="SummViewFold" name="SummViewFold" value="0">
+											<input type="HIDDEN" id="F3" name="F3" value="66">
+											<!--<input type="HIDDEN" id="F2156" name="F3" value="48">-->
+											<input type="HIDDEN" id="savebtn" name="savebtn" value="">
+											<input type="HIDDEN" id="savebtn1" name="savebtn1" value="">
+											<input type="HIDDEN" name="F2178" id="F2178" size="1" value="Demo">
+											<input required="" type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Company Name">
+											<!--<input type="TEXT" name="F10011" id="F10011" class="suptabde" size="0035" maxlength="10000" placeholder="Your Name">-->
+        			<input type="hidden" name="F38" id="F38" value="demo@houseonthehill.com">
+											<input type="TEXT" name="F10010" id="reg_email" size="0035" maxlength="50" value="" placeholder="Email Address">
+									<select class="suptabde" name="F10013" id="F10013" size="1">
+											<option value="ITSM" selected="">ITSM</option>
+											<option value="CAFM">CAFM</option>
+											<option value="CSM">CSM</option>
+											<option value="FOI">FOI</option>
+									</select>
+        <textarea class="suptabde" name="F10010" id="F10010" placeholder="When would you like the demo / What areas or features would you like us to cover?"></textarea>
+									<div id="captcha_result"></div>
+									<input class="submit" type="submit" value="Send Demo Request"> 
+							</form>
+							<script src=https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit async defer>
+							</script>
+							<script>
+							var form = document.getElementById('theForm');
+							form.addEventListener("submit", function(event){
+							if (grecaptcha.getResponse() === '') {                            
+							event.preventDefault();
+							alert('Please check the recaptcha');
+							}
+							}
+							, false);
+							</script>
+					</div>
 				</div>
-			</li>
-			<li class="solutions"><a href="/price-plans">Solutions</a>
-			<ul>
-				<div class="container">
-					<div class="main-menu sector">
-						<h2 class="title">By Sector</h2>
-							<div class="main-menu-container">
-								<a href="/service-desk-software-for-public-sector/">
-									<li class="foi">
-										<h2>Public Sector</h2>
-										<p>Deliver intuitive processes for the whole organisation with HotH</p>
-									</li>
-								</a>
-								<a href="/foi-request-management/">
-									<li class="foi">
-										<h2>Local Government</h2>
-										<p>Many departments reach for HotH as an enterprise tool to deliver FOI Case Management & ITSM</p>
-									</li>
-								</a>
-								<a href="/it-service-management-software">
-									<li class="itsm">
-										<h2>Education</h2>
-										<p>Create rich self-service portals for Students or Staff to request services, create tickets and log facilities issues</p>
-									</li>
-								</a>
-								<a href="/customer-service-and-support/">
-									<li class="csm">
-										<h2>Retail Service</h2>
-										<p>Fully branded helpdesk, portal, complete email integration and Knowledge articles make House-on-the-Hill a great fit for providing a great service for your customers </p>
-									</li>
-								</a>
-								<a href="/it-service-management-software">
-									<li class="itsm">
-										<h2>Healthcare</h2>
-										<p>Hospitals rely on House-on-the-Hill's proven ITSM & Facilities packages to deliver purpose built workflows</p>
-									</li>
-								</a>
-								<a href="/facilities-management">
-									<li class="cafm">
-										<h2>Property Management</h2>
-										<p>Reactive and planned jobs are managed from within HotH across your whole property portfolio. Assign to engineers, invoice clients and manage contracts</p>
-									</li>
-								</a>
-							</div>
-					</div>
-					<div class="sub-menu solutions">
-						<h2 class="title">By Use</h2>
-						<div class="main-menu-container">
-							<a href="/foi-request-management/">
-									<li class="foi">
-										<h2>Freedom of Information & Case Management</h2>
-										<p>Automate the processing of FOI, DPA, ROPA, EIR, SAR, Information Governance & Complaints</p>
-									</li>
-								</a>
-								<a href="/it-service-management-software/">
-									<li class="itsm">
-										<h2>IT Service Management</h2>
-										<p>A versatile service desk solution that delivers great IT support</p>
-									</li>
-								</a>
-								<a href="/customer-service-and-support/">
-									<li class="csm">
-										<h2>Customer Service Management</h2>
-										<p>Support your Customers with House-on-the-Hill CSM service desk solution</p>
-									</li>
-								</a>
-								<a href="/facilities-management/">
-									<li class="cafm">
-										<h2>Computer Aided Facilities Management</h2>
-										<p>Software to help keep your properties well maintained and safe</p>
-									</li>
-								</a>
-							</div>
-					</div>
-
-
-					<div class="sub-menu plans">
-						<h2 class="title">Plans</h2>
-						<a href="/price-plans/">
-							<li>
-								<h2>Cloud</h2>
-								<p>Hosed with Microsoft Azure, we will look after your system for you. Easy upgrades when you're ready for them.</p>
-							</li>
-						</a>
-						<a href="/price-plans/">
-							<li>
-								<h2>On-Site</h2>
-								<p>Your house your rules. Run House-on-the-Hill on-site.</p>
-							</li>
-						</a>
-					</div>
-					<div class="foot-menu">
-						<div class="contact">
-							<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Log In</a>
-						</div>
-					</div>
-			</div>
 			</ul>
-		</li>
-
-		<li><a href="/features">Features</a>
-			<ul>
-				<div class="container">
-					<div class="main-menu">
-						<h2 class="title">Power up your service</h2>
-						<div class="main-menu-container">
-							<a href="/self-service/">
-								<li class="">
-									<h2>Self-Service Portal</h2>
-									<p>Allow your End-User's to log their own tickets</p>
-								</li>
-							</a>
-							<a href="/workflow-engine/">
-								<li class="">
-									<h2>Workflow & Automation Engine</h2>
-									<p>Automatically notify assignees of impending SLA breaches</p>
-								</li>
-							</a>
-							<a href="/features/report-designer/">
-								<li class="">
-									<h2>Reports Designer</h2>
-									<p>Build and extract real-time reports to provide critical information to your team on any data</p>
-								</li>
-							</a>
-							<a href="/service-request-buttons/">
-								<li class="">
-									<h2>Service Request Buttons</h2>
-									<p>Make the Service Request process quick, easy and clear</p>
-								</li>
-							</a>
-							<a href="/drag-and-drop-dashboard-builder/">
-								<li class="">
-									<h2>Drag and Drop Dashboards</h2>
-									<p>Customise ticket logging forms with the drag of a mouse</p>
-								</li>
-							</a>
-							<a href="/features/">
-								<li class="">
-									<h2>View all features <i class="far fa-arrow-right"></i></h2>
-								</li>
-							</a>
-						</div>
-					</div>
-					<div class="sub-menu">
-						<h2 class="title">Latest Feature</h2>
-						<div class="latest-feature">
-							<?php
-								$features_loop = new WP_Query( array(
-								'post_type' => 'features',
-										'posts_per_page' => 1
-								) );
-								if ( $features_loop->have_posts() ) : ?>
-							<?php while ( $features_loop->have_posts() ) : $features_loop->the_post(); ?>
-								<div class="single-feature">
-									<a href="<?php the_permalink(); ?>">
-										<div class="description">
-											<div class="img">
-												<?php the_post_thumbnail() ?>
-											</div>
-											<h2><?php the_title();?></h2>
-											<ul class="feature-categories single">
-												<?php
-												$terms = get_the_terms( $post->ID, 'solution' );
-												if ($terms && ! is_wp_error($terms)): ?>
-												<?php foreach($terms as $term): ?>
-																<li><p href="<?php echo get_term_link( $term->slug, 'solution'); ?>" rel="tag" class="<?php echo $term->slug; ?>"><span class="label label-default"><?php echo $term->name; ?></span></p></li>
-												<?php endforeach; ?>
-												<?php endif; ?>       
-											</ul>            
-										</div>
-									</a>
-								</div>
-							<?php endwhile; else:?>
-							<?php endif; ?>
-							<?php wp_reset_query(); ?>
-						</div>
-						<h2 class="title">Integrations</h2>
-						<a href="/microsoft-teams-integration/">
-							<li>
-								<h2>Microsoft Teams</h2>
-								<p>Maximize how you work in Teams with House-on-the-Hill's Teams integration</p>
-							</li>
-						</a>
-						<a href="/supportdesk-chat-2/">
-							<li>
-								<h2>House Chat</h2>
-								<p>Add another facet to your customer service and provide support with immediate engagement.</p>
-							</li>
-						</a>
-						<a class="whats-new" href="/whats-new/">
-							<li>
-								<img width="50" style="margin-bottom: 5px;" src="/wp-content/uploads/2021/08/lightbulb.png">
-								<h2>Whats New</h2>
-								<p>See what developments and features our HotH team have been working on to help improve your services this year.</p>
-							</li>
-						</a>
-					</div>
-					<div class="foot-menu">
-						<div class="contact">
-							<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Log In</a>
-						</div>
-					</div>
-			</div>
-			</ul>
-		</li>
-
-      <li><a href="/price-plans">Pricing</a></li>
-      <li><a href="/contact-us">About</a>
-        <ul>
-        	<div class="container">
-        		<div class="main-menu">
-        			<h2 class="title">All about House-on-the-Hill Software</h2>
-							<div class="main-menu-container">
-								<a href="/about-house-on-the-hill-software">
-									<li class="">
-										<h2>About House-on-the-Hill</h2>
-										<p>A small business running powerful service desk solutions</p>
-									</li>
-								</a>
-								<a href="/testimonials">
-									<li class="">
-										<h2>Customer Testimonials</h2>
-										<p>Dont just take our word for it, see what our customers say</p>
-									</li>
-								</a>
-								<a href="/blog">
-									<li class="">
-										<h2>Blog</h2>
-										<p>Keep up to date with all that we do at HotH</p>
-									</li>
-								</a>
-								<a href="/casestudy">
-									<li class="">
-										<h2>Customer Case Studies</h2>
-										<p>Read how we helped businesses make our House, their Home</p>
-									</li>
-								</a>
-								<a href="/contact-us">
-									<li class="">
-										<h2>Contact House-on-the-Hill</h2>
-										<p>Need help? Want a demo? Questions on our pricing? Get in touch, were ready to help</p>
-									</li>
-								</a>
-								<a href="/careers">
-									<li class="">
-										<h2>Careers</h2>
-										<p>Interested in joining the HotH team?</p>
-									</li>
-								</a>
-								<a href="/social-values-statement/">
-									<li class="">
-										<h2>Social Values</h2>
-										<p>We are proud to support charities, fund-raising events and work experience programs</p>
-									</li>
-								</a>
-							</div>
-		        </div>
-		        <div class="sub-menu contact">
-        			<h2 class="title">Contacts HotH</h2>
-		          <li>
-		          	<h2>Lets talk shop</h2>
-		          	<p>Perhaps you have some trickier questions. Contact the sales team and lets find out what we can do for you.<br><a href="mailto:sales@houseonthehill.com">sales@houseonthehill.com</a></p>
-		          </li>
-		          <li>
-		          	<h2>In a spot of bother</h2>
-		          	<p>Don’t fret, contact support below and we can help.<br><a href="mailto:support@houseonthehill.com">support@houseonthehill.com</a></p>
-		          </li>
-		        </div>
-						<div class="foot-menu">
-							<div class="contact">
-								<a href="/demo">Request Demo</a><div class="vl"></div><a href="/contact-us">Contact Sales</a><div class="vl"></div><a href="/docs">Product Documentation</a><div class="vl"></div><a href="http://support.houseonthehill.com">Log In</a>
-							</div>
-						</div>
-          </div>
-        </ul>
-      </li>
-
-			<!-- MOBILE TRIAL -->
-    	<li class="sign-up mobile-only"><a href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank" class="sign-up-toggle">Free Trial</a></li>
-    </ul>
-    
-    <ul class="sales">
-    	<!--<li><a href="mailto:hello@houseonthehill.com"><i class="fal fa-envelope"></i><span style="color: #006b8e;font-size: 17px;">hello@houseonthehill.com</span></a><p class="doc header-hover">hello@houseonthehill.com</p></li>		
-    	<li><a href="/docs"><i class="fal fa-book"></i><span>Product Documentation</span></a><p class="doc header-hover">Product Documentation</p></li>
-    	<li><a href="/demo"><i class="fal fa-id-card"></i><span>Request a Demo</span></a><p class="demo header-hover">Request a Demo</p></li>-->
-    	<li><a href="https://support.houseonthehill.com/" rel="noopener"><i class="far fa-sign-in-alt"></i><span>Log In</span></a><p class="login header-hover">Log In</p></li>
-    	<li class="demo-btn"><a href="/demo"><i class="fal fa-id-card"></i><span>Book a Demo</span></a><p class="demo header-hover">Book a Demo</p></li>
-    	<li class="sign-up"><a href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank" class="sign-up-toggle">Free Trial</a></li>
-    </ul>
-  </div>
+		</div>
+	</div>
 </div>
 
 
-<div class="mini_contact">	
+<!--<div class="mini_contact">	
 	<h3><div class="img"><img src="/wp-content/themes/houseonthehill.com/images/pete-headshot.jpg" height="30" width="30" alt="Pete Headshot"></div>Schedule a Demo</h3>
 	<a href="mailto:demo@houseonthehill.com">demo@houseonthehill.com</a> 
 	<a href="tel:+44 (0) 161 449 7057">+44 (0) 161 528 1259</a>
-</div>
+</div>-->
+
+
 
 <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
+    if (scroll >= 500) {
+        $(".hoth-header-container").addClass("white");
+    } else {
+        $(".hoth-header-container").removeClass("white");
     }
-  }
-}
+});
 </script>

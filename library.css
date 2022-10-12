@@ -14,7 +14,7 @@ body p{
 
 body hr{
   width:100%;
-  border-top: 1px solid #eee;
+  border-top: 3px solid #808080 !important;
 }
 
 /* Hide Elements on the Docs Page */
