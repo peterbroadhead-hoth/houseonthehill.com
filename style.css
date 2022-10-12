@@ -1027,7 +1027,7 @@ body #hoth-chat-button i{
   padding: 10px;
   min-height: 500px;
   position: relative;
-  background-image: url("/wp-content/themes/twentytwentyone/images/2023/blobs.png");
+  background-image: url("/wp-content/themes/houseonthehill.com/images/2023/blobs.png");
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -2337,7 +2337,7 @@ text-fill-color: transparent;
   padding: 10px;
   min-height: 500px;
   position: relative;
-  background-image: url("/wp-content/themes/twentytwentyone/images/2023/blobssol2.png");
+  background-image: url("/wp-content/themes/houseonthehill.com/images/2023/blobssol2.png");
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -2445,7 +2445,7 @@ text-fill-color: transparent;
 
 .solution .features{
   padding: 50px;
-  background-image: url(/wp-content/themes/twentytwentyone/images/2023/blobscramble.png);
+  background-image: url(/wp-content/themes/houseonthehill.com/images/2023/blobscramble.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position-y: 100px;
@@ -2707,7 +2707,7 @@ text-fill-color: transparent;
   }
   .solution .features{
     padding: 50px 10px;
-    background-image: url(/wp-content/themes/twentytwentyone/images/2023/blobscramble.png);
+    background-image: url(/wp-content/themes/houseonthehill.com/images/2023/blobscramble.png);
     background-size: 200%;
     background-repeat: repeat;
     background-position-y: 20px;
