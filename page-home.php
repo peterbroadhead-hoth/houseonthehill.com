@@ -58,7 +58,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/riverside.png" alt="riverside">
         </a>  
         <a href="https://www.sandwell.gov.uk" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/sandwell.png" alt="sendwell Logo">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/sandwell-logo.png" alt="sandwell Logo">
         </a>  
         <a href="https://www.bbraun.co.uk/en.html" target="_blank" rel="noopener">
           <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bbraun-50.png" alt="bbraun Logo">
