@@ -219,7 +219,7 @@
     <div class="circle"></div>
     <div class="container">
       <div class="content">
-        <h3 style="text-align: center; text-shadow: 2px 2px #ffffff; position: relative; width: 500px; margin: auto;"><img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/arrowdownleft.png" style="top: 0px; left: 30px; position: absolute;height: 75px">Learn more about HotH</h3>
+        <h3 style="text-align: center; text-shadow: 2px 2px #ffffff; position: relative; width: 500px; margin: auto;"><img src="https://hoth.local/wp-content/themes/houseonthehill.com/images/2023/arrowdownleft.png" style="top: 0px; left: 30px; position: absolute;height: 75px">Learn more about HotH</h3>
         <ul>
           <li>
             <h3>Whats new to <br>HotH</h3>
@@ -238,9 +238,9 @@
             <p>From local councils to local tradesmen, learn about how our customers have used HotH to support the people that matter.</p>
             <a href="/casestudy/">Case studies ></a>
           </li>
-            <img class="whatsnew" src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/whatsnew.png">
-            <img class="blog" src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/blog.png">
-            <img class="case" src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/casestudies.png">
+            <img class="whatsnew" src="https://hoth.local/wp-content/themes/houseonthehill.com/images/2023/whatsnew.png">
+            <img class="blog" src="https://hoth.local/wp-content/themes/houseonthehill.com/images/2023/blog.png">
+            <img class="case" src="https://hoth.local/wp-content/themes/houseonthehill.com/images/2023/casestudies.png">
         </ul>
       </div>
     </div>
