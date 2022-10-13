@@ -108,9 +108,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 			</div>
 
-			<a href="/price-plans">Pricing <img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/underline.png"></a>
+			<a href="/price-plans">Pricing <img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></a>
 
-			<a href="/features">Features <img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/underline.png"></a>
+			<a href="/features">Features <img src="/wp-content/themes/houseonthehill.comimages/2023/underline.png"></a>
 
 			<div class="dropdown">
 					<button class="dropbtn about">About</button>
@@ -148,9 +148,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 		<div class="sales">
 			<ul>
-				<li><a class="contact" href="/contact-us/" rel="noopener">Contact Us</a><img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/underline.png"></li>
-				<li><a href="https://support.houseonthehill.com/" rel="noopener">Log in</a><img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/underline.png"></li>
-				<li><a href="/demo" class="demo-btn">Book a demo</a><img src="https://hoth.local/wp-content/themes/twentytwentyone/images/2023/underline.png"></li>
+				<li><a class="contact" href="/contact-us/" rel="noopener">Contact Us</a><img src="h/wp-content/themes/houseonthehill.com/images/2023/underline.png"></li>
+				<li><a href="https://support.houseonthehill.com/" rel="noopener">Log in</a><img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></li>
+				<li><a href="/demo" class="demo-btn">Book a demo</a><img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></li>
 				<li style="display: flex;"><a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank">Free trial</a></li>
 
 				<div class="reveal">
