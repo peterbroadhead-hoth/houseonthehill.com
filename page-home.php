@@ -67,7 +67,7 @@
     </div> 
   </div>
 
-  <!--<div class="teams">
+  <div class="teams">
     <div class="text">
       <h3 style="margin-bottom:5px;">Teams is here</h3>
       <h3 style="text-align:right; margin-top:0;">and its <span>perfect<div class="circle"></div></span></h3>
@@ -79,7 +79,7 @@
       <img class="purpblob3" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/purpleblob3.png">
     </div>
     <a href="/features/microsoft-teams-integration/">Find out more</a>
-  </div>-->
+  </div>
 
   <div class="solution-carousel-container">
     <div class="text">
