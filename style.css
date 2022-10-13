@@ -658,9 +658,6 @@ body #hoth-chat-button i{
 }
 
 @media (max-width: 400px){ 
-  .hoth-header-container .hoth-header .sales ul li a.sign-up{
-    display: none;
-  }
   .hoth-header .dropbtn, .hoth-header a{
     padding: 5px;
   }
@@ -2331,6 +2328,21 @@ text-fill-color: transparent;
   .getstarted .signup .form input#reg_email{
     width: 44%;
   }
+  .home{
+    overflow: hidden;
+  }
+  .hoth-header-container .hoth-header .sales ul li .login{
+    display: none;
+  }
+}
+
+
+@media (max-width: 500px){
+  .getstarted .signup .form input#F2177, .getstarted .signup .form input#reg_email, .getstarted .signup .form select, .getstarted .signup .form input.submit{
+    width: 50%;
+    border-radius: 0;
+    border: 1px solid #cfcfcf;
+  }
 }
 
 /* Solution Pages (2022) */
@@ -2481,7 +2493,14 @@ text-fill-color: transparent;
   border-radius: 4px;
   margin-bottom: 50px;
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+}
+
+.solution .features ul li .btn{
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  padding: 0;
 }
 
 .solution .small-features{
@@ -2807,9 +2826,6 @@ text-fill-color: transparent;
   }
   .getstarted .signup{
     padding: 20px;
-  }
-  .getstarted .signup .form input#reg_email{
-    width: 30%;
   }
   .solution .small-features{
     padding: 50px 10px;
