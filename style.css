@@ -1197,7 +1197,7 @@ body #hoth-chat-button i{
   margin: auto;
   z-index: 9;
   opacity: 0.9;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .home .teams .img img.purpblob1{
@@ -2129,6 +2129,9 @@ text-fill-color: transparent;
     margin: auto;
     width: unset !important;
     margin-top: 20px !important;
+  }
+  .home .teams .img img.teamsimg{
+    max-width: 100%;
   }
 }
 
