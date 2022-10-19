@@ -1729,8 +1729,8 @@ backdrop-filter: blur(100px);
 .solution-carousel-activator:nth-of-type(2):checked
 ~ .solution-carousel-screen
 .solution-carousel-track {
-  -webkit-transform: translateX(-33%);
-          transform: translateX(-33%);
+  -webkit-transform: translateX(-66%);
+          transform: translateX(-66%);
 }
 
 .solution-carousel-track {
@@ -2020,27 +2020,24 @@ text-fill-color: transparent;
   }
 }
 
-@media (max-width: 1300px){
-  .solution-carousel-item{
-    width: 47%;
-  }
-  .solution-carousel-activator:nth-of-type(2):checked
-  ~ .solution-carousel-screen
-  .solution-carousel-track {
-    -webkit-transform: translateX(-94%);
-            transform: translateX(-94%);
-  }
-}
-
 @media (max-width: 1150px){
   .solution-carousel-item{
     width: 47%;
   }
+  .solution-carousel-activator:nth-of-type(2):checked ~ .solution-carousel-controls:nth-of-type(2){
+    left: -5%;
+  }
   .solution-carousel-activator:nth-of-type(2):checked
   ~ .solution-carousel-screen
   .solution-carousel-track {
     -webkit-transform: translateX(-94%);
             transform: translateX(-94%);
+  }
+  .solution-carousel-activator:nth-of-type(4):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-135%);
+            transform: translateX(-135%);
   }
   .home .header{
     background-position-y: -60px;
@@ -2134,7 +2131,7 @@ text-fill-color: transparent;
 
 @media (max-width: 860px){
   .solution-carousel-content{
-    min-height: 350px;
+    min-height: 400px;
   }
 }
 

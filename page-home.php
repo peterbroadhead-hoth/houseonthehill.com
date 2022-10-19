@@ -96,6 +96,7 @@
           >
         </label>
       </div>
+
       <div class="solution-carousel-controls">
         <label class="solution-carousel-control solution-carousel-control--backward" for="solution-carousel-slide-activator-1">
           <
@@ -104,6 +105,7 @@
           >
         </label>
       </div>
+      
       <div class="solution-carousel-controls">
         <label class="solution-carousel-control solution-carousel-control--backward mobile" for="solution-carousel-slide-activator-2">
           <
@@ -112,6 +114,7 @@
           >
         </label>
       </div>
+
       <div class="solution-carousel-controls">
         <label class="solution-carousel-control solution-carousel-control--backward mobile" for="solution-carousel-slide-activator-3">
           <
@@ -119,11 +122,11 @@
       </div>
       <div class="solution-carousel-screen">
         <div class="solution-carousel-track">
-          <!--<div class="solution-carousel-item">
+          <div class="solution-carousel-item">
             <a href="/it-service-management-software/">
               <div class="solution-carousel-content enterprise">
                 <h3>Enterprise Service <br>Management</h3>
-                <p>Deliver a modern ITIL driven service desk with a deep set of tools, automated workflows and a self-service portal.</p>
+                <p>All solutions under one roof, a powerful, affordable tool to keep all aspects of your business running perfectly.</p>
                 <div class="customers"> 
                   <div class="text">
                     <p><strong>Customers</strong></p>
@@ -136,7 +139,7 @@
                 </div>
               </div>
             </a>
-          </div>-->
+          </div>
           <div class="solution-carousel-item">
             <a href="/it-service-management-software/">
               <div class="solution-carousel-content itsm">
@@ -333,7 +336,7 @@
       <div class="text">
         <h3>Looking for Support? Consultancy? <br>
         Help & Documents?</h3>
-        <p>Your in the right place.</p>
+        <p>You're in the right place.</p>
         <div class="btns">
           <a class="more-info" href="/contact-us/">Call</a>
           <a class="more-info" href="mailto:support@houseonthehill.com">Email</a>
