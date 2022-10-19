@@ -227,33 +227,33 @@
     </div>
   </div>
 
-<div class="iso">
-  <div class="container">
-    <div class="text">
-      <h2>ISO certified, <br>we take your data  <br><span>VERY</span> <br>seriously.</h2>
-    </div>
+  <div class="iso">
+    <div class="container">
+      <div class="text">
+        <h2>ISO certified, <br>we take your data  <br><span>VERY</span> <br>seriously.</h2>
+      </div>
 
-    <div class="img">
-      <a href="https://cvs.babcert.com/babcert.asp?c=234054&amp;v=wgb5351g6c" target="_blank" rel="noopener">
-        <img src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/logos/75/iso-2021.png" height="75" width="75" alt="ISO Certificate">
-      </a>
-      <a href="https://houseonthehill.com/wp-content/uploads/2020/04/Essentials-20-21.pdf" target="_blank" rel="noreferrer">
-        <img src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/logos/75/ca-75.png" height="75" width="89" alt="Cyber Essentials Certificate">
-          </a>
-      <a style="width: 100%; margin-top: 10px;" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&amp;lot=cloud-software" target="_blank" rel="noreferrer">
-        <img src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/logos/75/ccs-75.png" height="75" width="100" alt="Crown Commercial Supplier Logo">
-      </a> 
+      <div class="img">
+        <a href="https://cvs.babcert.com/babcert.asp?c=234054&amp;v=wgb5351g6c" target="_blank" rel="noopener">
+          <img src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/logos/75/iso-2021.png" height="75" width="75" alt="ISO Certificate">
+        </a>
+        <a href="https://houseonthehill.com/wp-content/uploads/2020/04/Essentials-20-21.pdf" target="_blank" rel="noreferrer">
+          <img src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/logos/75/ca-75.png" height="75" width="89" alt="Cyber Essentials Certificate">
+            </a>
+        <a style="width: 100%; margin-top: 10px;" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/search?q=House-on-the-Hill&amp;lot=cloud-software" target="_blank" rel="noreferrer">
+          <img src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/logos/75/ccs-75.png" height="75" width="100" alt="Crown Commercial Supplier Logo">
+        </a> 
+      </div>
     </div>
   </div>
-</div>
 
-<div class="getstarted">
-  <div class="container">
-    <div class="signup">
-      <h3>Get started with HotH</h3>
-      <p>Ready to give House-on-the-Hill FOI Case and Complaints a go?</p>
-      <div class="form">
-      <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
+  <div class="getstarted">
+    <div class="container">
+      <div class="signup">
+        <h3>Get started with HotH</h3>
+        <p>Join a multitude of customers using House-on-the-Hill to empower your IT service now and into the future.</p>
+        <!--<div class="form">
+          <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
             <input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
             <input type="HIDDEN" id="selchange" name="selchange" value="">
             <input type="HIDDEN" id="selparam1" name="selparam1" value="">
@@ -284,30 +284,31 @@
             <input required="" type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Company Name">
             <input type="TEXT" name="F38" id="reg_email" size="0035" maxlength="50" value="" placeholder="Email Address">
             <select class="suptabde" name="F10013" id="F2178" size="1">
-            <option value="ITSM">ITSM</option>
+            <option value="ITSM" selected="">ITSM</option>
             <option value="CAFM">CAFM</option>
             <option value="CSM">CSM</option>
-            <option value="FOI" selected="">FOI</option>
+            <option value="FOI">FOI</option>
           </select>
           <div id="captcha_result"></div>
           <input class="submit" type="submit" value="Free Trial"> 
 				</form>
-        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit" async="" defer="">
-        </script>
-        <script>
-        var form = document.getElementById('theForm');
-        form.addEventListener("submit", function(event){
-            if (grecaptcha.getResponse() === '') {                            
-              event.preventDefault();
-              alert('Please check the recaptcha');
+          <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit" async="" defer="">
+          </script>
+          <script>
+          var form = document.getElementById('theForm');
+          form.addEventListener("submit", function(event){
+              if (grecaptcha.getResponse() === '') {                            
+                event.preventDefault();
+                alert('Please check the recaptcha');
+              }
             }
-          }
-        , false);
-        </script>
+          , false);
+          </script>
+        </div>-->
+        <a target="_blank" href="https://house-on-the-hill.com/mothership/register" class="more-info">Try for free</a>
       </div>
     </div>
   </div>
-</div>
 </div>
 
 <?php get_footer();?>

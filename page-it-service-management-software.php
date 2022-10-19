@@ -153,8 +153,8 @@
       <div class="signup">
         <h3>Get started with HotH</h3>
         <p>Join a multitude of customers using House-on-the-Hill to empower your IT service now and into the future.</p>
-        <div class="form">
-        <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
+        <!--<div class="form">
+          <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
             <input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
             <input type="HIDDEN" id="selchange" name="selchange" value="">
             <input type="HIDDEN" id="selparam1" name="selparam1" value="">
@@ -205,7 +205,8 @@
             }
           , false);
           </script>
-        </div>
+        </div>-->
+        <a target="_blank" href="https://house-on-the-hill.com/mothership/register" class="more-info">Try for free</a>
       </div>
     </div>
   </div>

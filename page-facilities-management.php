@@ -147,8 +147,8 @@
       <div class="signup">
         <h3>Get started with HotH</h3>
         <p>Join a multitude of customers using House-on-the-Hill to empower your IT service now and into the future.</p>
-        <div class="form">
-        <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
+        <!--<div class="form">
+          <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
             <input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
             <input type="HIDDEN" id="selchange" name="selchange" value="">
             <input type="HIDDEN" id="selparam1" name="selparam1" value="">
@@ -179,8 +179,8 @@
             <input required="" type="TEXT" name="F2177" id="F2177" maxlength="25" value="" placeholder="Company Name">
             <input type="TEXT" name="F38" id="reg_email" size="0035" maxlength="50" value="" placeholder="Email Address">
             <select class="suptabde" name="F10013" id="F2178" size="1">
-            <option value="ITSM">ITSM</option>
-            <option value="CAFM" selected="">CAFM</option>
+            <option value="ITSM" selected="">ITSM</option>
+            <option value="CAFM">CAFM</option>
             <option value="CSM">CSM</option>
             <option value="FOI">FOI</option>
           </select>
@@ -199,7 +199,8 @@
             }
           , false);
           </script>
-        </div>
+        </div>-->
+        <a target="_blank" href="https://house-on-the-hill.com/mothership/register" class="more-info">Try for free</a>
       </div>
     </div>
   </div>
