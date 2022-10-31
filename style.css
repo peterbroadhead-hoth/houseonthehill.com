@@ -2033,7 +2033,8 @@ text-fill-color: transparent;
     -webkit-transform: translateX(-94%);
             transform: translateX(-94%);
   }
-  .solution-carousel-activator:nth-of-type(4):checked
+  .solution-carousel-activator:nth-of-type(=]]]
+  ):checked
   ~ .solution-carousel-screen
   .solution-carousel-track {
     -webkit-transform: translateX(-135%);

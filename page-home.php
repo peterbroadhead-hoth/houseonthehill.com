@@ -28,7 +28,7 @@
 
   <div class="testimonials">
     <div class="testimonials-container">
-      <h3>For all buinessess<br>no matter the <span style="font-size: 34px; font-weight: bold;">size</span></h3>
+      <h3>For all businesses<br>no matter the <span style="font-size: 34px; font-weight: bold;">size</span></h3>
       <img class="orange" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/orangeblob.png">
       <img class="green" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/greenblob.png">
       <img class="pink" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/pinkblob.png">
@@ -132,9 +132,9 @@
                     <p><strong>Customers</strong></p>
                   </div>
                   <div class="img">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/nhs-50.png" alt="NHS Logo">
-                    <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/newcastle.png" alt="NUFC">
-                    <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/sandwell-logo.png" alt="Sandwell Logo">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/yas.png" alt="yas Logo">
+                    <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/midlandheart.png" alt="MH logo">
+                    <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/ascot.png" alt="ascot">
                   </div>
                 </div>
               </div>
