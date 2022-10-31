@@ -35,7 +35,7 @@
 	  	<li>
 				<h2><span>Worldwide:</span></h2>
 				<h3>World Vision – Every Child Free from Fear</h3>
-				<p>World Vision is the world’s largest international children’s charity improving the lives of the world’s poorest children by working closely with communities to tackle the root causes of poverty. For more than 20 years House-on-the-Hill has sponsored children around the world, through donating money and communicating with children personally, bringing real hope and changing their life, together with the lives of many more growing up alongside them. World Vision improves the lives of the world’s poorest children by working closely with communities to tackle the root causes of poverty. For more information, please see <a href="http://www.worldvision.org.uk/">http://www.worldvision.org.uk/</a></p>
+				<p>World Vision is the world's largest international children’s charity improving the lives of the world’s poorest children by working closely with communities to tackle the root causes of poverty. For more than 20 years House-on-the-Hill has sponsored children around the world, through donating money and communicating with children personally, bringing real hope and changing their life, together with the lives of many more growing up alongside them. World Vision improves the lives of the world’s poorest children by working closely with communities to tackle the root causes of poverty. For more information, please see <a href="http://www.worldvision.org.uk/">http://www.worldvision.org.uk/</a></p>
 				<div class="img"><img src="/wp-content/uploads/2014/09/worldvision-300x300.jpeg"></div>
 			</li>
 
