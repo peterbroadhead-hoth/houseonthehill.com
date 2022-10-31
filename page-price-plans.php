@@ -813,7 +813,7 @@
       </tr>
       <tr class="collapsible case" style="">
         <td>Information Governance </td>
-        <td class="price">£100 pm</td>
+        <td class="price">£150 pm</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -821,7 +821,7 @@
       </tr>
       <tr class="collapsible case" style="">
         <td>Record of Processing Activities (RoPA)</td>
-        <td class="price">£100 pm</td>
+        <td class="price">£150 pm</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
