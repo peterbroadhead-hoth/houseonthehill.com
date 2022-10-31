@@ -88,6 +88,9 @@
           <p><span>Email to Case Automation</span></p>
           <p><span>Public Disclosure Log</span></p>
           <p><span>Delegations</span></p>
+          <p><span>Custom Dashboards & Reports</span></p>
+          <p><span>Fully Managed Service</span></p>
+          <p><span>Automatic Deadlines & Audit Trail</span></p>
         </div>   
       </li>
     </ul>
