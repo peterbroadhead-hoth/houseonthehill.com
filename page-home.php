@@ -70,7 +70,7 @@
   <div class="teams">
     <div class="text">
       <h3 style="margin-bottom:5px;">Teams is here</h3>
-      <h3 style="text-align:right; margin-top:0;">and its <span>perfect<div class="circle"></div></span></h3>
+      <h3 style="text-align:right; margin-top:0;">and it's <span>perfect<div class="circle"></div></span></h3>
     </div>
     <div class="img">
       <img class="teamsimg" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/teamsimg.png">
