@@ -22,8 +22,8 @@ organisation.</p>
     <div class="container">
       <div class="text">
         <p>House-on-the-Hill’s FOI, Request and Case Compliance solution has showed no signs of slowing since its introduction. Many organisations now relish in its ability to retire manual processes and stay compliant. Excitingly, we can now take that one step further as House-on-the-Hill joins forces with Waterford Technologies, specialists within the integrated compliance space.
-        <br><br>Our first venture, was to build The new solution built with Waterford Technologies simplifies and automates the request workflow when responding to regulatory requirements.
-        <br><br>In response to demand from, and in consultation with our clients we are releasing DiscoveryControl, a much improved easy-to-use Freedom of Information Requests (FOI) Data Subject Access Requests (DSAR), Environmental Information Regulations (EIR) Risks, and Data Breaches management system that is fully supported by our team of consultants.</p>
+        <br><br>Our first venture with Waterford Technologies: DiscoveryControl, is a new refined Request & Case Management Solution. 
+        <br><br>The objective was simple, simplify! In response to demand and consultation with our clients DiscoveryControl is an improved easy-to-use Freedom of Information Requests (FOI) Data Subject Access Requests (DSAR), Environmental Information Regulations (EIR) Risks, and Data Breaches management system that is fully supported by our team of consultants.</p>
 
         <div class="testimonials-container">
           <div class="customers">
@@ -48,9 +48,9 @@ organisation.</p>
         </div>
       </div>
       <div class="img">
-        <img class="whatsnew" src="/wp-content/themes/houseonthehill.com/images/2023/foipublic.png">
-        <img class="whatsnew" src="/wp-content/themes/houseonthehill.com/images/2023/foiemployee.png">
-        <img class="whatsnew" src="/wp-content/themes/houseonthehill.com/images/2023/foicustomer.png">
+        <img src="/wp-content/themes/houseonthehill.com/images/2023/foipublic.png">
+        <img src="/wp-content/themes/houseonthehill.com/images/2023/foiemployee.png">
+        <img src="/wp-content/themes/houseonthehill.com/images/2023/foicustomer.png">
       </div>
     </div>
   </div>
