@@ -94,7 +94,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<p>Powerful, quick, simple, ticket logging software. Tailor the way you want to create tickets.</p>
 						</a>
 						<a href="/foi-request-management/">
-							<h3>Request Management Software for FOI SAR EIR & Discovery Cases</h3>
+							<h3>Request Management for FOI SAR EIR & Discovery Cases</h3>
 							<p>Turn requests into fully audited cases that track Freedom of Information, Subject Access Requests, EIR, Discovery & more.</p>
 						</a>
 						<a href="/customer-service-and-support/">
