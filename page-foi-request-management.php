@@ -3,7 +3,7 @@
   <div class="header">
     <div class="container">
       <div class="text">
-        <h1><strong>DiscoveryControl</strong><br>Making the Case for Compliance</h1>
+        <h1><span style="font-size: 60px;">DiscoveryControl</span><br>Making the Case for Compliance</h1>
         <p>DiscoveryControl is request management software that's especially built to turn requests into
 fully audited cases that track Freedom of Information, Subject Access Requests, EIR, Discovery
 & more. Our solution reduces the tedious & costly tasks that burden every department, improves the
