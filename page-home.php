@@ -5,13 +5,13 @@
   <div class="header">
     <div class="container">  
       <div class="text">  
-        <h1>Made to measure <br>service desk software for<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/arrowdown.png" style="margin-top: 10px; margin-left: 70px; position: absolute;"></h1> 
+        <h1>Made to measure <br>service desk software for<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/arrowdown.png" style="margin-left: 70px; position: absolute;"></h1> 
         <div class="frame">
             <div class="carousel">
               <div class="change_outer">
                 <div class="change_inner">
                   <div class="element 1">IT Service Management</div>
-                  <div class="element 2">FOI & Case <span>Management</span></div>
+                  <div class="element 2">Request Management of FOI<span>, SAR, EIR & Discovery</span></div>
                   <div class="element 3">Facilities Management</div>
                   <div class="element 4">Customer Service</div>
               </div>
@@ -20,7 +20,7 @@
         </div>
         <p>House-on-the-Hill Software is built to support you and the people that matter. Our software is flexible, affordable and created with you at the heart.<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/heart.png"></p>
           <a href="https://house-on-the-hill.com/mothership/register" class="more-info">Try for free</a>
-          <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:20px">No credit card required / Free 30 day trial</p>
+          <p style="flex: 100%;font-size: 12px;color: #1e35509c;margin-top:20px">No credit card required / Free 30 day trial</p>
       </div>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/transparent-home.png" alt="Tailored home page graphic"></div>
     </div>
@@ -161,8 +161,8 @@
           <div class="solution-carousel-item">
             <a href="/foi-request-management/">
               <div class="solution-carousel-content foi">
-                <h3>FOI, Case & Complaints <br>Management</h3>
-                <p>Paperless solution to aid your team with new requests logged by the public via the portal or by email, these cases can then be categorised into types and workflows.</p>
+                <h3>Request Management for FOI <br>SAR EIR & Discovery Cases</h3>
+                <p>Turn requests into fully audited cases that track Freedom of Information, Subject Access Requests, EIR, Discovery & more.</p>
                 <div class="customers"> 
                   <div class="text">
                     <p><strong>Customers</strong></p>

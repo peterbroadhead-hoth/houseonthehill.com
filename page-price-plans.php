@@ -73,9 +73,9 @@
       </li>
       <li class="foi">
         <div class="intro">
-          <h3 class="header"><a href="/foi-request-management/">FOI, Case & Complaints <br>Management</a></h3>
+          <h3 class="header"><a href="/foi-request-management/">Request Management for FOI SAR EIR & Discovery Cases</a></h3>
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Start your free trial</a></div>
-          <div class="price"><h3>£45</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
+          <div class="price"><h3>£500</h3><p style="padding-left: 5px;"><span>/Per organisation/month</span></p></div>
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg" alt="foi Icon"></div>
         </div>
 
@@ -83,13 +83,11 @@
 
         <div class="features">
           <p>Included:</p>
-          <p><span>FOI, EIR, DPA Management</span></p>
-          <p><span>Complaints Management</span></p>
-          <p><span>Contact Database</span></p>
-          <p><span>Letter Generation</span></p>
-          <p><span>Disclosure Log</span></p>
-          <p><span>Info. Request Delegation</span></p>
-          <p><span>Public Submission Form</span></p>
+          <p><span>Included, FOI, EIR, SAR & Discovery</span></p>
+          <p><span>Public Portal</span></p>
+          <p><span>Email to Case Automation</span></p>
+          <p><span>Public Disclosure Log</span></p>
+          <p><span>Delegations</span></p>
         </div>   
       </li>
     </ul>
@@ -815,7 +813,7 @@
       </tr>
       <tr class="collapsible case" style="">
         <td>Information Governance </td>
-        <td class="price">£950 py</td>
+        <td class="price">£100 pm</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -823,7 +821,7 @@
       </tr>
       <tr class="collapsible case" style="">
         <td>Record of Processing Activities (RoPA)</td>
-        <td class="price">£950 py</td>
+        <td class="price">£100 pm</td>
         <td>Add-On</td>
         <td>Add-On</td>
         <td>Add-On</td>
