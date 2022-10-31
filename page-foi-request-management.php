@@ -4,8 +4,12 @@
     <div class="container">
       <div class="text">
         <h1><strong>DiscoveryControl</strong><br>Making the Case for Compliance</h1>
-        <p>A popular fully paperless solution to aid your team with new requests logged by the public via the portal or by email. These cases can then be categorised into types and workflows such as FOI, Data Protection, Subject Access Requests, Complaints, Compliments, Information Governance and RoPA.</p>
-        <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Start your free trial</a><p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:20px">No credit card required / Free 30 day trial</p>
+        <p>DiscoveryControl is request management software that's especially built to turn requests into
+fully audited cases that track Freedom of Information, Subject Access Requests, EIR, Discovery
+& more. Our solution reduces the tedious & costly tasks that burden every department, improves the
+requestor experience, ensures compliance, and spotlights accountability within your
+organisation.</p>
+        <a target="_blank" href="https://forms.office.com/pages/responsepage.aspx?id=OEYaXJY0K0eCJfAmS0vaMQGFda2P-j9Kj8fYAcaLAb5UMzVWU0NZOFlJODBHMldBSzZPSjYzR0I3NC4u" class="sign-up">Book a demo</a>
       </div>
       <div class="video-container">
         <video width="80%" height="auto" poster="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/DisCo - Dashboard.png" controls>
