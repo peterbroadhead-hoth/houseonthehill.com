@@ -2291,7 +2291,7 @@ text-fill-color: transparent;
     width: 90%;
   }
   .solution-carousel-content{
-    padding: 10px;
+    padding: 10px 25px;
     overflow: hidden;
     min-height: 340px;
   }
