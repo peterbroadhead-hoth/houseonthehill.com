@@ -75,7 +75,7 @@
         <div class="intro">
           <h3 class="header"><a href="/foi-request-management/">Request Management for FOI SAR EIR & Discovery Cases</a></h3>
           <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Start your free trial</a></div>
-          <div class="price"><h3>£500</h3><p style="padding-left: 5px;"><span>/Per organisation/month</span></p></div>
+          <div class="price"><p style="padding-right: 5px;"><span>Starts at</span></p> <h3>£500</h3><p style="padding-left: 5px;"><span>/Per organisation/month</span></p></div>
           <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg" alt="foi Icon"></div>
         </div>
 

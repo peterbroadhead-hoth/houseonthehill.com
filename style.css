@@ -1059,7 +1059,7 @@ body #hoth-chat-button i{
   margin-top: 0;
   margin: auto;
   margin-bottom: 10px;
-  width: 710px;
+  width: 700px;
 }
 
 .home .header .container .img{
@@ -2031,6 +2031,9 @@ text-fill-color: transparent;
 }
 
 @media (max-width: 1150px){
+  .solution-carousel-control.screen{
+    display: flex;
+  }
   .solution-carousel-item{
     width: 47%;
   }
@@ -2042,6 +2045,19 @@ text-fill-color: transparent;
   .solution-carousel-track {
     -webkit-transform: translateX(-94%);
             transform: translateX(-94%);
+  }
+  .solution-carousel-activator:nth-of-type(3):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-164%);
+            transform: translateX(-164%);
+  }
+  .solution-carousel-activator:nth-of-type(3):checked
+  ~ .solution-carousel-controls:nth-of-type(3) {
+    display: flex;
+  }
+  .solution-carousel-activator:nth-of-type(3):checked ~ .solution-carousel-controls:nth-of-type(3){
+    left: -5%;
   }
   .solution-carousel-activator:nth-of-type(=]]]
   ):checked
@@ -2153,11 +2169,14 @@ text-fill-color: transparent;
 }
 
 @media (max-width: 760px){
-  .solution-carousel-controls {
-    left: 0;
+  .solution-carousel-control.screen{
+    display: none;
   }
   .solution-carousel-control.mobile{
     display: flex;
+  }
+  .solution-carousel-controls {
+    left: 0;
   }
   .solution-carousel-container p.price {
     background: #3b5067;
@@ -2207,6 +2226,16 @@ text-fill-color: transparent;
     -webkit-transform: translateX(-210%);
             transform: translateX(-210%);
   }
+  .solution-carousel-activator:nth-of-type(5):checked
+  ~ .solution-carousel-controls:nth-of-type(5) {
+    display: flex;
+  }
+  .solution-carousel-activator:nth-of-type(5):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-285%);
+            transform: translateX(-285%);
+  }
   .solution-carousel-control{
     width: 40px;
     height: 40px;
@@ -2235,6 +2264,9 @@ text-fill-color: transparent;
   .home .teams .img img.purpblob1, .home .teams .img img.purpblob2, .home .teams .img img.purpblob3{
     width: 200px;
   }
+  .home .header .container .text p{
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px){
@@ -2258,7 +2290,7 @@ text-fill-color: transparent;
   .solution-carousel-content{
     padding: 10px;
     overflow: hidden;
-    min-height: 300px;
+    min-height: 365px;
   }
   .solution-carousel-content .btn{
     left: 10px;
@@ -2306,13 +2338,36 @@ text-fill-color: transparent;
     -webkit-transform: translateX(-264%);
             transform: translateX(-264%);
   }
+  .solution-carousel-activator:nth-of-type(5):checked
+  ~ .solution-carousel-controls:nth-of-type(5) {
+    display: flex;
+  }
+  .solution-carousel-activator:nth-of-type(5):checked
+  ~ .solution-carousel-screen
+  .solution-carousel-track {
+    -webkit-transform: translateX(-352%);
+            transform: translateX(-352%);
+  }
   .home .header {
     background-position-y: 0;
     background-size: 170%;
     background-position-x: 55%;
   }
-  .carousel .change_outer .element span{
-    display: none;
+  .home .header .container .text .frame, .carousel .change_outer{
+    height: unset !important;
+  }
+  .carousel .change_outer{
+    overflow: unset !important;
+  }
+  .carousel .change_outer .change_inner {
+    -webkit-animation: unset !important;
+    animation: unset !important;
+  }
+  .home .header .container .text h1, .carousel .change_outer .element{
+    font-size: 30px !important;
+  }
+  .home .header .container .text p{
+    margin-top: 10px;
   }
   .home .testimonials-container img.orange, .home .testimonials-container img.green, .home .testimonials-container img.pink{
     width: 100px;
@@ -2698,10 +2753,12 @@ text-fill-color: transparent;
   width: 50%;
   display: flex;
   flex-wrap: wrap;
+  height: 300px;
+  margin-top: 100px;
 }
 
 .solution.foi .sub-header .img img{
-  width: 51%;
+  width: 40%;
   margin: auto;
   height: auto;
   margin-bottom: 25px;
@@ -2939,6 +2996,8 @@ text-fill-color: transparent;
   }
   .solution.foi .sub-header .img{
     width: 100%;
+    margin: unset;
+    height: unset;
   }
   .solution.foi .sub-header .img img{
     width: 29%;
@@ -3055,6 +3114,21 @@ text-fill-color: transparent;
   }
   .requestdemo{
     padding: 10px;
+  }
+  .solution .header .container .text h1 span{
+    font-size: unset !important;
+  }
+  .solution.foi .header video{
+    width: 100%;
+  }
+  .solution.foi .sub-header .container{
+    width: 100%;
+  }
+  .solution.foi .productoverveiw img{
+    width: 75%;
+  }
+  .solution.foi .productoverveiw p{
+    width: 100%;
   }
 }
 

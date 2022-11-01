@@ -11,7 +11,7 @@
               <div class="change_outer">
                 <div class="change_inner">
                   <div class="element 1">IT Service Management</div>
-                  <div class="element 2">Request Management of FOI<span>, SAR, EIR & Discovery</span></div>
+                  <div class="element 2">Request Management of FOI, SAR, EIR & Discovery</div>
                   <div class="element 3">Facilities Management</div>
                   <div class="element 4">Customer Service</div>
               </div>
@@ -91,6 +91,7 @@
       <input class="solution-carousel-activator" id="solution-carousel-slide-activator-2" name="solution-carousel" type="radio">
       <input class="solution-carousel-activator" id="solution-carousel-slide-activator-3" name="solution-carousel" type="radio">
       <input class="solution-carousel-activator" id="solution-carousel-slide-activator-4" name="solution-carousel" type="radio">
+      <input class="solution-carousel-activator" id="solution-carousel-slide-activator-5" name="solution-carousel" type="radio">
       <div class="solution-carousel-controls">
         <label class="solution-carousel-control solution-carousel-control--forward" for="solution-carousel-slide-activator-2">
           >
@@ -101,12 +102,18 @@
         <label class="solution-carousel-control solution-carousel-control--backward" for="solution-carousel-slide-activator-1">
           <
         </label>
+        <label class="solution-carousel-control solution-carousel-control--forward screen" for="solution-carousel-slide-activator-3">
+          >
+        </label>
         <label class="solution-carousel-control solution-carousel-control--forward mobile" for="solution-carousel-slide-activator-3">
           >
         </label>
       </div>
       
       <div class="solution-carousel-controls">
+        <label class="solution-carousel-control solution-carousel-control--backward screen" for="solution-carousel-slide-activator-2">
+          <
+        </label>
         <label class="solution-carousel-control solution-carousel-control--backward mobile" for="solution-carousel-slide-activator-2">
           <
         </label>
@@ -117,6 +124,15 @@
 
       <div class="solution-carousel-controls">
         <label class="solution-carousel-control solution-carousel-control--backward mobile" for="solution-carousel-slide-activator-3">
+          <
+        </label>
+        <label class="solution-carousel-control solution-carousel-control--forward mobile" for="solution-carousel-slide-activator-5">
+          >
+        </label>
+      </div>
+
+      <div class="solution-carousel-controls">
+        <label class="solution-carousel-control solution-carousel-control--backward mobile" for="solution-carousel-slide-activator-4">
           <
         </label>
       </div>
