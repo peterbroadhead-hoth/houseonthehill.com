@@ -1741,7 +1741,7 @@ backdrop-filter: blur(100px);
 }
 
 .solution-carousel-control.screen{
-  display: none;
+  display: none ;
 }
 
 .solution-carousel-track {
