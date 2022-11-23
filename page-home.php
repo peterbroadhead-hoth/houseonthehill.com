@@ -18,9 +18,9 @@
             </div>
           </div>
         </div>
-        <p>House-on-the-Hill Software is built to support you and the people that matter. Our software is flexible, affordable and created with you at the heart.<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/heart.png"></p>
+        <p>House-on-the-Hill Software is built to support you and the people that matter. Our software is flexible, affordable and created with you at the heart<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/heart.png"></p>
           <a href="https://house-on-the-hill.com/mothership/register" class="more-info">Try for free</a>
-          <p style="flex: 100%;font-size: 12px;color: #1e35509c;margin-top:20px">No credit card required / Free 30 day trial</p>
+          <p style="flex: 100%;font-size: 16px;color: #1e35509c;margin-top:20px">No credit card required / Free 30 day trial</p>
       </div>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/transparent-home.png" alt="Tailored home page graphic"></div>
     </div>
@@ -231,7 +231,7 @@
         </div>
       </div>
     </div>
-    <div class="button"><a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Start a free trial</a></div>
+    <div class="button"><a class="sign-up" href="https://house-on-the-hill.com/mothership/register">Try for free</a></div>
   </div>
 
   <div class="keepupwithhoth">

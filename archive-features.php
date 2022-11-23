@@ -4,8 +4,8 @@
     <img class="blob" src="/wp-content/themes/houseonthehill.com/images/22icons/original/features-blob.png">
     <div class="title">
       <h1>Create your perfect <br>service desk</h1>
-      <p>Powerful tools built with you in mind to customise and build a solution perfect for your company.</p>
-      <a href="/demo" class="more-info">Request a demo</a>
+      <p>Powerful tools built with you in mind to customise and build a solution perfect for your company</p>
+      <a target="" href="/demo" class="more-info">Request a demo</a>
     </div>  
 
     <div class="img"><img src="/wp-content/themes/houseonthehill.com/images/22icons/original/featureshome.png" alt="ticket logging page graphic"></div>

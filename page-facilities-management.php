@@ -4,9 +4,9 @@
     <div class="container">  
       <div class="text">  
         <h1>Computer Aided Facilities Management</h1> 
-        <p>Will allow you to manage your whole property portfolio, jobs and keep your engineers on the road. Your tool kit will include an engineer mobile app, reactive job logging, property maps, planned preventative maintenance, Job Sheets, Quotes, Invoices and more!</p>
-          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Start your free trial</a>
-          <p style="flex: 100%;margin: 0;font-size: 12px;color: #1e35509c;margin-top:20px">No Credit Card Required </p>
+        <p>Will allow you to manage your whole property portfolio, jobs and keep your engineers on the road. Your tool kit will include an engineer mobile app, reactive job logging, property maps, planned preventative maintenance, Job Sheets, Quotes, Invoices and more</p>
+          <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Try for free</a>
+          <p style="flex: 100%;margin: 0;font-size: 16px;color: #1e35509c;margin-top:20px">No credit card required / Free 30 day trial</p>
       </div>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-header.png" alt="cafm graphic"></div>
     </div>

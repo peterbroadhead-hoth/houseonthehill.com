@@ -8,8 +8,8 @@
 fully audited cases that track Freedom of Information, Subject Access Requests, EIR, Discovery
 & more. Our solution reduces the tedious & costly tasks that burden every department, improves the
 requestor experience, ensures compliance, and spotlights accountability within your
-organisation.</p>
-        <a target="_blank" href="https://forms.office.com/pages/responsepage.aspx?id=OEYaXJY0K0eCJfAmS0vaMQGFda2P-j9Kj8fYAcaLAb5UMzVWU0NZOFlJODBHMldBSzZPSjYzR0I3NC4u" class="sign-up">Book a demo</a>
+organisation</p>
+        <a target="" href="/demo" class="sign-up">Book a demo</a>
       </div>
       <div class="video-container">
         <video width="80%" height="auto" poster="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/DisCo - Dashboard.png" controls>
@@ -73,6 +73,7 @@ organisation.</p>
   </div>
 
   <div class="whydiscoverycontrol">
+    <img src="/wp-content/themes/houseonthehill.com/images/2023/lightbulbs.png">
     <div class="container">
       <h2>Why do I need DiscoveryControl?</h2>
       <p>The simple answer is do you deal in requests and want to save time and reduce costs? And, do you want to safeguard against prosecutions for data breaches or failing to show compliance with your industry-specific regulations. Still a little unsure… Perhaps these common reasons might shed some more light. </p>

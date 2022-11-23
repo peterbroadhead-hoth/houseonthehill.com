@@ -135,10 +135,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<h3>Contact House-on-the-Hill</h3>
 							<p>Need help? Want a demo? Questions on our pricing? Get in touch, were ready to help</p>
 						</a>
-						<a href="/careers">
+						<!--<a href="/careers">
 							<h3>Careers</h3>
 							<p>Interested in joining the HotH team?</p>
-						</a>
+						</a>-->
 						<a href="/social-values-statement/">
 							<h3>Social Values</h3>
 							<p>We are proud to support charities, fund-raising events and work experience programs</p>
@@ -150,8 +150,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<ul>
 				<li><a class="contact" href="/contact-us/" rel="noopener">Contact Us</a><img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></li>
 				<li><a class="login" href="https://support.houseonthehill.com/" rel="noopener">Log in</a><img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></li>
-				<li><a target="_blank" href="https://forms.office.com/pages/responsepage.aspx?id=OEYaXJY0K0eCJfAmS0vaMQGFda2P-j9Kj8fYAcaLAb5UMzVWU0NZOFlJODBHMldBSzZPSjYzR0I3NC4u" class="demo-btn">Book a demo</a><img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></li>
-				<li style="display: flex;"><a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank">Free trial</a></li>
+				<li><a target="" href="/demo/" class="demo-btn">Book a demo</a><img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></li>
+				<li style="display: flex;"><a class="sign-up" href="https://house-on-the-hill.com/mothership/register" rel="noopener"target="_blank">Try for free</a></li>
 
 				<div class="reveal">
 					<p><strong>Interested in a personal HotH tour?</strong> <br><br>Email us at <a href="mailto:demo@houseonthehill.com" target="_blank" rel="noopener noreferrer">demo@houseonthehill.com</a> or fill in this quick form and let a member of our team show you around your own personalised trial which you get to take away!</p>

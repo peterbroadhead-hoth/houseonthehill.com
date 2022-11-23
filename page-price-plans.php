@@ -4,14 +4,15 @@
     <div class="intro">
       <h1>Affordable and feature packed</h1>
       <p><span>Available in the Cloud or On-Site<br>Prices based on annual billing</span></p>
+      <a target="" href="/demo" class="sign-up">Book a demo</a>
     </div>
     <ul class="solutions">
       <li class="itsm">
         <div class="intro">
           <h3 class="header"><a href="/it-service-management/">IT Service <br>Management</a></h3>
-          <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">Start your free trial</a></div>
+          <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">Try for free</a></div>
           <div class="price"><h3>£40</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
-          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.jpg" alt="itsm Icon"></div>
+          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.png" alt="itsm Icon"></div>
         </div>
 
         <div class="hl"></div>
@@ -31,9 +32,9 @@
       <li class="csm">
         <div class="intro">
           <h3 class="header"><a href="/customer-service-and-support/">Customer Service <br>Management</a></h3>
-          <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">Start your free trial</a> </div>
+          <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000004">Try for free</a> </div>
           <div class="price"><h3>£40</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
-          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-header.jpg" alt="Customer Service Management Icon"></div>
+          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/csm-header.png" alt="Customer Service Management Icon"></div>
         </div>
 
         <div class="hl"></div>
@@ -52,9 +53,9 @@
       <li class="cafm">
         <div class="intro">
           <h3 class="header"><a href="/facilities-management/">Computer Aided Facilities <br>Management</a></h3>
-          <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Start your free trial</a></div>
+          <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000003">Try for free</a></div>
           <div class="price"><h3>£45</h3><p style="padding-left: 5px;"><span>/Per agent/month</span></p></div>
-          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-header.jpg" alt="CAFM Icon"></div>
+          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/cafm-header.png" alt="CAFM Icon"></div>
         </div>
 
         <div class="hl"></div>
@@ -74,9 +75,9 @@
       <li class="foi">
         <div class="intro">
           <h3 class="header"><a href="/foi-request-management/">Request Management for FOI SAR EIR & Discovery Cases</a></h3>
-          <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Start your free trial</a></div>
+          <div class="btn-cnt"><a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000001">Try for free</a></div>
           <div class="price"><p style="padding-right: 5px;"><span>Starts at</span></p> <h3>£500</h3><p style="padding-left: 5px;"><span>/Per organisation/month</span></p></div>
-          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.jpg" alt="foi Icon"></div>
+          <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/foi-header.png" alt="foi Icon"></div>
         </div>
 
         <div class="hl"></div>

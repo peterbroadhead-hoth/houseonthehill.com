@@ -9,11 +9,16 @@
 <div class="demo">
   <div class="demo-container">
     <div class="header">
-      <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/demoicon.png"></div>
-      <h1>See House-on-the-Hill in action with a demo</h1>
-      <p>Let one of our team show you around your own personalised trial which you get to take away! This is a great way for us to learn about you and show you on the fly how HotH can help your organisation. No matter the size. </p>
-      <p style="margin-top: 10px;">Just fill out this form or email <b>demo@houseonthehill.com</b> and we can arrange a Microsoft Teams meeting for when's best for you.</p>
+      <h1>Watch HotH in action</h1>
+      <p>Let one of our team show you around your own personalised trial which you get to take away! This is a great way for us to learn about you and show you on the fly how HotH can help your organisation.</p>
+      <!--<p style="margin-top: 10px;">Just fill out this form or email <b>demo@houseonthehill.com</b> and we can arrange a Microsoft Teams meeting for when's best for you.</p>-->
+      <ul style="padding: 15px; color: #838383">
+        <li>Free personilised trial</li>
+        <li>Guided tour of the product</li>
+        <li>Learn how HotH can benefit your business</li>
+      </ul>
     </div>
+    <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/demo-man.jpg"></div>
     <div class="form">
       <form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
         <input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
@@ -74,10 +79,12 @@
     </div>
   </div>
 </div>
+<!--
 <div class="hoth-single-testimonial">
   <div class="hoth-single-testimonial-container">
     <h2>HotH’s knowledge is excellent and their ability to find solutions to even the most complicated requirements is second to none.</h2>
     <p>Andrea Ashurst, Compliance Manager <span>Ascot Services</span></p>
   </div> 
 </div>
+-->
 <?php get_footer();?>
