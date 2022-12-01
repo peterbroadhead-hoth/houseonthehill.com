@@ -17,6 +17,112 @@ body hr{
   border-top: 3px solid #808080 !important;
 }
 
+/* accordian */ 
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.documentation .row {
+  display: flex;
+}
+
+.documentation .row .col {
+  flex: 1;
+}
+
+.documentation .row .col:last-child {
+  margin-left: 1em;
+}
+
+/* Accordion styles */
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.documentation .row {
+  display: flex;
+}
+
+.documentation .row .col {
+  flex: 1;
+}
+
+.documentation .row .col:last-child {
+  margin-left: 1em;
+}
+
+/* Accordion styles */
+.documentation p{
+  margin: 0;
+  font-size: unset;
+}
+
+.documentation .tabs {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.documentation .tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+
+.documentation .tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #1e3550;
+  font-weight: bold;
+  cursor: pointer;
+}
+.documentation .tab-label:hover {
+  background: #1e3550;
+  opacity: 0.9;
+}
+.documentation .tab-label::after {
+ content: "\f07b";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+.documentation  .tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #1e3550;
+  background: white;
+  transition: all 0.35s;
+}
+.documentation .tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #1e3550;
+  cursor: pointer;
+}
+.documentation .tab-close:hover {
+  background: #1e3550;
+}
+
+input:checked + .tab-label {
+  background: #1e3550;
+  opacity: 0.8;
+}
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
 /* Hide Elements on the Docs Page */
 body#docs .hoth-footer,
 body#docs .slideshow-container,

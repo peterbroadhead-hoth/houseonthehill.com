@@ -9,7 +9,7 @@
           <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">Try for free</a><p style="flex: 100%;margin: 0;font-size: 16px;color: #1e35509c;margin-top:20px">No credit card required / Free 30 day trial</p>
 
       </div>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/itsm-header.png" alt="itsm icon"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/itsm-header.png" alt="itsm icon"></div>
     </div>
   </div>
 

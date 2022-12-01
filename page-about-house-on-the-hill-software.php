@@ -2,7 +2,10 @@
 <div class="about-us-container">
   <div class="about-us">
     <div class="intro">
-      <h1>Why Choose<br>House-on-the-Hill?</h1>
+      <div class="title">
+        <h1>Why Choose<br>House-on-the-Hill?</h1>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/option.png"></div>
+      </div>
       <!--<p>House-on-the-Hill helps <strong>you</strong> and your <strong>organisation</strong>.<br><br>
 
         Looking to deliver modern ITIL driven IT Service Management? <strong><a href="/it-service-management">House-on-the-Hill ITSM</a></strong><br><br>

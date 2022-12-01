@@ -22,7 +22,7 @@
           <a href="https://house-on-the-hill.com/mothership/register" class="more-info">Try for free</a>
           <p style="flex: 100%;font-size: 16px;color: #1e35509c;margin-top:20px">No credit card required / Free 30 day trial</p>
       </div>
-        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/22icons/original/transparent-home.png" alt="Tailored home page graphic"></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/home-header.png" alt="Tailored home page graphic"></div>
     </div>
   </div>
 
