@@ -73,7 +73,7 @@ organisation</p>
   </div>
 
   <div class="whydiscoverycontrol">
-    <img src="/wp-content/themes/houseonthehill.com/images/2023/lightbulbs.png">
+    <!--<img src="/wp-content/themes/houseonthehill.com/images/2023/lightbulbs.png">-->
     <div class="container">
       <h2>Why do I need DiscoveryControl?</h2>
       <p>The simple answer is do you deal in requests and want to save time and reduce costs? And, do you want to safeguard against prosecutions for data breaches or failing to show compliance with your industry-specific regulations. Still a little unsure… Perhaps these common reasons might shed some more light. </p>
