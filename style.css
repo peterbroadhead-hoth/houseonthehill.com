@@ -6881,7 +6881,10 @@ ul.whats-new li .whats-new-img img{
   }
   .hothbot .header{
     height: 700px;
-    background-position: bottom;
+    background-position: center;
+  }
+  .hothbot .header .container{
+    padding-top: 0;
   }
 }
 
@@ -6927,5 +6930,12 @@ ul.whats-new li .whats-new-img img{
   }
   .hothbot ul li{
     padding: 20px;
+  }
+  .hothbot .header{
+    height: 600px;
+  }
+  .hothbot .header .container, .hothbot .header{
+    padding-top: 0;
+    background-position: center;
   }
 }
