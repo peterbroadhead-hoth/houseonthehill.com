@@ -6761,5 +6761,171 @@ ul.whats-new li .whats-new-img img{
 }
 
 .hothbot .header{
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2022/12/teamsheadergraphic.png);
+  background-size: contain;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -70px;
+  background-color: #C3C8EA;
+  padding-top: 70px;
+  background-position-y: 70px;
 }
 
+.hothbot .header .container{
+  height: 100%;
+  padding: 0;
+  padding-top: 70px;
+}
+
+.hothbot .header .title{
+  margin: auto;
+  text-align: center;
+}
+
+.hothbot ul{
+  width: 95%;
+  margin: auto;
+  padding: 50px;
+}
+
+.hothbot ul li{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  position: relative;
+}
+
+.hothbot ul li .img{
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+
+.hothbot ul li .img img{
+  width: auto;
+  max-width: 100%;
+  margin: auto;
+  opacity: 0.8;
+}
+
+.hothbot ul li img.purpblob1{
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.hothbot ul li img.purpblob2{
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}
+
+.hothbot ul li img.purpblob3{
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 0;
+}
+
+.hothbot ul li .text{
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+}
+
+.hothbot ul li .text img{
+  width: 100px;
+}
+
+.hothbot .demo{
+  background-image: url(https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/2023/demo-man.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 200px;
+  display: flex;
+  background-color: #AFD6DB;
+  background-position: right;
+  position: relative;
+}
+
+.hothbot .demo .text{
+  background: rgba(255, 255, 255, 0.754);
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  border-radius: 4px;
+  padding: 50px;
+  z-index: 2;
+}
+
+.hothbot .demo img{
+  position: absolute;
+  top: 75px;
+  width: 300px;
+  left: 10%;
+  z-index: 1;
+}
+
+@media (max-width: 1100px) {
+  .hothbot .demo{
+    padding: 100px;
+    background-size: cover;
+  }
+  .hothbot .demo .text{
+    width: 100%;
+  }
+  .hothbot .demo img{
+    display: none;
+  }
+  .hothbot .header{
+    height: 700px;
+    background-position: bottom;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hothbot .header .title{
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 920px) {
+  .hothbot ul li .img{
+    width: 100%;
+  }
+  .hothbot ul li .text{
+    width: 100%;
+    text-align: center;
+  }
+  .hothbot ul li:nth-child(2){
+    flex-wrap: wrap-reverse;
+  }
+  .hothbot ul li:nth-child(2) .img{
+    width: 70%;
+  }
+  .hothbot ul li:nth-child(3) .img img, .hothbot ul li:nth-child(3) .text{
+    width: 100% !important;
+  }
+  .hothbot .demo{
+    padding: 50px;
+  }
+  .hothbot ul li img.purpblob3{
+    bottom: 0;
+    top: unset;
+    left: unset;
+  }
+}
+
+@media (max-width: 700px) {
+  .hothbot ul{
+    width: 100%;
+    padding: 10px;
+  }
+  .hothbot ul li{
+    padding: 20px;
+  }
+}
