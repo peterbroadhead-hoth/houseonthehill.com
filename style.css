@@ -6761,21 +6761,17 @@ ul.whats-new li .whats-new-img img{
 }
 
 .hothbot .header{
-  background-image: url(https://houseonthehill.com/wp-content/uploads/2022/12/teamsheadergraphic.png);
+  background-image: url(https://houseonthehill.com/wp-content/uploads/2022/12/teamsgraphicheader.png);
   background-size: contain;
   height: 800px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -70px;
   background-color: #C3C8EA;
-  padding-top: 70px;
-  background-position-y: 70px;
 }
 
 .hothbot .header .container{
   height: 100%;
   padding: 0;
-  padding-top: 70px;
 }
 
 .hothbot .header .title{

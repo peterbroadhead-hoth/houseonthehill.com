@@ -4,7 +4,7 @@
   <div class="container">
    <div class="title">
     <h1>Introducing HotH Bot</h1>
-    <p>Simplify the way you chat to your users with HotH Bot. <br>Our new feature built for easy communication to get the job done.</p>
+    <p>Simplify the way you chat to your users with HotH Bot, <br>our new Microsoft Teams integration. <br>Our new feature built for easy communication to get the job done.</p>
     <a target="" href="/demo" class="sign-up">Book a demo</a>
    </div>
   </div>
