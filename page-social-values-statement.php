@@ -19,7 +19,9 @@
 			<div class="img" style="background: #D2FADF;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/mcf.png"></div>
 			<div class="text">
 				<h3>Manchester Central Foodbank</h3>
-				<p>Providing three days’ nutritionally balanced emergency food and support to local people who are referred to us in crisis. We are part of a nationwide network of foodbanks, supported by The Trussell Trust, working to combat poverty and hunger across the UK. For more information, please see <a href="https://manchestercentral.foodbank.org.uk/">https://manchestercentral.foodbank.org.uk/</a></p>
+				<p>In January we are supporting our friend Dan in his quest of walking from Manchester to Liverpool in aid of Manchester Central Food Bank. Here is what Dan had to say about his fundraising mission -<br>
+				"Manchester Central Foodbank, unfortunately, should need no introduction. The services they provide for those most in need in our community are vital, and even more so around the winter months. Any contributions large or small will be greatly appreciated by me and people of Greater Manchester (it'll help spur me on to get to the end too!)"
+				<br>The Manchester Central Bank is part of a nationwide network of foodbanks, supported by The Trussell Trust, working to combat poverty and hunger across the UK. For more information, please see <a href="https://manchestercentral.foodbank.org.uk/">https://manchestercentral.foodbank.org.uk/</a></p>
 			</div>
 		</li>
 
