@@ -72,7 +72,7 @@ h4 {
 
 body p{
   margin:20px 0;
-  font-size: 1.8rem;
+  font-size: 18px;
   color: #3a3a3a;
 }
 
@@ -5998,8 +5998,8 @@ ul.whats-new li .whats-new-img img{
   width: 80%;
   margin: auto;
 }
-
-/* Social Values Statement */
+/*
+social Values Statement
 .social-values-container{
 	padding: 100px 10px;
 	background-color: white;
@@ -6060,7 +6060,7 @@ ul.whats-new li .whats-new-img img{
   margin-left: 0;
   border-radius: 4px;
 }
-
+*/
 /* error 404 page */
 
 .error-page{
@@ -6933,5 +6933,132 @@ ul.whats-new li .whats-new-img img{
   .hothbot .header .container, .hothbot .header{
     padding-top: 0;
     background-position: center;
+  }
+}
+
+
+.social-values .header .img{
+  position: absolute;
+  width: 30%;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  padding: 50px;
+}
+
+.social-values .header .img img{
+  max-width: 100%;
+  margin: auto;
+}
+
+.social-values .container{
+  width: unset;
+}
+
+.social-values .header{
+  display: flex;
+  background: #E6F4F1;
+  position: relative;
+  padding
+}
+
+.social-values .header .title{
+  width: 50%;
+  margin: auto;
+  padding: 100px;
+  z-index: 2;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.social-values .header .text{
+  width: 50%;
+  padding: 100px;
+  padding-left: 50px;
+}
+
+.social-values ul{
+}
+
+.social-values ul li{
+  list-style: none;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-values ul li .text{
+  width: 50%;
+  padding: 100px;
+}
+
+.social-values ul li .img{
+  width: 50%;
+  display: flex;
+  padding: 100px;
+}
+
+.social-values ul li .img img{
+  max-width: 100%;
+  width: auto;
+  margin: auto;
+}
+
+@media (max-width: 1100px) {
+  .social-values .header .img{
+    position: unset;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 0;
+  }
+  .social-values .header .img img{
+    width: 30%;
+  }
+  .social-values .header .title{
+    width: 50%;
+    padding: 50px;
+  }
+  .social-values .header .text{
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+  }
+  .social-values ul li .text, .social-values ul li .img{
+    padding: 50px;
+  }
+}
+
+@media (max-width: 820px) {
+  .social-values ul li .text, .social-values ul li .img{
+    width: 100%;
+  }
+  .social-values ul li:nth-child(odd){
+    flex-wrap: wrap-reverse;
+  }
+  .social-values .header .title, .social-values .header .text{
+    padding: 20px;
+  }
+  .social-values .header .title h1 br{
+    display: none;
+  }
+  .social-values .header .img{
+    padding: 20px;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .social-values .header .title, .social-values .header .text{
+    width: 80%;
+    text-align: center;
+    padding: 0;
+  }
+  .social-values .header .text p{
+    margin-top: 0;
+  }
+  .social-values .header .img{
+    padding: 20px;
   }
 }
