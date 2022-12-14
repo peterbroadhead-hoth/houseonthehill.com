@@ -78,7 +78,7 @@
       <img class="purpblob2" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/purpleblob2.png">
       <img class="purpblob3" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/purpleblob3.png">
     </div>
-    <a href="/features/microsoft-teams-integration/">Find out more</a>
+    <a href="/ms-teams-service-desk-integration/">Find out more</a>
   </div>
 
   <div class="solution-carousel-container">
