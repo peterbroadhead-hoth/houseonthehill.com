@@ -29,9 +29,6 @@
   <div class="testimonials">
     <div class="testimonials-container">
       <h3>For all businesses<br>no matter the <span style="font-size: 34px; font-weight: bold;">size</span></h3>
-      <img class="orange" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/orangeblob.png">
-      <img class="green" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/greenblob.png">
-      <img class="pink" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/pinkblob.png">
       <div class="customers">
         <a href="https://www.nhs.uk/" target="_blank" rel="noopener">
           <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/nhs-50.png" alt="NHS Logo">
