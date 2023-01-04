@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="testimonials">
+<!--<div class="testimonials">
 	<div class="container">
 		<div class="slider">
 			<div class="slide-track">
@@ -49,9 +49,8 @@
 			</div>
 		</div>
 	</div>
-</div>
-
-<!--<div class="testimonials">
+</div>-->
+<div class="testimonials">
 	<div class="testimonials-container">
 		<div class="testimonials-header-container">
 			<div class="testimonials-header">
@@ -87,7 +86,7 @@
 			</div>	
 		</div>
 	</div>
-</div>-->
+</div>
 
 <style>
 body {
