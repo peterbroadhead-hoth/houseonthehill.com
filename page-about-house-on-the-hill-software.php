@@ -3,7 +3,7 @@
   <div class="about-us">
     <div class="intro">
       <div class="title">
-        <h1>Why Choose<br>House-on-the-Hill?</h1>
+        <h1>Why choose<br>House-on-the-Hill?</h1>
         <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/option.png"></div>
       </div>
       <!--<p>House-on-the-Hill helps <strong>you</strong> and your <strong>organisation</strong>.<br><br>
