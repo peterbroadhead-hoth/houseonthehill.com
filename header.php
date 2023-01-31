@@ -105,6 +105,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<h3>Computer Aided Facilities Management</h3>
 							<p>Manage your whole property portfolio, jobs and keep your engineers on the road.</p>
 						</a>
+						<a href="/ms-teams-service-desk-integration/">
+							<h3>HotH Bot - MS Teams Integration</h3>
+							<p>Simplify the way you chat to your users with HotH Bot.</p>
+						</a>
 					</div>
 			</div>
 
