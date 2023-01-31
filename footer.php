@@ -27,7 +27,7 @@
         <a href="https://cvs.babcert.com/babcert.asp?c=234054&v=wgb5351g6c"  target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/iso-2021.png" height="75" width="75" alt="ISO Certificate"/>
         </a>
-        <a href="<?php echo site_url();?>/wp-content/uploads/2020/04/Essentials-20-21.pdf"  target="_blank" rel="noreferrer">
+        <a href="https://houseonthehill.com/wp-content/uploads/2023/01/House-on-the-Hill-Cyber-Essentials-2022-2023.pdf"  target="_blank" rel="noreferrer">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/ca-75.png" height="75" width="89" alt="Cyber Essentials Certificate"/>
         </a>
         <a href="https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/131297445344278"  target="_blank" rel="noreferrer">
