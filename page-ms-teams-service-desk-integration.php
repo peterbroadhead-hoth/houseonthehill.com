@@ -4,7 +4,7 @@
   <div class="container">
    <div class="title">
     <h1>HotHBot, our new <br>Microsoft Teams integration</h1>
-    <p>Simplify the way you chat to your users with HotHBot,<br>Our new feature built for easy communication to get the job done.</p>
+    <p>Simplify the way you chat to your users with HotHBot,<br>our new feature built for easy communication to get the job done.</p>
     <a target="" href="/demo" class="sign-up">Book a demo</a>
    </div>
   </div>
