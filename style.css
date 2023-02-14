@@ -5575,6 +5575,15 @@ box-shadow: 0px 0px 8px 0px rgba(99,99,99,1);
 	display: none;
 }
 
+.testimonials .jumbotron h3{
+  font-weight: 100;
+}
+
+.testimonials .jumbotron h3 span{
+  font-weight: bold;
+}
+
+
 .testimonials .jumbotron p{
 	color: #3a3a3a;
 	font-size: 18px;
