@@ -414,6 +414,10 @@ a.footer-trial{
   border: none;
   box-shadow: none;
   background: #f3f5f7;
+  height: 100%;
+  z-index: 9;
+  margin-left: 40px;
+  opacity: 1;
 }
 
 .library-menu-container button.btn-warning{
@@ -542,11 +546,17 @@ h2.library-home-subheader span{
 .library-search {
   padding: 15px;
   display: flex;
+  width: 100%;
+  max-width: 600px;
 }
 
 .library-search .navbar-form{
   width: 100%;
   margin: 0;
+  padding: 0;
+  z-index: 9;
+  background: #2c57750f;
+  border-radius: 4px;
 }
 .library-search .navbar-form .form-group{
   display: flex;
@@ -554,8 +564,8 @@ h2.library-home-subheader span{
 
 
 .library-search button.btn-warning{
-  width: auto;
-  border-radius: 0;
+  width: 40px;
+  border-radius: 4px 0 0px 4px;
   background: #2c5775;
   border: none;
 }

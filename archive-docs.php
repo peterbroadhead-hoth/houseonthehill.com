@@ -36,7 +36,7 @@
 	</div>
 	<div class="library-intro">
 		<h1 class="library-header"> Product Documentation</h1>	
-			<!--<div class="library-search">
+			<div class="library-search">
 				<form class="navbar-form navbar-left" role="" id="" method="get" action="/docs">
 					<div class="col-md-12 no-pad" style="margin-left: 0;">
 						<div class="form-group hidden-sm">
@@ -46,7 +46,7 @@
 						</div>
 					</div>
 				</form>
-			</div>-->
+			</div>
 		<h2 class="library-home-subheader"><span>Latest Guides</span></h2>
 		<?php
 		      $support_loop = new WP_Query( array(
