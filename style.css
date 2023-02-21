@@ -254,7 +254,7 @@ a.more-info-alt:hover{
 }
 
 .df-quote{ 
-  background: #1e3550;
+  background: #FFFCEB;
   text-align: center;
   padding: 50px;
   display: flex;
@@ -266,7 +266,7 @@ a.more-info-alt:hover{
 }
 
 .df-quote h2, .df-quote p{
-  color: white;
+  color: black;
 }
 
 @media (max-width: 1000px) {
@@ -5021,7 +5021,7 @@ table.solution-table-price td:hover .description{
 /* Case Study */
 
 .case-study{
-  background: #B3BAC4;
+  background: #FFFFFF;
   display: flex;
   padding: 100px 0;
 }
@@ -5029,11 +5029,15 @@ table.solution-table-price td:hover .description{
 .case-study-header{
   padding: 100px;
   text-align: center;
-  background-color: #1e3550;
+  background-color: #FFFCEB;
 }
 
-.case-study-header h1, .case-study-header p{
-  color: white;
+.case-study-header h1{
+  color: #1e3550;
+}
+
+.case-study-header p{
+  color: black;
 }
 
 .case-study .col-md-12{
@@ -5046,15 +5050,21 @@ table.solution-table-price td:hover .description{
 .case-study .col-md-3{
   width: 31%;
   margin: 1%;
-  background-color: white;
+  background-color: rgb(245, 245, 245);
   border-radius: 4px;
   padding: 0;
+  box-shadow: 0 4px 6px hsl(0deg 0% 0% / 10%), inset 0 2px 2px hsl(0deg 0% 24% / 8%);
 }
 
 .case-study .col-md-3 img{
   width: 100%;
   height: auto;
   border-radius: 4px 4px 0 0;
+}
+
+.case-study .col-md-3 .img{
+
+  box-shadow: inset 0 2px 2px hsl(0deg 0% 24% / 8%);
 }
 
 .case-study .col-md-3 .caption{
@@ -6078,9 +6088,29 @@ social Values Statement
 
 /* case study */
 .single-case-study, .single-case-study-content, .stay-updated-container, .case-study-btn{
-  width: 80%;
+  width: 60%;
   margin: auto;
   padding: 10px;
+}
+
+.stay-updated-container .stay-updated{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stay-updated-container .stay-updated h2{
+  width: 100%;
+  color: #3a3a3a !important;
+}
+
+#mc-embedded-subscribe-form{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#mce-EMAIL, #mc-embedded-subscribe, #mce-FNAME{
+  margin-right: 5px;
 }
 
 .single-case-study{
@@ -6088,8 +6118,31 @@ social Values Statement
 }
 
 .case-study-btn{
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
+
+.case-study-btn h2{
+  margin: 0;
+}
+
+.case-study-btn a{
+  color: white;
+  background: #1E3550;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+@media (max-width: 920px){
+  /* case study */
+  .single-case-study, .single-case-study-content, .stay-updated-container, .case-study-btn{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
 
 /* reponsive Screen Size Styles */
 @media (max-width: 1500px){
