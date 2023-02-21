@@ -6118,6 +6118,8 @@ social Values Statement
 }
 
 .case-study-btn{
+  padding: 0;
+  padding-left: 11px;
   padding-bottom: 100px;
 }
 
