@@ -5071,6 +5071,14 @@ table.solution-table-price td:hover .description{
   padding: 20px;
 }
 
+.case-study .col-md-3 .caption h3{
+  font-size: 18px;
+}
+
+.case-study .col-md-3 .caption p{
+  font-size: 14px;
+}
+
 .case-study.two .col-md-12 .col-md-3:nth-child(1),
 .case-study.two .col-md-12 .col-md-3:nth-child(2),
 .case-study.two .col-md-12 .col-md-3:nth-child(3){
