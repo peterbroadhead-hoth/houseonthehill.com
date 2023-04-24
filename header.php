@@ -106,8 +106,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<p>Manage your whole property portfolio, jobs and keep your engineers on the road.</p>
 						</a>
 						<a href="/ms-teams-service-desk-integration/">
-							<h3>HotH Bot - MS Teams Integration</h3>
-							<p>Simplify the way you chat to your users with HotH Bot.</p>
+							<h3>HotHBot - MS Teams Integration</h3>
+							<p>Simplify the way you chat to your users with HotHBot.</p>
 						</a>
 					</div>
 			</div>
