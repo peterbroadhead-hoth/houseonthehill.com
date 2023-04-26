@@ -5204,7 +5204,8 @@ table.solution-table-price td:hover .description{
 }
 
 .blog-post:first-child .img img{
-  width: 100%;
+  max-width: 100%;
+  width: auto;
   height: auto;
   margin: auto;
   margin-left: auto;
