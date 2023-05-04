@@ -2914,8 +2914,7 @@ text-fill-color: transparent;
 
 .esm .header .container{
   width: 95%;
-  padding: 10px;
-  height: 95vh;
+  padding: 100px 10px;
 }
 
 .esm .header .text{
