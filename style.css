@@ -2909,7 +2909,7 @@ text-fill-color: transparent;
   flex-wrap: wrap;
 }
 .esm .header h1{
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .esm .header .container{
@@ -3062,6 +3062,38 @@ text-fill-color: transparent;
   color: var(--color-purple-four);
 }
 
+@media (max-width: 1250px){
+  .esm .lists .list-one .container, .esm .lists .list-two .container{
+ 
+  }
+  .esm .lists .list-one, .esm .lists .list-two{
+
+  }
+  .esm .lists .list-one ul, .esm .lists .list-two ul{
+    width: min(500px, 90%);
+    position: unset;
+  }
+}
+
+@media (max-width: 1000px){
+  .esm .lists .list-one .container, .esm .lists .list-two .container{
+    width: 100%;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+  }
+  .esm .lists .list-one, .esm .lists .list-two{
+    width: 100%;
+    height: auto;
+    width: 100%;
+  }
+  .esm .lists .list-one ul, .esm .lists .list-two ul{
+    position: unset;
+    width: 100%;
+    margin: auto;
+  }
+}
+
 @media (max-width: 700px){
   .esm .header .container{
     width: 100%;
@@ -3072,6 +3104,15 @@ text-fill-color: transparent;
     padding: 10px;
   }
   .esm .header .video-container{
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  .esm .objectives{
+    padding: 10px;
+  }
+
+  .esm .objectives .container{
     width: 100%;
     padding: 10px;
   }
