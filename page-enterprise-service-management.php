@@ -7,22 +7,28 @@
         <p>House-on-the-Hill helps you exceed your customer's expectations. How? By becoming a strategic partner that strives to achieve a super-charged service that improves the way your team's work and delivers desired outcomes, fast.</p>
         <a target="" href="/demo" class="sign-up">Book a demo</a>
       </div>
+
+      <div class="video-container">
+        <video width="100%" height="auto" autoplay loop muted>
+        <source src="<?php echo get_stylesheet_directory_uri(); ?>/images/product/videos/ESM-Dash.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
   </div>
 
-  <div class="outthebox">
-    <!--<div class="img">
+  <!--<div class="outthebox">
+    <div class="img">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/product/images/esmdash.png" alt="Enterprise service management dashboard"></a>
-    </div>-->
+    </div>
     <div class="video-container">
       <video width="100%" height="auto" autoplay loop muted>
       <source src="<?php echo get_stylesheet_directory_uri(); ?>/images/product/videos/ESM-Dash.mp4" type="video/mp4">
       </video>
     </div>
-    <h2>Enterprise, straight Out-of-the-Box</h2>
-  </div>
+  </div>-->
 
   <div class="lists">
+    <h2 style="width: 100%; text-align: center; padding-bottom: 50px;">Enterprise, straight Out-of-the-Box</h2>
     <div class="list-one">
       <div class="container">
         <ul>
