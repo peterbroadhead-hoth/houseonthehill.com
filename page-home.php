@@ -26,6 +26,11 @@
     </div>
   </div>
 
+  <div style="display: flex; flex-wrap: wrap; padding: 50px;" class="sits">
+    <h2 style="text-align: center; width: 100%">Come find us at Sits!</h2>
+    <div style="margin: auto;" class="img"><a target="_blank" href="https://eventdata.uk/Forms/Form.aspx?FormRef=SIT53Visitor"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sits23.jpg" alt="sits 2023"></a></div>
+  </div>
+
   <div class="testimonials">
     <div class="testimonials-container">
       <h3>For all businesses<br>no matter the <span style="font-size: 34px; font-weight: bold;">size</span></h3>
@@ -42,17 +47,14 @@
         <a href="https://www.nwleics.gov.uk/" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/nwldc.png" alt="nwldc">
         </a>  
-        <!--<a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
+        <a href="https://www.hollandandbarrett.com/" target="_blank" rel="noopener">
           <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/hb-50.png" alt="Holland & Barrett Logo">
         </a>  
-        <a href="https://www.dentons.com/en" target="_blank" rel="noopener">
+        <!--<a href="https://www.dentons.com/en" target="_blank" rel="noopener">
           <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/dentons-50.png" alt="Dentons Law Firm Logo">
         </a>  -->
         <a href="https://www.plusdane.co.uk/" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/plusdane.png" alt="plus dane housing">
-        </a>  
-        <a href="https://www.riverside.org.uk" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/riverside.png" alt="riverside">
         </a>  
         <a href="https://www.sandwell.gov.uk" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/sandwell-logo.png" alt="sandwell Logo">
