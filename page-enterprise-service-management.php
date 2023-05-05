@@ -16,17 +16,40 @@
     </div>
   </div>
 
-  <!--<div class="outthebox">
-    <div class="img">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/product/images/esmdash.png" alt="Enterprise service management dashboard"></a>
-    </div>
-    <div class="video-container">
-      <video width="100%" height="auto" autoplay loop muted>
-      <source src="<?php echo get_stylesheet_directory_uri(); ?>/images/product/videos/ESM-Dash.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>-->
+  <div class="outthebox">
+    <h2>Enterprise Out-the-Box</h2>
 
+    <ul>
+      <li><i class="fa-duotone fa-house-building"></i><h6>Collaboration between departments</h6></li>
+      <li><i class="fa-duotone fa-comment-smile"></i><h6>Customer Feedback Driven</h6></li>
+      <li><i class="fa-duotone fa-universal-access"></i><h6>Accessibility, a service desk for all</h6></li>
+    </ul>
+
+    <div class="container">
+      <div class="item one">
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/product/images/esm-nav.png" alt="ESM nav"></div>
+        <div class="text"><h3>Multiple shared services housed within a single touchpoint</h3></div>
+      </div>
+      <div class="item two">
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/product/images/ticketsbytype.png" alt="ESM nav"></div>
+        <div class="text"><h3>Transparent reporting across all departments</h3></div>
+      </div>
+      <div class="item three">
+        <div class="text"><h3>Fast, simple & recorded communication</h3></div>
+        <div class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/product/images/teamschat.png" alt="ESM nav"></div>
+      </div>
+    </div>
+
+    <ul class="two">
+      <li><h6>Multiple shared services housed within a single touchpoint</h6></li>
+      <li><h6>Sustainable low-code design to manage continual service improvements</h6></li>
+      <li><h6>Upgradeability. Enable the latest features whilst protecting customisations.</h6></li>
+    </ul>
+  </div>
+
+  
+
+<!--  
   <div class="lists">
     <h2 style="width: 100%; text-align: center; padding-bottom: 50px;">Enterprise, straight Out-of-the-Box</h2>
     <div class="list-one">
@@ -52,6 +75,7 @@
     </div>
   </div>
 
+-->
 
   <div class="objectives">
     <div class="container">
