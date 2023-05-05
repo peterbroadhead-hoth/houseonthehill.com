@@ -140,7 +140,7 @@
           <div class="solution-carousel-item">
             <a href="/enterprise-service-management/">
               <div class="solution-carousel-content enterprise">
-                <h3>Enterprise Service <br>Management</h3>
+                <h3>Enterprise Service<br>Management</h3>
                 <p>All solutions under one roof, a powerful, affordable tool to keep all aspects of your business running perfectly.</p>
                 <div class="customers"> 
                   <div class="text">
