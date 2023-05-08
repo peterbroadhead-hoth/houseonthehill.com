@@ -5,7 +5,7 @@
   <div class="header">
     <div class="container">  
       <div class="text">  
-        <h1>Made to measure <br>service desk software fors<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/arrowdown.png" style="margin-left: 70px; position: absolute;"></h1> 
+        <h1>Made to measure <br>service desk software for<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/arrowdown.png" style="margin-left: 70px; position: absolute;"></h1> 
         <div class="frame">
             <div class="carousel">
               <div class="change_outer">
