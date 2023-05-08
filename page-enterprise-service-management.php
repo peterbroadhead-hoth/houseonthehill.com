@@ -41,7 +41,6 @@
     </div>
 
     <ul class="two">
-      <li><h6>Multiple shared services housed within a single touchpoint</h6></li>
       <li><h6>Sustainable low-code design to manage continual service improvements</h6></li>
       <li><h6>Upgradeability. Enable the latest features whilst protecting customisations.</h6></li>
     </ul>
