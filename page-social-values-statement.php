@@ -15,6 +15,17 @@
 	</div>
 
 	<ul>
+	<li>
+		<div class="text">
+			<h3>We care about you, and we care about trees</h3>
+			<p>At House-on-the-hill Software we are committed to making the world a better, greener place. As part of our mission, we are planting trees with the support of <a href="https://www.johnmuirtrust.org/">The John Muir Trust.</a>
+						For every piece of feedback we receive from our customers, we are planting a tree in their name. This is an incredible way to give back to the environment and create a more sustainable future.
+						After you complete our feedback form you will receive a certificate detailing where the tree has been planted – an easy way to make the world a little greener!</p>
+						<a class="sign-up" href="https://forms.office.com/pages/responsepage.aspx?id=OEYaXJY0K0eCJfAmS0vaMQGFda2P-j9Kj8fYAcaLAb5UMEdERkpBNUNBNTg1VFJBWDMzTUJNTklYNy4u">Plant a tree</a>
+		</div>
+		<div class="img" style="background: #E8EFFF;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/plantatree.png"></div>
+	</li>
+
 		<li>
 			<div class="img" style="background: #D2FADF;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/mcf.png"></div>
 			<div class="text">
