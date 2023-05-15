@@ -90,7 +90,7 @@
         </li>
         <li>
           <h3>Improved transparency & Decision making</h3>
-          <p>Management can now attain a great understanding of what has been achieved and what hasn’t. Where is the value being generated or lost and how to communicate that with all stakeholders and make decisions to maximise or improve. Excecutive Portals Executive Departmental Reporting Digital Innovation and Productboards</p>
+          <p>Management can now attain a great understanding of what has been achieved and what hasn’t. Where is the value being generated or lost and how to communicate that with all stakeholders and make decisions to maximise or improve</p>
         </li>
         <li>
           <h3>Orchestration of Services</h3>
