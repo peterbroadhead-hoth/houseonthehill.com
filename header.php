@@ -147,10 +147,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<h3>Contact House-on-the-Hill</h3>
 							<p>Need help? Want a demo? Questions on our pricing? Get in touch, were ready to help</p>
 						</a>
-						<!--<a href="/careers">
+						<a href="/careers">
 							<h3>Careers</h3>
 							<p>Interested in joining the HotH team?</p>
-						</a>-->
+						</a>
 						<a href="/social-values-statement/">
 							<h3>Social Values</h3>
 							<p>We are proud to support charities, fund-raising events and work experience programs</p>
