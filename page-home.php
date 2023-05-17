@@ -26,11 +26,6 @@
     </div>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; padding: 50px;" class="sits">
-    <h2 style="text-align: center; width: 100%">Come find us at Sits!</h2>
-    <div style="margin: auto;" class="img"><a target="_blank" href="https://eventdata.uk/Forms/Form.aspx?FormRef=SIT53Visitor"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sits23.jpg" alt="sits 2023"></a></div>
-  </div>
-
   <div class="testimonials">
     <div class="testimonials-container">
       <h3>For all businesses<br>no matter the <span style="font-size: 34px; font-weight: bold;">size</span></h3>
