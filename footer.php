@@ -41,6 +41,7 @@
         <h2><a href="/price-plans/">Pricing</a></h2>
         <h2><a href="/about-house-on-the-hill-software">About</a></h2>
         <h2><a target="_blank" href="https://roadmap.houseonthehill.com/home">Roadmap</a></h2>
+        <h2><a href="/careers">Careers</a></h2>
         <h2><a href="mailto:hello@houseonthehill.com">hello@houseonthehill.com</a></h2>
       </div>
       <div class="socials">
