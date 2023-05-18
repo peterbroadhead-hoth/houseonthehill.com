@@ -211,7 +211,7 @@
                 <p>Will allow you to manage your whole property portfolio, jobs and keep your engineers on the road.</p>
                 <div class="customers"> 
                   <div class="text">
-                    <p><strong>Customerss</strong></p>
+                    <p><strong>Customers</strong></p>
                   </div>
                   <div class="img">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/hollandbarrett.png" alt="Holland and barrett Logo">
