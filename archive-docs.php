@@ -4,7 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>House-on-the-Hill Documentation</title>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link href="<?php echo get_stylesheet_directory_uri(); ?>/fonts/fontawesome-pro-5.3.1-web/css/all.css" rel="stylesheet">
+	<link href="<?php echo get_stylesheet_directory_uri(); ?>/fonts/fontawesome-pro-6/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://kit.fontawesome.com/b0a8970fe2.css" crossorigin="anonymous">
 	<link href="<?php echo get_stylesheet_directory_uri(); ?>/library.css" rel="stylesheet">
 	<link rel="shortcut icon" href="<?php echo site_url(); ?>/wp-content/uploads/2014/07/hoth.jpg" />
 	<?php wp_head(); ?>
@@ -42,7 +43,7 @@
 						<div class="form-group hidden-sm">
 							<input name="s" id="searchform"  type="text" class="form-control" placeholder="Search">
 							<?php $query_types = get_query_var('post_type'); ?>
-							<button type="submit" class="btn btn-warning"><i class="fas fa-search"></i></button>
+							<button type="submit" class="btn btn-warning"><i class="fad fa-search"></i></button>
 						</div>
 					</div>
 				</form>
