@@ -11,7 +11,7 @@
               <div class="change_outer">
                 <div class="change_inner">
                   <div class="element 1">IT Service Management</div>
-                  <div class="element 2">Request Management of FOI, SAR, EIR & Discovery</div>
+                  <div class="element 2">Request Management of FOI, SAR, EIR & Complaints</div>
                   <div class="element 3">Facilities Management</div>
                   <div class="element 4">Customer Service</div>
               </div>
