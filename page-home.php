@@ -118,7 +118,6 @@
       </div>
     </div> 
   </div>
-  [wpforms id="20749" title="false"]
   <div class="teams">
     <div class="text">
       <h3 style="margin-bottom:5px;">Teams is here</h3>
