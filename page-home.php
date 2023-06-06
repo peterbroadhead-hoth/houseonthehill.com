@@ -55,7 +55,7 @@
             <div id="captcha_result"></div>
             <input class="submit" type="submit" value="Book a demo"> 
           </form>
-
+          <p style="font-size: 10px; margin-top: 5px;">By submitting this form you agree to our <a href="/privacy-policy-2/">privacy policy</a></p>
           <script src=https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit
             async defer>
           </script>
