@@ -50,7 +50,7 @@
             <input type="HIDDEN" name="F2178" id="F2178" size="1" value="Demo">
             <input required="" type="hidden" name="F2177" id="F2177" maxlength="25" value="" placeholder="Company Name">
             <input type="hidden" name="F38" id="F38" value="demo@houseonthehill.com">
-            <input type="TEXT" name="F10010" id="reg_email" size="0035" maxlength="50" value="" placeholder="Email Address">
+            <input type="TEXT" name="F10010" id="reg_email" size="0035" maxlength="50" value="" placeholder="Email Address" required="">
             <div id="captcha_result"></div>
             <input class="submit" type="submit" value="Book a demo"> 
           </form>
