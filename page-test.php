@@ -1,300 +1,62 @@
-<div class='demo-container'>
-    <div class='carousel'>
-      <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
-      <input class='carousel__activator' id='carousel-slide-activator-2' name='carousel' type='radio'>
-      <input class='carousel__activator' id='carousel-slide-activator-3' name='carousel' type='radio'>
-      <div class='carousel__controls'>
-        <label class='carousel__control carousel__control--forward' for='carousel-slide-activator-2'>
-          👉
-        </label>
-        <label class='carousel__control carousel__control--backward' for='carousel-slide-activator-1'>
-          👈
-        </label>
-        <label class='carousel__control carousel__control--forward' for='carousel-slide-activator-3'>
-          👉
-        </label>
-      </div>
-      <div class='carousel__controls'>
-        <label class='carousel__control carousel__control--backward' for='carousel-slide-activator-2'>
-          👈
-        </label>
-      </div>
-      <div class='carousel__screen'>
-        <div class='carousel__track'>
-          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-            <div class='demo-content'>
-              a
-            </div>
-          </div>
-          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-            <div class='demo-content'>
-              b
-            </div>
-          </div>
-          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-            <div class='demo-content'>
-              c
-            </div>
-          </div>
-          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-            <div class='demo-content'>
-              d
-            </div>
-          </div>
-          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-            <div class='demo-content'>
-              e
-            </div>
-          </div>
-          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-            <div class='demo-content'>
-              f
-            </div>
-          </div>
-          <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-            <div class='demo-content'>
-              g
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-<style>
-html {
-  box-sizing: border-box;
-}
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+<?php get_header();?>
+<form action=https://www.house-on-the-hill.com:443/mothership/supisacs.dll method="POST" id="theForm" name="theForm" class="hoth_signup" onsubmit="return Form_Validator(this);" enctype="multipart/form-data">
+  <input type="HIDDEN" id="entrytoggle" name="entrytoggle" value="">
+  <input type="HIDDEN" id="selchange" name="selchange" value="">
+  <input type="HIDDEN" id="selparam1" name="selparam1" value="">
+  <input type="HIDDEN" id="AjaxUpdate" name="AjaxUpdate" value="">
+  <input type="HIDDEN" id="A" name="A" value="AnonCall">
+  <input type="HIDDEN" id="F1" name="F1" value="">
+  <input type="HIDDEN" id="F2158" name="F2158" value="0">
+  <input type="HIDDEN" id="NextStep" name="NextStep" value="">
+  <input type="HIDDEN" id="F2126" name="F2126" value="341">
+  <input type="HIDDEN" id="F2127_ctrl" name="F2127_ctrl" value="">
+  <input type="HIDDEN" id="F2128_ctrl" name="F2128_ctrl" value="">
+  <input type="HIDDEN" id="F2150_ctrl" name="F2150_ctrl" value="">
+  <input type="HIDDEN" id="F2129_ctrl" name="F2129_ctrl" value="">
+  <input type="HIDDEN" id="F2130_ctrl" name="F2130_ctrl" value="">
+  <input type="HIDDEN" id="F2148_ctrl" name="F2148_ctrl" value="">
+  <input type="HIDDEN" id="F2149_ctrl" name="F2149_ctrl" value="">
+  <input type="HIDDEN" id="ActResolved_ctrl" name="ActResolved_ctrl" value="">
+  <input type="HIDDEN" id="ActRespondedTo_ctrl" name="ActRespondedTo_ctrl" value="">
+  <input type="HIDDEN" id="F5006_ctrl" name="F5006_ctrl" value="">
+  <input type="HIDDEN" id="F" name="F" value="0">
+  <input type="HIDDEN" id="CCSM" name="CCSM" value="0">
+  <input type="HIDDEN" id="InitMedium" name="InitMedium" value="8192">
+  <input type="HIDDEN" id="SummViewFold" name="SummViewFold" value="0">
+  <input type="HIDDEN" id="F3" name="F3" value="66">
+  <!--<input type="HIDDEN" id="F2156" name="F3" value="48">-->
+  <input type="HIDDEN" id="savebtn" name="savebtn" value="">
+  <input type="HIDDEN" id="savebtn1" name="savebtn1" value="">
+  <input type="HIDDEN" name="F2178" id="F2178" size="1" value="Demo">
+  <input required="" type="hidden" name="F2177" id="F2177" maxlength="25" value="" placeholder="Company Name">
+  <input type="hidden" name="F38" id="F38" value="demo@houseonthehill.com">
+  <input type="TEXT" name="F10010" id="reg_email" size="0035" maxlength="50" value="" placeholder="Email Address">
+  <div id="captcha_result"></div>
+  <input class="submit" type="submit" value="Book a demos"> 
+</form>
 
-.carousel {
-  min-width: 900px;
-  max-width: 1236px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 48px;
-  padding-right: 48px;
-  position: relative;
-}
+<script src=https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit
+  async defer>
+</script>
 
-.carousel__activator {
-  display: none;
-}
-
-.carousel__controls {
-  display: none;
-  align-items: center;
-  justify-content: space-between;
-  position: absolute;
-  top: 0;
-  right: 16px;
-  left: 16px;
-  bottom: 0;
-}
-.carousel__controls:first-of-type {
-  justify-content: flex-end;
-}
-.carousel__controls:last-of-type {
-  justify-content: flex-start;
-}
-
-.carousel__control {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  color: #3d414a;
-  border-radius: 100%;
-  box-shadow: 0 2px 10px 0 rgba(33, 34, 36, 0.3);
-  font-size: 24px;
-  height: 48px;
-  justify-content: center;
-  transition: 0.3s all;
-  width: 48px;
-  z-index: 1;
-}
-.carousel__control:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.carousel__activator:nth-of-type(1):checked
-~ .carousel__controls:nth-of-type(1) {
-  display: flex;
-}
-
-.carousel__activator:nth-of-type(1):checked
-~ .carousel__screen
-.carousel__track {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-}
-
-.carousel__activator:nth-of-type(2):checked
-~ .carousel__controls:nth-of-type(2) {
-  display: flex;
-}
-
-.carousel__activator:nth-of-type(2):checked
-~ .carousel__screen
-.carousel__track {
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-}
-
-.carousel__activator:nth-of-type(3):checked
-~ .carousel__controls:nth-of-type(3) {
-  display: flex;
-}
-
-.carousel__activator:nth-of-type(3):checked
-~ .carousel__screen
-.carousel__track {
-  -webkit-transform: translateX(-200%);
-          transform: translateX(-200%);
-}
-
-.carousel__screen {
-  overflow: hidden;
-  margin-left: -16px;
-  margin-right: -16px;
-}
-
-.carousel__track {
-  font-size: 0;
-  transition: all 0.3s ease 0s;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-
-.carousel__item {
-  display: inline-flex;
-  padding-left: 16px;
-  padding-right: 16px;
-  vertical-align: top;
-  white-space: normal;
-}
-
-.carousel__item--desktop-in-1 {
-  width: 100%;
-}
-
-.carousel__item--desktop-in-2 {
-  width: 50%;
-}
-
-.carousel__item--desktop-in-3 {
-  width: 33.3333333333%;
-}
-
-.carousel__item--desktop-in-4 {
-  width: 25%;
-}
-
-.carousel__item--desktop-in-5 {
-  width: 20%;
-}
-
-
-
-.demo-content {
-  color: #fff;
-  display: flex;
-  font-family: Helvetica;
-  font-weight: 100;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  border-radius: 3px;
-  font-size: 56px;
-  height: 250px;
-  width: 100%;
-}
-
-.carousel__item:nth-child(1) .demo-content {
-  background-color: #216485;
-}
-
-.carousel__item:nth-child(2) .demo-content {
-  background-color: #3692b6;
-}
-
-.carousel__item:nth-child(3) .demo-content {
-  background-color: #6fccc9;
-}
-
-.carousel__item:nth-child(4) .demo-content {
-  background-color: #a6e3cf;
-}
-
-.carousel__item:nth-child(5) .demo-content {
-  background-color: #aff0be;
-}
-
-.carousel__item:nth-child(6) .demo-content {
-  background-color: #527059;
-}
-
-.carousel__item:nth-child(7) .demo-content {
-  background-color: #243127;
-}
-
-@media screen and (max-width: 1023px) {
-  .carousel {
-    padding-left: 0;
-    padding-right: 0;
+<script>
+  var form = document.getElementById('theForm');
+  form.addEventListener("submit", function(event){
+    if (grecaptcha.getResponse() === '') {                            
+      event.preventDefault();
+      alert('Please check the recaptcha');
+    }
   }
+  , false);
+</script>
 
-  .carousel__activator:nth-of-type(n):checked ~ .carousel__controls:nth-of-type(n) {
-    display: none;
-  }
-  .carousel__activator:nth-of-type(n):checked ~ .carousel__screen .carousel__track {
-    -webkit-transform: none;
-            transform: none;
-  }
+<script>
+  const email = document.getElementById("reg_email");
+  const company_name = document.getElementById("F2177");
+  email.addEventListener("keyup", () => {
+    company_name .value = email.value;
+  });
+</script>
 
-  .carousel__screen {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .carousel__track {
-    overflow-x: auto;
-    width: auto;
-    padding-left: 48px;
-    padding-right: 48px;
-  }
-
-  .carousel__item--tablet-in-1 {
-    width: 90%;
-  }
-
-  .carousel__item--tablet-in-2 {
-    width: 45%;
-  }
-
-  .carousel__item--tablet-in-3 {
-    width: 30%;
-  }
-}
-@media screen and (max-width: 650px) {
-  .carousel__track {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .carousel__item--mobile-in-1 {
-    width: 90%;
-  }
-
-  .carousel__item--mobile-in-2 {
-    width: 45%;
-  }
-
-  .carousel__item--mobile-in-3 {
-    width: 30%;
-  }
-}
-</style>
+<?php get_footer();?>
