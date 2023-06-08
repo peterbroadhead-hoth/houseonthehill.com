@@ -10,7 +10,7 @@
 
       <div class="video-container">
         <video width="100%" height="auto" autoplay loop muted>
-        <source src="<?php echo get_stylesheet_directory_uri(); ?>/images/product/videos/esm-dash.mp4" type="video/mp4">
+        <source src="<?php echo get_stylesheet_directory_uri(); ?>/images/product/videos/ESM-Dash.mp4" type="video/mp4">
         </video>
       </div>
     </div>
