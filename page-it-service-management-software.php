@@ -42,8 +42,8 @@
         <a href="https://www.plusdane.co.uk/" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/plusdane.png" alt="plus dane housing">
         </a>  
-        <a href="https://www.plusdane.co.uk/" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/plusdane.png" alt="plus dane housing">
+        <a href="https://www.nufc.co.uk" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/newcastle.png" alt="newcasstle fc logo">
         </a>  
         <a href="https://www.sandwell.gov.uk" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/sandwell-logo.png" alt="sandwell Logo">
