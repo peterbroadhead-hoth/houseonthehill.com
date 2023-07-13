@@ -42,8 +42,8 @@
         <a href="https://www.plusdane.co.uk/" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/plusdane.png" alt="plus dane housing">
         </a>  
-        <a href="https://www.riverside.org.uk" target="_blank" rel="noopener">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/riverside.png" alt="riverside">
+        <a href="https://www.plusdane.co.uk/" target="_blank" rel="noopener">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/plusdane.png" alt="plus dane housing">
         </a>  
         <a href="https://www.sandwell.gov.uk" target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/sandwell-logo.png" alt="sandwell Logo">
