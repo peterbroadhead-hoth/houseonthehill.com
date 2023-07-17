@@ -82,6 +82,8 @@
     </div>
   </div>
 
+<p class="hoth_bulletin"><?php the_field('bulletin'); ?></p>
+
   <div class="testimonials">
     <div class="testimonials-container">
       <h3>For all businesses<br>no matter the <span style="font-size: 34px; font-weight: bold;">size</span></h3>
@@ -360,6 +362,21 @@
   </div>
 </div>
 <style>
+
+.hoth_bulletin{
+	background: #bf1212; 
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	width: 90%;
+	margin: 20px 5%;"
+}
+	
+.hoth_bulletin:empty{
+	display:none;
+}
+	
 .frame {
   width: 100%;
   height: 70px;
