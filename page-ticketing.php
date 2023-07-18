@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="features single-page">
   <div class="header">
-   <img class="blob" src="https://hoth.local/wp-content/themes/houseonthehill.com/images/22icons/original/features-blob.png">
+   <img class="blob" src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/22icons/original/features-blob.png">
     <div class="title">
       <h1>Customer support done your way</h1>
       <p>Customise the way you want to support your customers, create your own ticket templates and SLAs to suit you and your customers.</p>

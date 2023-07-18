@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="features single-page">
   <div class="header">
-   <img class="blob" src="https://hoth.local/wp-content/themes/houseonthehill.com/images/22icons/original/features-blob.png">
+   <img class="blob" src="https://houseonthehill.com/wp-content/themes/houseonthehill.com/images/22icons/original/features-blob.png">
     <div class="title">
       <h1>Manage Efficiently</h1>
       <p>Efficiently manage all aspects of your business with HotH, track engineers and monitor your assets.</p>
