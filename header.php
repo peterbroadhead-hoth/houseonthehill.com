@@ -119,7 +119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 			<a href="/price-plans">Pricing <img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></a>
 
-			<a href="/features">Features <img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></a>
+			<a href="/features/">Features <img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></a>
 
 			<div class="dropdown">
 					<button class="dropbtn about">About</button>

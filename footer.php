@@ -36,7 +36,7 @@
       </div>
       <div class="site-links">
         <h2><a href="/price-plans">Solutions</a></h2>
-        <h2><a href="/features">Features</a></h2>
+        <h2><a href="/features/">Features</a></h2>
         <h2><a href="/integrations">Integrations</a></h2>
         <h2><a href="/price-plans/">Pricing</a></h2>
         <h2><a href="/about-house-on-the-hill-software">About</a></h2>
