@@ -63,7 +63,7 @@ We never leave you high and dry.
   <h4 class="charity">Charities We Support</h4>
 	<table class="charity">
 		<td>
-		<a href="http://www.worldvision.org.uk/" target="_blank">
+		<a href="https:////www.worldvision.org.uk/" target="_blank">
 		<img class="img-circle" height="100" width="100" src="<?php echo site_url(); ?>/wp-content/uploads/2014/09/worldvision.jpeg">
     <div class="text">
 		  <h4>World Vision</h4>
@@ -72,7 +72,7 @@ We never leave you high and dry.
     </a>
 		</td>		
 		<td>
-		<a href="http://www.boothcentre.org.uk" target="_blank">	
+		<a href="https:////www.boothcentre.org.uk" target="_blank">	
 		<img class="img-circle" height="100" width="100" src="<?php echo site_url(); ?>/wp-content/uploads/2014/09/booth1.jpg">
     <div class="text">
 		  <h4>Booth Centre</h4>
