@@ -52,7 +52,7 @@
     <div class="text">
       <h2>Stay on top of your tasks</h2>
       <p>All your facilities management needs under one roof.</span></p>
-      <a href="/price-plans"><p class="price"> <span>View Pricing</span></p></a>
+      <a href="/price-plans/"><p class="price"> <span>View Pricing</span></p></a>
     </div>
     <ul>
       <li>

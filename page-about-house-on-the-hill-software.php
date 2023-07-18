@@ -47,7 +47,7 @@
     <li><p>Automation</p></li>
     <li><p>Chat</p></li>
     <li><p>Report on any data</p></li>
-    <p><strong>We would love to show you around 🙂 Drop us an email at <br><a href="/demo">demo@houseonthehill.com</a></strong></p>
+    <p><strong>We would love to show you around 🙂 Drop us an email at <br><a href="/demo/">demo@houseonthehill.com</a></strong></p>
   </ul>
 
   <div class="about-subheader">

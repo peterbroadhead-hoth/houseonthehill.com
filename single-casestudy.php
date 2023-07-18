@@ -21,7 +21,7 @@
 </div>
 
 <div class="case-study-btn">
-	<h2><a href="/casestudy">Back to Case Studies</a></h2>
+	<h2><a href="/casestudy/">Back to Case Studies</a></h2>
 </div>
 
 <style>

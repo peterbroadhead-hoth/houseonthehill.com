@@ -38,7 +38,7 @@
 	<div class="library-intro">
 		<h1 class="library-header"> Product Documentation</h1>	
 			<div class="library-search">
-				<form class="navbar-form navbar-left" role="" id="" method="get" action="/docs">
+				<form class="navbar-form navbar-left" role="" id="" method="get" action="/docs/">
 					<div class="col-md-12 no-pad" style="margin-left: 0;">
 						<div class="form-group hidden-sm">
 							<input name="s" id="searchform"  type="text" class="form-control" placeholder="Search">

@@ -117,7 +117,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 			</div>
 
-			<a href="/price-plans">Pricing <img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></a>
+			<a href="/price-plans/">Pricing <img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></a>
 
 			<a href="/features/">Features <img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></a>
 
@@ -128,27 +128,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<h3>Roadmap</h3>
 							<p>To be a household name in helping organisations exceed customer expectations through <br>​⚡super-charged service delivery ⚡</p>
 						</a>
-						<a href="/about-house-on-the-hill-software">
+						<a href="/about-house-on-the-hill-software/">
 							<h3>About House-on-the-Hill</h3>
 							<p>A small business running powerful service desk solutions</p>
 						</a>
-						<a href="/testimonials">
+						<a href="/testimonials/">
 							<h3>Customer Testimonials</h3>
 							<p>Dont just take our word for it, see what our customers say</p>
 						</a>
-						<a href="/blog">
+						<a href="/blog/">
 							<h3>Blog</h3>
 							<p>Keep up to date with all that we do at HotH</p>
 						</a>
-						<a href="/casestudy">
+						<a href="/casestudy/">
 							<h3>Customer Case Studies</h3>
 							<p>Read how we helped businesses make our House, their Home</p>
 						</a>
-						<a href="/contact-us">
+						<a href="/contact-us/">
 							<h3>Contact House-on-the-Hill</h3>
 							<p>Need help? Want a demo? Questions on our pricing? Get in touch, were ready to help</p>
 						</a>
-						<a href="/careers">
+						<a href="/careers/">
 							<h3>Careers</h3>
 							<p>Interested in joining the HotH team?</p>
 						</a>

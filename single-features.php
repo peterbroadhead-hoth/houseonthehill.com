@@ -80,7 +80,7 @@
 									, false);
 									</script>
 					</div>-->
-          <a href="/demo" class="more-info">Request a demo</a>
+          <a href="/demo/" class="more-info">Request a demo</a>
         </div>  
     </div>
     

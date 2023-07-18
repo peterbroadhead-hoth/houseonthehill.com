@@ -5,7 +5,7 @@
    <div class="title">
     <h1>HotHBot, our new <br>Microsoft Teams integration</h1>
     <p>Simplify the way you chat to your users with HotHBot,<br>our new feature built for easy communication to get the job done.</p>
-    <a target="" href="/demo" class="sign-up">Book a demo</a>
+    <a target="" href="/demo/" class="sign-up">Book a demo</a>
    </div>
   </div>
  </div>
@@ -47,7 +47,7 @@
   <div class="text">
    <h2>Watch HotHBot in action</h2>
    <p>Let one of our team show you how HotHBot can benefit your business. We will create your own personalised trial for you to take away and use completely free for one month. <br>Fill in the form below and we will be in touch and give you a free guided tour.</p>
-   <a target="" href="/demo" class="sign-up">Book a demo</a>
+   <a target="" href="/demo/" class="sign-up">Book a demo</a>
   </div>
  </div>
 </div>

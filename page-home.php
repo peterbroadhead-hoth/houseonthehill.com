@@ -135,7 +135,7 @@
   <div class="solution-carousel-container">
     <div class="text">
       <h3>Multiple solutions all under one roof</h3>
-      <!--<div class="button"><a class="sign-up" href="/price-plans">View pricing</a></div>-->
+      <!--<div class="button"><a class="sign-up" href="/price-plans/">View pricing</a></div>-->
     </div>
     <div class="solution-carousel">
       <input checked="checked" class="solution-carousel-activator" id="solution-carousel-slide-activator-1" name="solution-carousel" type="radio">
@@ -300,7 +300,7 @@
           <li>
             <h3>Keep up to date with all things HotH</h3>
             <p>Subscribe to our monthly newsletter that features consultancy discounts, HotH tips and the latest upgrades available for your service.</p>
-            <a href="/blog">Read our Blog ></a>
+            <a href="/blog/">Read our Blog ></a>
           </li>
 
           <li>
@@ -355,7 +355,7 @@
         <div class="btns">
           <a class="more-info" href="/contact-us/">Call</a>
           <a class="more-info" href="mailto:support@houseonthehill.com">Email</a>
-          <a class="more-info" href="/docs">Docs</a>
+          <a class="more-info" href="/docs/">Docs</a>
         </div>
       </div>
     </div>

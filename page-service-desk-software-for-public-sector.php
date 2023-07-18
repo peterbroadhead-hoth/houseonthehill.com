@@ -148,7 +148,7 @@
         <div>
             <h1>Proven All-in-One Service Desk Solution for the Public Sector</h1>
             <p>Deliver intuitive IT processes across the whole organisation with House-on-the-Hill Service Desk Software.</p>
-            <a href="/demo">Schedule a Demo</a>
+            <a href="/demo/">Schedule a Demo</a>
         </div>
     </article>
 </div>

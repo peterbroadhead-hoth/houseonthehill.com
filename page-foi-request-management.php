@@ -9,7 +9,7 @@ fully audited cases that track Freedom of Information, Subject Access Requests, 
 & more. Our solution reduces the tedious & costly tasks that burden every department, improves the
 requestor experience, ensures compliance, and spotlights accountability within your
 organisation</p>
-        <a target="" href="/demo" class="sign-up">Book a demo</a>
+        <a target="" href="/demo/" class="sign-up">Book a demo</a>
       </div>
       <div class="video-container">
         <video width="80%" height="auto" poster="<?php echo get_stylesheet_directory_uri(); ?>/images/2023/DisCo - Dashboard.png" controls>

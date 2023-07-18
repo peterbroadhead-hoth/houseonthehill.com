@@ -52,7 +52,7 @@
       <div class="text">
         <h2>Support your customers</h2>
         <p>All the tools needed for a quality customer support service.</span></p>
-        <a href="/price-plans"><p class="price"> <span>View Pricing</span></p></a>
+        <a href="/price-plans/"><p class="price"> <span>View Pricing</span></p></a>
       </div>
     <ul>
       <li>

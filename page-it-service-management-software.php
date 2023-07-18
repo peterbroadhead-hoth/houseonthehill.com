@@ -59,7 +59,7 @@
       <div class="text">
         <h2>IT Service Management made simple</h2>
         <p>Use these features to ease your workload.</span></p>
-        <a class="sign-up" href="/price-plans">View Pricing</a>
+        <a class="sign-up" href="/price-plans/">View Pricing</a>
       </div>
     <ul>
       <li>
