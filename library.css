@@ -1,5 +1,9 @@
 
 /* Library Styles 2021*/
+ul li{
+  list-style: unset;
+}
+
 body.post-type-archive-supportdesk-library, body.single-supportdesk-library, body#docs {
     background:white;
 }
