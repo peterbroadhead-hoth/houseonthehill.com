@@ -90,29 +90,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="dropdown">
 					<button class="dropbtn">Solutions</button>
 					<div class="dropdown-content">
-						<a href="/enterprise-service-management/">
-							<h3>Enterprise Service Management</h3>
-							<p>Making our house your organisation's digital home</p>
-						</a>
 						<a href="/it-service-management-software/">
-							<h3>IT Service Management</h3>
+							<h3>IT Service Management (ITSM / ITIL)</h3>
 							<p>Powerful, quick, simple, ticket logging software. Tailor the way you want to create tickets.</p>
+						</a>
+						<a href="/facilities-management/">
+							<h3>Computer Aided Facilities Management (CAFM)</h3>
+							<p>Manage your whole property portfolio, jobs and keep your engineers on the road.</p>
+						</a>
+						<a href="/customer-service-and-support/">
+							<h3>Customer Service Management (CSM)</h3>
+							<p>Help your team to provide quality customer support and use data driven decisions from reports and more.</p>
 						</a>
 						<a href="/foi-request-management/">
 							<h3>FOI & SAR Case Management Software</h3>
 							<p>Turn requests into fully audited cases that track Freedom of Information, Subject Access Requests, EIR, Discovery & more.</p>
 						</a>
-						<a href="/customer-service-and-support/">
-							<h3>Customer Service Management</h3>
-							<p>Help your team to provide quality customer support and use data driven decisions from reports and more.</p>
-						</a>
-						<a href="/facilities-management/">
-							<h3>Computer Aided Facilities Management</h3>
-							<p>Manage your whole property portfolio, jobs and keep your engineers on the road.</p>
-						</a>
-						<a href="/ms-teams-service-desk-integration/">
-							<h3>HotHBot - MS Teams Integration</h3>
-							<p>Simplify the way you chat to your users with HotHBot.</p>
+						<a href="/enterprise-service-management/">
+							<h3>Enterprise Service Management (ESM)</h3>
+							<p>Making our house your organisation's digital home</p>
 						</a>
 					</div>
 			</div>
@@ -121,7 +117,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 			<a href="/features/">Features <img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></a>
 
-			
+
 
 			<div class="dropdown">
 					<button class="dropbtn about">About</button>
