@@ -14,7 +14,7 @@
   <div class="feature-list-container">
     <div class="feature-list">
       <div class="sub-header">
-        <h2>Ticketing</h2>
+        <h2>Service Management</h2>
         <p>
           Ticketing done how you want. Customise create and design how you want your tickets to run and look.
         </p>

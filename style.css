@@ -604,17 +604,31 @@ body #hoth-chat-button i{
 }
 
 /* header features dropdown */
+.hoth-header-container .hoth-header .dropdown:hover .dropdown-content.features{
+  position: fixed;
+  display: flex;
+  left: 0;
+  width: 100%;
+}
 
-.hoth-header-container .hoth-header .dropdown-content.features{
-  min-width: 1200px;
+.dropdown-content.features p{
+  padding: 10px;
+}
+
+.hoth-header-container .hoth-header .dropdown-content.features a{
+  padding: 5px 10px;
 }
 
 .dropdown-content.features ul{
-  border-right: 2px solid black;
-  padding: 3vw;
+  border-right: 1px solid black;
+  padding: 5px;
   display: unset;
   flex-wrap: unset;
-  width: 33.3%;
+  width: 16.6%;
+}
+
+.dropdown-content.features ul:last-child{
+  border-right: unset;
 }
 
 .dropdown-content.features .integrations{
@@ -625,17 +639,22 @@ body #hoth-chat-button i{
 
 .dropdown-content.features li, .dropdown-content p{
   width: 100%;
-  margin: 20px 0;
-}
-
-.dropdown-content.features li a{
-  padding: 0;
-}
-
-.dropdown-content.features li a p{
-  padding: 0;
   margin: 0;
-  font-size: 1rem;
+}
+
+.hoth-header-container .hoth-header .dropdown-content.features a h2{
+  margin: 5px 0;
+}
+
+.hoth-header-container .hoth-header .dropdown-content.features a{
+  margin: 0;
+}
+
+
+@media (max-width: 1100px){
+  .hoth-header-container .hoth-header .dropdown:hover .dropdown-content.features{
+    display: none;
+  }
 }
 
 /* Header Sales*/

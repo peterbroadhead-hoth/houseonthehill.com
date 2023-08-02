@@ -115,7 +115,74 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 			<a href="/price-plans/">Pricing <img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></a>
 
-			<a href="/features/">Features <img src="/wp-content/themes/houseonthehill.com/images/2023/underline.png"></a>
+			<div class="dropdown">
+				<button class="dropbtn features"><a href="/features">Features</a></button>
+				<div class="dropdown-content features">
+					<ul>
+						<p class="tag green">Service Management</p>
+						<li><a href="/features/in-the-loop/"><h2>In the Loop</h2></a></li>
+						<li><a href="/features/self-service/"><h2>Self Service Portal</h2></a></li>
+						<li><a href="/features/helpdesk-call-template/"><h2>Ticket Templates</h2></a></li>
+						<li><a href="/features/mobile-service-desk/"><h2>Mobile Service Desk</h2></a></li>
+						<li><a href="/features/help-desk-notes-audit-trail/"><h2>Notes and Audit Trail</h2></a></li>
+						<li><a href="/features/help-desk-activities/"><h2>Activities / Sub-Tasks</h2></a></li>
+						<li><a href="/features/asset-and-software-licence-management/"><h2>Asset and Software Licence Management</h2></a></li>
+						<li><a href="/features/financial-management/"><h2>Financial Management</h2></a></li>
+						<li><a href="/features/service-portfolio-management/"><h2>Service Portfolio Management</h2></a></li>
+						<li><a href="features/customer-relationship-management/"><h2>Customer Relationship Management</h2></a></li>
+						<li><a href="/features/customer-satisfaction-survey-tool/"><h2>Customer Satisfaction Survey Tool</h2></a></li>
+						<li><a href="/features/canned-responses/"><h2>Canned Responses</h2></a></li>
+					</ul>
+
+					<ul class="">
+						<p class="tag purple">Integrations</p>
+						<li><a href="/ms-teams-service-desk-integration/"><h2>HotHBot (Microsoft Teams)</h2></a></li>
+						<li><a href="/features/lansweeper-integration/"><h2>Landsweeper</h2></a></li>
+						<li><a href="/features/jira-integration/"><h2>Jira</h2></a></li>
+						<li><a href="/features/xero-integration/"><h2>Xero</h2></a></li>
+						<li><a href="/features/3cx-integration/"><h2>3CX Integration</h2></a></li>
+						<li><a href="/features/email-integration/"><h2>Email Integration</h2></a></li>
+						<li><a href="/features/remote-desktop-support/"><h2>Remote Desktop Support</h2></a></li>
+						<li><a href="/features/ldap-integration/"><h2>LDAP Integration</h2></a></li>
+						<li><a href="/features/microsoft-sccm-integration/"><h2>Microsoft SCCM Integration</h2></a></li>
+						<li><a href="/features/telephony-integration/"><h2>Telephony Integration</h2></a></li>
+						<li><a><h2>Intune</h2></a></li>
+					</ul>
+
+					<ul class="">
+						<p class="tag purple">Customisation</p>
+						<li><a href="/features/drag-and-drop-form-builder/"><h2>Drag and Drop Call Form Builder</h2></a></li>
+						<li><a href="/features/drag-and-drop-dashboard-builder/"><h2>Drag and Drop Dashboard Builder</h2></a></li>
+						<li><a href="/features/customer-portal-branding/"><h2>Customer Portal Branding</h2></a></li>
+						<li><a href="/features/workflow-engine/"><h2>Workflow Engine</h2></a></li>
+						<li><a href="/features/hoth-professional-services-and-technical-advisors/"><h2>HotH Professional Services & Technical Advisors</h2></a></li>
+					</ul>
+					
+					<ul class="">
+						<p class="tag purple">Facilities Management</p>
+						<li><a href="/features/mobile-service-desk/"><h2>Mobile Service Desk</h2></a></li>
+						<li><a href="/features/planned-preventative-maintenance/"><h2>Planned Preventative Maintenance</h2></a></li>
+						<li><a href="/features/resource-booking-software/"><h2>Resource Booking software</h2></a></li>
+						<li><a href="/features/helpdesk-geolocation/"><h2>Geolocation</h2></a></li>
+					</ul>
+
+					<ul class="">
+						<p class="tag purple">Support Tools</p>
+						<li><a href="/features/service-request-buttons/"><h2>Service Request Buttons</h2></a></li>
+						<li><a href="/features/remote-desktop-support/"><h2>Remote Desktop Support</h2></a></li>
+						<li><a href="/features/remote-session-request-button/"><h2>Remote Session Request Button</h2></a></li>
+					</ul>
+
+					<ul class="">
+						<p class="tag purple">Reporting & Workflow</p>
+						<li><a href="/features/kanban-workboard/"><h2>Kanban Workboard</h2></a></li>
+						<li><a href="/features/help-desk-timeline/"><h2>Timeline</h2></a></li>
+						<li><a href="/features/report-designer/"><h2>Reports Designer</h2></a></li>
+						<li><a href="/features/kpi-monitor/"><h2>KPI Monitor Real-Time Dashboard</h2></a></li>
+						<li><a href="/features/automated-change-management-system-voting/"><h2>Automated Change Management system</h2></a></li>
+					</ul>
+				</div>
+			</div>
 
 
 
@@ -123,35 +190,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<button class="dropbtn about">About</button>
 					<div class="dropdown-content about">
 						<a target="_blank" href="https://roadmap.houseonthehill.com/home">
-							<h3>Roadmap</h3>
+							<h2>Roadmap</h2>
 							<p>To be a household name in helping organisations exceed customer expectations through <br>​⚡super-charged service delivery ⚡</p>
 						</a>
 						<a href="/about-house-on-the-hill-software/">
-							<h3>About House-on-the-Hill</h3>
+							<h2>About House-on-the-Hill</h2>
 							<p>A small business running powerful service desk solutions</p>
 						</a>
 						<a href="/testimonials/">
-							<h3>Customer Testimonials</h3>
+							<h2>Customer Testimonials</h2>
 							<p>Dont just take our word for it, see what our customers say</p>
 						</a>
 						<a href="/blog/">
-							<h3>Blog</h3>
+							<h2>Blog</h2>
 							<p>Keep up to date with all that we do at HotH</p>
 						</a>
 						<a href="/casestudy/">
-							<h3>Customer Case Studies</h3>
+							<h2>Customer Case Studies</h2>
 							<p>Read how we helped businesses make our House, their Home</p>
 						</a>
 						<a href="/contact-us/">
-							<h3>Contact House-on-the-Hill</h3>
+							<h2>Contact House-on-the-Hill</h2>
 							<p>Need help? Want a demo? Questions on our pricing? Get in touch, were ready to help</p>
 						</a>
 						<a href="/careers/">
-							<h3>Careers</h3>
+							<h2>Careers</h2>
 							<p>Interested in joining the HotH team?</p>
 						</a>
 						<a href="/social-values-statement/">
-							<h3>Social Values</h3>
+							<h2>Social Values</h2>
 							<p>We are proud to support charities, fund-raising events and work experience programs</p>
 						</a>
 					</div>
@@ -170,7 +237,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!--<div class="mini_contact">	
-	<h3><div class="img"><img src="/wp-content/themes/houseonthehill.com/images/pete-headshot.jpg" height="30" width="30" alt="Pete Headshot"></div>Schedule a Demo</h3>
+	<h2><div class="img"><img src="/wp-content/themes/houseonthehill.com/images/pete-headshot.jpg" height="30" width="30" alt="Pete Headshot"></div>Schedule a Demo</h2>
 	<a href="mailto:demo@houseonthehill.com">demo@houseonthehill.com</a> 
 	<a href="tel:+44 (0) 161 449 7057">+44 (0) 161 528 1259</a>
 </div>-->
