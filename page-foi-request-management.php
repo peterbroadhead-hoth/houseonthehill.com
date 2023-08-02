@@ -65,8 +65,8 @@ organisation</p>
 
   <div class="requestdemo">
     <div class="container">
-      <img class="whatsnew" src="/wp-content/themes/houseonthehill.com/images/2023/danosullivan.png">
-      <p>If you would like to learn more and have a go on your own branded trial please say hello to Dan @ <a href="mailto:DOSullivan@houseonthehill.com">DOSullivan@houseonthehill.com</a>
+      <img class="whatsnew" src="/wp-content/themes/houseonthehill.com/images/2023/demo-man.jpg">
+      <p>If you would like to learn more and have a go on your own branded trial please say hello to Luke @ <a href="mailto:lbroadhead@houseonthehill.com">lbroadhead@houseonthehill.com</a>
       <br>or fill in our demo link questionaire :)</p>
      <a target="_blank" href="https://forms.office.com/pages/responsepage.aspx?id=OEYaXJY0K0eCJfAmS0vaMQGFda2P-j9Kj8fYAcaLAb5UMzVWU0NZOFlJODBHMldBSzZPSjYzR0I3NC4u" class="sign-up">Book a demo</a>
     </div>

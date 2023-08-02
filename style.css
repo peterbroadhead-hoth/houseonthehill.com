@@ -3247,6 +3247,8 @@ text-fill-color: transparent;
 .requestdemo .container img{
   width: 50%;
   height: auto;
+  margin: 50px;
+  border-radius: 10px;
 }
 
 .requestdemo .container p{
