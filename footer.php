@@ -24,7 +24,7 @@
           <p><a rel="noopener" href="/docs/">Product Documentation</a></p>
         </div>
         
-        <a href="https://cvs.babcert.com/babcert.asp?c=234054&v=wgb5351g6c"  target="_blank" rel="noopener">
+        <a href="https://cvs.babcert.com/babcert.asp?c=234054&amp;v=wgb5351g6c"  target="_blank" rel="noopener">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/75/iso-2021.png" height="75" width="75" alt="ISO Certificate"/>
         </a>
         <a href="https://houseonthehill.com/wp-content/uploads/2023/01/House-on-the-Hill-Cyber-Essentials-2022-2023.pdf/"  target="_blank" rel="noreferrer">
