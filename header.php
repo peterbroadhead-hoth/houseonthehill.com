@@ -79,6 +79,10 @@ s0.parentNode.insertBefore(s1,s0);
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "icim70pdey");
 </script>
+
+<!-- Google tag (gtag.js) --> 
+<script async src=https://www.googletagmanager.com/gtag/js?id=G-3CW97S21LG></script> 
+<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-3CW97S21LG'); </script>
 </head>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8MGDJH"
