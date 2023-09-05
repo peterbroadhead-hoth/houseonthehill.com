@@ -236,7 +236,7 @@
                   </div>
                   <div class="img">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/cardiff.png" alt="Cardiff Logo">
-                    <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/denbighshire.svg" alt="denbighshire">
+                    <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/denbighshire.png" alt="denbighshire">
                     <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/phso.png" alt="phso Logo">
                   </div>
                 </div>
@@ -253,7 +253,7 @@
                     <p><strong>Customers</strong></p>
                   </div>
                   <div class="img">
-                    <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/speedy.svg" alt="speedy logo">
+                    <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/speedy.png" alt="speedy logo">
                     <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/50/bbraun-50.png" alt="bbraun Logo">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/intercity.png" alt="intercity">
                   </div>
@@ -273,7 +273,7 @@
                   <div class="img">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/hollandbarrett.png" alt="Holland and barrett Logo">
                     <img height="30" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/dentons.png" alt="dentons logo">
-                    <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/NS&I.svg" alt="NS&I Logo">
+                    <img height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/NS&I.png" alt="NS&I Logo">
                   </div>
                 </div>
               </div>

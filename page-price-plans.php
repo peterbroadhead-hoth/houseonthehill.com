@@ -2,7 +2,7 @@
 <div class="pricing">
   <div class="pricing-container">
     <div class="intro">
-      <h1>Affordable and feature packed</h1>
+      <h1>Competitive and feature packed</h1>
       <p><span>Available in the Cloud or On-Site<br>Prices based on annual billing</span></p>
       <a target="" href="/demo/" class="sign-up">Book a demo</a>
     </div>
