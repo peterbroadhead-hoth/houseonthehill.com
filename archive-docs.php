@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php get_header();?>
 <html <?php language_attributes(); ?>>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,13 +16,13 @@
 </head>
 <body <?php body_class(); ?> id="docs">
 <div class="container-fluid full <?php the_title(); ?>">
-<div class="container top hidden-xs hidden-sm">
+<!--<div class="container top hidden-xs hidden-sm">
 	<nav class="navbar navbar-default" role="navigation" id="desktop-nav">
 		<div class="nav-container">
 			<a class="nav-home" href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/HotH-logo-square-50.png" height="50" width="50" alt="House-on-the-Hill Logo">House-on-the-Hill</a>
 		</div>
 	</nav>
-</div>
+</div>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <div class="library-container">
 	<div class="library-menu-container">

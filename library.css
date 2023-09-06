@@ -208,6 +208,7 @@ body.post-type-archive-supportdesk-library .container-fluid, .single-supportdesk
   max-width: 1500px;
   flex-grow:1;
   padding:40px;
+  margin-top: 70px;
 }
 
 .library-menu-container{
