@@ -652,8 +652,18 @@ body #hoth-chat-button i{
 
 
 @media (max-width: 1100px){
+  .hoth-header-container .hoth-header .dropdown:hover .dropdown-content.features {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    overflow: scroll;
+    height: 100vh;
+  }
   .hoth-header-container .hoth-header .dropdown:hover .dropdown-content.features{
-    display: none;
+    display: block;
+  }
+  .dropdown-content.features ul{
+    border-right: unset;
   }
 }
 
