@@ -582,7 +582,7 @@ body #hoth-chat-button i{
 
 .hoth-header-container .hoth-header .dropdown-content a:hover {
   background-color: #f1f1f1;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .hoth-header-container .hoth-header .dropdown:hover .dropdown-content {
@@ -613,6 +613,8 @@ body #hoth-chat-button i{
 
 .dropdown-content.features p{
   padding: 10px;
+  border-bottom: 1px solid black;
+  font-weight: bold;
 }
 
 .hoth-header-container .hoth-header .dropdown-content.features a{
@@ -643,7 +645,8 @@ body #hoth-chat-button i{
 }
 
 .hoth-header-container .hoth-header .dropdown-content.features a h2{
-  margin: 5px 0;
+  margin: 10px 0;
+  font-weight: 400;
 }
 
 .hoth-header-container .hoth-header .dropdown-content.features a{
