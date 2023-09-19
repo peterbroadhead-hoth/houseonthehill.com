@@ -642,6 +642,7 @@ body #hoth-chat-button i{
 .dropdown-content.features li, .dropdown-content p{
   width: 100%;
   margin: 0;
+  list-style: none;
 }
 
 .hoth-header-container .hoth-header .dropdown-content.features a h2{
