@@ -3,7 +3,7 @@
   <div class="header">
     <div class="container">  
       <div class="text">  
-        <h1>IT Service Management</h1> 
+        <h1>IT Service Management (ITSM)</h1> 
         <p>Deliver a modern ITIL driven service desk with a deep set of tools, automated workflows and a self-service portal. Where your users can raise tickets, access common service requests and search the knowledge base for FAQs</p>
 
           <a class="sign-up" target="_blank" href="https://house-on-the-hill.com/mothership/register?A=QC&QC=QC000006">Try for free</a><p style="flex: 100%;margin: 0;font-size: 16px;color: #1e35509c;margin-top:20px">No credit card required / Free 30 day trial</p>
