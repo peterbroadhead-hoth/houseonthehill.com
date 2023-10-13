@@ -144,7 +144,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<ul class="">
 						<p class="tag purple">Integrations</p>
 						<li><a href="/ms-teams-service-desk-integration/"><h2>HotHBot (Microsoft Teams)</h2></a></li>
-						<li><a href="/features/lansweeper-integration/"><h2>Landsweeper</h2></a></li>
+						<li><a href="/features/lansweeper-integration/"><h2>Lansweeper</h2></a></li>
 						<li><a href="/features/jira-integration/"><h2>Jira</h2></a></li>
 						<li><a href="/features/xero-integration/"><h2>Xero</h2></a></li>
 						<li><a href="/features/3cx-integration/"><h2>3CX Integration</h2></a></li>
