@@ -300,7 +300,7 @@
         <td><i class="fal fa-check-circle"></i></td>
       </tr>
       <tr>
-        <td><a href="/features/ldap-integration/">MS/AD LDAP Connector & Outlook/Azure SSO*</a></td>
+        <td><a href="/features/ldap-integration/">MS/AD LDAP Connector & Outlook/Azure SSO</a></td>
         <td class="price">-</td>
         <td><i class="fal fa-check-circle"></i></td>
         <td><i class="fal fa-check-circle"></i></td>
@@ -407,7 +407,7 @@
         <th class="category"></th>
       </tr>
       <tr class="collapsible softwareassetmanagement" style="">
-        <td>PC/Server Software & Hardware Auditing*</td>
+        <td>PC/Server Software & Hardware Auditing</td>
         <td class="price">-</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -415,7 +415,7 @@
         <td>Add-On</td>
       </tr>
       <tr class="collapsible softwareassetmanagement" style="">
-        <td>SNMP Discovery*</td>
+        <td>SNMP Discovery</td>
         <td class="price">-</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -423,7 +423,7 @@
         <td>Add-On</td>
       </tr>
       <tr class="collapsible softwareassetmanagement" style="">
-        <td><a href="/features/asset-and-software-licence-management/">Software Licence Manager*</a></td>
+        <td><a href="/features/asset-and-software-licence-management/">Software Licence Manager</a></td>
         <td class="price">-</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -447,7 +447,7 @@
         <td><i class="fal fa-check-circle"></i></td>
       </tr>
       <tr class="collapsible email" style="">
-        <td>Inbound creation of Tickets from Emails*</td>
+        <td>Inbound creation of Tickets from Emails</td>
         <td class="price">-</td>
         <td><i class="fal fa-check-circle"></i></td>
         <td><i class="fal fa-check-circle"></i></td>
@@ -968,7 +968,7 @@
         <td>Add-On</td>
       </tr>
       <tr class="collapsible advancedfeatures" style="">
-        <td>IP Whitelisting*</td>
+        <td>IP Whitelisting</td>
         <td class="price">-</td>
         <td><i class="fal fa-check-circle"></i></td>
         <td><i class="fal fa-check-circle"></i></td>
@@ -984,15 +984,7 @@
         <td>Add-On</td>
       </tr>
       <tr class="collapsible advancedfeatures" style="">
-        <td><a href="/features/multi-lingual-help-desk-support/">Multilingual Support</a></td>
-        <td class="price">£950 py</td>
-        <td>Add-On</td>
-        <td>Add-On</td>
-        <td>Add-On</td>
-        <td>Add-On</td>
-      </tr>
-      <tr class="collapsible advancedfeatures" style="">
-        <td>Onsite Synchronised Backup*</td>
+        <td>Onsite Synchronised Backup</td>
         <td class="price">£1,950 py</td>
         <td>Add-On</td>
         <td>Add-On</td>
@@ -1024,9 +1016,7 @@
         <td><i class="fal fa-check-circle"></i></td>
       </tr>      
       <tr class="pricing-key">
-        <td>
-          <p>* Requires setup <br> ** Requires consultancy - £1050 per day</p>
-        </td>
+        <td></td>
       </tr>
     </tbody>
   </table>
